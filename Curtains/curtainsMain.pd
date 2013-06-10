@@ -1,8 +1,7 @@
-#N canvas 0 27 1438 818 10;
+#N canvas 0 27 1438 814 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 189 82 zac.lumiere /RideauJardin;
 #X obj 189 245 zac.lumiere /RideauCour;
 #X obj 189 408 zac.lumiere /RideauFrise;
-#X obj 393 82 zac.sauvegarde;
