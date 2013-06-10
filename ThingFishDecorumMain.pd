@@ -2,13 +2,18 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
-#X obj 185 172 zac.mouse;
-#X obj 128 212 zac.videoprojecteur /mainVP;
-#X obj 499 81 Curtains/curtainsMain;
-#X obj 430 173 zac.sauvegarde /file;
-#X obj 438 394 send OSC_MESSAGES;
-#X obj 439 323 loadbang;
-#X msg 439 345 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj -273 -77 zac.mouse;
+#X obj -433 -263 zac.videoprojecteur /mainVP;
+#X obj -319 -32 Curtains/curtainsMain;
+#X obj -275 -264 zac.sauvegarde /file;
+#X obj -273 -105 send OSC_MESSAGES;
+#X obj -272 -176 loadbang;
+#X msg -272 -154 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
 ;
+#X obj -319 -10 DaThingFish/DaThingFishFace/daThingFishFaceMain;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
