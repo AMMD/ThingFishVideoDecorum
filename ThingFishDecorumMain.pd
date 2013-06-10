@@ -1,3 +1,7 @@
 #N canvas 0 0 1438 841 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X obj 185 172 zac.mouse;
 #X obj 128 212 zac.videoprojecteur /mainVP;
+#X obj 499 81 Curtains/curtainsMain;
