@@ -1,0 +1,9 @@
+#N canvas 602 27 836 814 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 61 331 zac.lumiere /ThiFiBecHaut;
+#X obj 61 23 zac.lumiere /ThiFiContourTete;
+#X obj 61 177 zac.lumiere /ThiFiYeuxFront;
+#X obj 61 485 zac.lumiere /ThiFiBecBas;
