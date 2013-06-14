@@ -1,4 +1,4 @@
-#N canvas -56 0 1440 845 10;
+#N canvas 0 0 1438 828 10;
 #X obj 5 202 send OSC_MESSAGES;
 #X obj 177 201 send OSC_MESSAGES;
 #X floatatom 5 114 5 0 0 0 - - -;
@@ -50,11 +50,11 @@
 #X floatatom 1219 119 5 0 0 0 - - -;
 #X floatatom 1132 33 5 0 0 0 - - -;
 #X obj 1135 -7 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7200 1;
+-1 -1 7300 1;
 #X obj 1050 79 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7200 1;
+-1 -1 7300 1;
 #X obj 1222 80 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7200 1;
+-1 -1 7300 1;
 #X msg 707 178 /HandJardin/Xpos \$1;
 #X msg 879 178 /HandCour/Xpos \$1;
 #X msg 1047 179 /HandJardin/Ypos \$1;
@@ -122,6 +122,10 @@
 #X obj 1326 -449 -;
 #X floatatom 1289 -499 5 0 0 0 - - -;
 #X msg 1333 -403 \$1 150;
+#X obj 74 -385 inlet echelle;
+#X obj 263 -406 inlet profondeur;
+#X obj 484 -398 inlet positionX;
+#X obj 680 -402 inlet positionY;
 #X connect 2 0 8 0;
 #X connect 3 0 9 0;
 #X connect 4 0 6 0;
@@ -244,3 +248,7 @@
 #X connect 106 0 108 0;
 #X connect 107 0 106 0;
 #X connect 108 0 100 0;
+#X connect 109 0 26 0;
+#X connect 110 0 58 0;
+#X connect 111 0 32 0;
+#X connect 112 0 40 0;
