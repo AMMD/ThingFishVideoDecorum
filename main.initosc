@@ -1,3 +1,33 @@
+/HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
+;
+/HandCour/Blue 1;
+/HandCour/Green 1;
+/HandCour/Red 1;
+/HandCour/Rotate 0;
+/HandCour/Activate 1;
+/HandCour/Alpha 1;
+/HandCour/modeAlpha 0;
+/HandCour/RenderOrder -27;
+/HandCour/Shape 3;
+/HandCour/Yscale 0.523402;
+/HandCour/Xscale 0.640254;
+/HandCour/Ypos 0.805369;
+/HandCour/Xpos 1.34228;
+/HandJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handJardin.png
+;
+/HandJardin/Blue 1;
+/HandJardin/Green 1;
+/HandJardin/Red 1;
+/HandJardin/Rotate 0;
+/HandJardin/Activate 1;
+/HandJardin/Alpha 1;
+/HandJardin/modeAlpha 0;
+/HandJardin/RenderOrder -27;
+/HandJardin/Shape 3;
+/HandJardin/Yscale 0.523402;
+/HandJardin/Xscale 0.640254;
+/HandJardin/Ypos 0.765101;
+/HandJardin/Xpos -1.34228;
 /FondScene/Blue 0;
 /FondScene/Green 0;
 /FondScene/Red 0;
@@ -11,36 +41,6 @@
 /FondScene/Xscale 5.30569;
 /FondScene/Ypos -1.74497;
 /FondScene/Xpos 0;
-handCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
-;
-handCour/Blue 1;
-handCour/Green 1;
-handCour/Red 1;
-handCour/Rotate 350.336;
-handCour/Activate 1;
-handCour/Alpha 1;
-handCour/modeAlpha 0;
-handCour/RenderOrder -40;
-handCour/Shape 3;
-handCour/Yscale 0.5;
-handCour/Xscale 0.7;
-handCour/Ypos 0.939597;
-handCour/Xpos 1.61074;
-/handJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handJardin.png
-;
-/handJardin/Blue 1;
-/handJardin/Green 1;
-/handJardin/Red 1;
-/handJardin/Rotate 0;
-/handJardin/Activate 1;
-/handJardin/Alpha 1;
-/handJardin/modeAlpha 0;
-/handJardin/RenderOrder -40;
-/handJardin/Shape 3;
-/handJardin/Yscale 0.5;
-/handJardin/Xscale 0.7;
-/handJardin/Ypos 0.805369;
-/handJardin/Xpos -1.07383;
 /ThiFiCol/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/col.png
 ;
 /ThiFiCol/Blue 1;
@@ -307,7 +307,7 @@ handCour/Xpos 1.61074;
 /RideauCour/Shape 3;
 /RideauCour/Yscale 2.4;
 /RideauCour/Xscale 10.4;
-/RideauCour/Ypos 0.0496644;
+/RideauCour/Ypos 0.04;
 /RideauCour/Xpos -5;
 /RideauJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/RideauJardin.png
 ;
