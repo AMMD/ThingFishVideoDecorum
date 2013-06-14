@@ -1,3 +1,16 @@
+/FondScene/Blue 0;
+/FondScene/Green 0;
+/FondScene/Red 0;
+/FondScene/Rotate 0;
+/FondScene/Activate 1;
+/FondScene/Alpha 1;
+/FondScene/modeAlpha 0;
+/FondScene/RenderOrder -23;
+/FondScene/Shape 1;
+/FondScene/Yscale 2.85947;
+/FondScene/Xscale 5.30569;
+/FondScene/Ypos -1.74497;
+/FondScene/Xpos 0;
 handCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
 ;
 handCour/Blue 1;
@@ -41,7 +54,7 @@ handCour/Xpos 1.61074;
 /ThiFiCol/Shape 3;
 /ThiFiCol/Yscale 1.74;
 /ThiFiCol/Xscale 1.74;
-/ThiFiCol/Ypos 1.74;
+/ThiFiCol/Ypos 1.8;
 /ThiFiCol/Xpos 0;
 /ThiFiBecBas/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becBas.png
 ;
@@ -56,7 +69,7 @@ handCour/Xpos 1.61074;
 /ThiFiBecBas/Shape 3;
 /ThiFiBecBas/Yscale 1.74;
 /ThiFiBecBas/Xscale 1.74;
-/ThiFiBecBas/Ypos 1.74;
+/ThiFiBecBas/Ypos 1.8;
 /ThiFiBecBas/Xpos 0;
 /ThiFiYeuxFront/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/yeux.png
 ;
@@ -71,7 +84,7 @@ handCour/Xpos 1.61074;
 /ThiFiYeuxFront/Shape 3;
 /ThiFiYeuxFront/Yscale 1.74;
 /ThiFiYeuxFront/Xscale 1.74;
-/ThiFiYeuxFront/Ypos 1.74;
+/ThiFiYeuxFront/Ypos 1.8;
 /ThiFiYeuxFront/Xpos 0;
 /ThiFiContourTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/contourTete.png
 ;
@@ -84,9 +97,9 @@ handCour/Xpos 1.61074;
 /ThiFiContourTete/modeAlpha 0;
 /ThiFiContourTete/RenderOrder -22;
 /ThiFiContourTete/Shape 3;
-/ThiFiContourTete/Yscale 1.7439;
-/ThiFiContourTete/Xscale 1.7439;
-/ThiFiContourTete/Ypos 1.74497;
+/ThiFiContourTete/Yscale 1.74;
+/ThiFiContourTete/Xscale 1.74;
+/ThiFiContourTete/Ypos 1.8;
 /ThiFiContourTete/Xpos 0;
 /ThiFiBecHaut/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becHaut.png
 ;
@@ -101,7 +114,7 @@ handCour/Xpos 1.61074;
 /ThiFiBecHaut/Shape 3;
 /ThiFiBecHaut/Yscale 1.74;
 /ThiFiBecHaut/Xscale 1.74;
-/ThiFiBecHaut/Ypos 1.74;
+/ThiFiBecHaut/Ypos 1.8;
 /ThiFiBecHaut/Xpos 0;
 /fond/Blue 0;
 /fond/Green 1;

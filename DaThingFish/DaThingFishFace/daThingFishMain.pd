@@ -1,7 +1,10 @@
-#N canvas 574 525 450 300 10;
+#N canvas 589 183 450 300 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 65 47 daThingFishFaceMain;
+#X obj 61 77 daThingFishHands;
