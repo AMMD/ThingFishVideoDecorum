@@ -1,0 +1,3 @@
+#N canvas 435 328 450 300 10;
+#X declare -path ./lib/sssad;
+#X obj 33 12 zac.lumiere /B_roadway;
