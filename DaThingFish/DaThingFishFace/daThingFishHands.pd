@@ -1,0 +1,5 @@
+#N canvas 0 0 1440 845 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 54 11 zac.lumiere /handJardin;
+#X obj 303 17 zac.lumiere handCour;
