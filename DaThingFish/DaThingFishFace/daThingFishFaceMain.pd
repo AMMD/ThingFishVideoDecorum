@@ -1,4 +1,4 @@
-#N canvas 583 0 855 847 10;
+#N canvas 583 0 855 841 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -10,3 +10,5 @@
 #X obj 61 485 zac.lumiere /ThiFiBecBas;
 #X obj 61 639 zac.lumiere /ThiFiCol;
 #X obj 461 28 daThingFishFaceMoves;
+#X obj 294 19 inlet TrigThingFishOut;
+#X connect 6 0 5 0;
