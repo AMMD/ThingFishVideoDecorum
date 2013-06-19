@@ -1,4 +1,4 @@
-#N canvas 0 0 1438 841 10;
+#N canvas 863 182 1438 841 10;
 #X obj 58 62 inlet bang;
 #X obj 44 759 outlet echelle;
 #X obj 151 759 outlet profondeur;
@@ -32,11 +32,13 @@
 #X obj 687 747 outlet trigThingFish;
 #X msg 408 473 73 200;
 #X obj 436 595 == 73;
+#X msg 17 227 64;
 #X connect 0 0 8 0;
 #X connect 0 0 7 0;
 #X connect 0 0 23 0;
 #X connect 0 0 21 0;
 #X connect 0 0 22 0;
+#X connect 0 0 33 0;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 6 0 12 0;
@@ -71,3 +73,4 @@
 #X connect 29 0 30 0;
 #X connect 31 0 17 0;
 #X connect 32 0 24 0;
+#X connect 33 0 3 0;
