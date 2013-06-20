@@ -15,9 +15,9 @@
 #X declare -path ./lib/sssad;
 #X obj 415 617 zac.lumiere /RideauJardin;
 #X obj 709 613 zac.lumiere /RideauCour;
-#X obj 563 459 zac.lumiere /RideauFrise;
-#X obj 565 298 zac.lumiere /Truss;
-#X obj 563 136 zac.lumiere /Arche;
+#X obj 567 398 zac.lumiere /RideauFrise;
+#X obj 563 215 zac.lumiere /Truss;
+#X obj 564 23 zac.lumiere /Arche;
 #X obj 79 47 curtainsBroadway;
 #X obj 96 399 zac.lumiere /FondScene;
 #X obj 82 91 curtainsMoves;

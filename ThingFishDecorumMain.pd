@@ -1,4 +1,4 @@
-#N canvas 0 0 1438 814 10;
+#N canvas 0 27 1438 814 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -31,7 +31,7 @@
 #X obj -272 -176 loadbang;
 #X msg -272 -154 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
 ;
-#X obj -56 206 zac.lumiere /fond;
+#X obj 384 168 zac.lumiere /fond;
 #X obj -319 -10 DaThingFish/DaThingFishFace/daThingFishMain;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
