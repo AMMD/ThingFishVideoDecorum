@@ -39,8 +39,16 @@
 #X msg 50 124 bang TFMutes;
 #X obj -83 163 s TFSpeaks;
 #X obj 50 162 s TFMutes;
+#X obj -53 261 s TFSpeechSpeed;
+#X obj -52 229 hsl 128 15 10 20 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 7620 1;
+#X obj -55 185 loadbang;
+#X msg -55 206 16;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
 #X connect 11 0 13 0;
 #X connect 12 0 14 0;
+#X connect 16 0 15 0;
+#X connect 17 0 18 0;
+#X connect 18 0 16 0;
