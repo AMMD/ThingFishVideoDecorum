@@ -32,6 +32,15 @@
 #X msg -272 -154 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
 ;
 #X obj 384 168 zac.lumiere /fond;
-#X obj -319 -10 DaThingFish/DaThingFishFace/daThingFishMain;
+#X obj -316 -7 DaThingFish/DaThingFishFace/daThingFishMain;
+#X obj -382 111 s TFOut;
+#X msg -382 84 bang TFOut Debut;
+#X msg -83 125 bang TFSpeaks;
+#X msg 50 124 bang TFMutes;
+#X obj -83 163 s TFSpeaks;
+#X obj 50 162 s TFMutes;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
+#X connect 10 0 9 0;
+#X connect 11 0 13 0;
+#X connect 12 0 14 0;

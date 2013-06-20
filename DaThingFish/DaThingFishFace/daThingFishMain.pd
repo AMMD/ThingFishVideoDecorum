@@ -10,4 +10,6 @@
 #X declare -path ./lib/sssad;
 #X obj 65 121 daThingFishFaceMain;
 #X obj 61 77 daThingFishHands;
+#X obj 53 18 r TFOut;
 #X connect 1 0 0 0;
+#X connect 2 0 1 0;
