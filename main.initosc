@@ -33,7 +33,7 @@
 /HandCour/Green 1;
 /HandCour/Red 1;
 /HandCour/Rotate 358;
-/HandCour/Activate 1;
+/HandCour/Activate 0;
 /HandCour/Alpha 1;
 /HandCour/modeAlpha 0;
 /HandCour/RenderOrder -22;
@@ -49,7 +49,7 @@
 /HandJardin/Green 1;
 /HandJardin/Red 1;
 /HandJardin/Rotate 0;
-/HandJardin/Activate 1;
+/HandJardin/Activate 0;
 /HandJardin/Alpha 1;
 /HandJardin/modeAlpha 0;
 /HandJardin/RenderOrder -22;
@@ -152,7 +152,7 @@
 /fond/Xscale 50;
 /fond/Ypos 0;
 /fond/Xpos 0;
-/FondScene/Zpos -3;
+/FondScene/Zpos -3.05;
 /FondScene/Blue 0;
 /FondScene/Green 0;
 /FondScene/Red 0;
@@ -162,8 +162,8 @@
 /FondScene/modeAlpha 0;
 /FondScene/RenderOrder -23;
 /FondScene/Shape 1;
-/FondScene/Yscale 2.85947;
-/FondScene/Xscale 5.30569;
+/FondScene/Yscale 4.98765;
+/FondScene/Xscale 12.6061;
 /FondScene/Ypos -1.74497;
 /FondScene/Xpos 0;
 /broadwa_Y/Zpos -3.1;
@@ -294,7 +294,7 @@
 /B_roadway/Xscale 0.17;
 /B_roadway/Ypos 6.14;
 /B_roadway/Xpos -7.99;
-/Arche/Zpos -3;
+/Arche/Zpos -3.1;
 /Arche/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/Cabaret_Arc.png
 ;
 /Arche/Blue 1;
@@ -310,7 +310,7 @@
 /Arche/Xscale 6.9;
 /Arche/Ypos 4.59732;
 /Arche/Xpos 0;
-/Truss/Zpos -3;
+/Truss/Zpos -2.9;
 /Truss/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/Cabaret_poutre.png
 ;
 /Truss/Blue 1;
@@ -324,7 +324,7 @@
 /Truss/Shape 3;
 /Truss/Yscale 0.101536;
 /Truss/Xscale 8.7;
-/Truss/Ypos 3.09664;
+/Truss/Ypos 3.08;
 /Truss/Xpos 0;
 /RideauFrise/Zpos -3;
 /RideauFrise/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/RideauFrise.png
@@ -342,7 +342,7 @@
 /RideauFrise/Xscale 17;
 /RideauFrise/Ypos 2.59463;
 /RideauFrise/Xpos -0.6;
-/RideauCour/Zpos -3;
+/RideauCour/Zpos -3.01;
 /RideauCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/RideauCour.png
 ;
 /RideauCour/Blue 0;
@@ -358,7 +358,7 @@
 /RideauCour/Xscale 17;
 /RideauCour/Ypos 1.52;
 /RideauCour/Xpos -8.26;
-/RideauJardin/Zpos -3;
+/RideauJardin/Zpos -3.01;
 /RideauJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/RideauJardin.png
 ;
 /RideauJardin/Blue 0;
