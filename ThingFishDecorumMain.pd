@@ -1,4 +1,6 @@
-#N canvas 0 27 1438 814 10;
+#N canvas 128 220 1438 814 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -54,10 +56,14 @@
 #X obj -55 185 loadbang;
 #X msg -55 206 16;
 #X obj -300 41 Dunjon/dunjonMain;
-#X msg 96 213 bang CurtainsOpened;
-#X obj 96 249 s CurtainsOpened;
-#X obj 218 257 s CurtainsClosed;
-#X msg 218 211 bang CurtainsClosed;
+#X msg -570 255 bang CurtainsOpened;
+#X obj -570 291 s CurtainsOpened;
+#X obj -575 383 s CurtainsClosed;
+#X msg -575 337 bang CurtainsClosed;
+#X msg -384 151 bang DunjonBang;
+#X obj -383 182 s DunjonBang;
+#X msg -386 211 bang DunjonBangOff;
+#X obj -383 245 s DunjonBangOff;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
@@ -68,3 +74,5 @@
 #X connect 18 0 16 0;
 #X connect 20 0 21 0;
 #X connect 23 0 22 0;
+#X connect 24 0 25 0;
+#X connect 26 0 27 0;
