@@ -62,7 +62,7 @@
 /DunjonDoor4/Xscale 0.5;
 /DunjonDoor4/Ypos 1;
 /DunjonDoor4/Xpos 2;
-/DunjonDoor3Cadre/Zpos -3;
+/DunjonDoor3Cadre/Zpos -3.04;
 /DunjonDoor3Cadre/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
 /DunjonDoor3Cadre/Blue 0.516779;
@@ -72,13 +72,13 @@
 /DunjonDoor3Cadre/Activate 0;
 /DunjonDoor3Cadre/Alpha 1;
 /DunjonDoor3Cadre/modeAlpha 0;
-/DunjonDoor3Cadre/RenderOrder -2;
-/DunjonDoor3Cadre/Shape 1;
-/DunjonDoor3Cadre/Yscale 0.899505;
-/DunjonDoor3Cadre/Xscale 0.7949;
-/DunjonDoor3Cadre/Ypos 0;
+/DunjonDoor3Cadre/RenderOrder -24;
+/DunjonDoor3Cadre/Shape 3;
+/DunjonDoor3Cadre/Yscale 1;
+/DunjonDoor3Cadre/Xscale 0.5;
+/DunjonDoor3Cadre/Ypos 1;
 /DunjonDoor3Cadre/Xpos 0;
-/DunjonDoor3/Zpos -3;
+/DunjonDoor3/Zpos -3.04;
 /DunjonDoor3/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
 /DunjonDoor3/Blue 0.516779;
@@ -88,13 +88,13 @@
 /DunjonDoor3/Activate 0;
 /DunjonDoor3/Alpha 1;
 /DunjonDoor3/modeAlpha 0;
-/DunjonDoor3/RenderOrder -2;
-/DunjonDoor3/Shape 1;
-/DunjonDoor3/Yscale 0.899505;
-/DunjonDoor3/Xscale 0.7949;
-/DunjonDoor3/Ypos 0;
+/DunjonDoor3/RenderOrder -25;
+/DunjonDoor3/Shape 3;
+/DunjonDoor3/Yscale 1;
+/DunjonDoor3/Xscale 0.5;
+/DunjonDoor3/Ypos 1;
 /DunjonDoor3/Xpos 0;
-/DunjonDoor2Cadre/Zpos -3;
+/DunjonDoor2Cadre/Zpos -3.04;
 /DunjonDoor2Cadre/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
 /DunjonDoor2Cadre/Blue 0.516779;
@@ -104,13 +104,13 @@
 /DunjonDoor2Cadre/Activate 0;
 /DunjonDoor2Cadre/Alpha 1;
 /DunjonDoor2Cadre/modeAlpha 0;
-/DunjonDoor2Cadre/RenderOrder -2;
-/DunjonDoor2Cadre/Shape 1;
-/DunjonDoor2Cadre/Yscale 0.899505;
-/DunjonDoor2Cadre/Xscale 0.7949;
-/DunjonDoor2Cadre/Ypos 0;
+/DunjonDoor2Cadre/RenderOrder -24;
+/DunjonDoor2Cadre/Shape 3;
+/DunjonDoor2Cadre/Yscale 1;
+/DunjonDoor2Cadre/Xscale 0.5;
+/DunjonDoor2Cadre/Ypos 1;
 /DunjonDoor2Cadre/Xpos -2;
-/DunjonDoor2/Zpos -3;
+/DunjonDoor2/Zpos -3.04;
 /DunjonDoor2/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
 /DunjonDoor2/Blue 0.516779;
@@ -120,11 +120,11 @@
 /DunjonDoor2/Activate 0;
 /DunjonDoor2/Alpha 1;
 /DunjonDoor2/modeAlpha 0;
-/DunjonDoor2/RenderOrder -2;
-/DunjonDoor2/Shape 1;
-/DunjonDoor2/Yscale 0.899505;
-/DunjonDoor2/Xscale 0.7949;
-/DunjonDoor2/Ypos 0;
+/DunjonDoor2/RenderOrder -25;
+/DunjonDoor2/Shape 3;
+/DunjonDoor2/Yscale 1;
+/DunjonDoor2/Xscale 0.5;
+/DunjonDoor2/Ypos 1;
 /DunjonDoor2/Xpos -2;
 /DunjonDoor1Cadre/Zpos -3.04;
 /DunjonDoor1Cadre/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
@@ -202,7 +202,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.805;
+/CuveGalootContent2/Yscale 2.8075;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -218,7 +218,7 @@
 /CuveGalootContent/modeAlpha 0;
 /CuveGalootContent/RenderOrder -25;
 /CuveGalootContent/Shape 3;
-/CuveGalootContent/Yscale 2.835;
+/CuveGalootContent/Yscale 2.815;
 /CuveGalootContent/Xscale 3.40582;
 /CuveGalootContent/Ypos -0.351562;
 /CuveGalootContent/Xpos 2.76562;
@@ -268,7 +268,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.105;
+/Djbebe/Ypos 0.1075;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png
@@ -278,7 +278,7 @@
 /CochonLights/Red 1;
 /CochonLights/Rotate 0;
 /CochonLights/Activate 0;
-/CochonLights/Alpha 0.67;
+/CochonLights/Alpha 0.612857;
 /CochonLights/modeAlpha 0;
 /CochonLights/RenderOrder -25;
 /CochonLights/Shape 3;
