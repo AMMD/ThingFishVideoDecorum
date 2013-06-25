@@ -10,7 +10,7 @@
 /DunjonDoor3Cadre/modeAlpha 0;
 /DunjonDoor3Cadre/RenderOrder -24;
 /DunjonDoor3Cadre/Shape 3;
-/DunjonDoor3Cadre/Yscale 1.5;
+/DunjonDoor3Cadre/Yscale 2;
 /DunjonDoor3Cadre/Xscale 1;
 /DunjonDoor3Cadre/Ypos 0;
 /DunjonDoor3Cadre/Xpos 0;
@@ -26,7 +26,7 @@
 /DunjonDoor3/modeAlpha 0;
 /DunjonDoor3/RenderOrder -25;
 /DunjonDoor3/Shape 3;
-/DunjonDoor3/Yscale 1.5;
+/DunjonDoor3/Yscale 2;
 /DunjonDoor3/Xscale 1;
 /DunjonDoor3/Ypos 0;
 /DunjonDoor3/Xpos 0;
@@ -42,7 +42,7 @@
 /DunjonDoor2Cadre/modeAlpha 0;
 /DunjonDoor2Cadre/RenderOrder -24;
 /DunjonDoor2Cadre/Shape 3;
-/DunjonDoor2Cadre/Yscale 1.5;
+/DunjonDoor2Cadre/Yscale 2;
 /DunjonDoor2Cadre/Xscale 1;
 /DunjonDoor2Cadre/Ypos 0;
 /DunjonDoor2Cadre/Xpos 3;
@@ -58,7 +58,7 @@
 /DunjonDoor2/modeAlpha 0;
 /DunjonDoor2/RenderOrder -25;
 /DunjonDoor2/Shape 3;
-/DunjonDoor2/Yscale 1.5;
+/DunjonDoor2/Yscale 2;
 /DunjonDoor2/Xscale 1;
 /DunjonDoor2/Ypos 0;
 /DunjonDoor2/Xpos 3;
@@ -74,7 +74,7 @@
 /DunjonDoor1Cadre/modeAlpha 0;
 /DunjonDoor1Cadre/RenderOrder -24;
 /DunjonDoor1Cadre/Shape 3;
-/DunjonDoor1Cadre/Yscale 1.5;
+/DunjonDoor1Cadre/Yscale 2;
 /DunjonDoor1Cadre/Xscale 1;
 /DunjonDoor1Cadre/Ypos 0;
 /DunjonDoor1Cadre/Xpos -3;
@@ -90,7 +90,7 @@
 /DunjonDoor1/modeAlpha 0;
 /DunjonDoor1/RenderOrder -25;
 /DunjonDoor1/Shape 3;
-/DunjonDoor1/Yscale 1.5;
+/DunjonDoor1/Yscale 2;
 /DunjonDoor1/Xscale 1;
 /DunjonDoor1/Ypos 0;
 /DunjonDoor1/Xpos -3;
@@ -138,7 +138,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.80625;
+/CuveGalootContent2/Yscale 2.80875;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -204,7 +204,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.10625;
+/Djbebe/Ypos 0.10875;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png

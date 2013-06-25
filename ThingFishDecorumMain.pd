@@ -1,4 +1,8 @@
-#N canvas 128 220 1438 814 10;
+#N canvas 128 219 1438 814 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -36,26 +40,26 @@
 #X declare -path ./lib/sssad;
 #X obj -273 -77 zac.mouse;
 #X obj -433 -263 zac.videoprojecteur /mainVP;
-#X obj -319 -32 Curtains/curtainsMain;
+#X obj -319 -26 Curtains/curtainsMain;
 #X obj -275 -264 zac.sauvegarde /file;
 #X obj -273 -105 send OSC_MESSAGES;
 #X obj -272 -176 loadbang;
 #X msg -272 -154 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
 ;
 #X obj 384 168 zac.lumiere /fond;
-#X obj -316 -7 DaThingFish/DaThingFishFace/daThingFishMain;
+#X obj -319 -2 DaThingFish/DaThingFishFace/daThingFishMain;
 #X obj -382 111 s TFOut;
 #X msg -382 84 bang TFOut Debut;
-#X msg -83 125 bang TFSpeaks;
-#X msg 50 124 bang TFMutes;
-#X obj -83 163 s TFSpeaks;
-#X obj 50 162 s TFMutes;
-#X obj -53 261 s TFSpeechSpeed;
-#X obj -52 229 hsl 128 15 10 20 0 0 empty empty empty -2 -8 0 10 -262144
+#X msg 112 99 bang TFSpeaks;
+#X msg 245 98 bang TFMutes;
+#X obj 112 137 s TFSpeaks;
+#X obj 245 136 s TFMutes;
+#X obj 142 235 s TFSpeechSpeed;
+#X obj 143 203 hsl 128 15 10 20 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 7620 1;
-#X obj -55 185 loadbang;
-#X msg -55 206 16;
-#X obj -300 41 Dunjon/dunjonMain;
+#X obj 140 159 loadbang;
+#X msg 140 180 16;
+#X obj -318 22 Dunjon/dunjonMain;
 #X msg -570 255 bang CurtainsOpened;
 #X obj -570 291 s CurtainsOpened;
 #X obj -575 383 s CurtainsClosed;
