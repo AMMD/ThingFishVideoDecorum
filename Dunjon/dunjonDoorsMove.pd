@@ -1,4 +1,4 @@
-#N canvas 0 45 1920 1031 10;
+#N canvas 0 100 1440 759 10;
 #X obj 216 677 line;
 #X obj 150 636 +;
 #X msg 150 610 1.5;
@@ -196,7 +196,9 @@
 #X obj 1728 746 delay 1000;
 #X obj 1728 766 s closeDoor1;
 #X obj 1728 715 delay 200;
+#X msg 1644 649 -3;
 #X obj 1581 729 sel -4;
+#X obj 1644 602 delay 5;
 #X connect 0 0 16 0;
 #X connect 0 0 17 0;
 #X connect 0 0 32 0;
@@ -439,7 +441,7 @@
 #X connect 166 0 137 0;
 #X connect 166 0 138 0;
 #X connect 166 0 158 0;
-#X connect 166 0 194 0;
+#X connect 166 0 195 0;
 #X connect 167 0 141 0;
 #X connect 167 0 142 0;
 #X connect 167 0 159 0;
@@ -477,6 +479,9 @@
 #X connect 191 0 192 0;
 #X connect 191 0 193 0;
 #X connect 193 0 175 0;
-#X connect 194 0 135 0;
-#X connect 194 0 176 0;
-#X connect 194 0 191 0;
+#X connect 194 0 195 1;
+#X connect 195 0 135 0;
+#X connect 195 0 176 0;
+#X connect 195 0 191 0;
+#X connect 195 0 196 0;
+#X connect 196 0 194 0;
