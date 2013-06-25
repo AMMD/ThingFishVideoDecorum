@@ -1,0 +1,7 @@
+#N canvas 0 100 1440 759 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 54 268 zac.lumiere /ItalienBras;
+#X obj 89 474 zac.lumiere /Italien1;
+#X obj 56 51 zac.lumiere /Italien2;
