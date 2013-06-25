@@ -1,4 +1,10 @@
-#N canvas 0 48 1920 1031 10;
+#N canvas 0 45 1920 1031 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -46,7 +52,7 @@
 #X obj 406 456 r DunjonBang;
 #X obj 773 467 r DunjonBang;
 #X msg 477 489 stop;
-#X msg 1212 568 /Djbebe/Ypos \$1;
+#X msg 1131 568 /Djbebe/Ypos \$1;
 #X msg 1074 493 0.1;
 #X obj 1090 529 +;
 #X msg 601 536 0.57;
@@ -55,7 +61,7 @@
 #X obj 671 577 / 70;
 #X obj 108 -123 dunjonDoors;
 #X obj 1105 293 r DunjonBang;
-#X obj 1273 536 send OSC_MESSAGES;
+#X obj 1273 578 send OSC_MESSAGES;
 #X msg 1273 354 /Tube/Activate \$1;
 #X msg 1273 373 /Cochon/Activate \$1;
 #X msg 1273 393 /CochonLights/Activate \$1;
@@ -70,6 +76,10 @@
 #X msg 1528 334 0;
 #X obj 438 522 metro 1000;
 #X msg 504 554 360 1000;
+#X obj 1332 -131 zac.lumiere /WashMachine;
+#X obj 1333 77 zac.lumiere /WashMachineButtons;
+#X msg 1273 530 /WashMachine/Activate \$1;
+#X msg 1273 550 /WashMachineButtons/Activate \$1;
 #X connect 9 0 11 1;
 #X connect 9 0 21 1;
 #X connect 10 0 17 0;
@@ -125,9 +135,12 @@
 #X connect 51 0 47 0;
 #X connect 51 0 48 0;
 #X connect 51 0 49 0;
+#X connect 51 0 58 0;
+#X connect 51 0 59 0;
 #X connect 52 0 53 0;
 #X connect 52 0 20 0;
 #X connect 52 0 31 0;
+#X connect 52 0 59 0;
 #X connect 53 0 42 0;
 #X connect 53 0 43 0;
 #X connect 53 0 44 0;
@@ -137,6 +150,9 @@
 #X connect 53 0 47 0;
 #X connect 53 0 48 0;
 #X connect 53 0 49 0;
+#X connect 53 0 58 0;
 #X connect 54 0 27 0;
 #X connect 54 0 28 0;
 #X connect 55 0 26 0;
+#X connect 58 0 41 0;
+#X connect 59 0 41 0;
