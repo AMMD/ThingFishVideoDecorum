@@ -5,7 +5,7 @@
 /ThiFiHandCourRideau/Green 1;
 /ThiFiHandCourRideau/Red 1;
 /ThiFiHandCourRideau/Rotate 0;
-/ThiFiHandCourRideau/Activate 0;
+/ThiFiHandCourRideau/Activate 1;
 /ThiFiHandCourRideau/Alpha 1;
 /ThiFiHandCourRideau/modeAlpha 0;
 /ThiFiHandCourRideau/RenderOrder -19;
@@ -21,7 +21,7 @@
 /ThiFiHandJardinRideau/Green 1;
 /ThiFiHandJardinRideau/Red 1;
 /ThiFiHandJardinRideau/Rotate 0;
-/ThiFiHandJardinRideau/Activate 0;
+/ThiFiHandJardinRideau/Activate 1;
 /ThiFiHandJardinRideau/Alpha 1;
 /ThiFiHandJardinRideau/modeAlpha 0;
 /ThiFiHandJardinRideau/RenderOrder -19;
