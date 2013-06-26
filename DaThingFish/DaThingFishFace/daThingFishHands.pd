@@ -1,4 +1,4 @@
-#N canvas 0 16 1278 841 10;
+#N canvas 0 13 1278 841 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -7,17 +7,17 @@
 #X obj 55 11 zac.lumiere /HandJardin;
 #X obj 303 17 zac.lumiere /HandCour;
 #X obj 152 585 daThingFishHandsOut;
-#X obj 54 203 zac.lumiere /HandJardinShadow;
-#X obj 297 209 zac.lumiere /HandCourShadow;
 #X obj 355 687 outlet TrigThingFishOut;
 #X obj 148 479 inlet HandsOut;
 #X obj 639 475 inlet HandsIn;
 #X msg 80 510 bang;
+#X obj 809 236 zac.lumiere /ThiFiHandJardinRideau;
+#X obj 1052 242 zac.lumiere /ThiFiHandCourRideau;
 #X connect 3 0 0 0;
 #X connect 3 1 0 3;
 #X connect 3 2 0 4;
 #X connect 3 3 0 5;
 #X connect 3 4 0 2;
-#X connect 3 5 6 0;
+#X connect 3 5 4 0;
+#X connect 5 0 3 0;
 #X connect 7 0 3 0;
-#X connect 9 0 3 0;
