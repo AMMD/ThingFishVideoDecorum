@@ -1,3 +1,19 @@
+/ThiFiHandCineticScroll/Zpos -3;
+/ThiFiHandCineticScroll/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_defilement.png
+;
+/ThiFiHandCineticScroll/Blue 1;
+/ThiFiHandCineticScroll/Green 1;
+/ThiFiHandCineticScroll/Red 1;
+/ThiFiHandCineticScroll/Rotate 90;
+/ThiFiHandCineticScroll/Activate 0;
+/ThiFiHandCineticScroll/Alpha 1;
+/ThiFiHandCineticScroll/modeAlpha 0;
+/ThiFiHandCineticScroll/RenderOrder -2;
+/ThiFiHandCineticScroll/Shape 3;
+/ThiFiHandCineticScroll/Yscale 0.7;
+/ThiFiHandCineticScroll/Xscale 0.76;
+/ThiFiHandCineticScroll/Ypos 0;
+/ThiFiHandCineticScroll/Xpos 0;
 /MN1HeadYeux/Zpos -3.02;
 /MN1HeadYeux/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_yeux.png
 ;
@@ -549,7 +565,7 @@
 /ThiFiHandCourRideau/Green 1;
 /ThiFiHandCourRideau/Red 1;
 /ThiFiHandCourRideau/Rotate 0;
-/ThiFiHandCourRideau/Activate 1;
+/ThiFiHandCourRideau/Activate 0;
 /ThiFiHandCourRideau/Alpha 1;
 /ThiFiHandCourRideau/modeAlpha 0;
 /ThiFiHandCourRideau/RenderOrder -19;
@@ -565,7 +581,7 @@
 /ThiFiHandJardinRideau/Green 1;
 /ThiFiHandJardinRideau/Red 1;
 /ThiFiHandJardinRideau/Rotate 0;
-/ThiFiHandJardinRideau/Activate 1;
+/ThiFiHandJardinRideau/Activate 0;
 /ThiFiHandJardinRideau/Alpha 1;
 /ThiFiHandJardinRideau/modeAlpha 0;
 /ThiFiHandJardinRideau/RenderOrder -19;
