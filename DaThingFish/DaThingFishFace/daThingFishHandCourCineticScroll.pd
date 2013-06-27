@@ -29,6 +29,7 @@
 #X msg 926 496 /HandCour/Activate 1;
 #X msg 926 528 /ThiFiHandCineticScroll/Activate 0;
 #X obj 926 387 delay 200;
+#X obj 163 22 r HandCineticScroll;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 14 0;
@@ -74,3 +75,4 @@
 #X connect 28 0 12 0;
 #X connect 29 0 27 0;
 #X connect 29 0 28 0;
+#X connect 30 0 9 0;

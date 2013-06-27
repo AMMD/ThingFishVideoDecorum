@@ -1,4 +1,4 @@
-#N canvas 0 45 1920 1031 10;
+#N canvas 0 100 1440 800 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -80,6 +80,7 @@
 #X obj 1333 77 zac.lumiere /WashMachineButtons;
 #X msg 1273 530 /WashMachine/Activate \$1;
 #X msg 1273 550 /WashMachineButtons/Activate \$1;
+#X obj 225 -93 dunjonMoves;
 #X connect 9 0 11 1;
 #X connect 9 0 21 1;
 #X connect 10 0 17 0;
