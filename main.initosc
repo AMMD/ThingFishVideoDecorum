@@ -1,37 +1,33 @@
-/ThiFiHandCourRideau/Zpos -2.8;
-/ThiFiHandCourRideau/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_cour.png
-;
-/ThiFiHandCourRideau/Blue 1;
-/ThiFiHandCourRideau/Green 1;
-/ThiFiHandCourRideau/Red 1;
-/ThiFiHandCourRideau/Rotate 0;
-/ThiFiHandCourRideau/Activate 1;
-/ThiFiHandCourRideau/Alpha 1;
-/ThiFiHandCourRideau/modeAlpha 0;
-/ThiFiHandCourRideau/RenderOrder -19;
-/ThiFiHandCourRideau/Shape 3;
-/ThiFiHandCourRideau/Yscale 0.76;
-/ThiFiHandCourRideau/Xscale 0.76;
-/ThiFiHandCourRideau/Ypos 0;
-/ThiFiHandCourRideau/Xpos 10;
-/ThiFiHandJardinRideau/Zpos -2.8;
-/ThiFiHandJardinRideau/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_jardin.png
-;
-/ThiFiHandJardinRideau/Blue 1;
-/ThiFiHandJardinRideau/Green 1;
-/ThiFiHandJardinRideau/Red 1;
-/ThiFiHandJardinRideau/Rotate 0;
-/ThiFiHandJardinRideau/Activate 1;
-/ThiFiHandJardinRideau/Alpha 1;
-/ThiFiHandJardinRideau/modeAlpha 0;
-/ThiFiHandJardinRideau/RenderOrder -19;
-/ThiFiHandJardinRideau/Shape 3;
-/ThiFiHandJardinRideau/Yscale 0.76;
-/ThiFiHandJardinRideau/Xscale 0.76;
-/ThiFiHandJardinRideau/Ypos 0;
-/ThiFiHandJardinRideau/Xpos -10;
+/FondSceneCour/Zpos -3.01;
+/FondSceneCour/Blue 0;
+/FondSceneCour/Green 0;
+/FondSceneCour/Red 0;
+/FondSceneCour/Rotate 0;
+/FondSceneCour/Activate 1;
+/FondSceneCour/Alpha 1;
+/FondSceneCour/modeAlpha 0;
+/FondSceneCour/RenderOrder -24;
+/FondSceneCour/Shape 1;
+/FondSceneCour/Yscale 3.50435;
+/FondSceneCour/Xscale 0.7949;
+/FondSceneCour/Ypos -0.1;
+/FondSceneCour/Xpos 8.32215;
+/FondSceneJardin/Zpos -3.01;
+/FondSceneJardin/Blue 0;
+/FondSceneJardin/Green 0;
+/FondSceneJardin/Red 0;
+/FondSceneJardin/Rotate 0;
+/FondSceneJardin/Activate 1;
+/FondSceneJardin/Alpha 1;
+/FondSceneJardin/modeAlpha 0;
+/FondSceneJardin/RenderOrder -24;
+/FondSceneJardin/Shape 1;
+/FondSceneJardin/Yscale 3.50435;
+/FondSceneJardin/Xscale 0.7949;
+/FondSceneJardin/Ypos -0.1;
+/FondSceneJardin/Xpos -8.32215;
 /MN1HeadYeux/Zpos -3.02;
-/MN1HeadYeux/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_yeux.png
+/MN1HeadYeux/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_yeux.png
 ;
 /MN1HeadYeux/Blue 1;
 /MN1HeadYeux/Green 1;
@@ -47,7 +43,7 @@
 /MN1HeadYeux/Ypos -2;
 /MN1HeadYeux/Xpos -4.25;
 /MN1HeadBecHaut/Zpos -3.02;
-/MN1HeadBecHaut/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_bec_haut.png
+/MN1HeadBecHaut/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_bec_haut.png
 ;
 /MN1HeadBecHaut/Blue 1;
 /MN1HeadBecHaut/Green 1;
@@ -63,7 +59,7 @@
 /MN1HeadBecHaut/Ypos -2;
 /MN1HeadBecHaut/Xpos -4.25;
 /MN1HeadBecBas/Zpos -3.02;
-/MN1HeadBecBas/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_bec_bas.png
+/MN1HeadBecBas/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_bec_bas.png
 ;
 /MN1HeadBecBas/Blue 1;
 /MN1HeadBecBas/Green 1;
@@ -79,7 +75,7 @@
 /MN1HeadBecBas/Ypos -2;
 /MN1HeadBecBas/Xpos -4.25;
 /MN1FootJardin/Zpos -3.02;
-/MN1FootJardin/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_pied_jardin.png
+/MN1FootJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_pied_jardin.png
 ;
 /MN1FootJardin/Blue 1;
 /MN1FootJardin/Green 1;
@@ -95,7 +91,7 @@
 /MN1FootJardin/Ypos -1.8;
 /MN1FootJardin/Xpos -4.3;
 /MN1FootCour/Zpos -3.02;
-/MN1FootCour/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_pied_cour.png
+/MN1FootCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_pied_cour.png
 ;
 /MN1FootCour/Blue 1;
 /MN1FootCour/Green 1;
@@ -111,7 +107,7 @@
 /MN1FootCour/Ypos -1.84375;
 /MN1FootCour/Xpos -4.3;
 /MN1HeadContour/Zpos -3.02;
-/MN1HeadContour/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_contour.png
+/MN1HeadContour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_contour.png
 ;
 /MN1HeadContour/Blue 1;
 /MN1HeadContour/Green 1;
@@ -127,7 +123,7 @@
 /MN1HeadContour/Ypos -2.01;
 /MN1HeadContour/Xpos -4.25;
 /MN1Robe/Zpos -3.02;
-/MN1Robe/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_robe.png
+/MN1Robe/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_robe.png
 ;
 /MN1Robe/Blue 1;
 /MN1Robe/Green 1;
@@ -143,7 +139,7 @@
 /MN1Robe/Ypos -1.85;
 /MN1Robe/Xpos -4.3;
 /MN1HandJardin/Zpos -3.02;
-/MN1HandJardin/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_main_jardin.png
+/MN1HandJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_main_jardin.png
 ;
 /MN1HandJardin/Blue 1;
 /MN1HandJardin/Green 1;
@@ -159,7 +155,7 @@
 /MN1HandJardin/Ypos -1.84375;
 /MN1HandJardin/Xpos -4.3;
 /MN1HandCour/Zpos -3.02;
-/MN1HandCour/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_main_cour.png
+/MN1HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_main_cour.png
 ;
 /MN1HandCour/Blue 1;
 /MN1HandCour/Green 1;
@@ -175,7 +171,7 @@
 /MN1HandCour/Ypos -1.84375;
 /MN1HandCour/Xpos -4.3;
 /MN1Col/Zpos -3.02;
-/MN1Col/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_col.png
+/MN1Col/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_col.png
 ;
 /MN1Col/Blue 1;
 /MN1Col/Green 1;
@@ -239,7 +235,7 @@
 /ItalienBras/Ypos 4.28;
 /ItalienBras/Xpos 7.94094;
 /WashMachineButtons/Zpos -3.02;
-/WashMachineButtons/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Machine_a_laver_boutons.png
+/WashMachineButtons/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Machine_a_laver_boutons.png
 ;
 /WashMachineButtons/Blue 0.838926;
 /WashMachineButtons/Green 0.0268456;
@@ -255,7 +251,7 @@
 /WashMachineButtons/Ypos -0.9;
 /WashMachineButtons/Xpos 1.95;
 /WashMachine/Zpos -3.02;
-/WashMachine/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Machine_a_laver.png
+/WashMachine/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Machine_a_laver.png
 ;
 /WashMachine/Blue 1;
 /WashMachine/Green 1;
@@ -574,6 +570,38 @@
 /Cochon/Xscale 1.5;
 /Cochon/Ypos -1.67969;
 /Cochon/Xpos -0.453125;
+/ThiFiHandCourRideau/Zpos -2.8;
+/ThiFiHandCourRideau/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_cour.png
+;
+/ThiFiHandCourRideau/Blue 1;
+/ThiFiHandCourRideau/Green 1;
+/ThiFiHandCourRideau/Red 1;
+/ThiFiHandCourRideau/Rotate 0;
+/ThiFiHandCourRideau/Activate 1;
+/ThiFiHandCourRideau/Alpha 1;
+/ThiFiHandCourRideau/modeAlpha 0;
+/ThiFiHandCourRideau/RenderOrder -19;
+/ThiFiHandCourRideau/Shape 3;
+/ThiFiHandCourRideau/Yscale 0.76;
+/ThiFiHandCourRideau/Xscale 0.76;
+/ThiFiHandCourRideau/Ypos 0;
+/ThiFiHandCourRideau/Xpos 10;
+/ThiFiHandJardinRideau/Zpos -2.8;
+/ThiFiHandJardinRideau/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_jardin.png
+;
+/ThiFiHandJardinRideau/Blue 1;
+/ThiFiHandJardinRideau/Green 1;
+/ThiFiHandJardinRideau/Red 1;
+/ThiFiHandJardinRideau/Rotate 0;
+/ThiFiHandJardinRideau/Activate 1;
+/ThiFiHandJardinRideau/Alpha 1;
+/ThiFiHandJardinRideau/modeAlpha 0;
+/ThiFiHandJardinRideau/RenderOrder -19;
+/ThiFiHandJardinRideau/Shape 3;
+/ThiFiHandJardinRideau/Yscale 0.76;
+/ThiFiHandJardinRideau/Xscale 0.76;
+/ThiFiHandJardinRideau/Ypos 0;
+/ThiFiHandJardinRideau/Xpos -10;
 /HandCour/Zpos -3.1;
 /HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
 ;

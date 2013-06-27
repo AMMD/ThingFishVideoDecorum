@@ -1,4 +1,6 @@
-#N canvas 0 13 1438 814 10;
+#N canvas 1 100 1438 814 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -21,3 +23,5 @@
 #X obj 79 47 curtainsBroadway;
 #X obj 96 399 zac.lumiere /FondScene;
 #X obj 82 91 curtainsMoves;
+#X obj 16 197 zac.lumiere /FondSceneJardin;
+#X obj 246 205 zac.lumiere /FondSceneCour;
