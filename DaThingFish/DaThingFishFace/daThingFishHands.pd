@@ -15,6 +15,7 @@
 #X obj 809 236 zac.lumiere /ThiFiHandJardinRideau;
 #X obj 1052 242 zac.lumiere /ThiFiHandCourRideau;
 #X obj 604 511 zac.lumiere /ThiFiHandCineticScroll;
+#X obj 381 271 daThingFishHandCourCineticScroll;
 #X connect 3 0 0 0;
 #X connect 3 1 0 3;
 #X connect 3 2 0 4;
