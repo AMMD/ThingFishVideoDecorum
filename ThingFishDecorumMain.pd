@@ -60,6 +60,7 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X obj -273 -77 zac.mouse;
 #X obj -433 -263 zac.videoprojecteur /mainVP;
 #X obj -319 -26 Curtains/curtainsMain;
@@ -88,13 +89,14 @@
 #X msg -575 337 bang CurtainsClosed;
 #X msg -383 151 bang DunjonBang;
 #X obj -383 182 s DunjonBang;
-#X msg -383 253 bang DunjonBangOff;
-#X obj -383 287 s DunjonBangOff;
+#X msg -383 295 bang DunjonBangOff;
+#X obj -383 329 s DunjonBangOff;
 #X obj -38 -2 Italien/italienMain;
 #X obj -318 47 MammyNuns/mammyNunsMain;
-#X obj -382 226 s DunjonCineticPissOff;
+#X obj -382 265 s DunjonCineticPissOff;
 #X obj -221 226 s HandCineticScroll;
 #X msg -382 206 bang DunjonCineticPissOff;
+#X obj -359 238 delay 200;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
@@ -107,5 +109,6 @@
 #X connect 23 0 22 0;
 #X connect 24 0 25 0;
 #X connect 26 0 27 0;
-#X connect 32 0 30 0;
 #X connect 32 0 31 0;
+#X connect 32 0 33 0;
+#X connect 33 0 30 0;
