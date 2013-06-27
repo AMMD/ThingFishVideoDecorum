@@ -6,7 +6,7 @@
 /FondSceneCour/Activate 1;
 /FondSceneCour/Alpha 1;
 /FondSceneCour/modeAlpha 0;
-/FondSceneCour/RenderOrder -24;
+/FondSceneCour/RenderOrder -25;
 /FondSceneCour/Shape 1;
 /FondSceneCour/Yscale 3.50435;
 /FondSceneCour/Xscale 0.7949;
@@ -20,7 +20,7 @@
 /FondSceneJardin/Activate 1;
 /FondSceneJardin/Alpha 1;
 /FondSceneJardin/modeAlpha 0;
-/FondSceneJardin/RenderOrder -24;
+/FondSceneJardin/RenderOrder -25;
 /FondSceneJardin/Shape 1;
 /FondSceneJardin/Yscale 3.50435;
 /FondSceneJardin/Xscale 0.7949;
