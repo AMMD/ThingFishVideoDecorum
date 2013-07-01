@@ -246,7 +246,7 @@
 /WashMachine/Activate 0;
 /WashMachine/Alpha 1;
 /WashMachine/modeAlpha 0;
-/WashMachine/RenderOrder -25;
+/WashMachine/RenderOrder -26;
 /WashMachine/Shape 3;
 /WashMachine/Yscale 2.3;
 /WashMachine/Xscale 2.4;
@@ -456,7 +456,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.81125;
+/CuveGalootContent2/Yscale 2.80375;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -472,7 +472,7 @@
 /CuveGalootContent/modeAlpha 0;
 /CuveGalootContent/RenderOrder -25;
 /CuveGalootContent/Shape 3;
-/CuveGalootContent/Yscale 2.8;
+/CuveGalootContent/Yscale 2.805;
 /CuveGalootContent/Xscale 3.40582;
 /CuveGalootContent/Ypos -0.351562;
 /CuveGalootContent/Xpos 2.76562;
@@ -522,7 +522,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.11125;
+/Djbebe/Ypos 0.10375;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png
@@ -532,7 +532,7 @@
 /CochonLights/Red 1;
 /CochonLights/Rotate 0;
 /CochonLights/Activate 0;
-/CochonLights/Alpha 0.57;
+/CochonLights/Alpha 0.584286;
 /CochonLights/modeAlpha 0;
 /CochonLights/RenderOrder -25;
 /CochonLights/Shape 3;
@@ -570,8 +570,8 @@
 /ThiFiHandCineticScroll/Shape 3;
 /ThiFiHandCineticScroll/Yscale 0.7;
 /ThiFiHandCineticScroll/Xscale 0.76;
-/ThiFiHandCineticScroll/Ypos 0;
-/ThiFiHandCineticScroll/Xpos 0;
+/ThiFiHandCineticScroll/Ypos 2.55;
+/ThiFiHandCineticScroll/Xpos 1.34;
 /ThiFiHandCourRideau/Zpos -2.8;
 /ThiFiHandCourRideau/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_cour.png
 ;
@@ -579,7 +579,7 @@
 /ThiFiHandCourRideau/Green 1;
 /ThiFiHandCourRideau/Red 1;
 /ThiFiHandCourRideau/Rotate 0;
-/ThiFiHandCourRideau/Activate 0;
+/ThiFiHandCourRideau/Activate 1;
 /ThiFiHandCourRideau/Alpha 1;
 /ThiFiHandCourRideau/modeAlpha 0;
 /ThiFiHandCourRideau/RenderOrder -19;
@@ -595,7 +595,7 @@
 /ThiFiHandJardinRideau/Green 1;
 /ThiFiHandJardinRideau/Red 1;
 /ThiFiHandJardinRideau/Rotate 0;
-/ThiFiHandJardinRideau/Activate 0;
+/ThiFiHandJardinRideau/Activate 1;
 /ThiFiHandJardinRideau/Alpha 1;
 /ThiFiHandJardinRideau/modeAlpha 0;
 /ThiFiHandJardinRideau/RenderOrder -19;
@@ -611,7 +611,7 @@
 /HandCour/Green 1;
 /HandCour/Red 1;
 /HandCour/Rotate 358;
-/HandCour/Activate 0;
+/HandCour/Activate 1;
 /HandCour/Alpha 1;
 /HandCour/modeAlpha 0;
 /HandCour/RenderOrder -27;
@@ -627,7 +627,7 @@
 /HandJardin/Green 1;
 /HandJardin/Red 1;
 /HandJardin/Rotate 0;
-/HandJardin/Activate 0;
+/HandJardin/Activate 1;
 /HandJardin/Alpha 1;
 /HandJardin/modeAlpha 0;
 /HandJardin/RenderOrder -27;
@@ -643,14 +643,14 @@
 /ThiFiCol/Green 1;
 /ThiFiCol/Red 1;
 /ThiFiCol/Rotate 0;
-/ThiFiCol/Activate 0;
+/ThiFiCol/Activate 1;
 /ThiFiCol/Alpha 1;
 /ThiFiCol/modeAlpha 0;
 /ThiFiCol/RenderOrder -23;
 /ThiFiCol/Shape 3;
 /ThiFiCol/Yscale 2.36;
 /ThiFiCol/Xscale 2.36;
-/ThiFiCol/Ypos -0.002;
+/ThiFiCol/Ypos -0.005;
 /ThiFiCol/Xpos 0;
 /ThiFiBecBas/Zpos -3.05;
 /ThiFiBecBas/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becBas.png
@@ -659,7 +659,7 @@
 /ThiFiBecBas/Green 1;
 /ThiFiBecBas/Red 1;
 /ThiFiBecBas/Rotate 0;
-/ThiFiBecBas/Activate 0;
+/ThiFiBecBas/Activate 1;
 /ThiFiBecBas/Alpha 1;
 /ThiFiBecBas/modeAlpha 0;
 /ThiFiBecBas/RenderOrder -21;
@@ -675,7 +675,7 @@
 /ThiFiYeuxFront/Green 1;
 /ThiFiYeuxFront/Red 1;
 /ThiFiYeuxFront/Rotate 0;
-/ThiFiYeuxFront/Activate 0;
+/ThiFiYeuxFront/Activate 1;
 /ThiFiYeuxFront/Alpha 1;
 /ThiFiYeuxFront/modeAlpha 0;
 /ThiFiYeuxFront/RenderOrder -21;
@@ -691,14 +691,14 @@
 /ThiFiContourTete/Green 1;
 /ThiFiContourTete/Red 1;
 /ThiFiContourTete/Rotate 0;
-/ThiFiContourTete/Activate 0;
+/ThiFiContourTete/Activate 1;
 /ThiFiContourTete/Alpha 1;
 /ThiFiContourTete/modeAlpha 0;
 /ThiFiContourTete/RenderOrder -22;
 /ThiFiContourTete/Shape 3;
 /ThiFiContourTete/Yscale 2.36;
 /ThiFiContourTete/Xscale 2.36;
-/ThiFiContourTete/Ypos -0.002;
+/ThiFiContourTete/Ypos -0.005;
 /ThiFiContourTete/Xpos 0;
 /ThiFiBecHaut/Zpos -3.05;
 /ThiFiBecHaut/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becHaut.png
@@ -707,7 +707,7 @@
 /ThiFiBecHaut/Green 1;
 /ThiFiBecHaut/Red 1;
 /ThiFiBecHaut/Rotate 0;
-/ThiFiBecHaut/Activate 0;
+/ThiFiBecHaut/Activate 1;
 /ThiFiBecHaut/Alpha 1;
 /ThiFiBecHaut/modeAlpha 0;
 /ThiFiBecHaut/RenderOrder -21;

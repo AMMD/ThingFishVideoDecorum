@@ -1,4 +1,4 @@
-#N canvas 0 0 1440 845 10;
+#N canvas 1 100 1440 800 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -11,7 +11,7 @@
 #X obj 32 169 zac.lumiere /b_R_oadway;
 #X obj 31 328 zac.lumiere /br_O_adway;
 #X obj 30 485 zac.lumiere /bro_A_dway;
-#X obj 252 12 zac.lumiere /broa_D_way;
-#X obj 250 169 zac.lumiere /broad_W_ay;
-#X obj 249 328 zac.lumiere /broadw_A_y;
-#X obj 248 485 zac.lumiere /broadwa_Y;
+#X obj 306 12 zac.lumiere /broa_D_way;
+#X obj 304 169 zac.lumiere /broad_W_ay;
+#X obj 303 328 zac.lumiere /broadw_A_y;
+#X obj 302 485 zac.lumiere /broadwa_Y;
