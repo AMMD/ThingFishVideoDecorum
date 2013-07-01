@@ -910,9 +910,9 @@
 /Arche/Activate 1;
 /Arche/Alpha 1;
 /Arche/modeAlpha 0;
-/Arche/RenderOrder -19;
+/Arche/RenderOrder -26;
 /Arche/Shape 3;
-/Arche/Yscale 1.65;
+/Arche/Yscale 1.45;
 /Arche/Xscale 6.9;
 /Arche/Ypos 4.59732;
 /Arche/Xpos 0;
@@ -929,7 +929,7 @@
 /Truss/RenderOrder -27;
 /Truss/Shape 3;
 /Truss/Yscale 0.101536;
-/Truss/Xscale 8.7;
+/Truss/Xscale 9.1;
 /Truss/Ypos 3.08;
 /Truss/Xpos 0;
 /RideauFrise/Zpos -3;
@@ -945,7 +945,7 @@
 /RideauFrise/RenderOrder -26;
 /RideauFrise/Shape 3;
 /RideauFrise/Yscale 1;
-/RideauFrise/Xscale 17;
+/RideauFrise/Xscale 18;
 /RideauFrise/Ypos 2.59463;
 /RideauFrise/Xpos -0.6;
 /RideauCour/Zpos -3.01;
@@ -961,9 +961,9 @@
 /RideauCour/RenderOrder -24;
 /RideauCour/Shape 3;
 /RideauCour/Yscale 5;
-/RideauCour/Xscale 17;
+/RideauCour/Xscale 18;
 /RideauCour/Ypos 1.52;
-/RideauCour/Xpos -8.26;
+/RideauCour/Xpos -8.7;
 /RideauJardin/Zpos -3.01;
 /RideauJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/RideauJardin.png
 ;
@@ -977,7 +977,7 @@
 /RideauJardin/RenderOrder -24;
 /RideauJardin/Shape 3;
 /RideauJardin/Yscale 5;
-/RideauJardin/Xscale 17;
+/RideauJardin/Xscale 18;
 /RideauJardin/Ypos 1.52349;
-/RideauJardin/Xpos 8.26;
+/RideauJardin/Xpos 8.7;
 /mainVP/Scale 1;
