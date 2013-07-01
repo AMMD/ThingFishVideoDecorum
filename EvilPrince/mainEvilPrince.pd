@@ -1,1 +1,16 @@
-#N canvas 398 301 450 300 10;
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 58 57 zac.lumiere /EvilPrinceContainer;
+#X obj 621 228 zac.lumiere /EvilPrinceCorps /EvilPrinceContainer;
+#X obj 628 30 zac.lumiere /EvilPrince/Tete /EvilPrinceContainer;
+#X obj 326 303 zac.lumiere /EvilPrince/BrasJardin /EvilPrinceContainer
+;
+#X obj 929 307 zac.lumiere /EvilPrince/BrasCour /EvilPrinceContainer
+;
+#X obj 1038 510 zac.lumiere /EvilPrince/MainCour /EvilPrinceContainer
+;
