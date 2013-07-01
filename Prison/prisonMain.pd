@@ -1,4 +1,21 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 0 93 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -6,3 +23,19 @@
 #X obj 119 310 zac.lumiere /Prison_Prisonniers;
 #X obj 414 228 zac.lumiere /Prison_ScenePrison /PrisonContainer;
 #X obj 959 49 prisonMusiciens;
+#X obj 143 92 send OSC_MESSAGES;
+#X msg 161 60 /Prison_*/Activate \$1;
+#X msg 153 29 0;
+#X msg 198 31 1;
+#X obj 433 71 s musiciansArePlaying;
+#X obj 447 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 627 72 s musiciansArentPlaying;
+#X obj 584 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 899 223 zac.lumiere /PrisonContainer;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;
+#X connect 7 0 5 0;
+#X connect 9 0 8 0;
+#X connect 11 0 10 0;

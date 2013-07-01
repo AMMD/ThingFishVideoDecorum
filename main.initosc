@@ -1,5 +1,5 @@
 /EvilPrince/MainCour/Zpos -3.012;
-/EvilPrince/MainCour/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Main_cour_fiole.png
+/EvilPrince/MainCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Main_cour_fiole.png
 ;
 /EvilPrince/MainCour/Blue 1;
 /EvilPrince/MainCour/Green 1;
@@ -15,7 +15,7 @@
 /EvilPrince/MainCour/Ypos -1.08322;
 /EvilPrince/MainCour/Xpos 2.06711;
 /EvilPrince/BrasCour/Zpos -3.0101;
-/EvilPrince/BrasCour/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_AvantBras_cour.png
+/EvilPrince/BrasCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_AvantBras_cour.png
 ;
 /EvilPrince/BrasCour/Blue 1;
 /EvilPrince/BrasCour/Green 1;
@@ -31,7 +31,7 @@
 /EvilPrince/BrasCour/Ypos -0.863087;
 /EvilPrince/BrasCour/Xpos 1.64295;
 /EvilPrince/BrasJardin/Zpos -3.011;
-/EvilPrince/BrasJardin/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_AvantBras_Main_jardin.png
+/EvilPrince/BrasJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_AvantBras_Main_jardin.png
 ;
 /EvilPrince/BrasJardin/Blue 1;
 /EvilPrince/BrasJardin/Green 1;
@@ -47,7 +47,7 @@
 /EvilPrince/BrasJardin/Ypos -1.15168;
 /EvilPrince/BrasJardin/Xpos 0.0778523;
 /EvilPrince/Tete/Zpos -3.01001;
-/EvilPrince/Tete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Tete.png
+/EvilPrince/Tete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Tete.png
 ;
 /EvilPrince/Tete/Blue 1;
 /EvilPrince/Tete/Green 1;
@@ -63,7 +63,7 @@
 /EvilPrince/Tete/Ypos 0.330201;
 /EvilPrince/Tete/Xpos 0.571812;
 /EvilPrinceCorps/Zpos -3.0111;
-/EvilPrinceCorps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Corps.png
+/EvilPrinceCorps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Corps.png
 ;
 /EvilPrinceCorps/Blue 1;
 /EvilPrinceCorps/Green 1;
@@ -93,7 +93,7 @@
 /EvilPrinceContainer/Ypos 0;
 /EvilPrinceContainer/Xpos 0;
 /Prison_Musiciens_CymbalumMainCour/Zpos -3.0118;
-/Prison_Musiciens_CymbalumMainCour/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_main_cour.png
+/Prison_Musiciens_CymbalumMainCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_main_cour.png
 ;
 /Prison_Musiciens_CymbalumMainCour/Blue 1;
 /Prison_Musiciens_CymbalumMainCour/Green 1;
@@ -109,7 +109,7 @@
 /Prison_Musiciens_CymbalumMainCour/Ypos 0.697917;
 /Prison_Musiciens_CymbalumMainCour/Xpos 3.15625;
 /Prison_Musiciens_CymbalumTete/Zpos -3.0119;
-/Prison_Musiciens_CymbalumTete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_tete.png
+/Prison_Musiciens_CymbalumTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_tete.png
 ;
 /Prison_Musiciens_CymbalumTete/Blue 1;
 /Prison_Musiciens_CymbalumTete/Green 1;
@@ -125,7 +125,7 @@
 /Prison_Musiciens_CymbalumTete/Ypos 1.36458;
 /Prison_Musiciens_CymbalumTete/Xpos 2.54167;
 /Prison_Musiciens_CymbalumMainJardin/Zpos -3.0118;
-/Prison_Musiciens_CymbalumMainJardin/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_main_jardin.png
+/Prison_Musiciens_CymbalumMainJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_main_jardin.png
 ;
 /Prison_Musiciens_CymbalumMainJardin/Blue 1;
 /Prison_Musiciens_CymbalumMainJardin/Green 1;
@@ -141,7 +141,7 @@
 /Prison_Musiciens_CymbalumMainJardin/Ypos 0.677083;
 /Prison_Musiciens_CymbalumMainJardin/Xpos 2.23958;
 /Prison_Musiciens_CymbalumCorps/Zpos -3.0119;
-/Prison_Musiciens_CymbalumCorps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_corps.png
+/Prison_Musiciens_CymbalumCorps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_cymbalum_corps.png
 ;
 /Prison_Musiciens_CymbalumCorps/Blue 1;
 /Prison_Musiciens_CymbalumCorps/Green 1;
@@ -157,7 +157,7 @@
 /Prison_Musiciens_CymbalumCorps/Ypos 0.4375;
 /Prison_Musiciens_CymbalumCorps/Xpos 2.64161;
 /Prison_Musiciens_SaxBas/Zpos -3.0119;
-/Prison_Musiciens_SaxBas/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_sax_pieds.png
+/Prison_Musiciens_SaxBas/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_sax_pieds.png
 ;
 /Prison_Musiciens_SaxBas/Blue 1;
 /Prison_Musiciens_SaxBas/Green 1;
@@ -173,7 +173,7 @@
 /Prison_Musiciens_SaxBas/Ypos -0.614583;
 /Prison_Musiciens_SaxBas/Xpos 0;
 /Prison_Musiciens_SaxHaut/Zpos -3.0119;
-/Prison_Musiciens_SaxHaut/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_sax_corps.png
+/Prison_Musiciens_SaxHaut/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_sax_corps.png
 ;
 /Prison_Musiciens_SaxHaut/Blue 1;
 /Prison_Musiciens_SaxHaut/Green 1;
@@ -186,10 +186,10 @@
 /Prison_Musiciens_SaxHaut/Shape 3;
 /Prison_Musiciens_SaxHaut/Yscale 1;
 /Prison_Musiciens_SaxHaut/Xscale 1;
-/Prison_Musiciens_SaxHaut/Ypos 0.28125;
+/Prison_Musiciens_SaxHaut/Ypos 0.42125;
 /Prison_Musiciens_SaxHaut/Xpos 0.0416667;
 /Prison_Musiciens_CymbalesCour/Zpos -3.012;
-/Prison_Musiciens_CymbalesCour/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_cymbale_cour.png
+/Prison_Musiciens_CymbalesCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_cymbale_cour.png
 ;
 /Prison_Musiciens_CymbalesCour/Blue 1;
 /Prison_Musiciens_CymbalesCour/Green 1;
@@ -203,9 +203,9 @@
 /Prison_Musiciens_CymbalesCour/Yscale 0.5;
 /Prison_Musiciens_CymbalesCour/Xscale 0.2;
 /Prison_Musiciens_CymbalesCour/Ypos 0.614583;
-/Prison_Musiciens_CymbalesCour/Xpos 1.57292;
+/Prison_Musiciens_CymbalesCour/Xpos 1.57;
 /Prison_Musiciens_CymbalesJardin/Zpos -3.012;
-/Prison_Musiciens_CymbalesJardin/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_cymbale_jardin.png
+/Prison_Musiciens_CymbalesJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_cymbale_jardin.png
 ;
 /Prison_Musiciens_CymbalesJardin/Blue 1;
 /Prison_Musiciens_CymbalesJardin/Green 1;
@@ -219,9 +219,9 @@
 /Prison_Musiciens_CymbalesJardin/Yscale 0.5;
 /Prison_Musiciens_CymbalesJardin/Xscale 0.2;
 /Prison_Musiciens_CymbalesJardin/Ypos 0.635417;
-/Prison_Musiciens_CymbalesJardin/Xpos 0.77047;
+/Prison_Musiciens_CymbalesJardin/Xpos 0.77;
 /Prison_Musiciens_CymbalesTete/Zpos -3.012;
-/Prison_Musiciens_CymbalesTete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_tete.png
+/Prison_Musiciens_CymbalesTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_tete.png
 ;
 /Prison_Musiciens_CymbalesTete/Blue 1;
 /Prison_Musiciens_CymbalesTete/Green 1;
@@ -237,7 +237,7 @@
 /Prison_Musiciens_CymbalesTete/Ypos 1.3125;
 /Prison_Musiciens_CymbalesTete/Xpos 1.375;
 /Prison_Musiciens_CymbalesCorps/Zpos -3.0121;
-/Prison_Musiciens_CymbalesCorps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_corps.png
+/Prison_Musiciens_CymbalesCorps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_cymbales_corps.png
 ;
 /Prison_Musiciens_CymbalesCorps/Blue 1;
 /Prison_Musiciens_CymbalesCorps/Green 1;
@@ -252,13 +252,13 @@
 /Prison_Musiciens_CymbalesCorps/Xscale 0.7;
 /Prison_Musiciens_CymbalesCorps/Ypos 0.385417;
 /Prison_Musiciens_CymbalesCorps/Xpos 1.22917;
-/Prison_Musiciens_GCBras/Zpos -3;
-/Prison_Musiciens_GCBras/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_main.png
+/Prison_Musiciens_GCBras/Zpos -3.011;
+/Prison_Musiciens_GCBras/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_main.png
 ;
 /Prison_Musiciens_GCBras/Blue 1;
 /Prison_Musiciens_GCBras/Green 1;
 /Prison_Musiciens_GCBras/Red 1;
-/Prison_Musiciens_GCBras/Rotate 0;
+/Prison_Musiciens_GCBras/Rotate 48.3;
 /Prison_Musiciens_GCBras/Activate 0;
 /Prison_Musiciens_GCBras/Alpha 1;
 /Prison_Musiciens_GCBras/modeAlpha 0;
@@ -267,9 +267,9 @@
 /Prison_Musiciens_GCBras/Yscale 0.3;
 /Prison_Musiciens_GCBras/Xscale 0.3;
 /Prison_Musiciens_GCBras/Ypos 0.833557;
-/Prison_Musiciens_GCBras/Xpos 4.08322;
-/Prison_Musiciens_GCTete/Zpos -3;
-/Prison_Musiciens_GCTete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_tete.png
+/Prison_Musiciens_GCBras/Xpos 4.33;
+/Prison_Musiciens_GCTete/Zpos -3.0119;
+/Prison_Musiciens_GCTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_tete.png
 ;
 /Prison_Musiciens_GCTete/Blue 1;
 /Prison_Musiciens_GCTete/Green 1;
@@ -285,7 +285,7 @@
 /Prison_Musiciens_GCTete/Ypos 1.57047;
 /Prison_Musiciens_GCTete/Xpos 3.87919;
 /Prison_Musiciens_GCCorps/Zpos -3.0121;
-/Prison_Musiciens_GCCorps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_corps.png
+/Prison_Musiciens_GCCorps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_davul_corps.png
 ;
 /Prison_Musiciens_GCCorps/Blue 1;
 /Prison_Musiciens_GCCorps/Green 1;
@@ -301,12 +301,12 @@
 /Prison_Musiciens_GCCorps/Ypos 0.519463;
 /Prison_Musiciens_GCCorps/Xpos 3.75839;
 /Prison_Musiciens_BanjoBras/Zpos -3.01177;
-/Prison_Musiciens_BanjoBras/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_bras.png
+/Prison_Musiciens_BanjoBras/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_bras.png
 ;
 /Prison_Musiciens_BanjoBras/Blue 1;
 /Prison_Musiciens_BanjoBras/Green 1;
 /Prison_Musiciens_BanjoBras/Red 1;
-/Prison_Musiciens_BanjoBras/Rotate 0;
+/Prison_Musiciens_BanjoBras/Rotate 347;
 /Prison_Musiciens_BanjoBras/Activate 0;
 /Prison_Musiciens_BanjoBras/Alpha 1;
 /Prison_Musiciens_BanjoBras/modeAlpha 0;
@@ -317,7 +317,7 @@
 /Prison_Musiciens_BanjoBras/Ypos 0.322148;
 /Prison_Musiciens_BanjoBras/Xpos 2.10738;
 /Prison_Musiciens_BanjoTete/Zpos -3.01177;
-/Prison_Musiciens_BanjoTete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_tete.png
+/Prison_Musiciens_BanjoTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_tete.png
 ;
 /Prison_Musiciens_BanjoTete/Blue 1;
 /Prison_Musiciens_BanjoTete/Green 1;
@@ -333,7 +333,7 @@
 /Prison_Musiciens_BanjoTete/Ypos 1.07383;
 /Prison_Musiciens_BanjoTete/Xpos 1.91409;
 /Prison_Musiciens_BanjoCorps/Zpos -3.01179;
-/Prison_Musiciens_BanjoCorps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_corps.png
+/Prison_Musiciens_BanjoCorps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_26_Musicien_Country_banjo_corps.png
 ;
 /Prison_Musiciens_BanjoCorps/Blue 1;
 /Prison_Musiciens_BanjoCorps/Green 1;
@@ -349,7 +349,7 @@
 /Prison_Musiciens_BanjoCorps/Ypos -0.134228;
 /Prison_Musiciens_BanjoCorps/Xpos 1.45772;
 /Prison_ScenePrison/Zpos -3.02;
-/Prison_ScenePrison/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_scène.png
+/Prison_ScenePrison/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_scène.png
 ;
 /Prison_ScenePrison/Blue 1;
 /Prison_ScenePrison/Green 1;
@@ -365,7 +365,7 @@
 /Prison_ScenePrison/Ypos 0.68;
 /Prison_ScenePrison/Xpos 2.42;
 /Prison_Prisonniers/Zpos -3.011;
-/Prison_Prisonniers/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_Prison_Prisonniers.png
+/Prison_Prisonniers/File /home/commun/Musique/Groupes/Sebkha-Chott/ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_Prisonniers.png
 ;
 /Prison_Prisonniers/Blue 1;
 /Prison_Prisonniers/Green 1;
@@ -380,8 +380,8 @@
 /Prison_Prisonniers/Xscale 3.00072;
 /Prison_Prisonniers/Ypos -1.07383;
 /Prison_Prisonniers/Xpos -3.2;
-/Prison_Barreaux/Zpos -3.01;
-/Prison_Barreaux/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2.png
+/Prison_Barreaux/Zpos -3.0101;
+/Prison_Barreaux/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2.png
 ;
 /Prison_Barreaux/Blue 1;
 /Prison_Barreaux/Green 1;
@@ -557,7 +557,7 @@
 /MN1Col/Ypos -1.84375;
 /MN1Col/Xpos -4.3;
 /Italien2/Zpos -2.8;
-/Italien2/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_plan2.png
+/Italien2/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_plan2.png
 ;
 /Italien2/Blue 1;
 /Italien2/Green 1;
@@ -573,7 +573,7 @@
 /Italien2/Ypos 4.28859;
 /Italien2/Xpos 7.94631;
 /Italien1/Zpos -2.8;
-/Italien1/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_plan1.png
+/Italien1/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_plan1.png
 ;
 /Italien1/Blue 1;
 /Italien1/Green 1;
@@ -589,7 +589,7 @@
 /Italien1/Ypos 4.28;
 /Italien1/Xpos 7.94;
 /ItalienBras/Zpos -2.8;
-/ItalienBras/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_bras_jumelles.png
+/ItalienBras/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/2013_06_25_Italien_bras_jumelles.png
 ;
 /ItalienBras/Blue 1;
 /ItalienBras/Green 1;
@@ -955,7 +955,7 @@
 /Cochon/Ypos -1.67969;
 /Cochon/Xpos -0.453125;
 /ThiFiHandCineticScroll/Zpos -3;
-/ThiFiHandCineticScroll/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_defilement.png
+/ThiFiHandCineticScroll/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_defilement.png
 ;
 /ThiFiHandCineticScroll/Blue 1;
 /ThiFiHandCineticScroll/Green 1;
