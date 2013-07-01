@@ -20,7 +20,7 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 234 497 zac.lumiere /Prison_Barreaux /PrisonContainer;
-#X obj 119 310 zac.lumiere /Prison_Prisonniers;
+#X obj 119 310 zac.lumiere /Prison_Prisonniers /PrisonContainer;
 #X obj 414 228 zac.lumiere /Prison_ScenePrison /PrisonContainer;
 #X obj 959 49 prisonMusiciens;
 #X obj 143 92 send OSC_MESSAGES;
