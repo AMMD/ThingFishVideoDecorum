@@ -1,0 +1,8 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 234 497 zac.lumiere /Barreaux;
+#X obj 119 310 zac.lumiere /Prisonniers;
+#X obj 414 228 zac.lumiere /ScenePrison /PrisonContainer;
+#X obj 959 49 prisonMusiciens;

@@ -1,3 +1,51 @@
+/ScenePrison/Zpos -3.02;
+/ScenePrison/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_scène.png
+;
+/ScenePrison/Blue 1;
+/ScenePrison/Green 1;
+/ScenePrison/Red 1;
+/ScenePrison/Rotate 0;
+/ScenePrison/Activate 0;
+/ScenePrison/Alpha 1;
+/ScenePrison/modeAlpha 0;
+/ScenePrison/RenderOrder -25;
+/ScenePrison/Shape 3;
+/ScenePrison/Yscale 2;
+/ScenePrison/Xscale 2;
+/ScenePrison/Ypos 0.68;
+/ScenePrison/Xpos 2.42;
+/Prisonniers/Zpos -3.011;
+/Prisonniers/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_Prisonniers.png
+;
+/Prisonniers/Blue 1;
+/Prisonniers/Green 1;
+/Prisonniers/Red 1;
+/Prisonniers/Rotate 0;
+/Prisonniers/Activate 0;
+/Prisonniers/Alpha 1;
+/Prisonniers/modeAlpha 0;
+/Prisonniers/RenderOrder -25;
+/Prisonniers/Shape 3;
+/Prisonniers/Yscale 2;
+/Prisonniers/Xscale 3.00072;
+/Prisonniers/Ypos -1.07383;
+/Prisonniers/Xpos -3.2;
+/Barreaux/Zpos -3.01;
+/Barreaux/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2.png
+;
+/Barreaux/Blue 1;
+/Barreaux/Green 1;
+/Barreaux/Red 1;
+/Barreaux/Rotate 0;
+/Barreaux/Activate 0;
+/Barreaux/Alpha 1;
+/Barreaux/modeAlpha 0;
+/Barreaux/RenderOrder -24;
+/Barreaux/Shape 3;
+/Barreaux/Yscale 3;
+/Barreaux/Xscale 9;
+/Barreaux/Ypos -0.402685;
+/Barreaux/Xpos -0.5;
 /MN1HeadYeux/Zpos -3.02;
 /MN1HeadYeux/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/Mammy_Nun_1/2013_06_24_Mammy_Nun_1_tete_yeux.png
 ;
