@@ -6,28 +6,47 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X obj 58 57 zac.lumiere /EvilPrinceContainer;
-#X obj 621 228 zac.lumiere /EvilPrince_Corps /EvilPrinceContainer;
-#X obj 628 30 zac.lumiere /EvilPrince_Tete /EvilPrinceContainer;
-#X obj 326 303 zac.lumiere /EvilPrince_BrasJardin /EvilPrinceContainer
+#X obj 561 228 zac.lumiere /EvilPrince_Corps /EvilPrinceContainer;
+#X obj 568 30 zac.lumiere /EvilPrince_Tete /EvilPrinceContainer;
+#X obj 266 303 zac.lumiere /EvilPrince_BrasJardin /EvilPrinceContainer
 ;
-#X obj 929 307 zac.lumiere /EvilPrince_BrasCour /EvilPrinceContainer
+#X obj 876 390 zac.lumiere /EvilPrince_BrasCour /EvilPrinceContainer
 ;
 #X msg 219 547 /EvilPrince_*/Activate \$1;
 #X msg 195 512 0;
 #X msg 239 520 1;
-#X obj 245 607 send OSC_MESSAGES;
-#X obj 551 576 zac.lumiere /EvilPrince_Aura /EvilPrinceContainer;
-#X obj 942 564 zac.lumiere /EvilPrince_BrasCourFiole /EvilPrinceContainer
+#X obj 311 656 send OSC_MESSAGES;
+#X obj 491 576 zac.lumiere /EvilPrince_Aura /EvilPrinceContainer;
+#X obj 882 564 zac.lumiere /EvilPrince_BrasCourFiole /EvilPrinceContainer
 ;
-#X obj 136 651 evilPrinceMoves;
+#X obj 105 717 evilPrinceMoves;
 #X obj 73 487 r evilPrinceInit;
 #X obj 85 526 t b b;
-#X msg 30 577 /EvilPrince_BrasCourFiole/Activate 0;
+#X msg 42 571 /EvilPrince_BrasCourFiole/Activate 0;
+#X obj 873 1 zac.lumiere /EvilPrince_Bulle /EvilPrinceContainer;
+#X msg 41 594 /EvilPrince_Bulle/Activate 0;
+#X obj 826 203 zac.lumiere /EvilPrince_BulleContent /EvilPrinceContainer
+;
+#X msg 41 625 /EvilPrince_BulleContent/Activate 0;
+#X obj 1207 18 apparitionBulle;
+#X obj 1144 205 zac.lumiere /EvilPrince_BullePotium /EvilPrinceContainer
+;
+#X msg 44 661 /EvilPrince_BullePotium/Activate 0;
+#X obj 1217 75 finalSolutium;
 #X connect 5 0 8 0;
 #X connect 6 0 5 0;
 #X connect 7 0 5 0;
 #X connect 12 0 13 0;
 #X connect 13 0 14 0;
+#X connect 13 0 16 0;
+#X connect 13 0 18 0;
+#X connect 13 0 21 0;
 #X connect 13 1 7 0;
 #X connect 14 0 8 0;
+#X connect 16 0 8 0;
+#X connect 18 0 8 0;
+#X connect 21 0 8 0;

@@ -1,4 +1,54 @@
+/EvilPrince_BullePotium/Zpos -2.97987;
+/EvilPrince_BullePotium/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_main_fiole.png
+;
+/EvilPrince_BullePotium/Blue 1;
+/EvilPrince_BullePotium/Green 1;
+/EvilPrince_BullePotium/Red 1;
+/EvilPrince_BullePotium/Rotate 0;
+/EvilPrince_BullePotium/Activate 0;
+/EvilPrince_BullePotium/Alpha 1;
+/EvilPrince_BullePotium/modeAlpha 0;
+/EvilPrince_BullePotium/RenderOrder -2;
+/EvilPrince_BullePotium/Shape 3;
+/EvilPrince_BullePotium/Yscale 1;
+/EvilPrince_BullePotium/Xscale 0.7;
+/EvilPrince_BullePotium/Ypos 0.671141;
+/EvilPrince_BullePotium/Xpos 5.36913;
+/EvilPrince_BulleContent/Zpos -1.00671;
+/EvilPrince_BulleContent/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/HomoBlack/data/2013_07_02_Mannequins_Homo_Blacks.png
+;
+/EvilPrince_BulleContent/Blue 1;
+/EvilPrince_BulleContent/Green 1;
+/EvilPrince_BulleContent/Red 1;
+/EvilPrince_BulleContent/Rotate 0;
+/EvilPrince_BulleContent/Activate 0;
+/EvilPrince_BulleContent/Alpha 1;
+/EvilPrince_BulleContent/modeAlpha 0;
+/EvilPrince_BulleContent/RenderOrder -20;
+/EvilPrince_BulleContent/Shape 3;
+/EvilPrince_BulleContent/Yscale 0.8;
+/EvilPrince_BulleContent/Xscale 0.8;
+/EvilPrince_BulleContent/Ypos 0.671141;
+/EvilPrince_BulleContent/Xpos 5.36;
+/EvilPrince_Bulle/Zpos -3;
+/EvilPrince_Bulle/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_26_Bulle_Pensee.png
+;
+/EvilPrince_Bulle/Blue 1;
+/EvilPrince_Bulle/Green 0.201342;
+/EvilPrince_Bulle/Red 1;
+/EvilPrince_Bulle/Rotate 300;
+/EvilPrince_Bulle/Activate 0;
+/EvilPrince_Bulle/Alpha 1;
+/EvilPrince_Bulle/modeAlpha 0;
+/EvilPrince_Bulle/RenderOrder -23;
+/EvilPrince_Bulle/Shape 3;
+/EvilPrince_Bulle/Yscale 2.82;
+/EvilPrince_Bulle/Xscale 2.2;
+/EvilPrince_Bulle/Ypos 0.134228;
+/EvilPrince_Bulle/Xpos 4.56;
 /EvilPrince_BrasCourFiole/Zpos -3.01001;
+/EvilPrince_BrasCourFiole/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_main_fiole.png
+;
 /EvilPrince_BrasCourFiole/Blue 1;
 /EvilPrince_BrasCourFiole/Green 1;
 /EvilPrince_BrasCourFiole/Red 1;
@@ -103,7 +153,7 @@
 /EvilPrinceContainer/Yscale 50;
 /EvilPrinceContainer/Xscale 50;
 /EvilPrinceContainer/Ypos 0;
-/EvilPrinceContainer/Xpos 0;
+/EvilPrinceContainer/Xpos -5.1;
 /PrisonContainer/Zpos -3;
 /PrisonContainer/Blue 0;
 /PrisonContainer/Green 1;
@@ -880,7 +930,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.80875;
+/CuveGalootContent2/Yscale 2.8075;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -896,7 +946,7 @@
 /CuveGalootContent/modeAlpha 0;
 /CuveGalootContent/RenderOrder -25;
 /CuveGalootContent/Shape 3;
-/CuveGalootContent/Yscale 2.835;
+/CuveGalootContent/Yscale 2.83;
 /CuveGalootContent/Xscale 3.40582;
 /CuveGalootContent/Ypos -0.351562;
 /CuveGalootContent/Xpos 2.76562;
@@ -946,7 +996,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.10875;
+/Djbebe/Ypos 0.1075;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png
@@ -956,7 +1006,7 @@
 /CochonLights/Red 1;
 /CochonLights/Rotate 0;
 /CochonLights/Activate 0;
-/CochonLights/Alpha 0.67;
+/CochonLights/Alpha 0.655714;
 /CochonLights/modeAlpha 0;
 /CochonLights/RenderOrder -25;
 /CochonLights/Shape 3;
