@@ -1,4 +1,4 @@
-#N canvas 637 404 450 300 10;
+#N canvas 635 402 450 300 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
 #X obj 41 120 s TFOpensCurtains;
@@ -16,9 +16,11 @@
 -1;
 #X obj 180 153 s evilPrinceMovesCour;
 #X obj 313 153 s prisonComesInFromJardin;
+#X obj 120 87 s evilPrinceInit;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
+#X connect 6 0 12 0;
 #X connect 7 0 2 0;
 #X connect 9 0 8 0;
 #X connect 9 0 10 0;
