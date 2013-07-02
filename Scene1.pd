@@ -11,19 +11,21 @@
 -1;
 #X obj 25 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 41 153 s DunjonCineticPissOff;
+#X obj 224 170 s DunjonCineticPissOff;
 #X obj 25 138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 180 153 s evilPrinceMovesCour;
-#X obj 313 153 s prisonComesInFromJardin;
+#X obj 363 170 s evilPrinceMovesCour;
+#X obj 496 170 s prisonComesInFromJardin;
 #X obj 120 87 s evilPrinceInit;
-#X obj 470 153 s HandCineticScroll;
+#X obj 102 153 s HandCineticScroll;
+#X obj 41 153 delay 200;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
 #X connect 6 0 12 0;
 #X connect 7 0 2 0;
-#X connect 9 0 8 0;
-#X connect 9 0 10 0;
-#X connect 9 0 11 0;
 #X connect 9 0 13 0;
+#X connect 9 0 14 0;
+#X connect 14 0 8 0;
+#X connect 14 0 10 0;
+#X connect 14 0 11 0;
