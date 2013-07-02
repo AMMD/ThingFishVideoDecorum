@@ -19,6 +19,7 @@
 #X obj 120 87 s evilPrinceInit;
 #X obj 102 153 s HandCineticScroll;
 #X obj 41 153 delay 200;
+#X obj 654 170 s musiciansArePlaying;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
@@ -29,3 +30,4 @@
 #X connect 14 0 8 0;
 #X connect 14 0 10 0;
 #X connect 14 0 11 0;
+#X connect 14 0 15 0;
