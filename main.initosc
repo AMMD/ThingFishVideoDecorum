@@ -1,4 +1,4 @@
-/EvilPrince_BrasCourFiole/Zpos -3;
+/EvilPrince_BrasCourFiole/Zpos -3.01001;
 /EvilPrince_BrasCourFiole/Blue 1;
 /EvilPrince_BrasCourFiole/Green 1;
 /EvilPrince_BrasCourFiole/Red 1;
@@ -26,7 +26,7 @@
 /EvilPrince_Aura/Xscale 1;
 /EvilPrince_Aura/Ypos -3.14497;
 /EvilPrince_Aura/Xpos 0.805369;
-/EvilPrince_BrasCour/Zpos -3.01;
+/EvilPrince_BrasCour/Zpos -3.01001;
 /EvilPrince_BrasCour/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_avantbras_cour_poche.png
 ;
 /EvilPrince_BrasCour/Blue 1;
@@ -42,7 +42,7 @@
 /EvilPrince_BrasCour/Xscale 0.35;
 /EvilPrince_BrasCour/Ypos -0.942282;
 /EvilPrince_BrasCour/Xpos 1.24564;
-/EvilPrince_BrasJardin/Zpos -3.01;
+/EvilPrince_BrasJardin/Zpos -3.01001;
 /EvilPrince_BrasJardin/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_avantbras_jardin.png
 ;
 /EvilPrince_BrasJardin/Blue 1;
