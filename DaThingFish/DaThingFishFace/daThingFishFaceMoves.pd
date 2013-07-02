@@ -26,9 +26,9 @@
 #X floatatom 807 102 5 0 0 0 - - -;
 #X floatatom 979 103 5 0 0 0 - - -;
 #X obj 810 58 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 6400 1;
 #X obj 982 59 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 10300 1;
+-1 -1 6400 1;
 #X obj 820 -52 comment 0 10 helvetica ? 0 0 0 0 Position;
 #X msg 807 158 /ThiFiContourTete/Xpos \$1;
 #X msg 807 181 /ThiFiYeuxFront/Xpos \$1;
@@ -92,6 +92,7 @@
 #X msg 607 350 bang;
 #X msg 660 361 1270;
 #X msg 606 158 103 2000;
+#X obj 904 -47 r ThingFishDown;
 #X connect 2 0 49 0;
 #X connect 3 0 50 0;
 #X connect 4 0 17 0;
@@ -215,3 +216,4 @@
 #X connect 85 0 86 0;
 #X connect 86 0 84 0;
 #X connect 87 0 48 0;
+#X connect 88 0 42 0;
