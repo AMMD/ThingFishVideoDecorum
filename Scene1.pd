@@ -1,7 +1,7 @@
 #N canvas 0 100 1440 800 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
-#X obj 41 120 s TFOpensCurtains;
+#X obj 42 185 s TFOpensCurtains;
 #X obj 41 87 s DunjonBang;
 #X obj 24 6 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -9,17 +9,23 @@
 -1;
 #X obj 25 72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 25 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 26 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 224 170 s DunjonCineticPissOff;
-#X obj 25 138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 225 235 s DunjonCineticPissOff;
+#X obj 26 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 363 170 s evilPrinceMovesCour;
-#X obj 496 170 s prisonComesInFromJardin;
+#X obj 364 235 s evilPrinceMovesCour;
+#X obj 497 235 s prisonComesInFromJardin;
 #X obj 120 87 s evilPrinceInit;
-#X obj 102 153 s HandCineticScroll;
-#X obj 41 153 delay 200;
-#X obj 654 170 s musiciansArePlaying;
+#X obj 103 218 s HandCineticScroll;
+#X obj 42 218 delay 200;
+#X obj 655 235 s musiciansArePlaying;
+#X obj 41 119 s apparitionBulleHomoBlack;
+#X obj 42 152 s finalSolutium;
+#X obj 26 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 26 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
@@ -31,3 +37,5 @@
 #X connect 14 0 10 0;
 #X connect 14 0 11 0;
 #X connect 14 0 15 0;
+#X connect 18 0 16 0;
+#X connect 19 0 17 0;
