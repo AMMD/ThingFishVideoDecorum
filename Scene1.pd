@@ -1,7 +1,7 @@
 #N canvas 0 100 1440 800 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
-#X obj 42 185 s TFOpensCurtains;
+#X obj 42 120 s TFOpensCurtains;
 #X obj 41 87 s DunjonBang;
 #X obj 24 6 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -9,7 +9,7 @@
 -1;
 #X obj 25 72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 26 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 26 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 225 235 s DunjonCineticPissOff;
 #X obj 26 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -20,11 +20,11 @@
 #X obj 103 218 s HandCineticScroll;
 #X obj 42 218 delay 200;
 #X obj 655 235 s musiciansArePlaying;
-#X obj 41 119 s apparitionBulleHomoBlack;
-#X obj 42 152 s finalSolutium;
-#X obj 26 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 41 153 s apparitionBulleHomoBlack;
+#X obj 42 186 s finalSolutium;
+#X obj 26 138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 26 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 26 171 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
