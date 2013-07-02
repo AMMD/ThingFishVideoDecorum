@@ -129,6 +129,7 @@
 #X obj -217 255 s evilPrinceMovesCour;
 #X obj -76 255 s prisonComesInFromJardin;
 #X obj -200 176 s evilPrinceInit;
+#X obj -386 376 Scene1;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;

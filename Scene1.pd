@@ -1,0 +1,25 @@
+#N canvas 637 404 450 300 10;
+#X obj 40 21 s TFOut;
+#X obj 40 54 s TFSpeaks;
+#X obj 41 120 s TFOpensCurtains;
+#X obj 41 87 s DunjonBang;
+#X obj 24 6 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 24 39 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 25 72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 25 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 41 153 s DunjonCineticPissOff;
+#X obj 25 138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 180 153 s evilPrinceMovesCour;
+#X obj 313 153 s prisonComesInFromJardin;
+#X connect 4 0 0 0;
+#X connect 5 0 1 0;
+#X connect 6 0 3 0;
+#X connect 7 0 2 0;
+#X connect 9 0 8 0;
+#X connect 9 0 10 0;
+#X connect 9 0 11 0;
