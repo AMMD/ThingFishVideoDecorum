@@ -1,3 +1,35 @@
+/EvilPrince_Bouche/Zpos -3.01;
+/EvilPrince_Bouche/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Joker.png
+;
+/EvilPrince_Bouche/Blue 1;
+/EvilPrince_Bouche/Green 1;
+/EvilPrince_Bouche/Red 1;
+/EvilPrince_Bouche/Rotate 0;
+/EvilPrince_Bouche/Activate 0;
+/EvilPrince_Bouche/Alpha 1;
+/EvilPrince_Bouche/modeAlpha 0;
+/EvilPrince_Bouche/RenderOrder -22;
+/EvilPrince_Bouche/Shape 3;
+/EvilPrince_Bouche/Yscale 0.32;
+/EvilPrince_Bouche/Xscale 0.32;
+/EvilPrince_Bouche/Ypos 0.33;
+/EvilPrince_Bouche/Xpos 0.57;
+/EvilPrince_Idee/Zpos -3;
+/EvilPrince_Idee/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_26_EP_ampoule_allumée.png
+;
+/EvilPrince_Idee/Blue 1;
+/EvilPrince_Idee/Green 1;
+/EvilPrince_Idee/Red 1;
+/EvilPrince_Idee/Rotate 26.5772;
+/EvilPrince_Idee/Activate 0;
+/EvilPrince_Idee/Alpha 1;
+/EvilPrince_Idee/modeAlpha 0;
+/EvilPrince_Idee/RenderOrder -2;
+/EvilPrince_Idee/Shape 3;
+/EvilPrince_Idee/Yscale 0.7;
+/EvilPrince_Idee/Xscale 0.7;
+/EvilPrince_Idee/Ypos 1.20805;
+/EvilPrince_Idee/Xpos 0;
 /EvilPrince_BullePotium/Zpos -2.97987;
 /EvilPrince_BullePotium/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_main_fiole.png
 ;
@@ -930,7 +962,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.8075;
+/CuveGalootContent2/Yscale 2.80375;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -946,7 +978,7 @@
 /CuveGalootContent/modeAlpha 0;
 /CuveGalootContent/RenderOrder -25;
 /CuveGalootContent/Shape 3;
-/CuveGalootContent/Yscale 2.83;
+/CuveGalootContent/Yscale 2.805;
 /CuveGalootContent/Xscale 3.40582;
 /CuveGalootContent/Ypos -0.351562;
 /CuveGalootContent/Xpos 2.76562;
@@ -996,7 +1028,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.1075;
+/Djbebe/Ypos 0.10375;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png
@@ -1006,7 +1038,7 @@
 /CochonLights/Red 1;
 /CochonLights/Rotate 0;
 /CochonLights/Activate 0;
-/CochonLights/Alpha 0.655714;
+/CochonLights/Alpha 0.584286;
 /CochonLights/modeAlpha 0;
 /CochonLights/RenderOrder -25;
 /CochonLights/Shape 3;

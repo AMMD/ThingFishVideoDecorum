@@ -28,6 +28,17 @@
 #X obj 265 49 t b b b;
 #X msg 348 163 0.7 \$1;
 #X msg 91 115 2;
+#X obj 840 50 r disparitionBulleHomoBlack;
+#X obj 883 90 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 897 129 t b b;
+#X msg 1027 143 1;
+#X obj 881 257 send OSC_MESSAGES;
+#X obj 902 190 line;
+#X msg 890 213 /EvilPrince_Bulle*/Alpha \$1;
+#X msg 834 149 0 200;
+#X msg 811 224 1.07 200;
+#X msg 825 260 0.1 200;
 #X connect 0 0 20 0;
 #X connect 1 0 11 0;
 #X connect 2 0 12 0;
@@ -68,3 +79,15 @@
 #X connect 26 0 5 0;
 #X connect 26 0 23 0;
 #X connect 27 0 4 0;
+#X connect 28 0 29 0;
+#X connect 29 0 30 0;
+#X connect 30 0 35 0;
+#X connect 30 0 36 0;
+#X connect 30 0 37 0;
+#X connect 30 1 31 0;
+#X connect 31 0 33 0;
+#X connect 33 0 34 0;
+#X connect 34 0 32 0;
+#X connect 35 0 33 0;
+#X connect 36 0 1 0;
+#X connect 37 0 2 0;
