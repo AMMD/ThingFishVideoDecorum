@@ -1,4 +1,4 @@
-#N canvas 872 225 505 368 10;
+#N canvas 252 185 1079 656 10;
 #X obj 57 36 r tapisRolls;
 #X obj 192 38 r tapisStopRolling;
 #X obj 253 146 t b b;
@@ -19,6 +19,17 @@
 #X msg 48 298 /TapisRoulant_Rouleau/Ypos \$1;
 #X obj 9 192 value /TapisRoulant_Rouleau/Ypos;
 #X obj 76 233 / 500;
+#X obj 576 33 r TapisRoulantComesInFromCour;
+#X msg 696 132 /TapisRoulant_*/Child/Xpos 1;
+#X msg 889 132 /TapisRoulant/Parent/Xpos 1;
+#X msg 703 189 /Assiettes_*/Child/Xpos 1;
+#X msg 896 189 /Assiettes/Parent/Xpos 1;
+#X obj 663 84 t b b;
+#X msg 697 161 /TapisRoulant_*/Activate 1;
+#X msg 705 218 /Assiettes_*/Activate 1;
+#X msg 623 311 /TapisRoulant/Xpos \$1;
+#X msg 630 368 /Assiettes/Xpos \$1;
+#X obj 709 473 send OSC_MESSAGES;
 #X connect 0 0 5 0;
 #X connect 1 0 6 0;
 #X connect 2 0 10 0;
