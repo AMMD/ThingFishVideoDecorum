@@ -1,0 +1,8 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 105 94 zac.lumiere /HomoBlackContainer;
+#X obj 433 97 zac.lumiere /HomoBlack_Main /HomoBlackContainer;
+#X obj 432 271 zac.lumiere /HomoBlack_Ames /HomoBlackContainer;
+#X obj 126 543 homoBlackMove;
