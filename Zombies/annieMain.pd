@@ -1,0 +1,27 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X msg 66 323 1;
+#X msg 198 323 0;
+#X obj 67 410 send OSC_MESSAGES;
+#X obj 66 293 r annieActivate;
+#X obj 198 294 r annieDeActivate;
+#X msg 66 360 /Zombies_Annie*/Activate \$1;
+#X obj 72 47 zac.lumiere /AnnieContainer /ZombiesContainer;
+#X obj 595 59 zac.lumiere /Zombies_Annie_Tete /AnnieContainer;
+#X obj 593 256 zac.lumiere /Zombies_Annie_Corps /AnnieContainer;
+#X obj 922 261 zac.lumiere /Zombies_Annie_Bras /AnnieContainer;
+#X obj 330 255 zac.lumiere /Zombies_Annie_BrasFond /AnnieContainer
+;
+#X obj 499 468 zac.lumiere /Zombies_Annie_Jambe1 /AnnieContainer;
+#X obj 795 469 zac.lumiere /Zombies_Annie_Jambe2 /AnnieContainer;
+#X connect 0 0 5 0;
+#X connect 1 0 5 0;
+#X connect 3 0 0 0;
+#X connect 4 0 1 0;
+#X connect 5 0 2 0;

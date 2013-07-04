@@ -1,0 +1,29 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 605 274 zac.lumiere /Zombies_HelloDolly_Corps /HelloDollyContainer
+;
+#X obj 5 16 zac.lumiere /HelloDollyContainer /ZombiesContainer;
+#X obj 606 96 zac.lumiere /Zombies_HelloDolly_Tete /HelloDollyContainer
+;
+#X obj 613 465 zac.lumiere /Zombies_HelloDolly_Robe /HelloDollyContainer
+;
+#X obj 922 281 zac.lumiere /Zombies_HelloDolly_Bras /HelloDollyContainer
+;
+#X obj 291 277 zac.lumiere /Zombies_HelloDolly_BrasFond /HelloDollyContainer
+;
+#X msg 24 296 1;
+#X msg 156 296 0;
+#X obj 25 383 send OSC_MESSAGES;
+#X obj 24 266 r helloDollyActivate;
+#X obj 156 267 r helloDollyDeActivate;
+#X msg 24 333 /Zombies_HelloDolly*/Activate \$1;
+#X connect 6 0 11 0;
+#X connect 7 0 11 0;
+#X connect 9 0 6 0;
+#X connect 10 0 7 0;
+#X connect 11 0 8 0;

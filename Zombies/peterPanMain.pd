@@ -1,0 +1,32 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 31 10 zac.lumiere /PeterPanContainer /ZombiesContainer;
+#X obj 668 257 zac.lumiere /Zombies_PeterPan_Corps /PeterPanContainer
+;
+#X obj 671 86 zac.lumiere /Zombies_PeterPan_Tete /PeterPanContainer
+;
+#X obj 663 444 zac.lumiere /Zombies_PeterPan_Jambe1 /PeterPanContainer
+;
+#X obj 975 259 zac.lumiere /Zombies_PeterPan_Bras /PeterPanContainer
+;
+#X obj 46 273 r peterPanActivate;
+#X msg 46 340 /Zombies_PeterPan*/Activate \$1;
+#X msg 46 303 1;
+#X msg 178 303 0;
+#X obj 47 390 send OSC_MESSAGES;
+#X obj 178 274 r peterPanDeActivate;
+#X obj 980 454 zac.lumiere /Zombies_PeterPan_Jambe2 /PeterPanContainer
+;
+#X obj 360 249 zac.lumiere /Zombies_PeterPan_BrasFond /PeterPanContainer
+;
+#X connect 5 0 7 0;
+#X connect 6 0 9 0;
+#X connect 7 0 6 0;
+#X connect 8 0 6 0;
+#X connect 10 0 8 0;
