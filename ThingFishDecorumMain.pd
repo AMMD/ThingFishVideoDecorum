@@ -106,6 +106,9 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X obj -273 -77 zac.mouse;
 #X obj -433 -263 zac.videoprojecteur /mainVP;
 #X obj -319 -26 Curtains/curtainsMain;
@@ -122,7 +125,7 @@
 #X msg 245 98 bang TFMutes;
 #X obj 112 137 s TFSpeaks;
 #X obj 245 136 s TFMutes;
-#X obj 142 235 s TFSpeechSpeed;
+#X obj 140 235 s TFSpeechSpeed;
 #X obj 143 203 hsl 128 15 10 20 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 7620 1;
 #X obj 140 159 loadbang;
@@ -141,11 +144,11 @@
 #X obj -382 265 s DunjonCineticPissOff;
 #X obj -221 223 s HandCineticScroll;
 #X msg -382 206 bang DunjonCineticPissOff;
-#X obj -359 238 delay 200;
+#X obj -382 240 delay 200;
 #X obj -143 31 Prison/prisonMain;
 #X obj 3 33 EvilPrince/mainEvilPrince;
-#X obj -217 255 s evilPrinceMovesCour;
-#X obj -76 255 s prisonComesInFromJardin;
+#X obj -217 257 s evilPrinceMovesCour;
+#X obj -76 257 s prisonComesInFromJardin;
 #X obj -200 168 s evilPrinceInit;
 #X obj -386 376 Scene1;
 #X obj 121 1 HomoBlack/homoBlackMain;
