@@ -1,0 +1,30 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X msg 86 343 1;
+#X msg 218 343 0;
+#X obj 87 430 send OSC_MESSAGES;
+#X obj 218 314 r chienDeActivate;
+#X obj 86 313 r chienActivate;
+#X msg 86 380 /Zombies_Chien*/Activate \$1;
+#X obj 146 70 zac.lumiere /ChienContainer /ZombiesContainer;
+#X obj 664 247 zac.lumiere /Zombies_Chien_Corps /ChienContainer;
+#X obj 344 261 zac.lumiere /Zombies_Chien_Queue /ChienContainer;
+#X obj 264 433 zac.lumiere /Zombies_Chien_PatteArriere1 /CchienContainer
+;
+#X obj 1111 437 zac.lumiere /Zombies_Chien_PatteAvant2 /ChienContainer
+;
+#X obj 543 426 zac.lumiere /Zombies_Chien_PatteArriere2 /ChienContainer
+;
+#X obj 816 432 zac.lumiere /Zombies_Chien_PatteAvant1 /ChienContainer
+;
+#X connect 0 0 5 0;
+#X connect 1 0 5 0;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
