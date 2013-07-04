@@ -59,10 +59,12 @@
 #X msg 1112 499 /DunjonDoor4Cadre/Child/Xpos 1;
 #X msg 1113 518 /DunjonDoor5/Child/Xpos 1;
 #X msg 1112 538 /DunjonDoor5Cadre/Child/Xpos 1;
+#X obj 666 298 s DunjonBangOff;
 #X connect 0 0 27 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 2 0 4 0;
+#X connect 2 0 59 0;
 #X connect 3 0 28 0;
 #X connect 3 0 29 0;
 #X connect 3 0 30 0;
