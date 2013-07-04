@@ -1,4 +1,4 @@
-#N canvas 1 100 1425 796 10;
+#N canvas 7 100 1425 796 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
 #X obj 42 120 s TFOpensCurtains;
@@ -41,6 +41,13 @@
 -1;
 #X obj 43 369 s assiettesScrollingToJardin;
 #X obj 40 335 s tapisRoulantComesInFromCour;
+#X obj 26 387 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 47 402 delay 200;
+#X obj 116 402 s HandCineticScroll;
+#X obj 242 419 s prisonGetsOutToCour;
+#X obj 379 419 s tapisRoulantGetsOutToCour;
+#X obj 551 419 s musiciansArentPlaying;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
@@ -59,3 +66,8 @@
 #X connect 24 0 23 0;
 #X connect 26 0 29 0;
 #X connect 27 0 28 0;
+#X connect 30 0 31 0;
+#X connect 30 0 32 0;
+#X connect 31 0 33 0;
+#X connect 31 0 34 0;
+#X connect 31 0 35 0;

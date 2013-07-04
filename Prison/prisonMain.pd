@@ -1,4 +1,4 @@
-#N canvas 231 128 1425 796 10;
+#N canvas 7 100 1425 796 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -51,9 +51,11 @@
 #X obj 926 110 prisonMoves;
 #X obj 814 167 prisonRouleauAssiettes;
 #X obj 829 499 zac.lumiere /PrisonPrisonniersMalades;
+#X obj 77 63 r prisonDeActivate;
 #X connect 5 0 4 0;
 #X connect 6 0 5 0;
 #X connect 7 0 5 0;
 #X connect 9 0 8 0;
 #X connect 11 0 10 0;
 #X connect 13 0 7 0;
+#X connect 17 0 6 0;
