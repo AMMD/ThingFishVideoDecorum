@@ -154,6 +154,7 @@
 #X obj 484 -255 01_Prologue;
 #X obj 121 1 HomoBlack/homoBlackMain;
 #X obj 484 -230 05_Torchum;
+#X obj 226 36 Zombies/zombiesMain;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
