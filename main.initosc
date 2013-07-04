@@ -239,7 +239,7 @@
 /PrisonPrisonniersMalades/Green 1;
 /PrisonPrisonniersMalades/Red 1;
 /PrisonPrisonniersMalades/Rotate 0;
-/PrisonPrisonniersMalades/Activate 1;
+/PrisonPrisonniersMalades/Activate 0;
 /PrisonPrisonniersMalades/Alpha 0;
 /PrisonPrisonniersMalades/modeAlpha 0;
 /PrisonPrisonniersMalades/RenderOrder -2;
@@ -255,7 +255,7 @@
 /Assiette_GailContenu/Green 1;
 /Assiette_GailContenu/Red 1;
 /Assiette_GailContenu/Rotate 0;
-/Assiette_GailContenu/Activate 1;
+/Assiette_GailContenu/Activate 0;
 /Assiette_GailContenu/Alpha 1;
 /Assiette_GailContenu/modeAlpha 0;
 /Assiette_GailContenu/RenderOrder -21;
@@ -264,14 +264,14 @@
 /Assiette_GailContenu/Xscale 0.4;
 /Assiette_GailContenu/Ypos -1.47;
 /Assiette_GailContenu/Xpos -1;
-/Assiette_Gail/Zpos -3.01;
+/Assiette_Gail/Zpos -3.010001;
 /Assiette_Gail/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette.png
 ;
 /Assiette_Gail/Blue 1;
 /Assiette_Gail/Green 1;
 /Assiette_Gail/Red 1;
 /Assiette_Gail/Rotate 0;
-/Assiette_Gail/Activate 1;
+/Assiette_Gail/Activate 0;
 /Assiette_Gail/Alpha 1;
 /Assiette_Gail/modeAlpha 0;
 /Assiette_Gail/RenderOrder -20;
@@ -287,7 +287,7 @@
 /Assiette_BushContenu/Green 1;
 /Assiette_BushContenu/Red 1;
 /Assiette_BushContenu/Rotate 0;
-/Assiette_BushContenu/Activate 1;
+/Assiette_BushContenu/Activate 0;
 /Assiette_BushContenu/Alpha 1;
 /Assiette_BushContenu/modeAlpha 0;
 /Assiette_BushContenu/RenderOrder -21;
@@ -303,7 +303,7 @@
 /Assiette_Bush/Green 1;
 /Assiette_Bush/Red 1;
 /Assiette_Bush/Rotate 0;
-/Assiette_Bush/Activate 1;
+/Assiette_Bush/Activate 0;
 /Assiette_Bush/Alpha 1;
 /Assiette_Bush/modeAlpha 0;
 /Assiette_Bush/RenderOrder -20;
@@ -319,7 +319,7 @@
 /Assiette_LagardeContenu/Green 1;
 /Assiette_LagardeContenu/Red 1;
 /Assiette_LagardeContenu/Rotate 0;
-/Assiette_LagardeContenu/Activate 1;
+/Assiette_LagardeContenu/Activate 0;
 /Assiette_LagardeContenu/Alpha 1;
 /Assiette_LagardeContenu/modeAlpha 0;
 /Assiette_LagardeContenu/RenderOrder -21;
@@ -335,7 +335,7 @@
 /Assiette_Lagarde/Green 1;
 /Assiette_Lagarde/Red 1;
 /Assiette_Lagarde/Rotate 0;
-/Assiette_Lagarde/Activate 1;
+/Assiette_Lagarde/Activate 0;
 /Assiette_Lagarde/Alpha 1;
 /Assiette_Lagarde/modeAlpha 0;
 /Assiette_Lagarde/RenderOrder -20;
@@ -351,7 +351,7 @@
 /Assiette_DSKContenu/Green 1;
 /Assiette_DSKContenu/Red 1;
 /Assiette_DSKContenu/Rotate 0;
-/Assiette_DSKContenu/Activate 1;
+/Assiette_DSKContenu/Activate 0;
 /Assiette_DSKContenu/Alpha 1;
 /Assiette_DSKContenu/modeAlpha 0;
 /Assiette_DSKContenu/RenderOrder -21;
@@ -367,7 +367,7 @@
 /Assiette_DSK/Green 1;
 /Assiette_DSK/Red 1;
 /Assiette_DSK/Rotate 0;
-/Assiette_DSK/Activate 1;
+/Assiette_DSK/Activate 0;
 /Assiette_DSK/Alpha 1;
 /Assiette_DSK/modeAlpha 0;
 /Assiette_DSK/RenderOrder -20;
@@ -390,14 +390,14 @@
 /Assiettes/Xscale 50;
 /Assiettes/Ypos 0;
 /Assiettes/Xpos 18;
-/TapisRoulant_Roulement/Zpos -3.01;
+/TapisRoulant_Roulement/Zpos -3.010001;
 /TapisRoulant_Roulement/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_Tapis-Roulant_roulement.png
 ;
 /TapisRoulant_Roulement/Blue 1;
 /TapisRoulant_Roulement/Green 0.51;
 /TapisRoulant_Roulement/Red 1;
 /TapisRoulant_Roulement/Rotate 360;
-/TapisRoulant_Roulement/Activate 1;
+/TapisRoulant_Roulement/Activate 0;
 /TapisRoulant_Roulement/Alpha 1;
 /TapisRoulant_Roulement/modeAlpha 0;
 /TapisRoulant_Roulement/RenderOrder -22;
@@ -427,7 +427,7 @@
 /TapisRoulant_Rouleau/Green 0.51;
 /TapisRoulant_Rouleau/Red 1;
 /TapisRoulant_Rouleau/Rotate 0;
-/TapisRoulant_Rouleau/Activate 1;
+/TapisRoulant_Rouleau/Activate 0;
 /TapisRoulant_Rouleau/Alpha 1;
 /TapisRoulant_Rouleau/modeAlpha 0;
 /TapisRoulant_Rouleau/RenderOrder -22;

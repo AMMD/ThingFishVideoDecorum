@@ -1,4 +1,4 @@
-#N canvas 1 100 1440 800 10;
+#N canvas 0 100 1440 800 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
