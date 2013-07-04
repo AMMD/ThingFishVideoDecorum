@@ -812,7 +812,7 @@
 /PrisonPrisonniersMalades/Xscale 3;
 /PrisonPrisonniersMalades/Ypos -1.03356;
 /PrisonPrisonniersMalades/Xpos -3.2;
-/Assiette_GailContenu/Zpos -3.01;
+/Assiette_GailContenu/Zpos -3.010001;
 /Assiette_GailContenu/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot4.png
 ;
 /Assiette_GailContenu/Blue 1;
@@ -828,7 +828,7 @@
 /Assiette_GailContenu/Xscale 0.4;
 /Assiette_GailContenu/Ypos -1.47;
 /Assiette_GailContenu/Xpos -1;
-/Assiette_Gail/Zpos -3.01;
+/Assiette_Gail/Zpos -3.010001;
 /Assiette_Gail/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette.png
 ;
 /Assiette_Gail/Blue 1;
@@ -844,7 +844,7 @@
 /Assiette_Gail/Xscale 0.5;
 /Assiette_Gail/Ypos -1.68;
 /Assiette_Gail/Xpos -1.0255;
-/Assiette_BushContenu/Zpos -3.01;
+/Assiette_BushContenu/Zpos -3.010001;
 /Assiette_BushContenu/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot4.png
 ;
 /Assiette_BushContenu/Blue 1;
@@ -860,7 +860,7 @@
 /Assiette_BushContenu/Xscale 0.4;
 /Assiette_BushContenu/Ypos -1.47;
 /Assiette_BushContenu/Xpos -2.6;
-/Assiette_Bush/Zpos -3.01;
+/Assiette_Bush/Zpos -3.010001;
 /Assiette_Bush/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette.png
 ;
 /Assiette_Bush/Blue 1;
@@ -876,7 +876,7 @@
 /Assiette_Bush/Xscale 0.5;
 /Assiette_Bush/Ypos -1.68;
 /Assiette_Bush/Xpos -2.61208;
-/Assiette_LagardeContenu/Zpos -3.01;
+/Assiette_LagardeContenu/Zpos -3.010001;
 /Assiette_LagardeContenu/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot4.png
 ;
 /Assiette_LagardeContenu/Blue 1;
@@ -892,7 +892,7 @@
 /Assiette_LagardeContenu/Xscale 0.4;
 /Assiette_LagardeContenu/Ypos -1.47;
 /Assiette_LagardeContenu/Xpos -4.1;
-/Assiette_Lagarde/Zpos -3.01;
+/Assiette_Lagarde/Zpos -3.010001;
 /Assiette_Lagarde/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette.png
 ;
 /Assiette_Lagarde/Blue 1;
@@ -908,7 +908,7 @@
 /Assiette_Lagarde/Xscale 0.5;
 /Assiette_Lagarde/Ypos -1.68;
 /Assiette_Lagarde/Xpos -4.1745;
-/Assiette_DSKContenu/Zpos -3.01;
+/Assiette_DSKContenu/Zpos -3.010001;
 /Assiette_DSKContenu/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot4.png
 ;
 /Assiette_DSKContenu/Blue 1;
@@ -924,7 +924,7 @@
 /Assiette_DSKContenu/Xscale 0.4;
 /Assiette_DSKContenu/Ypos -1.47;
 /Assiette_DSKContenu/Xpos -5.4;
-/Assiette_DSK/Zpos -3.01;
+/Assiette_DSK/Zpos -3.010001;
 /Assiette_DSK/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette.png
 ;
 /Assiette_DSK/Blue 1;
