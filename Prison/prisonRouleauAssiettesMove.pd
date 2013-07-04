@@ -1,4 +1,4 @@
-#N canvas 260 315 1079 656 10;
+#N canvas 339 361 1079 656 10;
 #X obj 57 36 r tapisRolls;
 #X obj 192 38 r tapisStopRolling;
 #X obj 253 146 t b b;
@@ -35,6 +35,7 @@
 #X msg 598 221 18;
 #X msg 705 218 /Assiette_*/Activate 1;
 #X msg 703 189 /Assiette_*/Child/Xpos 1;
+#X msg 772 273 11.2 200;
 #X connect 0 0 5 0;
 #X connect 1 0 6 0;
 #X connect 2 0 10 0;
@@ -66,9 +67,9 @@
 #X connect 25 0 26 0;
 #X connect 27 0 30 0;
 #X connect 28 0 24 0;
-#X connect 28 0 25 0;
 #X connect 29 0 28 0;
 #X connect 30 0 29 0;
+#X connect 30 0 34 0;
 #X connect 30 1 23 0;
 #X connect 30 1 32 0;
 #X connect 30 2 31 0;
@@ -77,5 +78,7 @@
 #X connect 30 3 33 0;
 #X connect 30 3 22 0;
 #X connect 31 0 28 0;
+#X connect 31 0 25 0;
 #X connect 32 0 26 0;
 #X connect 33 0 26 0;
+#X connect 34 0 25 0;
