@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 287 122 1425 800 10;
 #X obj 57 6 r tapisRolls;
 #X obj 270 110 t b b;
 #X obj 270 212 line;
@@ -98,7 +98,7 @@
 #X obj 297 404 t b b;
 #X obj 365 404 t b b;
 #X obj 433 404 t b b;
-#X obj 54 729 delay 600;
+#X obj 54 727 delay 600;
 #X obj 1251 744 t b b b b b b b b;
 #X obj 1261 778 t b b b b b b b b;
 #X msg 1409 692 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot2.png
@@ -114,6 +114,7 @@
 ;
 #X obj 52 862 delay 500;
 #X msg 336 862 -1.68 500;
+#X msg 52 827 /PrisonPrisonniersMalades/Activate 1;
 #X connect 0 0 4 0;
 #X connect 1 0 9 0;
 #X connect 1 1 7 0;
@@ -287,7 +288,9 @@
 #X connect 100 7 83 0;
 #X connect 101 0 100 0;
 #X connect 102 0 84 0;
+#X connect 103 0 105 0;
 #X connect 104 0 59 0;
 #X connect 104 0 66 0;
 #X connect 104 0 71 0;
 #X connect 104 0 76 0;
+#X connect 105 0 25 0;
