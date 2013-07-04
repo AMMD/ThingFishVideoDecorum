@@ -48,6 +48,7 @@
 #X obj 242 419 s prisonGetsOutToCour;
 #X obj 379 419 s tapisRoulantGetsOutToCour;
 #X obj 551 419 s musiciansArentPlaying;
+#X obj 699 419 s homoBlackComeInFromJardin;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
@@ -71,3 +72,4 @@
 #X connect 31 0 33 0;
 #X connect 31 0 34 0;
 #X connect 31 0 35 0;
+#X connect 31 0 36 0;
