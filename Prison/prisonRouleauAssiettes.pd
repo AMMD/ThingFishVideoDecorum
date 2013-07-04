@@ -16,15 +16,15 @@
 #X obj 44 231 zac.lumiere /TapisRoulant_Roulement /TapisRoulant;
 #X obj 129 446 prisonRouleauAssiettesMove;
 #X obj 112 502 zac.lumiere /Assiettes;
-#X obj 444 328 zac.lumiere /AssietteDSK /Assiettes;
-#X obj 447 504 zac.lumiere /AssietteDSKContenu /Assiettes;
+#X obj 444 328 zac.lumiere /Assiette_DSK /Assiettes;
+#X obj 447 504 zac.lumiere /Assiette_DSKContenu /Assiettes;
 #X obj 890 682 send OSC_MESSAGES;
 #X msg 729 714 /AssietteDSKContenu/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot0.png
 ;
-#X obj 704 328 zac.lumiere /AssietteLagarde /Assiettes;
-#X obj 707 504 zac.lumiere /AssietteLagardeContenu /Assiettes;
-#X obj 964 328 zac.lumiere /AssietteBush /Assiettes;
-#X obj 967 504 zac.lumiere /AssietteBushContenu /Assiettes;
-#X obj 1224 328 zac.lumiere /AssietteGail /Assiettes;
-#X obj 1227 504 zac.lumiere /AssietteGailContenu /Assiettes;
+#X obj 704 328 zac.lumiere /Assiette_Lagarde /Assiettes;
+#X obj 707 504 zac.lumiere /Assiette_LagardeContenu /Assiettes;
+#X obj 964 328 zac.lumiere /Assiette_Bush /Assiettes;
+#X obj 967 504 zac.lumiere /Assiette_BushContenu /Assiettes;
+#X obj 1224 328 zac.lumiere /Assiette_Gail /Assiettes;
+#X obj 1227 504 zac.lumiere /Assiette_GailContenu /Assiettes;
 #X connect 8 0 7 0;
