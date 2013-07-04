@@ -1,4 +1,16 @@
-#N canvas 1 100 1425 796 10;
+#N canvas 177 275 1425 796 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
