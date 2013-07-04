@@ -1,4 +1,5 @@
-#N canvas 589 182 723 480 10;
+#N canvas 397 174 915 573 10;
+#X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -21,6 +22,13 @@
 #X msg 177 93 1;
 #X msg 120 151 0;
 #X obj 177 337 send OSC_MESSAGES;
+#X obj 478 32 r TFIn;
+#X obj 478 76 s TFHandsIn;
+#X obj 605 68 delay 200;
+#X obj 478 53 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 605 123 s TFFaceIn;
+#X obj 478 134 delay 1500;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
 #X connect 2 0 10 0;
@@ -45,3 +53,9 @@
 #X connect 11 0 7 0;
 #X connect 11 0 8 0;
 #X connect 11 0 9 0;
+#X connect 13 0 16 0;
+#X connect 15 0 17 0;
+#X connect 16 0 15 0;
+#X connect 16 0 14 0;
+#X connect 16 0 18 0;
+#X connect 18 0 11 0;
