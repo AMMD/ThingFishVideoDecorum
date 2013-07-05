@@ -1,0 +1,29 @@
+#N canvas 0 100 1440 800 10;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 136 60 zac.lumiere /CowboyContainer /ZombiesContainer;
+#X obj 648 55 zac.lumiere /Zombies_Cowboy_Tete /CowboyContainer;
+#X obj 654 237 zac.lumiere /Zombies_Cowboy_Corps /CowboyContainer;
+#X obj 954 241 zac.lumiere /Zombies_Cowboy_Bras /CowboyContainer;
+#X obj 370 238 zac.lumiere /Zombies_Cowboy_BrasFond /CowboyContainer
+;
+#X obj 533 416 zac.lumiere /Zombies_Cowboy_Jambe1 /CowboyContainer
+;
+#X obj 806 422 zac.lumiere /Zombies_Cowboy_Jambe2 /CowboyContainer
+;
+#X msg 76 333 1;
+#X msg 208 333 0;
+#X obj 77 420 send OSC_MESSAGES;
+#X obj 76 303 r cowboyActivate;
+#X obj 208 304 r cowboyDeActivate;
+#X msg 76 370 /Zombies_Cowboy*/Activate \$1;
+#X connect 7 0 12 0;
+#X connect 8 0 12 0;
+#X connect 10 0 7 0;
+#X connect 11 0 8 0;
+#X connect 12 0 9 0;
