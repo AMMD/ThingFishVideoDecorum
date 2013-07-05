@@ -39,6 +39,8 @@
 #X msg 834 149 0 200;
 #X msg 811 224 1.07 200;
 #X msg 825 260 0.1 200;
+#X msg 435 82 /EvilPrince_Bulle*/Alpha 1;
+#X msg 447 173 /EvilPrince_BulleContent/Zpos -1;
 #X connect 0 0 20 0;
 #X connect 1 0 11 0;
 #X connect 2 0 12 0;
@@ -76,6 +78,8 @@
 #X connect 25 1 24 0;
 #X connect 25 1 27 0;
 #X connect 25 2 17 0;
+#X connect 25 2 38 0;
+#X connect 25 2 39 0;
 #X connect 26 0 5 0;
 #X connect 26 0 23 0;
 #X connect 27 0 4 0;
@@ -91,3 +95,5 @@
 #X connect 35 0 33 0;
 #X connect 36 0 1 0;
 #X connect 37 0 2 0;
+#X connect 38 0 19 0;
+#X connect 39 0 19 0;
