@@ -131,11 +131,25 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
 #X obj -273 -77 zac.mouse;
 #X obj -433 -263 zac.videoprojecteur /mainVP;
 #X obj -319 -26 Curtains/curtainsMain;
 #X obj -275 -264 zac.sauvegarde /file;
-#X obj -273 -105 send OSC_MESSAGES;
+#X obj -272 -104 send OSC_MESSAGES;
 #X obj -272 -176 loadbang;
 #X msg -272 -154 /file/Load /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/main.initosc
 ;

@@ -1,3 +1,38 @@
-#N canvas 1 100 669 497 10;
+#N canvas 1 100 1438 793 10;
 #X declare -path ./lib/sssad;
-#X obj 113 107 zac.animation /CompteRebours;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X declare -path ./lib/sssad;
+#X obj 44 50 zac.lumiere /CompteReboursContainer;
+#X obj 368 63 zac.lumiere /CompteRebours_ComtoiseContainer /CompteReboursContainer
+;
+#X obj 372 257 zac.lumiere /CompteRebours_Comtoise_Fond /CompteRebours_ComtoiseContainer
+;
+#X obj 373 430 zac.lumiere /CompteRebours_Comtoise_Corps /CompteRebours_ComtoiseContainer
+;
+#X obj 373 600 zac.lumiere /CompteRebours_Comtoise_Balancier /CompteRebours_ComtoiseContainer
+;
+#X obj 648 63 zac.lumiere /CompteRebours_TeleContainer /CompteReboursContainer
+;
+#X obj 652 257 zac.lumiere /CompteRebours_Tele_Corps /CompteRebours_ComtoiseContainer
+;
+#X obj 653 600 zac.lumiere /CompteRebours_Tele_Reflet /CompteRebours_ComtoiseContainer
+;
+#X obj 653 430 zac.lumiere /CompteRebours_Tele_Halo /CompteRebours_ComtoiseContainer
+;
+#X msg 113 293 /CompteRebours_*/Activate \$1;
+#X msg 92 263 0;
+#X msg 166 267 1;
+#X obj 145 240 r compteReboursActivate;
+#X obj 55 236 r compteReboursDeActivate;
+#X obj 96 348 send OSC_MESSAGES;
+#X connect 9 0 14 0;
+#X connect 10 0 9 0;
+#X connect 11 0 9 0;
+#X connect 12 0 11 0;
+#X connect 13 0 10 0;
