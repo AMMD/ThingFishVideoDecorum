@@ -29,7 +29,7 @@
 #X msg 962 101 -3.024 150;
 #X msg 754 101 -3.023 150;
 #X msg 563 101 -3.022 150;
-#N canvas 0 100 1440 800 peterPanWalks 1;
+#N canvas 0 100 1440 800 peterPanWalks 0;
 #X obj 36 28 r peterPanWalks;
 #X obj 36 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -179,7 +179,7 @@
 #X obj 665 534 mod 360;
 #X msg 665 561 /Zombies_PeterPan_BrasFond/Rotate \$1;
 #X msg 457 475 -80;
-#X msg 1235 101 -0.04 150;
+#X msg 1235 101 -0.34 150;
 #X connect 0 0 10 0;
 #X connect 2 0 1 0;
 #X connect 3 0 1 0;
