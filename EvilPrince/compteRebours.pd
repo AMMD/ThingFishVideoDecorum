@@ -19,11 +19,11 @@
 ;
 #X obj 648 63 zac.lumiere /CompteRebours_TeleContainer /CompteReboursContainer
 ;
-#X obj 652 257 zac.lumiere /CompteRebours_Tele_Corps /CompteRebours_ComtoiseContainer
+#X obj 652 257 zac.lumiere /CompteRebours_Tele_Corps /CompteRebours_TeleContainer
 ;
-#X obj 653 600 zac.lumiere /CompteRebours_Tele_Reflet /CompteRebours_ComtoiseContainer
+#X obj 653 600 zac.lumiere /CompteRebours_Tele_Reflet /CompteRebours_TeleContainer
 ;
-#X obj 653 430 zac.lumiere /CompteRebours_Tele_Halo /CompteRebours_ComtoiseContainer
+#X obj 653 430 zac.lumiere /CompteRebours_Tele_Halo /CompteRebours_TeleContainer
 ;
 #X msg 103 290 0;
 #X msg 177 294 1;
