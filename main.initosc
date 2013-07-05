@@ -440,10 +440,10 @@
 /Zombies_PeterPan_BrasFond/modeAlpha 0;
 /Zombies_PeterPan_BrasFond/RenderOrder -22;
 /Zombies_PeterPan_BrasFond/Shape 3;
-/Zombies_PeterPan_BrasFond/Yscale 1;
-/Zombies_PeterPan_BrasFond/Xscale 1;
+/Zombies_PeterPan_BrasFond/Yscale 0.796875;
+/Zombies_PeterPan_BrasFond/Xscale 0.796875;
 /Zombies_PeterPan_BrasFond/Ypos -0.281879;
-/Zombies_PeterPan_BrasFond/Xpos 0;
+/Zombies_PeterPan_BrasFond/Xpos 0.1;
 /Zombies_PeterPan_Jambe2/Zpos -3.021;
 /Zombies_PeterPan_Jambe2/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Jambe.png
 ;
@@ -456,10 +456,10 @@
 /Zombies_PeterPan_Jambe2/modeAlpha 0;
 /Zombies_PeterPan_Jambe2/RenderOrder -23;
 /Zombies_PeterPan_Jambe2/Shape 3;
-/Zombies_PeterPan_Jambe2/Yscale 1;
-/Zombies_PeterPan_Jambe2/Xscale 1;
-/Zombies_PeterPan_Jambe2/Ypos -1.47651;
-/Zombies_PeterPan_Jambe2/Xpos 0;
+/Zombies_PeterPan_Jambe2/Yscale 0.796875;
+/Zombies_PeterPan_Jambe2/Xscale 0.796875;
+/Zombies_PeterPan_Jambe2/Ypos -1.3;
+/Zombies_PeterPan_Jambe2/Xpos 0.1;
 /Zombies_PeterPan_Bras/Zpos -3.019;
 /Zombies_PeterPan_Bras/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Bras.png
 ;
@@ -472,10 +472,10 @@
 /Zombies_PeterPan_Bras/modeAlpha 0;
 /Zombies_PeterPan_Bras/RenderOrder -22;
 /Zombies_PeterPan_Bras/Shape 3;
-/Zombies_PeterPan_Bras/Yscale 1;
-/Zombies_PeterPan_Bras/Xscale 1;
+/Zombies_PeterPan_Bras/Yscale 0.796875;
+/Zombies_PeterPan_Bras/Xscale 0.796875;
 /Zombies_PeterPan_Bras/Ypos -0.281879;
-/Zombies_PeterPan_Bras/Xpos 0;
+/Zombies_PeterPan_Bras/Xpos 0.1;
 /Zombies_PeterPan_Jambe1/Zpos -3.021;
 /Zombies_PeterPan_Jambe1/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Jambe.png
 ;
@@ -488,10 +488,10 @@
 /Zombies_PeterPan_Jambe1/modeAlpha 0;
 /Zombies_PeterPan_Jambe1/RenderOrder -23;
 /Zombies_PeterPan_Jambe1/Shape 3;
-/Zombies_PeterPan_Jambe1/Yscale 1;
-/Zombies_PeterPan_Jambe1/Xscale 1;
-/Zombies_PeterPan_Jambe1/Ypos -1.47651;
-/Zombies_PeterPan_Jambe1/Xpos 0;
+/Zombies_PeterPan_Jambe1/Yscale 0.796875;
+/Zombies_PeterPan_Jambe1/Xscale 0.796875;
+/Zombies_PeterPan_Jambe1/Ypos -1.3;
+/Zombies_PeterPan_Jambe1/Xpos 0.1;
 /Zombies_PeterPan_Tete/Zpos -3.019;
 /Zombies_PeterPan_Tete/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Tete.png
 ;
@@ -504,10 +504,10 @@
 /Zombies_PeterPan_Tete/modeAlpha 0;
 /Zombies_PeterPan_Tete/RenderOrder -22;
 /Zombies_PeterPan_Tete/Shape 3;
-/Zombies_PeterPan_Tete/Yscale 1;
-/Zombies_PeterPan_Tete/Xscale 1;
+/Zombies_PeterPan_Tete/Yscale 0.796875;
+/Zombies_PeterPan_Tete/Xscale 0.796875;
 /Zombies_PeterPan_Tete/Ypos 0;
-/Zombies_PeterPan_Tete/Xpos -0.120805;
+/Zombies_PeterPan_Tete/Xpos 0;
 /Zombies_PeterPan_Corps/Zpos -3.02;
 /Zombies_PeterPan_Corps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Corps.png
 ;
@@ -520,10 +520,10 @@
 /Zombies_PeterPan_Corps/modeAlpha 0;
 /Zombies_PeterPan_Corps/RenderOrder -23;
 /Zombies_PeterPan_Corps/Shape 3;
-/Zombies_PeterPan_Corps/Yscale 1;
-/Zombies_PeterPan_Corps/Xscale 1;
-/Zombies_PeterPan_Corps/Ypos -0.939597;
-/Zombies_PeterPan_Corps/Xpos -0.268456;
+/Zombies_PeterPan_Corps/Yscale 0.796875;
+/Zombies_PeterPan_Corps/Xscale 0.796875;
+/Zombies_PeterPan_Corps/Ypos -0.8;
+/Zombies_PeterPan_Corps/Xpos -0.1;
 /PeterPanContainer/Zpos -3;
 /PeterPanContainer/Blue 0;
 /PeterPanContainer/Green 1;
@@ -1727,7 +1727,7 @@
 /DunjonDoor5Cadre/Yscale 1;
 /DunjonDoor5Cadre/Xscale 0.5;
 /DunjonDoor5Cadre/Ypos 1;
-/DunjonDoor5Cadre/Xpos 16;
+/DunjonDoor5Cadre/Xpos 4;
 /DunjonDoor4Cadre/Zpos -3.025;
 /DunjonDoor4Cadre/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
@@ -1743,7 +1743,7 @@
 /DunjonDoor4Cadre/Yscale 1;
 /DunjonDoor4Cadre/Xscale 0.5;
 /DunjonDoor4Cadre/Ypos 1;
-/DunjonDoor4Cadre/Xpos 14;
+/DunjonDoor4Cadre/Xpos 2;
 /DunjonDoor5/Zpos -3.025;
 /DunjonDoor5/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
@@ -1759,7 +1759,7 @@
 /DunjonDoor5/Yscale 1;
 /DunjonDoor5/Xscale 0.5;
 /DunjonDoor5/Ypos 1;
-/DunjonDoor5/Xpos 16;
+/DunjonDoor5/Xpos 4;
 /DunjonDoor4/Zpos -3.025;
 /DunjonDoor4/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
@@ -1775,7 +1775,7 @@
 /DunjonDoor4/Yscale 1;
 /DunjonDoor4/Xscale 0.5;
 /DunjonDoor4/Ypos 1;
-/DunjonDoor4/Xpos 14;
+/DunjonDoor4/Xpos 2;
 /DunjonDoor3Cadre/Zpos -3.025;
 /DunjonDoor3Cadre/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
@@ -1791,7 +1791,7 @@
 /DunjonDoor3Cadre/Yscale 1;
 /DunjonDoor3Cadre/Xscale 0.5;
 /DunjonDoor3Cadre/Ypos 1;
-/DunjonDoor3Cadre/Xpos 12;
+/DunjonDoor3Cadre/Xpos 0;
 /DunjonDoor3/Zpos -3.025;
 /DunjonDoor3/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
@@ -1807,7 +1807,7 @@
 /DunjonDoor3/Yscale 1;
 /DunjonDoor3/Xscale 0.5;
 /DunjonDoor3/Ypos 1;
-/DunjonDoor3/Xpos 12;
+/DunjonDoor3/Xpos 0;
 /DunjonDoor2Cadre/Zpos -3.025;
 /DunjonDoor2Cadre/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
@@ -1823,7 +1823,7 @@
 /DunjonDoor2Cadre/Yscale 1;
 /DunjonDoor2Cadre/Xscale 0.5;
 /DunjonDoor2Cadre/Ypos 1;
-/DunjonDoor2Cadre/Xpos 10;
+/DunjonDoor2Cadre/Xpos -2;
 /DunjonDoor2/Zpos -3.025;
 /DunjonDoor2/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
@@ -1839,7 +1839,7 @@
 /DunjonDoor2/Yscale 1;
 /DunjonDoor2/Xscale 0.5;
 /DunjonDoor2/Ypos 1;
-/DunjonDoor2/Xpos 10;
+/DunjonDoor2/Xpos -2;
 /DunjonDoor1Cadre/Zpos -3.025;
 /DunjonDoor1Cadre/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte_Cadre.png
 ;
@@ -1855,7 +1855,7 @@
 /DunjonDoor1Cadre/Yscale 1;
 /DunjonDoor1Cadre/Xscale 0.5;
 /DunjonDoor1Cadre/Ypos 1;
-/DunjonDoor1Cadre/Xpos 8;
+/DunjonDoor1Cadre/Xpos -4;
 /DunjonDoor1/Zpos -3.025;
 /DunjonDoor1/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Porte.png
 ;
@@ -1871,7 +1871,7 @@
 /DunjonDoor1/Yscale 1;
 /DunjonDoor1/Xscale 0.5;
 /DunjonDoor1/Ypos 1;
-/DunjonDoor1/Xpos 8;
+/DunjonDoor1/Xpos -4;
 /DjventiloPales/Zpos -3.01;
 /DjventiloPales/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Ventilo_ailerons.png
 ;
@@ -1916,7 +1916,7 @@
 /CuveGalootContent2/modeAlpha 0;
 /CuveGalootContent2/RenderOrder -25;
 /CuveGalootContent2/Shape 3;
-/CuveGalootContent2/Yscale 2.81;
+/CuveGalootContent2/Yscale 2.80625;
 /CuveGalootContent2/Xscale 3.40582;
 /CuveGalootContent2/Ypos -0.351562;
 /CuveGalootContent2/Xpos 2.76562;
@@ -1932,7 +1932,7 @@
 /CuveGalootContent/modeAlpha 0;
 /CuveGalootContent/RenderOrder -25;
 /CuveGalootContent/Shape 3;
-/CuveGalootContent/Yscale 2.815;
+/CuveGalootContent/Yscale 2.845;
 /CuveGalootContent/Xscale 3.40582;
 /CuveGalootContent/Ypos -0.351562;
 /CuveGalootContent/Xpos 2.76562;
@@ -1982,7 +1982,7 @@
 /Djbebe/Shape 3;
 /Djbebe/Yscale 1.20187;
 /Djbebe/Xscale 1.9;
-/Djbebe/Ypos 0.11;
+/Djbebe/Ypos 0.10625;
 /Djbebe/Xpos 2.41406;
 /CochonLights/Zpos -3.01;
 /CochonLights/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Dunjon/data/2013_06_20_Donjon_Aquarium_Cochon_lumieres.png
@@ -1992,7 +1992,7 @@
 /CochonLights/Red 1;
 /CochonLights/Rotate 0;
 /CochonLights/Activate 0;
-/CochonLights/Alpha 0.612857;
+/CochonLights/Alpha 0.698571;
 /CochonLights/modeAlpha 0;
 /CochonLights/RenderOrder -25;
 /CochonLights/Shape 3;
@@ -2039,7 +2039,7 @@
 /ThiFiHandCourRideau/Green 1;
 /ThiFiHandCourRideau/Red 1;
 /ThiFiHandCourRideau/Rotate 0;
-/ThiFiHandCourRideau/Activate 1;
+/ThiFiHandCourRideau/Activate 0;
 /ThiFiHandCourRideau/Alpha 1;
 /ThiFiHandCourRideau/modeAlpha 0;
 /ThiFiHandCourRideau/RenderOrder -19;
@@ -2047,7 +2047,7 @@
 /ThiFiHandCourRideau/Yscale 0.76;
 /ThiFiHandCourRideau/Xscale 0.76;
 /ThiFiHandCourRideau/Ypos 0;
-/ThiFiHandCourRideau/Xpos 10;
+/ThiFiHandCourRideau/Xpos 6.8;
 /ThiFiHandJardinRideau/Zpos -2.8;
 /ThiFiHandJardinRideau/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/2013_06_25_TF_Main_tire_rideau_jardin.png
 ;
@@ -2055,7 +2055,7 @@
 /ThiFiHandJardinRideau/Green 1;
 /ThiFiHandJardinRideau/Red 1;
 /ThiFiHandJardinRideau/Rotate 0;
-/ThiFiHandJardinRideau/Activate 1;
+/ThiFiHandJardinRideau/Activate 0;
 /ThiFiHandJardinRideau/Alpha 1;
 /ThiFiHandJardinRideau/modeAlpha 0;
 /ThiFiHandJardinRideau/RenderOrder -19;
@@ -2063,7 +2063,7 @@
 /ThiFiHandJardinRideau/Yscale 0.76;
 /ThiFiHandJardinRideau/Xscale 0.76;
 /ThiFiHandJardinRideau/Ypos 0;
-/ThiFiHandJardinRideau/Xpos -10;
+/ThiFiHandJardinRideau/Xpos -6.8;
 /HandCour/Zpos -3.1;
 /HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
 ;
@@ -2071,7 +2071,7 @@
 /HandCour/Green 1;
 /HandCour/Red 1;
 /HandCour/Rotate 360;
-/HandCour/Activate 1;
+/HandCour/Activate 0;
 /HandCour/Alpha 1;
 /HandCour/modeAlpha 0;
 /HandCour/RenderOrder -27;
@@ -2126,7 +2126,7 @@
 /ThiFiBecBas/Shape 3;
 /ThiFiBecBas/Yscale 2.36;
 /ThiFiBecBas/Xscale 2.36;
-/ThiFiBecBas/Ypos -0.04;
+/ThiFiBecBas/Ypos 0;
 /ThiFiBecBas/Xpos 0;
 /ThiFiYeuxFront/Zpos -3.05;
 /ThiFiYeuxFront/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/yeux.png
@@ -2142,7 +2142,7 @@
 /ThiFiYeuxFront/Shape 3;
 /ThiFiYeuxFront/Yscale 2.36;
 /ThiFiYeuxFront/Xscale 2.36;
-/ThiFiYeuxFront/Ypos -0.0025;
+/ThiFiYeuxFront/Ypos 0;
 /ThiFiYeuxFront/Xpos 0;
 /ThiFiContourTete/Zpos -3.05;
 /ThiFiContourTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/contourTete.png
@@ -2174,7 +2174,7 @@
 /ThiFiBecHaut/Shape 3;
 /ThiFiBecHaut/Yscale 2.36;
 /ThiFiBecHaut/Xscale 2.36;
-/ThiFiBecHaut/Ypos -0.00666667;
+/ThiFiBecHaut/Ypos 0;
 /ThiFiBecHaut/Xpos 0;
 /fond/Zpos -3;
 /fond/Blue 0;

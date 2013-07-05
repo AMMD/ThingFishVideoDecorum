@@ -43,7 +43,7 @@
 #X obj 388 694 sel 12;
 #X obj 592 145 * 2;
 #X obj 421 110 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3200 1;
+-1 -1 0 1;
 #X obj 418 128 / 64;
 #X obj 592 383 send OSC_MESSAGES;
 #X msg 418 170 /DunjonDoor1/Xscale \$1;
@@ -286,6 +286,7 @@
 #X obj 1696 1076 s closeDoor5;
 #X obj 238 496 r dunjonDoorsMoveCour;
 #X obj 603 516 r dunjonDoorsMoveJardin;
+#X obj 100 499 r DunjonBang;
 #X connect 0 0 16 0;
 #X connect 0 0 17 0;
 #X connect 0 0 32 0;
@@ -675,3 +676,4 @@
 #X connect 279 0 277 0;
 #X connect 282 0 12 0;
 #X connect 283 0 83 0;
+#X connect 284 0 4 0;
