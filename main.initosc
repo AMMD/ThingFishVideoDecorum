@@ -59,7 +59,7 @@
 /CompteRebours_TeleContainer/Yscale 50;
 /CompteRebours_TeleContainer/Xscale 50;
 /CompteRebours_TeleContainer/Ypos 0;
-/CompteRebours_TeleContainer/Xpos 0;
+/CompteRebours_TeleContainer/Xpos 2.6;
 /CompteRebours_Comtoise_Balancier/Zpos -3;
 /CompteRebours_Comtoise_Balancier/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/Horloge_Pendule.png
 ;
@@ -75,7 +75,7 @@
 /CompteRebours_Comtoise_Balancier/Yscale 50;
 /CompteRebours_Comtoise_Balancier/Xscale 0.8;
 /CompteRebours_Comtoise_Balancier/Ypos 0;
-/CompteRebours_Comtoise_Balancier/Xpos 0;
+/CompteRebours_Comtoise_Balancier/Xpos -4.5;
 /CompteRebours_Comtoise_Corps/Zpos -3;
 /CompteRebours_Comtoise_Corps/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/Horloge.png
 ;
@@ -2092,7 +2092,7 @@
 /ThiFiCol/Shape 3;
 /ThiFiCol/Yscale 2.36;
 /ThiFiCol/Xscale 2.36;
-/ThiFiCol/Ypos -0.009;
+/ThiFiCol/Ypos -0.002;
 /ThiFiCol/Xpos 0;
 /ThiFiBecBas/Zpos -3.05;
 /ThiFiBecBas/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becBas.png
@@ -2108,7 +2108,7 @@
 /ThiFiBecBas/Shape 3;
 /ThiFiBecBas/Yscale 2.36;
 /ThiFiBecBas/Xscale 2.36;
-/ThiFiBecBas/Ypos -0.18;
+/ThiFiBecBas/Ypos -0.04;
 /ThiFiBecBas/Xpos 0;
 /ThiFiYeuxFront/Zpos -3.05;
 /ThiFiYeuxFront/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/yeux.png
@@ -2124,7 +2124,7 @@
 /ThiFiYeuxFront/Shape 3;
 /ThiFiYeuxFront/Yscale 2.36;
 /ThiFiYeuxFront/Xscale 2.36;
-/ThiFiYeuxFront/Ypos -0.01125;
+/ThiFiYeuxFront/Ypos -0.0025;
 /ThiFiYeuxFront/Xpos 0;
 /ThiFiContourTete/Zpos -3.05;
 /ThiFiContourTete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/contourTete.png
@@ -2140,7 +2140,7 @@
 /ThiFiContourTete/Shape 3;
 /ThiFiContourTete/Yscale 2.36;
 /ThiFiContourTete/Xscale 2.36;
-/ThiFiContourTete/Ypos -0.009;
+/ThiFiContourTete/Ypos -0.002;
 /ThiFiContourTete/Xpos 0;
 /ThiFiBecHaut/Zpos -3.05;
 /ThiFiBecHaut/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/becHaut.png
@@ -2156,7 +2156,7 @@
 /ThiFiBecHaut/Shape 3;
 /ThiFiBecHaut/Yscale 2.36;
 /ThiFiBecHaut/Xscale 2.36;
-/ThiFiBecHaut/Ypos -0.03;
+/ThiFiBecHaut/Ypos -0.00666667;
 /ThiFiBecHaut/Xpos 0;
 /fond/Zpos -3;
 /fond/Blue 0;
