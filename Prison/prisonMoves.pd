@@ -1,4 +1,4 @@
-#N canvas 218 135 1054 677 10;
+#N canvas 193 126 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -24,6 +24,8 @@
 #X msg 844 260 /PrisonPrisonniersMalades/Xpos \$1;
 #X msg 844 153 14.8 400;
 #X msg 685 162 -3.2;
+#X msg 289 243 -3.2;
+#X msg 350 238 /PrisonPrisonniersMalades/Activate 0;
 #X connect 0 0 1 0;
 #X connect 1 0 10 0;
 #X connect 2 0 3 0;
@@ -35,8 +37,10 @@
 #X connect 10 0 6 0;
 #X connect 10 1 2 0;
 #X connect 10 1 7 0;
+#X connect 10 1 23 0;
 #X connect 10 2 8 0;
 #X connect 10 2 9 0;
+#X connect 10 2 24 0;
 #X connect 11 0 12 0;
 #X connect 12 0 16 0;
 #X connect 13 0 3 0;
@@ -54,3 +58,5 @@
 #X connect 20 0 4 0;
 #X connect 21 0 19 0;
 #X connect 22 0 19 0;
+#X connect 23 0 20 0;
+#X connect 24 0 4 0;

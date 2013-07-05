@@ -34,6 +34,15 @@
 #X msg 792 129 1;
 #X msg 727 160 0 300;
 #X obj 792 177 line;
+#X obj 68 412 r homoBlackGetOutToCour;
+#X obj 70 477 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 70 508 t b b b;
+#X msg 89 554 18 400;
+#X obj 70 580 delay 400;
+#X obj 70 610 t b b;
+#X msg 70 640 0;
+#X msg 97 640 /HomoBlack_*/Activate 0;
 #X connect 0 0 6 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
@@ -78,3 +87,18 @@
 #X connect 31 0 32 0;
 #X connect 32 0 29 0;
 #X connect 32 0 28 0;
+#X connect 33 0 34 0;
+#X connect 34 0 35 0;
+#X connect 35 0 37 0;
+#X connect 35 1 36 0;
+#X connect 35 2 7 0;
+#X connect 35 2 8 0;
+#X connect 36 0 3 0;
+#X connect 37 0 38 0;
+#X connect 38 0 39 0;
+#X connect 38 0 15 0;
+#X connect 38 0 30 0;
+#X connect 38 0 14 0;
+#X connect 38 1 40 0;
+#X connect 39 0 3 0;
+#X connect 40 0 4 0;

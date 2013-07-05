@@ -565,8 +565,8 @@
 /HomoBlack_Main/Zpos -3.015;
 /HomoBlack_Main/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/HomoBlack/data/2013_07_02_Mannequins_Homo_Balcks_rassembles.png
 ;
-/HomoBlack_Main/Blue 0;
-/HomoBlack_Main/Green 0;
+/HomoBlack_Main/Blue 1;
+/HomoBlack_Main/Green 1;
 /HomoBlack_Main/Red 1;
 /HomoBlack_Main/Rotate 0;
 /HomoBlack_Main/Activate 0;
