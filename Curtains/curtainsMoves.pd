@@ -93,7 +93,7 @@
 #X msg 797 616 /HandCour/Xpos \$1;
 #X msg 959 653 360 500;
 #X obj 16 441 r TFOpensCurtains;
-#N canvas 875 100 556 796 HJardinRideauActivate 0;
+#N canvas 873 100 556 796 HJardinRideauActivate 1;
 #X obj 51 2 r HJardinRideauActivate;
 #X obj 214 502 send OSC_MESSAGES;
 #X obj 94 429 list prepend;

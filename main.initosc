@@ -2065,7 +2065,7 @@
 /ThiFiHandJardinRideau/Ypos 0;
 /ThiFiHandJardinRideau/Xpos -6.8;
 /HandCour/Zpos -3.1;
-/HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
+/HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.resized.png
 ;
 /HandCour/Blue 1;
 /HandCour/Green 1;
@@ -2081,7 +2081,7 @@
 /HandCour/Ypos 1.6;
 /HandCour/Xpos 1.437;
 /HandJardin/Zpos -3.1;
-/HandJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handJardin.png
+/HandJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handJardin.resized.png
 ;
 /HandJardin/Blue 1;
 /HandJardin/Green 1;
