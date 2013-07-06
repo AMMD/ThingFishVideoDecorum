@@ -1,7 +1,4 @@
-#N canvas 1 100 1438 759 10;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
+#N canvas 1 99 1438 759 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -198,6 +195,18 @@
 #X obj 121 1 HomoBlack/homoBlackMain;
 #X obj 484 -230 05_Torchum;
 #X obj 226 36 Zombies/zombiesMain;
+#N canvas 493 78 526 699 Dummies 1;
+#X obj 47 210 zac.lumiere /DummyScrollFromjardin;
+#X obj 47 40 zac.lumiere /DummyScrollToCour;
+#X obj 85 422 loadbang;
+#X obj 85 451 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 85 475 /DummyScroll*/Activate 0;
+#X obj 85 502 s OSC_MESSAGES;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X restore 472 -47 pd Dummies;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
