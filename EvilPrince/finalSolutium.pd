@@ -1,4 +1,4 @@
-#N canvas 288 204 894 545 10;
+#N canvas 273 192 894 545 10;
 #X msg 117 91 /EvilPrince_BrasCourFiole/Activate 1;
 #X msg 117 119 /EvilPrince_BrasCour/Activate 0;
 #X obj 117 17 r finalSolutium;
@@ -21,12 +21,12 @@
 #X msg 406 149 -1.01 30;
 #X msg 351 202 0 50;
 #X msg 314 221 3 50;
-#X connect 0 0 4 0;
-#X connect 1 0 4 0;
+#X obj 73 153 s EP_BrasCourFiole;
 #X connect 2 0 3 0;
 #X connect 3 0 0 0;
 #X connect 3 0 1 0;
 #X connect 3 0 5 0;
+#X connect 3 0 21 0;
 #X connect 5 0 6 0;
 #X connect 5 0 16 0;
 #X connect 6 0 18 0;
