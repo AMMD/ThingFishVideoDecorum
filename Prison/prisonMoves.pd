@@ -1,4 +1,4 @@
-#N canvas 866 403 1054 677 10;
+#N canvas 866 401 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -30,8 +30,7 @@
 #X msg 67 244 /DummyScrollFromJardin/Xpos \$1;
 #X msg 56 494 /Prison_Musicien*/Activate 0;
 #X msg 72 550 /Prison_ScenePrison/Activate 0;
-#X text 136 459 Temporaire!!!!;
-#N canvas 0 49 850 819 PrisonSceneActivate 0;
+#N canvas 0 48 850 819 PrisonSceneActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -150,7 +149,7 @@
 #X obj 626 360 s PrisonSceneActivate;
 #X obj 626 330 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#N canvas 308 646 450 300 CymbalumActivate 1;
+#N canvas 308 646 450 300 CymbalumActivate 0;
 #N canvas 0 47 850 819 CymbalumMainCourActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
@@ -279,7 +278,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 20 -28 pd CymbalumMainCourActivate;
-#N canvas 0 46 850 819 CymbalumTeteActivate 1;
+#N canvas 0 46 850 819 CymbalumTeteActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -664,6 +663,21 @@
 #X connect 49 0 5 1;
 #X restore 20 32 pd CymbalumCorpsActivate;
 #X restore 302 364 pd CymbalumActivate;
+#X msg 294 545 /Djbebe/ParentName /Cochon;
+#X msg 284 525 /CochonLights/ParentName /Cochon;
+#X msg 304 565 /Tube/ParentName /Cochon;
+#X msg 314 585 /WashMachine/ParentName /Cochon;
+#X obj 340 655 s OSC_MESSAGES;
+#X floatatom 468 470 5 0 0 0 - - -;
+#X obj 305 481 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 494 525 /CochonLights/Child/Ypos 1;
+#X msg 504 545 /Djbebe/Child/Ypos 1;
+#X msg 514 565 /Tube/Child/Ypos 1;
+#X msg 524 585 /WashMachine/Child/Ypos 1;
+#X msg 340 480 /Cochon/Ypos \$1;
+#X text 186 454 Temporaire!!!! -----------------------------------
+;
 #X connect 0 0 1 0;
 #X connect 1 0 9 0;
 #X connect 2 0 3 0;
@@ -703,4 +717,22 @@
 #X connect 26 0 4 0;
 #X connect 27 0 4 0;
 #X connect 28 0 4 0;
-#X connect 32 0 31 0;
+#X connect 31 0 30 0;
+#X connect 33 0 37 0;
+#X connect 34 0 37 0;
+#X connect 35 0 37 0;
+#X connect 36 0 37 0;
+#X connect 38 0 44 0;
+#X connect 39 0 34 0;
+#X connect 39 0 33 0;
+#X connect 39 0 35 0;
+#X connect 39 0 36 0;
+#X connect 39 0 40 0;
+#X connect 39 0 41 0;
+#X connect 39 0 42 0;
+#X connect 39 0 43 0;
+#X connect 40 0 37 0;
+#X connect 41 0 37 0;
+#X connect 42 0 37 0;
+#X connect 43 0 37 0;
+#X connect 44 0 37 0;
