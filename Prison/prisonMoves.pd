@@ -1,4 +1,4 @@
-#N canvas 673 342 1054 677 10;
+#N canvas 673 339 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -665,8 +665,8 @@
 #X restore 302 354 pd CymbalumActivate;
 #X text 186 454 Temporaire!!!! -----------------------------------
 ;
-#N canvas 308 643 450 300 CymbalesActivate 0;
-#N canvas 0 44 850 819 CymbalesCourActivate 0;
+#N canvas 1470 466 450 300 CymbalesActivate 0;
+#N canvas 1484 135 850 819 CymbalesCourActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -922,7 +922,7 @@
 #X connect 48 0 1 1;
 #X connect 49 0 5 1;
 #X restore 20 -8 pd CymbalesTeteActivate;
-#N canvas 0 40 850 819 CymbalesJardinActivate 0;
+#N canvas 1411 94 850 819 CymbalesJardinActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1179,8 +1179,8 @@
 #X connect 49 0 5 1;
 #X restore 20 32 pd CymbalesJardinActivate;
 #X restore 302 374 pd CymbalesActivate;
-#N canvas 308 643 450 300 GCActivate 0;
-#N canvas 0 43 850 819 GCBrasActivate 0;
+#N canvas 308 642 450 300 GCActivate 0;
+#N canvas 0 42 850 819 GCBrasActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2284,6 +2284,8 @@
 #X obj 630 333 r PrisonSceneComingIn;
 #X obj 630 378 t b b;
 #X obj 630 416 s PrisonSceneComingFromTheCeilings;
+#X obj 846 420 s musiciansArePlaying;
+#X obj 846 395 delay 1300;
 #X connect 0 0 1 0;
 #X connect 1 0 9 0;
 #X connect 2 0 3 0;
@@ -2326,4 +2328,6 @@
 #X connect 31 0 40 0;
 #X connect 39 0 31 0;
 #X connect 40 0 41 0;
+#X connect 40 0 43 0;
 #X connect 40 1 30 0;
+#X connect 43 0 42 0;
