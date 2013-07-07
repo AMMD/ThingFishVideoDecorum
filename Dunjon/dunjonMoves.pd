@@ -1,4 +1,4 @@
-#N canvas 0 95 1580 811 10;
+#N canvas 0 94 1580 811 10;
 #X obj 527 280 line;
 #X msg 677 214 \$1 400;
 #X obj 774 143 delay 400;
@@ -66,6 +66,8 @@
 #X msg 190 406 /WashMachine/ParentName /Dummy;
 #X msg 190 426 /WashMachineButtons/ParentName /Dummy;
 #X msg 190 450 /DunjonDoor*/ParentName /Dummy;
+#X msg 1330 440 /Tube/ParentName /DummyScrollToCour;
+#X msg 190 470 /Tube/ParentName /Dummy;
 #X connect 0 0 53 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
@@ -155,6 +157,7 @@
 #X connect 42 0 51 0;
 #X connect 42 0 52 0;
 #X connect 42 0 41 0;
+#X connect 42 0 66 0;
 #X connect 43 0 10 0;
 #X connect 44 0 10 0;
 #X connect 45 0 10 0;
@@ -177,6 +180,7 @@
 #X connect 54 0 63 0;
 #X connect 54 0 64 0;
 #X connect 54 0 65 0;
+#X connect 54 0 67 0;
 #X connect 55 0 5 0;
 #X connect 56 0 5 0;
 #X connect 57 0 5 0;
@@ -188,3 +192,5 @@
 #X connect 63 0 5 0;
 #X connect 64 0 5 0;
 #X connect 65 0 5 0;
+#X connect 66 0 10 0;
+#X connect 67 0 5 0;
