@@ -1,4 +1,4 @@
-#N canvas 443 311 1054 677 10;
+#N canvas 443 309 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2288,7 +2288,7 @@
 #X obj 685 495 line;
 #X msg 658 445 20.42 400;
 #X obj 658 584 delay 405;
-#N canvas 650 390 1071 689 FreeMusicians 1;
+#N canvas 650 388 1071 689 FreeMusicians 1;
 #X obj 48 42 r FreeMusicians;
 #X obj 48 85 t b b b;
 #X obj 48 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2403,6 +2403,7 @@
 #X connect 17 0 39 0;
 #X connect 18 0 39 0;
 #X connect 19 0 39 0;
+#X connect 20 0 39 0;
 #X connect 21 0 39 0;
 #X connect 22 0 39 0;
 #X connect 23 0 39 0;
@@ -2446,6 +2447,7 @@
 #X connect 55 0 52 0;
 #X connect 55 0 53 0;
 #X connect 55 0 54 0;
+#X connect 55 0 46 0;
 #X restore 895 517 pd FreeMusicians;
 #X obj 658 625 s FreeMusicians;
 #X connect 0 0 1 0;
