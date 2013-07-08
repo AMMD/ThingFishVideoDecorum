@@ -752,7 +752,7 @@
 /EvilPrince_Bouche/Yscale 0.32;
 /EvilPrince_Bouche/Xscale 0.32;
 /EvilPrince_Bouche/Ypos 0.33;
-/EvilPrince_Bouche/Xpos 0.57;
+/EvilPrince_Bouche/Xpos -0.235369;
 /EvilPrince_Idee/Flip /Child/Xpos 1;
 /EvilPrince_Idee/Zpos -3;
 /EvilPrince_Idee/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_26_EP_ampoule_allumée.png
@@ -769,7 +769,7 @@
 /EvilPrince_Idee/Yscale 0.7;
 /EvilPrince_Idee/Xscale 0.7;
 /EvilPrince_Idee/Ypos 1.20805;
-/EvilPrince_Idee/Xpos 0;
+/EvilPrince_Idee/Xpos -0.805369;
 /EvilPrince_BullePotium/Flip /Child/Xpos 1;
 /EvilPrince_BullePotium/Zpos -2.9;
 /EvilPrince_BullePotium/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_main_fiole.png
@@ -786,7 +786,7 @@
 /EvilPrince_BullePotium/Yscale 1;
 /EvilPrince_BullePotium/Xscale 0.7;
 /EvilPrince_BullePotium/Ypos 0.671141;
-/EvilPrince_BullePotium/Xpos 5.36913;
+/EvilPrince_BullePotium/Xpos 4.563761;
 /EvilPrince_BulleContent/Flip /Child/Xpos 1;
 /EvilPrince_BulleContent/Zpos 3;
 /EvilPrince_BulleContent/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/HomoBlack/data/2013_07_02_Mannequins_Homo_Blacks.png
@@ -803,7 +803,7 @@
 /EvilPrince_BulleContent/Yscale 0.7;
 /EvilPrince_BulleContent/Xscale 0.7;
 /EvilPrince_BulleContent/Ypos 0.671141;
-/EvilPrince_BulleContent/Xpos 5.36;
+/EvilPrince_BulleContent/Xpos 4.554631;
 /EvilPrince_Bulle/Flip /Child/Xpos 1;
 /EvilPrince_Bulle/Zpos -3;
 /EvilPrince_Bulle/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_26_Bulle_Pensee.png
@@ -820,7 +820,7 @@
 /EvilPrince_Bulle/Yscale 2.82;
 /EvilPrince_Bulle/Xscale 0.1;
 /EvilPrince_Bulle/Ypos 0.134228;
-/EvilPrince_Bulle/Xpos 1.07;
+/EvilPrince_Bulle/Xpos 0.264631;
 /EvilPrince_BrasCourFiole/Flip /Child/Xpos 1;
 /EvilPrince_BrasCourFiole/Zpos -3.01001;
 /EvilPrince_BrasCourFiole/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_main_fiole.png
@@ -852,7 +852,7 @@
 /EvilPrince_Aura/Yscale 0.256629;
 /EvilPrince_Aura/Xscale 1;
 /EvilPrince_Aura/Ypos -3.14497;
-/EvilPrince_Aura/Xpos 0.805369;
+/EvilPrince_Aura/Xpos 0;
 /EvilPrince_BrasCour/Flip /Child/Xpos 1;
 /EvilPrince_BrasCour/Zpos -3.01001;
 /EvilPrince_BrasCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_avantbras_cour_poche.png
@@ -869,7 +869,7 @@
 /EvilPrince_BrasCour/Yscale 0.3;
 /EvilPrince_BrasCour/Xscale 0.35;
 /EvilPrince_BrasCour/Ypos -0.942282;
-/EvilPrince_BrasCour/Xpos 1.24564;
+/EvilPrince_BrasCour/Xpos 0.440271;
 /EvilPrince_BrasJardin/Flip /Child/Xpos 1;
 /EvilPrince_BrasJardin/Zpos -3.01001;
 /EvilPrince_BrasJardin/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_07_29_Evil_Prince_avantbras_jardin.png
@@ -886,7 +886,7 @@
 /EvilPrince_BrasJardin/Yscale 0.55;
 /EvilPrince_BrasJardin/Xscale 0.14;
 /EvilPrince_BrasJardin/Ypos -1.25369;
-/EvilPrince_BrasJardin/Xpos 0.198658;
+/EvilPrince_BrasJardin/Xpos -0.606711;
 /EvilPrince_Tete/Flip /Child/Xpos 1;
 /EvilPrince_Tete/Zpos -3.01001;
 /EvilPrince_Tete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Tete.png
@@ -903,7 +903,7 @@
 /EvilPrince_Tete/Yscale 0.32;
 /EvilPrince_Tete/Xscale 0.32;
 /EvilPrince_Tete/Ypos 0.330201;
-/EvilPrince_Tete/Xpos 0.571812;
+/EvilPrince_Tete/Xpos -0.233557;
 /EvilPrince_Corps/Flip /Child/Xpos 1;
 /EvilPrince_Corps/Zpos -3.0101;
 /EvilPrince_Corps/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Corps.png
@@ -920,7 +920,7 @@
 /EvilPrince_Corps/Yscale 1.7;
 /EvilPrince_Corps/Xscale 0.75;
 /EvilPrince_Corps/Ypos -1.61074;
-/EvilPrince_Corps/Xpos 0.805369;
+/EvilPrince_Corps/Xpos 0;
 /EvilPrinceContainer/Flip /Parent/Xpos 1;
 /EvilPrinceContainer/Zpos -3.01105;
 /EvilPrinceContainer/Blue 0;
