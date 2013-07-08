@@ -1,4 +1,4 @@
-#N canvas 7 96 1425 796 10;
+#N canvas 7 95 1425 796 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
 #X obj 42 120 s TFOpensCurtains;
@@ -54,7 +54,7 @@
 #X obj 48 668 s TFIn;
 #X obj 699 489 s compteReboursComesInFromJardin;
 #X obj 901 489 s comtoiseBalance;
-#X obj 1012 489 s teleFlies;
+#X obj 1084 506 s teleFlies;
 #X obj 30 537 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 51 552 delay 200;
@@ -82,6 +82,7 @@
 -1;
 #X obj 25 422 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 1013 489 delay 405;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 3 0;
@@ -104,7 +105,7 @@
 #X connect 29 0 33 0;
 #X connect 29 0 39 0;
 #X connect 29 0 40 0;
-#X connect 29 0 41 0;
+#X connect 29 0 62 0;
 #X connect 35 0 36 0;
 #X connect 37 0 38 0;
 #X connect 37 0 58 0;
@@ -123,3 +124,4 @@
 #X connect 56 0 57 0;
 #X connect 60 0 59 0;
 #X connect 61 0 32 0;
+#X connect 62 0 41 0;
