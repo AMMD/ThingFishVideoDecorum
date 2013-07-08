@@ -26,8 +26,6 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X obj 49 45 zac.lumiere /ZombiesContainer;
 #X obj 364 66 peterPanMain;
 #X obj 370 115 helloDollyMain;
 #X obj 374 162 annieMain;
