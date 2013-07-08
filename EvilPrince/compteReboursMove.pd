@@ -1,4 +1,4 @@
-#N canvas 0 98 1440 800 10;
+#N canvas 0 97 1440 800 10;
 #X obj 111 85 metro 1000;
 #X obj 111 114 t b b;
 #X obj 138 324 send OSC_MESSAGES;
@@ -77,10 +77,10 @@
 -1 -1;
 #X obj 873 501 t b b b;
 #X obj 968 518 delay 400;
-#X msg 873 605 18 400;
-#X obj 976 554 t b b;
-#X obj 1003 601 s compteReboursDeActivate;
-#X msg 976 637 0;
+#X msg 873 601 18 400;
+#X obj 976 550 t b b;
+#X obj 1003 597 s compteReboursDeActivate;
+#X msg 976 632 0;
 #X obj 843 463 r compteReboursGetsOutToCour;
 #X obj 66 546 s compteReboursActivate;
 #X obj 147 501 t b b b b;
@@ -100,6 +100,11 @@
 #X msg 138 233 /DunjonDoor5Cadre/Xpos \$1;
 #X msg 266 307 /DunjonDoor5Cadre/Rotate \$1;
 #X msg 936 100 /EvilPrince_BullePotium/Child/[X-Y]pos 1;
+#X obj 1022 648 t b b;
+#X msg 1022 687 /DunjonDoor5*/Child/[X-Y]pos 0;
+#X msg 1227 665 /DunjonDoor5*/g[X-Y]pos 0;
+#X msg 1118 722 /DunjonDoor5*/ParentName /Dummy;
+#X obj 1227 795 s OSC_MESSAGES;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 4 0;
@@ -237,3 +242,9 @@
 #X connect 93 0 2 0;
 #X connect 94 0 2 0;
 #X connect 95 0 23 0;
+#X connect 96 0 97 0;
+#X connect 96 1 98 0;
+#X connect 96 1 99 0;
+#X connect 97 0 100 0;
+#X connect 98 0 100 0;
+#X connect 99 0 100 0;

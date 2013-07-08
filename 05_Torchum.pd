@@ -1,8 +1,7 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 3 170 1440 800 10;
 #X obj 50 31 s TFOut;
 #X obj 51 130 s TFSpeaks;
 #X obj 51 97 s TFOpensCurtains;
-#X obj 50 64 s DunjonBang;
 #X obj 34 16 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 35 115 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -17,9 +16,10 @@
 #X obj 35 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 51 162 s dunjonDoorsMoveCour;
-#X connect 4 0 0 0;
-#X connect 5 0 1 0;
-#X connect 6 0 3 0;
-#X connect 7 0 2 0;
-#X connect 8 0 9 0;
-#X connect 10 0 11 0;
+#X obj 50 64 s DunjonInit;
+#X connect 3 0 0 0;
+#X connect 4 0 1 0;
+#X connect 5 0 11 0;
+#X connect 6 0 2 0;
+#X connect 7 0 8 0;
+#X connect 9 0 10 0;
