@@ -1,4 +1,4 @@
-#N canvas 0 99 1440 800 10;
+#N canvas 0 98 1440 800 10;
 #X obj 111 85 metro 1000;
 #X obj 111 114 t b b;
 #X obj 138 324 send OSC_MESSAGES;
@@ -99,6 +99,7 @@
 #X msg 936 76 /DunjonDoor5*/Child/*pos 0;
 #X msg 138 233 /DunjonDoor5Cadre/Xpos \$1;
 #X msg 266 307 /DunjonDoor5Cadre/Rotate \$1;
+#X msg 936 100 /EvilPrince_BullePotium/Child/[X-Y]pos 1;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 4 0;
@@ -140,6 +141,7 @@
 #X connect 24 1 31 0;
 #X connect 24 1 49 0;
 #X connect 24 1 60 0;
+#X connect 24 1 95 0;
 #X connect 25 0 30 0;
 #X connect 26 0 36 0;
 #X connect 26 0 62 0;
@@ -234,3 +236,4 @@
 #X connect 92 0 23 0;
 #X connect 93 0 2 0;
 #X connect 94 0 2 0;
+#X connect 95 0 23 0;
