@@ -1,4 +1,4 @@
-#N canvas 0 96 1440 800 10;
+#N canvas 0 93 1440 800 10;
 #X obj 55 36 r apparitionBulleHomoBlack;
 #X obj 40 196 line;
 #X obj 126 204 line;
@@ -46,6 +46,7 @@
 #X msg 1122 211 /EvilPrince_BullePotium/ParentName /Dummy;
 #X msg 1122 231 /EvilPrince_BulleContent/Xpos 0;
 #X msg 1122 251 /EvilPrince_BullePotium/Xpos 0;
+#X msg 1122 271 /EvilPrince_BulleContent/gXpos 0;
 #X connect 0 0 17 0;
 #X connect 1 0 9 0;
 #X connect 2 0 10 0;
@@ -107,7 +108,9 @@
 #X connect 40 0 42 0;
 #X connect 40 0 43 0;
 #X connect 40 0 44 0;
+#X connect 40 0 45 0;
 #X connect 41 0 29 0;
 #X connect 42 0 29 0;
 #X connect 43 0 29 0;
 #X connect 44 0 29 0;
+#X connect 45 0 29 0;
