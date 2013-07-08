@@ -1,4 +1,4 @@
-#N canvas 673 339 1054 677 10;
+#N canvas 673 338 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1951,7 +1951,7 @@
 #X connect 49 0 5 1;
 #X restore 20 12 pd BanjoCorpsActivate;
 #X restore 302 414 pd BanjoActivate;
-#N canvas 308 642 450 300 SaxActivate 0;
+#N canvas 308 641 450 300 SaxActivate 1;
 #N canvas 0 43 850 819 SaxBasActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
@@ -2080,7 +2080,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 20 -28 pd SaxBasActivate;
-#N canvas 0 39 850 819 SaxBasActivate 0;
+#N canvas 0 39 850 819 SaxHautActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2207,7 +2207,7 @@
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
-#X restore 20 -8 pd SaxBasActivate;
+#X restore 20 -8 pd SaxHautActivate;
 #X restore 302 434 pd SaxActivate;
 #N canvas 342 283 1237 743 SceneComingFromTheCeilings 0;
 #X msg 730 159 /Djbebe/ParentName /Cochon;
