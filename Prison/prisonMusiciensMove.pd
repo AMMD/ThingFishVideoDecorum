@@ -1,4 +1,4 @@
-#N canvas 0 96 1440 800 10;
+#N canvas 0 95 1440 800 10;
 #X msg 25 36 0;
 #X msg 79 36 1;
 #X obj 34 142 send OSC_MESSAGES;
@@ -27,7 +27,7 @@
 #X msg 735 -56 set 500;
 #X obj 684 -73 t b b;
 #X obj 817 -39 hsl 128 15 200 800 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 6350 1;
+-262144 -1 -1 0 1;
 #X obj 804 54 / 2;
 #X msg 871 277 347;
 #X obj 753 311 line;
@@ -92,6 +92,7 @@
 #X msg 588 626 /CuveGalootContent/Rotate \$1;
 #X msg 838 626 /WashMachine/Rotate \$1;
 #X msg 1100 626 /DunjonDoor4Cadre/Rotate \$1;
+#X obj 251 244 print SaxHaut Ypos;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 3 0 2 0;
@@ -194,6 +195,7 @@
 #X connect 70 0 4 0;
 #X connect 70 0 5 0;
 #X connect 70 0 22 0;
+#X connect 70 0 91 0;
 #X connect 71 0 6 0;
 #X connect 72 0 15 0;
 #X connect 73 0 15 0;

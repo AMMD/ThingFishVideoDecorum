@@ -1,4 +1,4 @@
-#N canvas 673 338 1054 677 10;
+#N canvas 673 337 1054 677 10;
 #X obj 107 35 r prisonComesInFromJardin;
 #X obj 107 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -28,8 +28,6 @@
 #X obj 340 212 s /DummyScrollFromJardin;
 #X msg 334 181 /Prison*/ParentName /DummyScrollFromJardin;
 #X msg 67 244 /DummyScrollFromJardin/Xpos \$1;
-#X msg 56 494 /Prison_Musicien*/Activate 0;
-#X msg 72 550 /Prison_ScenePrison/Activate 0;
 #N canvas 0 47 850 819 PrisonSceneActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
@@ -663,8 +661,6 @@
 #X connect 49 0 5 1;
 #X restore 20 32 pd CymbalumCorpsActivate;
 #X restore 302 354 pd CymbalumActivate;
-#X text 186 454 Temporaire!!!! -----------------------------------
-;
 #N canvas 1470 466 450 300 CymbalesActivate 0;
 #N canvas 1484 135 850 819 CymbalesCourActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
@@ -1951,7 +1947,7 @@
 #X connect 49 0 5 1;
 #X restore 20 12 pd BanjoCorpsActivate;
 #X restore 302 414 pd BanjoActivate;
-#N canvas 308 641 450 300 SaxActivate 1;
+#N canvas 308 641 450 300 SaxActivate 0;
 #N canvas 0 43 850 819 SaxBasActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
@@ -2293,8 +2289,6 @@
 #X connect 5 0 3 0;
 #X connect 7 0 4 0;
 #X connect 9 0 5 0;
-#X connect 9 0 27 0;
-#X connect 9 0 28 0;
 #X connect 9 1 2 0;
 #X connect 9 1 6 0;
 #X connect 9 1 22 0;
@@ -2323,11 +2317,9 @@
 #X connect 23 0 4 0;
 #X connect 25 0 4 0;
 #X connect 26 0 4 0;
-#X connect 27 0 4 0;
-#X connect 28 0 4 0;
-#X connect 31 0 40 0;
-#X connect 39 0 31 0;
-#X connect 40 0 41 0;
-#X connect 40 0 43 0;
-#X connect 40 1 30 0;
-#X connect 43 0 42 0;
+#X connect 29 0 37 0;
+#X connect 36 0 29 0;
+#X connect 37 0 38 0;
+#X connect 37 0 40 0;
+#X connect 37 1 28 0;
+#X connect 40 0 39 0;
