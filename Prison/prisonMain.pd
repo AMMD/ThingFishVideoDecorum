@@ -1,11 +1,4 @@
-#N canvas 7 99 1425 796 10;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
+#N canvas 7 96 1425 796 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -28,7 +21,6 @@
 #X obj 627 72 s musiciansArentPlaying;
 #X obj 584 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 899 223 zac.lumiere /PrisonContainer;
 #X obj 205 61 r prisonActivate;
 #X obj 926 110 prisonMoves;
 #X obj 814 167 prisonRouleauAssiettes;
@@ -39,5 +31,5 @@
 #X connect 6 0 4 0;
 #X connect 8 0 7 0;
 #X connect 10 0 9 0;
-#X connect 12 0 6 0;
-#X connect 16 0 5 0;
+#X connect 11 0 6 0;
+#X connect 15 0 5 0;
