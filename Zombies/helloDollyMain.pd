@@ -12,7 +12,7 @@
 #X msg 156 296 0;
 #X obj 24 404 send OSC_MESSAGES;
 #X msg 24 333 /Zombies_HelloDolly*/Activate \$1;
-#N canvas 567 100 850 796 DollyTeteInit 0;
+#N canvas 561 100 850 796 DollyTeteInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -60,11 +60,11 @@
 #X msg 183 79 /DunjonDoor4;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Hello_Doly_Tete_Articulée/2013_07_01_Zombies_Hello_Doly_Tete.png
 ;
-#X msg 255 389 2;
-#X msg 255 369 2;
 #X obj 71 22 r DollyInit;
-#X msg 255 429 0.171812;
-#X msg 255 409 -0.14094;
+#X msg 255 369 1.2;
+#X msg 255 389 1.2;
+#X msg 255 409 0.5;
+#X msg 255 429 0;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -98,12 +98,12 @@
 #X connect 23 2 46 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 45 0;
+#X connect 24 2 47 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 49 0;
+#X connect 25 2 48 0;
 #X connect 26 1 11 0;
-#X connect 26 2 48 0;
+#X connect 26 2 49 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -134,13 +134,13 @@
 #X connect 42 0 5 1;
 #X connect 43 0 1 1;
 #X connect 44 0 5 1;
-#X connect 45 0 5 1;
+#X connect 45 0 2 0;
 #X connect 46 0 5 1;
-#X connect 47 0 2 0;
+#X connect 47 0 5 1;
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 300 515 pd DollyTeteInit;
-#N canvas 569 100 850 796 DollyCorpsInit 0;
+#N canvas 557 100 850 796 DollyCorpsInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -186,7 +186,7 @@
 #X msg 255 409 0;
 #X obj 71 22 r DollyInit;
 #X msg 183 79 /DunjonDoor4Cadre;
-#X msg 255 131 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Hello_Doly_Tete_Articulée/2013_07_01_Zombies_Hello_Doly_Buste.png
+#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Hello_Doly_Tete_Articulée/2013_07_01_Zombies_Hello_Doly_Buste.png
 ;
 #X msg 255 109 -3.02;
 #X msg 255 326 -23;
@@ -268,7 +268,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 300 535 pd DollyCorpsInit;
-#N canvas 579 100 850 796 DollyBrasInit 0;
+#N canvas 577 100 850 796 DollyBrasInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -316,11 +316,11 @@
 #X obj 71 22 r DollyInit;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Hello_Doly_Tete_Articulée/2013_07_01_Zombies_Hello_Doly_Bras.png
 ;
-#X msg 255 369 1.2;
-#X msg 255 389 1.2;
-#X msg 255 409 -0.4;
-#X msg 255 429 0.883218;
 #X msg 183 79 /Zombies_HelloDolly_Bras;
+#X msg 255 389 0.8;
+#X msg 255 369 1.2;
+#X msg 255 429 0.62;
+#X msg 255 409 0.35;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -342,7 +342,7 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 39 0;
-#X connect 20 2 49 0;
+#X connect 20 2 45 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 44 0;
@@ -351,13 +351,13 @@
 #X connect 22 2 42 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 45 0;
+#X connect 23 2 47 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
 #X connect 24 2 46 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 47 0;
+#X connect 25 2 49 0;
 #X connect 26 1 11 0;
 #X connect 26 2 48 0;
 #X connect 27 1 16 0;
@@ -390,14 +390,14 @@
 #X connect 42 0 5 1;
 #X connect 43 0 2 0;
 #X connect 44 0 5 1;
-#X connect 45 0 5 1;
+#X connect 45 0 1 1;
 #X connect 46 0 5 1;
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
-#X connect 49 0 1 1;
+#X connect 49 0 5 1;
 #X restore 300 555 pd DollyBrasInit;
 #X msg 24 368 /DunjonDoor4*/Activate \$1;
-#N canvas 577 100 850 796 DollyBrasFondInit 0;
+#N canvas 573 100 850 796 DollyBrasFondInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -443,13 +443,13 @@
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Hello_Doly_Tete_Articulée/2013_07_01_Zombies_Hello_Doly_Bras.png
 ;
 #X msg 255 369 1.2;
-#X msg 255 389 1.2;
-#X msg 255 409 -0.4;
-#X msg 255 429 0.883218;
 #X msg 255 109 -3.021;
 #X msg 255 326 -24;
 #X msg 255 245 340.671;
 #X msg 183 79 /Zombies_HelloDolly_BrasFond;
+#X msg 255 389 0.8;
+#X msg 255 409 0.15;
+#X msg 255 429 0.62;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -470,25 +470,25 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 46 0;
-#X connect 20 2 49 0;
+#X connect 20 1 43 0;
+#X connect 20 2 46 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 41 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 47 0;
+#X connect 22 2 44 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
 #X connect 23 2 42 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 43 0;
+#X connect 24 2 47 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 44 0;
+#X connect 25 2 48 0;
 #X connect 26 1 11 0;
-#X connect 26 2 45 0;
+#X connect 26 2 49 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -499,7 +499,7 @@
 #X connect 30 2 39 0;
 #X connect 31 0 30 0;
 #X connect 31 1 17 0;
-#X connect 31 2 48 0;
+#X connect 31 2 45 0;
 #X connect 32 0 31 0;
 #X connect 32 1 12 0;
 #X connect 32 2 36 0;
@@ -520,12 +520,12 @@
 #X connect 43 0 5 1;
 #X connect 44 0 5 1;
 #X connect 45 0 5 1;
-#X connect 46 0 5 1;
+#X connect 46 0 1 1;
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
-#X connect 49 0 1 1;
+#X connect 49 0 5 1;
 #X restore 300 575 pd DollyBrasFondInit;
-#N canvas 571 100 850 796 DollyRobeInit 0;
+#N canvas 565 100 850 796 DollyRobeInit 1;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -575,9 +575,9 @@
 #X msg 255 326 -22;
 #X msg 255 369 1.5;
 #X msg 255 389 1;
-#X msg 255 409 -1.71812;
-#X msg 255 429 -0.131544;
 #X msg 183 79 /Zombies_HelloDolly_Robe;
+#X msg 255 409 -0.70812;
+#X msg 255 429 -0.121544;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -599,7 +599,7 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 41 0;
-#X connect 20 2 49 0;
+#X connect 20 2 47 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 42 0;
@@ -614,9 +614,9 @@
 #X connect 24 2 46 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 47 0;
+#X connect 25 2 48 0;
 #X connect 26 1 11 0;
-#X connect 26 2 48 0;
+#X connect 26 2 49 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -649,9 +649,9 @@
 #X connect 44 0 5 1;
 #X connect 45 0 5 1;
 #X connect 46 0 5 1;
-#X connect 47 0 5 1;
+#X connect 47 0 1 1;
 #X connect 48 0 5 1;
-#X connect 49 0 1 1;
+#X connect 49 0 5 1;
 #X restore 300 595 pd DollyRobeInit;
 #X obj 134 576 dollyMoves;
 #X obj 156 267 r dollyDeActivate;
@@ -659,6 +659,8 @@
 #X obj 242 672 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 252 722 s DollyInit;
+#X msg 450 687 /DunjonDoor4Cadre/ParentName /Dummy;
+#X msg 457 719 /DunjonDoor4Cadre/gXpos 0;
 #X connect 3 0 6 0;
 #X connect 3 0 10 0;
 #X connect 4 0 6 0;
@@ -669,3 +671,5 @@
 #X connect 15 0 3 0;
 #X connect 16 0 17 0;
 #X connect 16 0 3 0;
+#X connect 18 0 5 0;
+#X connect 19 0 5 0;
