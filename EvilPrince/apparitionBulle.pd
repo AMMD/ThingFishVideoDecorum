@@ -1,4 +1,4 @@
-#N canvas 0 98 1440 800 10;
+#N canvas 0 96 1440 800 10;
 #X obj 55 36 r apparitionBulleHomoBlack;
 #X obj 40 196 line;
 #X obj 126 204 line;
@@ -29,11 +29,11 @@
 #X obj 883 90 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 897 129 t b b;
-#X msg 1027 143 1;
+#X msg 1027 146 1;
 #X obj 881 257 send OSC_MESSAGES;
 #X obj 902 190 line;
 #X msg 890 213 /EvilPrince_Bulle*/Alpha \$1;
-#X msg 834 149 0 200;
+#X msg 834 146 0 200;
 #X msg 825 260 0.1 200;
 #X msg 435 82 /EvilPrince_Bulle*/Alpha 1;
 #X msg 447 173 /EvilPrince_BulleContent/Zpos -1;
@@ -41,6 +41,11 @@
 #X msg 50 158 3.75463 \$1;
 #X msg 298 165 4.55463 \$1;
 #X msg 811 224 0.264631 200;
+#X obj 1122 146 delay 205;
+#X msg 1122 191 /EvilPrince_BulleContent/ParentName /Dummy;
+#X msg 1122 211 /EvilPrince_BullePotium/ParentName /Dummy;
+#X msg 1122 231 /EvilPrince_BulleContent/Xpos 0;
+#X msg 1122 251 /EvilPrince_BullePotium/Xpos 0;
 #X connect 0 0 17 0;
 #X connect 1 0 9 0;
 #X connect 2 0 10 0;
@@ -85,6 +90,7 @@
 #X connect 27 0 32 0;
 #X connect 27 0 39 0;
 #X connect 27 0 33 0;
+#X connect 27 0 40 0;
 #X connect 27 1 28 0;
 #X connect 28 0 30 0;
 #X connect 30 0 31 0;
@@ -97,3 +103,11 @@
 #X connect 37 0 1 0;
 #X connect 38 0 4 0;
 #X connect 39 0 1 0;
+#X connect 40 0 41 0;
+#X connect 40 0 42 0;
+#X connect 40 0 43 0;
+#X connect 40 0 44 0;
+#X connect 41 0 29 0;
+#X connect 42 0 29 0;
+#X connect 43 0 29 0;
+#X connect 44 0 29 0;
