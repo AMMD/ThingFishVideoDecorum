@@ -1,4 +1,4 @@
-#N canvas 0 97 1440 800 10;
+#N canvas 0 49 1920 1031 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -83,7 +83,7 @@
 #X msg 1273 550 /WashMachineButtons/Activate \$1;
 #X obj 225 -93 dunjonMoves;
 #X obj 267 -57 zac.lumiere /DunjonContainer;
-#N canvas 411 232 874 496 DunjonInit 1;
+#N canvas 411 232 874 496 DunjonInit 0;
 #N canvas 529 170 850 819 CochonInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
@@ -1108,7 +1108,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 15 165 pd CuveGalootContent2Init;
-#N canvas 529 162 850 819 DjventiloInit 1;
+#N canvas 529 162 850 819 DjventiloInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1669,6 +1669,8 @@
 #X connect 115 0 111 0;
 #X restore 15 255 pd DunjonDoorsInit;
 #X restore 342 -123 pd DunjonInit;
+#X obj 291 470 r DunjonInit;
+#X obj 862 425 r DunjonInit;
 #X connect 9 0 11 1;
 #X connect 9 0 21 1;
 #X connect 10 0 17 0;
@@ -1745,3 +1747,5 @@
 #X connect 55 0 26 0;
 #X connect 58 0 41 0;
 #X connect 59 0 41 0;
+#X connect 63 0 25 0;
+#X connect 64 0 12 0;
