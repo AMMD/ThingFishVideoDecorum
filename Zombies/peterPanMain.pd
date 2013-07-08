@@ -25,7 +25,7 @@
 #X obj 360 249 zac.lumiere /Zombies_PeterPan_BrasFond /PeterPanContainer
 ;
 #X obj 124 566 peterPanMoves;
-#N canvas 589 100 850 796 PeterPanTeteInit 0;
+#N canvas 573 100 850 796 PeterPanTeteInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -153,7 +153,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 290 505 pd PeterPanTeteInit;
-#N canvas 589 100 850 796 PeterPanCorpsInit 0;
+#N canvas 583 100 850 796 PeterPanCorpsInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -281,7 +281,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 290 525 pd PeterPanCorpsInit;
-#N canvas 587 100 850 796 PeterPanBrasInit 0;
+#N canvas 583 100 850 796 PeterPanBrasInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -409,7 +409,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 290 545 pd PeterPanBrasInit;
-#N canvas 585 100 850 796 PeterPanBrasFondInit 0;
+#N canvas 581 100 850 796 PeterPanBrasFondInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -537,7 +537,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 290 565 pd PeterPanBrasFondInit;
-#N canvas 581 100 850 796 PeterJambe1Init 0;
+#N canvas 577 100 850 796 PeterJambe1Init 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1

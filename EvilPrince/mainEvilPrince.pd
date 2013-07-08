@@ -1,4 +1,4 @@
-#N canvas 0 89 1440 800 10;
+#N canvas 0 100 1440 800 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -398,6 +398,9 @@
 #X msg 1041 728 /EvilPrince_Corps/ParentName /Dummy;
 #X obj 85 526 t b b b b;
 #X obj 144 572 s EvilPrinceInitPlace;
+#X msg 226 787 /EvilPrince_*/g[X-Y]pos 0;
+#X msg 226 766 /EvilPrince_*/Child/[X-Y]pos 0;
+#X msg 226 746 /EvilPrince_*/Child/ParentName /Dummy;
 #X connect 4 0 7 0;
 #X connect 5 0 4 0;
 #X connect 6 0 4 0;
@@ -408,6 +411,9 @@
 #X connect 21 0 7 0;
 #X connect 22 0 7 0;
 #X connect 25 0 5 0;
+#X connect 25 0 40 0;
+#X connect 25 0 39 0;
+#X connect 25 0 38 0;
 #X connect 29 0 31 0;
 #X connect 30 0 31 0;
 #X connect 32 0 33 0;
@@ -424,3 +430,6 @@
 #X connect 36 1 6 0;
 #X connect 36 2 37 0;
 #X connect 36 3 32 0;
+#X connect 38 0 7 0;
+#X connect 39 0 7 0;
+#X connect 40 0 7 0;
