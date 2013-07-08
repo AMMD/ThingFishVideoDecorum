@@ -1,10 +1,4 @@
-#N canvas 3 48 1440 800 10;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
+#N canvas 3 47 1440 800 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -16,17 +10,11 @@
 #X obj 44 231 zac.lumiere /TapisRoulant_Roulement /TapisRoulant;
 #X obj 129 446 prisonRouleauAssiettesMove;
 #X obj 112 502 zac.lumiere /Assiettes;
-#X obj 444 328 zac.lumiere /Assiette_DSK /Assiettes;
-#X obj 447 504 zac.lumiere /Assiette_DSKContenu /Assiettes;
 #X obj 890 682 send OSC_MESSAGES;
 #X msg 729 714 /AssietteDSKContenu/File /home/orl/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée_galoot0.png
 ;
-#X obj 704 328 zac.lumiere /Assiette_Lagarde /Assiettes;
-#X obj 707 504 zac.lumiere /Assiette_LagardeContenu /Assiettes;
 #X obj 964 328 zac.lumiere /Assiette_Bush /Assiettes;
-#X obj 967 504 zac.lumiere /Assiette_BushContenu /Assiettes;
 #X obj 1224 328 zac.lumiere /Assiette_Gail /Assiettes;
-#X obj 1227 504 zac.lumiere /Assiette_GailContenu /Assiettes;
 #X msg 911 87 0;
 #X msg 1047 91 1;
 #X msg 911 139 /Assiette_*/Activate \$1;
@@ -167,7 +155,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 2 0;
 #X restore 667 39 pd TapisRoulantRouleauActivate;
-#N canvas 88 171 850 819 TapisRoulantRoulementActivate 1;
+#N canvas 88 171 850 819 TapisRoulantRoulementActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -807,14 +795,14 @@
 #X connect 48 0 1 1;
 #X connect 49 0 5 1;
 #X restore 667 129 pd TapisRoulantAssietteBushActivate;
-#X connect 8 0 7 0;
-#X connect 15 0 17 0;
-#X connect 16 0 17 0;
-#X connect 17 0 18 0;
-#X connect 19 0 22 0;
-#X connect 20 0 22 0;
-#X connect 22 0 21 0;
-#X connect 23 0 19 0;
-#X connect 24 0 20 0;
-#X connect 25 0 16 0;
-#X connect 26 0 15 0;
+#X connect 6 0 5 0;
+#X connect 9 0 11 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 13 0 16 0;
+#X connect 14 0 16 0;
+#X connect 16 0 15 0;
+#X connect 17 0 13 0;
+#X connect 18 0 14 0;
+#X connect 19 0 10 0;
+#X connect 20 0 9 0;
