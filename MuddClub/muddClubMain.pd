@@ -731,7 +731,7 @@
 #X connect 58 1 56 0;
 #X connect 58 2 57 0;
 #X restore 207 128 pd MuddClubPosition1-2Init;
-#N canvas 543 100 850 796 MuddClubPunkCorpsInit 0;
+#N canvas 541 100 850 796 MuddClubPunkCorpsInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -781,7 +781,6 @@
 #X obj 56 452 t b b b;
 #X msg 255 264 1;
 #X obj 71 22 r MuddClubInit;
-#X msg 255 109 -3.03;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MuddClub/data/2013_07_03_Mudd_Club_Punk_Corps.png
 ;
 #X msg 183 79 /CuveGalootContent;
@@ -790,6 +789,7 @@
 #X msg 255 326 -20;
 #X msg 255 409 0;
 #X msg 255 429 0;
+#X msg 255 109 -3.03;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -810,26 +810,26 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 48 0;
-#X connect 20 2 50 0;
+#X connect 20 1 55 0;
+#X connect 20 2 49 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 49 0;
+#X connect 21 2 48 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 53 0;
+#X connect 22 2 52 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 51 0;
+#X connect 23 2 50 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 52 0;
+#X connect 24 2 51 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 54 0;
+#X connect 25 2 53 0;
 #X connect 26 0 44 0;
 #X connect 26 1 11 0;
-#X connect 26 2 55 0;
+#X connect 26 2 54 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -867,8 +867,8 @@
 #X connect 46 0 5 1;
 #X connect 47 0 2 0;
 #X connect 48 0 5 1;
-#X connect 49 0 5 1;
-#X connect 50 0 1 1;
+#X connect 49 0 1 1;
+#X connect 50 0 5 1;
 #X connect 51 0 5 1;
 #X connect 52 0 5 1;
 #X connect 53 0 5 1;
@@ -1748,7 +1748,7 @@
 #X obj 126 514 s QNRdrague;
 #X obj 128 560 s tempoDance;
 #X obj 131 535 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 0 1;
+-262144 -1 -1 12700 1;
 #X floatatom 128 582 5 0 0 0 - - -;
 #X obj 128 609 s jumpHighness;
 #X obj 88 476 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2077,10 +2077,10 @@
 #X obj 502 399 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 502 434 s MuddClubGH;
-#X obj 566 623 s OSC_MESSAGES;
-#X msg 549 554 3;
-#X msg 592 557 5;
-#X msg 550 577 /CuveGaloot/ShapeIndex \$1;
+#X obj 947 605 s OSC_MESSAGES;
+#X msg 947 542 3;
+#X msg 986 541 5;
+#X msg 947 565 /CuveGaloot/ShapeIndex \$1;
 #N canvas 543 100 850 796 MuddClubVideoChretien1Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
@@ -2537,6 +2537,9 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 407 208 pd MuddClubVideoChretien3Init;
+#X obj 502 456 s ArriveeVideoChretiens;
+#X obj 947 471 metro 200;
+#X obj 967 508 delay 100;
 #X connect 3 0 4 0;
 #X connect 3 0 14 0;
 #X connect 3 0 29 0;
@@ -2552,9 +2555,14 @@
 #X connect 29 0 22 0;
 #X connect 30 0 21 0;
 #X connect 33 0 36 0;
+#X connect 33 0 49 0;
 #X connect 36 0 34 0;
 #X connect 36 1 35 0;
 #X connect 39 0 40 0;
+#X connect 39 0 48 0;
 #X connect 42 0 44 0;
 #X connect 43 0 44 0;
 #X connect 44 0 41 0;
+#X connect 49 0 42 0;
+#X connect 49 0 50 0;
+#X connect 50 0 43 0;
