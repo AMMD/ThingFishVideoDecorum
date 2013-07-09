@@ -1,1 +1,9 @@
-#N canvas 1 100 450 300 10;
+#N canvas 0 100 1440 800 10;
+#X obj 65 86 s economicWorshipGetsOutToCour;
+#X obj 77 40 s economicWorshipOff;
+#X obj 39 25 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 43 71 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 2 0 1 0;
+#X connect 3 0 0 0;
