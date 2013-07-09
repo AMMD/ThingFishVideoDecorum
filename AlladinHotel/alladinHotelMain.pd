@@ -1,4 +1,4 @@
-#N canvas 1 100 450 300 10;
+#N canvas 1 100 886 596 10;
 #N canvas 521 100 850 796 AlladinHotelPlan1Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -1313,7 +1313,7 @@
 #X connect 55 0 5 1;
 #X connect 56 0 5 1;
 #X restore 51 161 pd AlladinHotelChapeauGroomInit;
-#N canvas 499 100 850 796 AlladinHotelChapeauJambeOpalInit 1;
+#N canvas 497 100 850 796 AlladinHotelChapeauJambeOpalInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1460,4 +1460,5 @@
 #X connect 55 0 5 1;
 #X connect 56 0 5 1;
 #X restore 51 181 pd AlladinHotelChapeauJambeOpalInit;
+#X obj 612 59 alladinHotelMoves;
 #X connect 8 0 9 0;
