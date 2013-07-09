@@ -1,4 +1,4 @@
-#N canvas 269 139 1055 682 10;
+#N canvas 263 133 1055 682 10;
 #X obj 155 62 r economicWorshipComesInFromjardin;
 #X msg 131 157 -18;
 #X obj 97 192 line;
@@ -27,7 +27,7 @@
 #X obj 126 574 s OSC_MESSAGES;
 #X obj 126 391 t b b;
 #X obj 213 408 s EconomicWorshipOn;
-#N canvas 548 254 453 546 ScintillageNeon 0;
+#N canvas 544 250 453 546 ScintillageNeon 1;
 #X obj 57 43 r ScintillageNeon;
 #X obj 197 47 r ScintillageNeonOff;
 #X obj 57 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -47,7 +47,7 @@
 #X obj 197 287 line;
 #X msg 197 249 0 150;
 #X obj 251 81 delay 10;
-#X msg 336 106 0 50;
+#X msg 336 106 0 200;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 1 0 17 0;
@@ -75,9 +75,8 @@
 #X connect 15 0 10 0;
 #X connect 16 0 15 0;
 #X connect 17 0 18 0;
-#X connect 18 0 8 0;
-#X connect 18 0 9 0;
-#X connect 18 0 11 0;
+#X connect 18 0 15 0;
+#X connect 18 0 14 0;
 #X restore 529 377 pd ScintillageNeon;
 #X obj 287 484 delay 1000;
 #X obj 287 523 s ScintillageNeon;

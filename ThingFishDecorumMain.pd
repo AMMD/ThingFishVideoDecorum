@@ -167,7 +167,9 @@
 #X restore 472 -47 pd Dummies;
 #X obj 182 21 MuddClub/muddClubMain;
 #X obj 316 21 EconomicWorship/economicWorshipMain;
-#X obj 483 -192 10_ClownsOnVelvet;
+#X obj 483 -153 10_ClownsOnVelvet;
+#X obj 485 -205 08_MuddClub;
+#X obj 490 -176 09_TheMeek;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;

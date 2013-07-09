@@ -1,0 +1,71 @@
+#N canvas 0 100 1440 800 10;
+#X obj -594 35 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -594 67 s MuddClubInit;
+#X obj -799 111 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -594 120 s muddClubUsersDancing;
+#X obj -799 143 s QNRarrivee;
+#X obj -800 172 s QNRdecouvre;
+#X obj -801 195 s QNRdrague;
+#X obj -799 241 s tempoDance;
+#X obj -796 216 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 0 1;
+#X floatatom -799 263 5 0 0 0 - - -;
+#X obj -799 290 s jumpHighness;
+#X obj -839 157 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -838 180 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -835 306 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -834 331 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -834 364 s muddClubUsersStopDancing;
+#X msg -594 246 0;
+#X msg -594 199 1500;
+#X obj -802 321 s ChuteCrete;
+#X obj -722 321 s ChuteTabouret;
+#X obj 19 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 19 121 s MuddClubFuck;
+#X obj 111 121 s muddClubUsersStopDancing;
+#X obj 19 99 t b b;
+#X obj -425 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -425 115 s MuddClubGH;
+#X obj 20 286 s OSC_MESSAGES;
+#X msg 20 223 3;
+#X msg 59 222 5;
+#X msg 20 246 /CuveGaloot/ShapeIndex \$1;
+#X obj -425 137 s ArriveeVideoChretiens;
+#X obj 20 152 metro 200;
+#X obj 40 189 delay 100;
+#X obj 208 249 s BaisePunkQNR;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 0 0 16 0;
+#X connect 0 0 17 0;
+#X connect 2 0 4 0;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
+#X connect 11 0 5 0;
+#X connect 12 0 6 0;
+#X connect 13 0 18 0;
+#X connect 13 0 19 0;
+#X connect 14 0 15 0;
+#X connect 16 0 9 0;
+#X connect 17 0 8 0;
+#X connect 20 0 23 0;
+#X connect 20 0 31 0;
+#X connect 23 0 21 0;
+#X connect 23 0 33 0;
+#X connect 23 1 22 0;
+#X connect 24 0 25 0;
+#X connect 24 0 30 0;
+#X connect 27 0 29 0;
+#X connect 28 0 29 0;
+#X connect 29 0 26 0;
+#X connect 31 0 27 0;
+#X connect 31 0 32 0;
+#X connect 32 0 28 0;
