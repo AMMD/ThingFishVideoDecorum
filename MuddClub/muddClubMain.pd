@@ -1478,6 +1478,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 228 pd MuddClubTabouretInit;
+#X obj 471 50 muddClubMoves;
 #X connect 3 0 4 0;
 #X connect 7 0 10 0;
 #X connect 8 0 7 0;
