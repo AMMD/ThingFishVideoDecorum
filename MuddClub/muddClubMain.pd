@@ -1748,7 +1748,7 @@
 #X obj 126 514 s QNRdrague;
 #X obj 128 560 s tempoDance;
 #X obj 131 535 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 0 1;
+-262144 -1 -1 9000 1;
 #X floatatom 128 582 5 0 0 0 - - -;
 #X obj 128 609 s jumpHighness;
 #X obj 88 476 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2541,6 +2541,8 @@
 #X obj 947 471 metro 200;
 #X obj 967 508 delay 100;
 #X obj 1135 568 s BaisePunkQNR;
+#X msg 1089 486 stop;
+#X obj 1144 468 r stopMainFuck;
 #X connect 3 0 4 0;
 #X connect 3 0 14 0;
 #X connect 3 0 29 0;
@@ -2568,3 +2570,5 @@
 #X connect 49 0 42 0;
 #X connect 49 0 50 0;
 #X connect 50 0 43 0;
+#X connect 52 0 49 0;
+#X connect 53 0 52 0;
