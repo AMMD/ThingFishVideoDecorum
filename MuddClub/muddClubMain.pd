@@ -1,4 +1,4 @@
-#N canvas 6 100 1414 706 10;
+#N canvas 4 100 1414 706 10;
 #N canvas 563 100 850 796 MuddClubPlan4Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -434,7 +434,7 @@
 #X obj 281 445 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 281 477 s MuddClubInit;
-#N canvas 553 100 850 796 MuddClubLustreInit 0;
+#N canvas 551 100 850 796 MuddClubLustreInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -485,7 +485,6 @@
 #X msg 255 264 1;
 #X msg 255 429 0.7;
 #X obj 71 22 r MuddClubInit;
-#X msg 255 326 -19;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MuddClub/data/2013_07_03_Mudd_Club_Lustre.png
 ;
 #X msg 255 369 1;
@@ -493,6 +492,7 @@
 #X msg 255 409 1.5;
 #X msg 183 79 /Djbebe;
 #X msg 255 109 -3.011;
+#X msg 255 326 -19;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -513,23 +513,23 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 55 0;
-#X connect 20 2 54 0;
+#X connect 20 1 54 0;
+#X connect 20 2 53 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 50 0;
+#X connect 21 2 49 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 49 0;
+#X connect 22 2 55 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 51 0;
+#X connect 23 2 50 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 52 0;
+#X connect 24 2 51 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 53 0;
+#X connect 25 2 52 0;
 #X connect 26 0 44 0;
 #X connect 26 1 11 0;
 #X connect 26 2 47 0;
@@ -574,11 +574,11 @@
 #X connect 50 0 5 1;
 #X connect 51 0 5 1;
 #X connect 52 0 5 1;
-#X connect 53 0 5 1;
-#X connect 54 0 1 1;
+#X connect 53 0 1 1;
+#X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 108 pd MuddClubLustreInit;
-#N canvas 557 100 850 796 MuddClubPosition1-2Init 0;
+#N canvas 555 100 850 796 MuddClubPosition1-2Init 1;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -740,7 +740,7 @@
 #X msg 847 205 stop;
 #X obj 794 265 metro 400;
 #X obj 848 297 delay 200;
-#N canvas 547 100 850 796 MuddClubPunkCorpsInit 1;
+#N canvas 547 100 850 796 MuddClubPunkCorpsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1334,7 +1334,7 @@
 #X restore 207 208 pd MuddClubQNRTeteInit;
 #X msg 939 526 /DunjonDoor1/Flip \$1;
 #X msg 1169 531 /DunjonDoor1/Xpos \$1;
-#N canvas 537 100 850 796 MuddClubTabouretInit 1;
+#N canvas 535 100 850 796 MuddClubTabouretInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1391,8 +1391,8 @@
 #X msg 255 389 0.4;
 #X msg 255 429 -4;
 #X msg 255 409 -2.4;
-#X msg 255 109 -3.03;
 #X msg 255 326 -19;
+#X msg 255 109 -3.036;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -1413,14 +1413,14 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 54 0;
+#X connect 20 1 55 0;
 #X connect 20 2 48 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 49 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 55 0;
+#X connect 22 2 54 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
 #X connect 23 2 50 0;
