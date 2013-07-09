@@ -1,4 +1,4 @@
-#N canvas 149 262 790 631 10;
+#N canvas 145 258 790 631 10;
 #X obj 155 62 r economicWorshipComesInFromjardin;
 #X msg 131 157 -18;
 #X obj 97 192 line;
@@ -27,7 +27,7 @@
 #X obj 126 574 s OSC_MESSAGES;
 #X obj 126 391 t b b;
 #X obj 213 408 s EconomicWorshipOn;
-#N canvas 558 264 453 546 ScintillageNeon 0;
+#N canvas 556 262 453 546 ScintillageNeon 0;
 #X obj 57 43 r ScintillageNeon;
 #X obj 202 47 r ScintillageNeonOff;
 #X obj 57 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -143,6 +143,10 @@
 #X connect 29 0 12 0;
 #X restore 537 442 pd QRNspeaks;
 #X obj 287 550 s QNRspeaks;
+#X obj 466 84 s economicWorshipComesInFromjardin;
+#X obj 491 47 s muddClubGetsOutToCour;
+#X obj 469 29 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 0 0 7 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -178,3 +182,5 @@
 #X connect 24 1 25 0;
 #X connect 27 0 28 0;
 #X connect 27 0 30 0;
+#X connect 33 0 32 0;
+#X connect 33 0 31 0;
