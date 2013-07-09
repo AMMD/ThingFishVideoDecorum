@@ -1748,7 +1748,7 @@
 #X obj 126 514 s QNRdrague;
 #X obj 128 560 s tempoDance;
 #X obj 131 535 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 12700 1;
+-262144 -1 -1 0 1;
 #X floatatom 128 582 5 0 0 0 - - -;
 #X obj 128 609 s jumpHighness;
 #X obj 88 476 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
