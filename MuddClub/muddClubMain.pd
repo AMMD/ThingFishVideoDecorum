@@ -434,7 +434,7 @@
 #X obj 281 445 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 281 477 s MuddClubInit;
-#N canvas 547 100 850 796 MuddClubLustreInit 1;
+#N canvas 547 100 850 796 MuddClubLustreInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -740,7 +740,7 @@
 #X msg 847 205 stop;
 #X obj 794 265 metro 400;
 #X obj 848 297 delay 200;
-#N canvas 547 100 850 796 MuddClubPunkCorpsInit 0;
+#N canvas 543 100 850 796 MuddClubPunkCorpsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -796,9 +796,9 @@
 #X msg 183 79 /CuveGalootContent;
 #X msg 255 369 1.7;
 #X msg 255 389 0.7;
-#X msg 255 429 5.5;
-#X msg 255 409 -1.6;
 #X msg 255 326 -20;
+#X msg 255 409 0;
+#X msg 255 429 0;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -826,7 +826,7 @@
 #X connect 21 2 49 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 55 0;
+#X connect 22 2 53 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
 #X connect 23 2 51 0;
@@ -838,7 +838,7 @@
 #X connect 25 2 54 0;
 #X connect 26 0 44 0;
 #X connect 26 1 11 0;
-#X connect 26 2 53 0;
+#X connect 26 2 55 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -884,7 +884,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 148 pd MuddClubPunkCorpsInit;
-#N canvas 547 100 850 796 MuddClubPunkCreteInit 0;
+#N canvas 543 100 850 796 MuddClubPunkCreteInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -941,8 +941,8 @@
 ;
 #X msg 255 389 0.6;
 #X msg 255 369 0.5;
-#X msg 255 429 5.1;
-#X msg 255 409 -0.35;
+#X msg 255 429 -0.4;
+#X msg 255 409 1.25;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -1028,7 +1028,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 168 pd MuddClubPunkCreteInit;
-#N canvas 539 100 850 796 MuddClubQNRCorpsInit 0;
+#N canvas 537 100 850 796 MuddClubQNRCorpsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
