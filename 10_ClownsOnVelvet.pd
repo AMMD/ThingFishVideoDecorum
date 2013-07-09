@@ -1,21 +1,23 @@
 #N canvas 0 100 1440 800 10;
-#X obj 65 86 s economicWorshipGetsOutToCour;
+#X obj 243 92 s economicWorshipGetsOutToCour;
 #X obj 77 40 s economicWorshipOff;
 #X obj 39 25 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 43 71 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 70 126 s lightChambre1;
+#X obj 88 178 s lightChambre2;
+#X obj 36 163 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 101 196 s alladinHotelActive;
-#X obj 44 181 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 38 111 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 88 255 s lightChambre1;
-#X obj 97 308 s lightChambre2;
-#X obj 45 293 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 440 92 s alladinHotelComesInFromJardin;
+#X obj 39 60 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 56 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 116 75 s HandCineticScroll;
+#X obj 55 75 delay 200;
 #X connect 2 0 1 0;
-#X connect 3 0 0 0;
 #X connect 5 0 4 0;
-#X connect 8 0 7 0;
-#X connect 9 0 6 0;
+#X connect 6 0 3 0;
+#X connect 8 0 9 0;
+#X connect 8 0 10 0;
+#X connect 10 0 0 0;
+#X connect 10 0 7 0;

@@ -1,11 +1,18 @@
 #N canvas 0 100 1440 800 10;
-#X obj 31 71 s economicWorshipComesInFromjardin;
-#X obj 57 31 s muddClubGetsOutToCour;
-#X obj 31 16 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 165 99 s economicWorshipComesInFromjardin;
+#X obj 191 59 s muddClubGetsOutToCour;
+#X obj 165 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 47 145 s economicWorshipOn;
 #X obj 23 130 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 13 12 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 90 27 s HandCineticScroll;
+#X obj 29 27 delay 200;
 #X connect 2 0 1 0;
 #X connect 2 0 0 0;
 #X connect 4 0 3 0;
+#X connect 5 0 6 0;
+#X connect 5 0 7 0;
+#X connect 7 0 2 0;
