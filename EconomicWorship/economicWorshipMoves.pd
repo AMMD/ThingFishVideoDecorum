@@ -1,4 +1,4 @@
-#N canvas 145 258 790 631 10;
+#N canvas 330 194 790 631 10;
 #X obj 155 62 r economicWorshipComesInFromjardin;
 #X msg 131 157 -18;
 #X obj 97 192 line;
@@ -143,7 +143,7 @@
 #X connect 29 0 12 0;
 #X restore 537 442 pd QRNspeaks;
 #X obj 287 550 s QNRspeaks;
-#X obj 466 84 s economicWorshipComesInFromjardin;
+#X obj 469 84 s economicWorshipComesInFromjardin;
 #X obj 491 47 s muddClubGetsOutToCour;
 #X obj 469 29 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
