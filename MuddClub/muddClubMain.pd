@@ -1,4 +1,4 @@
-#N canvas 2 100 1414 706 10;
+#N canvas 1 100 1414 706 10;
 #N canvas 563 100 850 796 MuddClubPlan4Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -143,7 +143,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 48 pd MuddClubPlan4Init;
-#N canvas 559 100 850 796 MuddClubPlan3Init 0;
+#N canvas 555 100 850 796 MuddClubPlan3Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -431,9 +431,9 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 88 pd MuddClubPlan2Init;
-#X obj 281 445 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 333 354 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 281 477 s MuddClubInit;
+#X obj 333 386 s MuddClubInit;
 #N canvas 547 100 850 796 MuddClubLustreInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -731,15 +731,6 @@
 #X connect 58 1 56 0;
 #X connect 58 2 57 0;
 #X restore 207 128 pd MuddClubPosition1-2Init;
-#X msg 654 379 /CuveGaloot/ShapeIndex \$1;
-#X msg 804 342 4;
-#X msg 853 341 3;
-#X obj 647 446 s OSC_MESSAGES;
-#X obj 771 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X msg 847 205 stop;
-#X obj 794 265 metro 400;
-#X obj 848 297 delay 200;
 #N canvas 543 100 850 796 MuddClubPunkCorpsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -884,7 +875,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 158 pd MuddClubPunkCorpsInit;
-#N canvas 543 100 850 796 MuddClubPunkCreteInit 0;
+#N canvas 541 100 850 796 MuddClubPunkCreteInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1172,22 +1163,6 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 208 pd MuddClubQNRCorpsInit;
-#X msg 939 431 0;
-#X obj 984 380 metro 150;
-#X floatatom 1061 351 5 0 0 0 - - -;
-#X obj 1053 408 / 2;
-#X obj 1061 444 delay;
-#X msg 993 461 1;
-#X msg 939 495 /DjventiloPales/Flip \$1;
-#X obj 984 327 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X msg 1043 320 stop;
-#X obj 1167 342 t b b;
-#X msg 1197 391 -10;
-#X msg 1121 416 -4 1500;
-#X msg 1169 500 /DjventiloPales/Xpos \$1;
-#X obj 1169 465 line;
-#X obj 1255 408 delay 1500;
 #N canvas 539 100 850 796 MuddClubQNRTeteInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -1332,9 +1307,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 228 pd MuddClubQNRTeteInit;
-#X msg 939 526 /DunjonDoor1/Flip \$1;
-#X msg 1169 531 /DunjonDoor1/Xpos \$1;
-#N canvas 533 100 850 796 MuddClubTabouretInit 0;
+#N canvas 529 100 850 796 MuddClubTabouretInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1479,10 +1452,10 @@
 #X connect 55 0 5 1;
 #X restore 207 28 pd MuddClubTabouretInit;
 #X obj 471 50 muddClubMoves;
-#X obj 127 516 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 128 430 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 281 530 s muddClubUsersDancing;
-#X obj 127 548 s QNRarrivee;
+#X obj 333 439 s muddClubUsersDancing;
+#X obj 128 462 s QNRarrivee;
 #N canvas 533 100 850 796 MuddClubQNRCorpsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -1627,7 +1600,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 248 pd MuddClubQNRCorpsInit;
-#N canvas 529 100 850 796 MuddClubQNRPaupiereInit 1;
+#N canvas 527 100 850 796 MuddClubQNRPaupiereInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1771,39 +1744,37 @@
 #X connect 54 0 1 1;
 #X connect 55 0 5 1;
 #X restore 207 268 pd MuddClubQNRPaupiereInit;
+#X obj 127 491 s QNRdecouvre;
+#X obj 126 514 s QNRdrague;
+#X obj 128 560 s tempoDance;
+#X obj 131 535 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 11800 1;
+#X floatatom 128 582 5 0 0 0 - - -;
+#X obj 128 609 s jumpHighness;
+#X obj 88 476 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 89 499 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 92 625 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 93 650 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 93 683 s muddClubUsersStopDancing;
+#X msg 333 565 0;
+#X msg 333 518 1500;
+#X obj 125 640 s ChuteCrete;
+#X obj 205 640 s ChuteTabouret;
 #X connect 3 0 4 0;
-#X connect 3 0 39 0;
-#X connect 7 0 10 0;
-#X connect 8 0 7 0;
-#X connect 9 0 7 0;
-#X connect 11 0 13 0;
-#X connect 12 0 13 0;
-#X connect 13 0 8 0;
-#X connect 13 0 14 0;
-#X connect 14 0 9 0;
-#X connect 18 0 24 0;
-#X connect 18 0 34 0;
-#X connect 19 0 18 0;
-#X connect 19 0 22 0;
-#X connect 20 0 19 1;
-#X connect 20 0 21 0;
-#X connect 21 0 22 1;
+#X connect 3 0 14 0;
+#X connect 3 0 29 0;
+#X connect 3 0 30 0;
+#X connect 13 0 15 0;
+#X connect 21 0 20 0;
 #X connect 22 0 23 0;
-#X connect 23 0 24 0;
-#X connect 23 0 34 0;
-#X connect 24 0 10 0;
+#X connect 24 0 18 0;
 #X connect 25 0 19 0;
-#X connect 25 0 27 0;
-#X connect 26 0 19 0;
-#X connect 27 0 29 0;
-#X connect 27 1 28 0;
-#X connect 27 1 32 0;
-#X connect 28 0 31 0;
-#X connect 29 0 31 0;
-#X connect 30 0 10 0;
-#X connect 31 0 30 0;
-#X connect 31 0 35 0;
-#X connect 32 0 26 0;
-#X connect 34 0 10 0;
-#X connect 35 0 10 0;
-#X connect 38 0 40 0;
+#X connect 26 0 31 0;
+#X connect 26 0 32 0;
+#X connect 27 0 28 0;
+#X connect 29 0 22 0;
+#X connect 30 0 21 0;
