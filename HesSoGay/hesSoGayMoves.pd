@@ -284,11 +284,11 @@
 #X obj 584 272 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 51.5;
-#X msg 69 193 62;
+#X msg 259 190 25.1;
+#X msg 69 193 42.8;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4445 1;
+-1 -1 7493 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -524,11 +524,11 @@
 #X obj 777 448 list;
 #X obj 816 353 t b b;
 #X msg 741 363 set \$1;
-#X msg 749 397 1.36;
+#X msg 749 397 -0.666668;
 #X obj 67 448 list;
 #X obj 106 353 t b b;
 #X msg 31 363 set \$1;
-#X msg 39 397 8.36001;
+#X msg 39 397 -1.09999;
 #X msg 364 303 100;
 #X msg 102 408 100;
 #X msg 812 408 100;
@@ -676,11 +676,11 @@
 #X obj 584 272 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 66.4;
-#X msg 69 193 69;
+#X msg 259 190 54.4;
+#X msg 69 193 59;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3302 1;
+-1 -1 5842 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -714,7 +714,7 @@
 #X msg 259 286 /EvilPrince_Aura/Rotate \$1;
 #X msg 525 205 -60;
 #X msg 445 194 -50;
-#X msg 513 178 52;
+#X msg 513 178 92;
 #X msg 709 266 /EvilPrince_Bulle/Rotate \$1;
 #X msg 899 286 /EvilPrince_BulleContent/Rotate \$1;
 #X msg 465 166 set \$1;
@@ -821,7 +821,7 @@
 #X connect 66 0 44 0;
 #X restore 70 108 pd HarryFlyingWings;
 #X restore 1152 655 pd HarryMoves;
-#N canvas 440 218 559 493 MNGroupMove 1;
+#N canvas 440 218 559 493 MNGroupMove 0;
 #X obj 208 40 r MNGroupsMove;
 #N canvas 495 323 649 511 MNGroup1Move 0;
 #N canvas 464 267 815 589 PiedsMove 0;
@@ -1181,7 +1181,7 @@
 #X connect 49 0 48 0;
 #X restore 40 103 pd GroupMove;
 #X restore 34 81 pd MNGroup1Move;
-#N canvas 744 266 649 511 MNGroup2Move 1;
+#N canvas 744 266 649 511 MNGroup2Move 0;
 #N canvas 460 263 815 589 PiedsMove 0;
 #X obj 41 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
