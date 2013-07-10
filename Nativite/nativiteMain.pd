@@ -578,7 +578,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 61 91 pd NativiteLuneInit;
-#N canvas 499 100 850 796 NativiteCGBInit 1;
+#N canvas 499 100 850 796 NativiteCGBInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -631,12 +631,12 @@
 #X msg 255 326 -19;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Nativite/data/CGB_tete.png
 ;
-#X msg 255 369 0.45;
 #X msg 255 409 -1.9;
 #X msg 255 429 -1.37;
-#X msg 255 389 0.4;
 #X msg 183 79 /Assiette_Bush;
 #X msg 255 245 0;
+#X msg 255 369 0.57552;
+#X msg 255 389 0.41783;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -658,7 +658,7 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 47 0;
-#X connect 20 2 54 0;
+#X connect 20 2 52 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 49 0;
@@ -667,16 +667,16 @@
 #X connect 22 2 48 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 50 0;
+#X connect 23 2 54 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 53 0;
+#X connect 24 2 55 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 51 0;
+#X connect 25 2 50 0;
 #X connect 26 0 41 0;
 #X connect 26 1 11 0;
-#X connect 26 2 52 0;
+#X connect 26 2 51 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -687,7 +687,7 @@
 #X connect 30 2 43 0;
 #X connect 31 0 30 0;
 #X connect 31 1 17 0;
-#X connect 31 2 55 0;
+#X connect 31 2 53 0;
 #X connect 32 0 31 0;
 #X connect 32 1 12 0;
 #X connect 32 2 45 0;
@@ -717,12 +717,12 @@
 #X connect 49 0 5 1;
 #X connect 50 0 5 1;
 #X connect 51 0 5 1;
-#X connect 52 0 5 1;
+#X connect 52 0 1 1;
 #X connect 53 0 5 1;
-#X connect 54 0 1 1;
+#X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 61 151 pd NativiteCGBInit;
-#N canvas 495 100 850 796 NativiteCGBKKKInit 0;
+#N canvas 493 100 850 796 NativiteCGBKKKInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
