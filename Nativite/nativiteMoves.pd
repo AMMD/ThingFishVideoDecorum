@@ -1,5 +1,5 @@
 #N canvas 610 226 670 555 10;
-#N canvas 0 100 1440 800 MonteePremieresBullesVides 0;
+#N canvas 0 100 1440 800 MonteePremieresBullesVides 1;
 #X obj 48 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 93 305 line;
@@ -19,7 +19,7 @@
 #X obj 212 185 delay 5000;
 #X msg 212 220 stop;
 #X msg 305 259 set \$1;
-#X msg 305 288 0.47;
+#X msg 305 288 0.25;
 #X msg 347 288 300;
 #X obj 320 169 t b b;
 #X obj 305 193 random 51;
@@ -40,7 +40,7 @@
 #X obj 212 505 delay 5000;
 #X msg 212 540 stop;
 #X msg 305 579 set \$1;
-#X msg 305 608 0.22;
+#X msg 305 608 0.45;
 #X msg 347 608 300;
 #X obj 320 489 t b b;
 #X obj 305 513 random 51;
@@ -60,9 +60,9 @@
 #X obj 468 435 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 468 408 r MonteeSecondesBullesVides;
-#X msg 412 335 /DunjonDoor1/Ypos \$1;
-#X msg 273 335 /DunjonDoor1/Xpos \$1;
-#X msg 93 335 /DunjonDoor1/*scale \$1;
+#X msg 412 335 /DunjonDoor4/Ypos \$1;
+#X msg 273 335 /DunjonDoor4/Xpos \$1;
+#X msg 93 335 /DunjonDoor4/*scale \$1;
 #X connect 0 0 53 0;
 #X connect 1 0 60 0;
 #X connect 3 0 1 0;
@@ -161,7 +161,7 @@
 #X obj 305 218 / 100;
 #X msg 212 220 stop;
 #X msg 305 259 set \$1;
-#X msg 305 288 0.38;
+#X msg 305 288 0.47;
 #X msg 347 288 300;
 #X obj 320 169 t b b;
 #X obj 305 193 random 51;
@@ -239,7 +239,7 @@
 #X obj 225 338 / 100;
 #X msg 132 340 stop;
 #X msg 225 379 set \$1;
-#X msg 225 408 2.44;
+#X msg 225 408 2.35;
 #X msg 267 408 300;
 #X obj 240 289 t b b;
 #X obj 7 442 / 1.8;
@@ -269,7 +269,7 @@
 #X obj 695 338 / 100;
 #X msg 602 340 stop;
 #X msg 695 379 set \$1;
-#X msg 695 408 0.17;
+#X msg 695 408 0.05;
 #X msg 737 408 300;
 #X obj 710 289 t b b;
 #X msg 841 348 1 2500;
@@ -299,7 +299,7 @@
 #X obj 1165 338 / 100;
 #X msg 1072 340 stop;
 #X msg 1165 379 set \$1;
-#X msg 1165 408 -1.54;
+#X msg 1165 408 -1.91;
 #X msg 1207 408 300;
 #X obj 1180 289 t b b;
 #X msg 1311 348 1 2500;
@@ -505,7 +505,7 @@
 #X obj 386 227 / 100;
 #X msg 293 229 stop;
 #X msg 386 268 set \$1;
-#X msg 386 297 0.33;
+#X msg 386 297 0.07;
 #X msg 428 297 300;
 #X obj 401 178 t b b;
 #X obj 386 202 random 51;
@@ -626,7 +626,7 @@
 #X obj 212 185 delay 5000;
 #X msg 212 220 stop;
 #X msg 305 259 set \$1;
-#X msg 305 288 0.49;
+#X msg 305 288 0.28;
 #X msg 347 288 300;
 #X obj 320 169 t b b;
 #X obj 305 193 random 51;
@@ -646,7 +646,7 @@
 #X obj 212 505 delay 5000;
 #X msg 212 540 stop;
 #X msg 305 579 set \$1;
-#X msg 305 608 0.5;
+#X msg 305 608 0.29;
 #X msg 347 608 300;
 #X obj 320 489 t b b;
 #X obj 305 513 random 51;
@@ -847,7 +847,7 @@
 #X connect 22 0 19 0;
 #X connect 22 0 20 0;
 #X restore 88 448 pd CGBMoves;
-#N canvas 0 100 1440 800 MonteeBullesClochettes 1;
+#N canvas 0 100 1440 800 MonteeBullesClochettes 0;
 #X obj 48 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 93 305 line;
@@ -867,7 +867,7 @@
 #X obj 212 185 delay 5000;
 #X msg 212 220 stop;
 #X msg 305 259 set \$1;
-#X msg 305 288 0.43;
+#X msg 305 288 0.46;
 #X msg 347 288 300;
 #X obj 320 169 t b b;
 #X obj 305 193 random 51;
@@ -887,7 +887,7 @@
 #X obj 212 505 delay 5000;
 #X msg 212 540 stop;
 #X msg 305 579 set \$1;
-#X msg 305 608 0.18;
+#X msg 305 608 0.16;
 #X msg 347 608 300;
 #X obj 320 489 t b b;
 #X obj 305 513 random 51;
@@ -998,6 +998,7 @@
 #X connect 46 0 44 1;
 #X connect 46 0 43 1;
 #X connect 47 0 45 0;
+#X connect 47 0 68 0;
 #X connect 48 0 44 0;
 #X connect 48 1 46 0;
 #X connect 49 0 43 0;
@@ -1025,9 +1026,13 @@
 #X connect 74 0 70 0;
 #X connect 75 0 70 0;
 #X restore 51 100 pd MonteeBullesClochettes;
+#X obj 30 319 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 71 310 s MonteeBullesClochettes;
 #X connect 8 0 7 0;
 #X connect 9 0 4 0;
 #X connect 10 0 5 0;
 #X connect 11 0 6 0;
 #X connect 13 0 14 0;
 #X connect 13 0 15 0;
+#X connect 19 0 20 0;
