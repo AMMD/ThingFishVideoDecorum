@@ -578,7 +578,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 61 91 pd NativiteLuneInit;
-#N canvas 495 100 850 796 NativiteCGBInit 0;
+#N canvas 493 100 850 796 NativiteCGBInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -637,6 +637,8 @@
 #X msg 255 245 0;
 #X msg 255 369 0.57552;
 #X msg 255 389 0.41783;
+#X msg 405 252 /Assiette_Bush/AddFile /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Nativite/data/CGB_tete_bouche_ouverte.png
+;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -659,6 +661,7 @@
 #X connect 20 0 21 0;
 #X connect 20 1 47 0;
 #X connect 20 2 52 0;
+#X connect 20 2 56 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
 #X connect 21 2 49 0;
@@ -721,6 +724,7 @@
 #X connect 53 0 5 1;
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
+#X connect 56 0 0 0;
 #X restore 61 151 pd NativiteCGBInit;
 #N canvas 493 100 850 796 NativiteCGBKKKInit 0;
 #X obj 234 572 send OSC_MESSAGES;
@@ -866,7 +870,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 61 171 pd NativiteCGBKKKInit;
-#N canvas 501 100 850 796 NativiteGirafeInit 1;
+#N canvas 501 100 850 796 NativiteGirafeInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
