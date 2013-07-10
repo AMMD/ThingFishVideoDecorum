@@ -1,0 +1,25 @@
+#N canvas 670 374 450 300 10;
+#X obj 43 122 s harryComesInFromJardinProche;
+#X obj 22 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 22 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 22 -13 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 43 2 s HesSoGayInit;
+#X obj 22 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 22 67 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 43 42 s nuagesOnMove;
+#X obj 43 82 s allumageFond;
+#X obj 22 187 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 43 202 s brownMosesComesInFromTheCeiling;
+#X obj 43 162 s TFOpensCurtains;
+#X connect 1 0 0 0;
+#X connect 2 0 11 0;
+#X connect 3 0 4 0;
+#X connect 5 0 7 0;
+#X connect 6 0 8 0;
+#X connect 9 0 10 0;
