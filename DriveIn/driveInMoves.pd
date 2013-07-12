@@ -306,7 +306,7 @@
 #X connect 31 0 8 0;
 #X connect 32 0 12 0;
 #X restore 44 63 pd TaureauABascule;
-#N canvas 568 177 615 353 HAABBrasPending 1;
+#N canvas 568 177 615 353 HAABBrasPending 0;
 #X obj 71 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 70 272 s OSC_MESSAGES;
@@ -343,3 +343,27 @@
 #X connect 14 0 15 0;
 #X connect 15 0 5 0;
 #X restore 44 93 pd HAABBrasPending;
+#N canvas 238 322 450 300 TruckLightning 1;
+#X obj 31 26 r DriveInInit;
+#X obj 38 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 49 111 metro 300;
+#X obj 42 153 random 101;
+#X obj 59 200 / 100;
+#X msg 70 242 /Prison_Prisonniers/Alpha \$1;
+#X obj 130 223 line;
+#X msg 204 203 \$1 300;
+#X obj 85 279 s OSC_MESSAGES;
+#X obj 146 31 r TruckLightningStops;
+#X msg 143 72 stop;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 7 0;
+#X connect 5 0 8 0;
+#X connect 6 0 5 0;
+#X connect 7 0 6 0;
+#X connect 9 0 10 0;
+#X connect 10 0 2 0;
+#X restore 100 165 pd TruckLightning;
