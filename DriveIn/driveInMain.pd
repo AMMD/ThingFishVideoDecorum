@@ -1874,7 +1874,7 @@
 #X connect 54 0 1 1;
 #X connect 55 0 5 1;
 #X restore 471 101 pd DriveInOpalCorpsInit;
-#N canvas 525 100 850 796 MuddClubQNRPaupiereInit 1;
+#N canvas 525 100 850 796 MuddClubQNRPaupiereInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2462,4 +2462,5 @@
 #X connect 55 0 5 1;
 #X connect 56 0 0 0;
 #X restore 471 208 pd DriveInQNRGoleInit;
+#X obj 970 80 driveInMoves;
 #X connect 0 0 2 0;
