@@ -178,7 +178,7 @@
 #X connect 52 0 0 0;
 #X connect 53 0 11 0;
 #X restore 1078 481 pd dollyWalks;
-#N canvas 0 100 1440 800 dollyWalksAround 0;
+#N canvas 0 100 1440 800 dollyWalksAround 1;
 #X obj 221 196 *;
 #X obj 132 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -209,13 +209,14 @@
 #X obj 314 171 v /DunjonDoor4Cadre/Xpos;
 #X obj 229 105 r dollyWalkingSpeed;
 #X obj 233 39 r dollyWalksAround;
-#X obj 30 36 r dollyStopsWalkingAround;
+#X obj 39 36 r dollyStopsWalkingAround;
 #X msg 607 528 /Zombies_HelloDolly_Bras*/Xpos \$1;
 #X msg 671 499 0;
 #X msg 608 548 /Zombies_HelloDolly_Robe*/Xpos \$1;
 #X msg 828 503 -0.121544;
 #X msg 752 502 0.121544;
 #X msg 619 497 0;
+#X obj 39 174 s dollyStopsWalking;
 #X connect 0 0 14 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
@@ -257,6 +258,7 @@
 #X connect 27 0 1 0;
 #X connect 27 0 9 0;
 #X connect 28 0 8 0;
+#X connect 28 0 35 0;
 #X connect 29 0 10 0;
 #X connect 30 0 29 0;
 #X connect 31 0 10 0;

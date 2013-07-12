@@ -1,4 +1,4 @@
-#N canvas 42 100 1377 719 10;
+#N canvas 40 100 1377 719 10;
 #X obj 87 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 144 588 send OSC_MESSAGES;
@@ -222,6 +222,7 @@
 #X msg 353 566 /EvilPrince_Bulle*/Flip \$1;
 #X msg 353 586 /Assiette_Bush/Flip \$1;
 #X msg 165 411 /DunjonDoor1Cadre/Xpos \$1;
+#X obj 30 170 s cowboyStopsWalking;
 #X connect 0 0 14 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
@@ -247,6 +248,7 @@
 #X connect 17 0 5 1;
 #X connect 17 0 15 0;
 #X connect 18 0 8 0;
+#X connect 18 0 26 0;
 #X connect 19 0 1 0;
 #X connect 19 0 9 0;
 #X connect 20 0 0 1;

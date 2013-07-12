@@ -1,4 +1,4 @@
-#N canvas 189 207 1234 550 10;
+#N canvas 187 205 1234 550 10;
 #X obj 97 72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 154 598 send OSC_MESSAGES;
@@ -207,6 +207,7 @@
 #X msg 520 467 /DunjonDoor2/Xpos \$1;
 #X msg 559 446 -0.177181;
 #X msg 520 444 0.1;
+#X obj 30 179 s annieStopsWalking;
 #X connect 0 0 14 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
@@ -237,6 +238,7 @@
 #X connect 20 0 1 0;
 #X connect 20 0 9 0;
 #X connect 21 0 8 0;
+#X connect 21 0 29 0;
 #X connect 22 0 10 0;
 #X connect 23 0 10 0;
 #X connect 24 0 10 0;

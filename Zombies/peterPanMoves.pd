@@ -176,7 +176,7 @@
 #X obj 665 501 line;
 #X obj 665 534 mod 360;
 #X msg 457 475 -80;
-#N canvas 0 100 1440 800 peterPanWalksAround 0;
+#N canvas 0 100 1440 800 peterPanWalksAround 1;
 #X obj 229 105 r peterPanWalkingSpeed;
 #X obj 221 196 *;
 #X obj 132 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -218,6 +218,7 @@
 #X msg 674 413 0.1;
 #X msg 738 412 -0.1;
 #X obj 314 171 v /Prison_Prisonniers/Xpos;
+#X obj 30 168 s peterPanStopsWalking;
 #X connect 0 0 1 1;
 #X connect 1 0 17 0;
 #X connect 2 0 5 0;
@@ -230,6 +231,7 @@
 #X connect 6 0 7 0;
 #X connect 7 0 16 0;
 #X connect 8 0 10 0;
+#X connect 8 0 39 0;
 #X connect 9 0 5 0;
 #X connect 10 0 9 1;
 #X connect 11 0 2 0;

@@ -1748,7 +1748,7 @@
 #X obj 126 514 s QNRdrague;
 #X obj 128 560 s tempoDance;
 #X obj 131 535 hsl 128 15 1500 127 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 9000 1;
+-262144 -1 -1 6500 1;
 #X floatatom 128 582 5 0 0 0 - - -;
 #X obj 128 609 s jumpHighness;
 #X obj 88 476 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1769,7 +1769,7 @@
 #X obj 946 440 s MuddClubFuck;
 #X obj 1038 440 s muddClubUsersStopDancing;
 #X obj 946 418 t b b;
-#N canvas 541 100 850 796 MuddClubPosition3-4Init 0;
+#N canvas 539 100 850 796 MuddClubPosition3-4Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1922,7 +1922,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 567 128 pd MuddClubPosition3-4Init;
-#N canvas 545 100 850 796 MuddClubGloryHoleInit 0;
+#N canvas 543 100 850 796 MuddClubGloryHoleInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2538,11 +2538,11 @@
 #X connect 58 0 5 1;
 #X restore 407 208 pd MuddClubVideoChretien3Init;
 #X obj 502 456 s ArriveeVideoChretiens;
-#X obj 947 471 metro 200;
 #X obj 967 508 delay 100;
 #X obj 1135 568 s BaisePunkQNR;
 #X msg 1089 486 stop;
 #X obj 1144 468 r stopMainFuck;
+#X obj 947 471 metro 200;
 #X connect 3 0 4 0;
 #X connect 3 0 14 0;
 #X connect 3 0 29 0;
@@ -2558,17 +2558,17 @@
 #X connect 29 0 22 0;
 #X connect 30 0 21 0;
 #X connect 33 0 36 0;
-#X connect 33 0 49 0;
+#X connect 33 0 53 0;
 #X connect 36 0 34 0;
-#X connect 36 0 51 0;
+#X connect 36 0 50 0;
 #X connect 36 1 35 0;
 #X connect 39 0 40 0;
 #X connect 39 0 48 0;
 #X connect 42 0 44 0;
 #X connect 43 0 44 0;
 #X connect 44 0 41 0;
-#X connect 49 0 42 0;
-#X connect 49 0 50 0;
-#X connect 50 0 43 0;
-#X connect 52 0 49 0;
-#X connect 53 0 52 0;
+#X connect 49 0 43 0;
+#X connect 51 0 53 0;
+#X connect 52 0 51 0;
+#X connect 53 0 42 0;
+#X connect 53 0 49 0;
