@@ -95,8 +95,8 @@
 #X msg 320 658 0.7 75;
 #X msg 320 741 /WashMachine/Blue \$1;
 #X msg 383 680 0.5 75;
-#N canvas 390 162 450 300 BrownMosesMoves 1;
-#N canvas 709 288 670 414 BrownMosesComesInFromTheCeiling 0;
+#N canvas 386 158 450 300 BrownMosesMoves 1;
+#N canvas 707 286 670 414 BrownMosesComesInFromTheCeiling 0;
 #X obj 49 21 r brownMosesComesInFromTheCeiling;
 #X obj 49 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -284,11 +284,11 @@
 #X obj 584 272 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 29.5;
-#X msg 69 193 46;
+#X msg 259 190 2;
+#X msg 69 193 26;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6985 1;
+-1 -1 10160 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -420,7 +420,7 @@
 #X obj 43 20 r BrownMosesMoonWalks;
 #X obj 43 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 194 20 r BrownMosesGetsBack;
+#X obj 917 22 r BrownMosesGetsBack;
 #X msg 624 212 /Djbebe/Ypos \$1;
 #X obj 624 181 line;
 #X obj 747 177 line;
@@ -445,8 +445,18 @@
 #X msg 141 566 1;
 #X msg 67 564 0;
 #X msg 77 267 0 500;
+#X obj 1077 339 s brownMosesComesInFromTheCeiling;
+#X msg 530 460 /DunjonDoor[4-5]*/Activate \$1;
+#X msg 530 397 0;
+#X obj 917 139 delay 800;
+#X msg 917 203 1;
+#X msg 904 99 stop;
+#X obj 980 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 818 161 0 800;
 #X connect 0 0 1 0;
 #X connect 1 0 9 0;
+#X connect 2 0 32 0;
 #X connect 3 0 8 0;
 #X connect 4 0 3 0;
 #X connect 4 0 11 0;
@@ -462,6 +472,7 @@
 #X connect 12 0 25 0;
 #X connect 12 0 16 0;
 #X connect 12 0 17 0;
+#X connect 12 0 28 0;
 #X connect 13 0 4 0;
 #X connect 14 0 5 0;
 #X connect 15 0 8 0;
@@ -478,6 +489,17 @@
 #X connect 23 0 22 0;
 #X connect 24 0 22 0;
 #X connect 25 0 4 0;
+#X connect 27 0 8 0;
+#X connect 28 0 27 0;
+#X connect 29 0 26 0;
+#X connect 29 0 30 0;
+#X connect 30 0 27 0;
+#X connect 31 0 18 0;
+#X connect 32 0 29 0;
+#X connect 32 0 31 0;
+#X connect 32 0 13 0;
+#X connect 32 0 33 0;
+#X connect 33 0 5 0;
 #X restore 57 145 pd BrownMosesMoonWalks;
 #X restore 1152 629 pd BrownMosesMoves;
 #N canvas 476 286 450 300 HarryMoves 0;
@@ -587,11 +609,11 @@
 #X obj 777 448 list;
 #X obj 816 353 t b b;
 #X msg 741 363 set \$1;
-#X msg 749 397 1.30667;
+#X msg 749 397 1.77333;
 #X obj 67 448 list;
 #X obj 106 353 t b b;
 #X msg 31 363 set \$1;
-#X msg 39 397 8.45001;
+#X msg 39 397 -3.74;
 #X msg 364 303 100;
 #X msg 102 408 100;
 #X msg 812 408 100;
@@ -739,11 +761,11 @@
 #X obj 584 272 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 45.2;
-#X msg 69 193 53;
+#X msg 259 190 112.2;
+#X msg 69 193 119.5;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 9906 1;
+-1 -1 9271 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -777,7 +799,7 @@
 #X msg 259 286 /EvilPrince_Aura/Rotate \$1;
 #X msg 525 205 -60;
 #X msg 445 194 -50;
-#X msg 513 178 156;
+#X msg 513 178 146;
 #X msg 709 266 /EvilPrince_Bulle/Rotate \$1;
 #X msg 899 286 /EvilPrince_BulleContent/Rotate \$1;
 #X msg 465 166 set \$1;
@@ -1620,7 +1642,7 @@
 #X obj 33 233 s MNTempoHats;
 #X obj 100 351 s MNTempoGroups;
 #X obj 103 328 hsl 128 15 10000 500 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 1100 1;
+-262144 -1 -1 0 1;
 #X obj 36 150 hsl 128 15 1000 300 0 0 empty empty empty -2 -8 0 10
 -262144 -1 -1 0 1;
 #X obj 376 89 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
