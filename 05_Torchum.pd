@@ -23,6 +23,7 @@
 #X obj 35 291 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 53 306 s DeactivateAll;
+#X obj 183 266 s DunjonBangOff;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -30,4 +31,5 @@
 #X connect 7 0 8 0;
 #X connect 9 0 10 0;
 #X connect 13 0 12 0;
+#X connect 13 0 16 0;
 #X connect 14 0 15 0;
