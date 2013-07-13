@@ -785,7 +785,6 @@
 #X msg 66 386 /DunjonDoor2*/Activate \$1;
 #X obj 289 138 symbol;
 #X obj 289 205 s OSC_MESSAGES;
-#X obj 289 24 r ZombiesMammified;
 #X obj 289 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 495 188 /DunjonDoor2/Xpos \$1;
@@ -796,6 +795,7 @@
 #X obj 109 634 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 495 153 0;
+#X obj 289 24 r AnnieMammified;
 #X connect 0 0 5 0;
 #X connect 0 0 17 0;
 #X connect 1 0 5 0;
@@ -804,12 +804,12 @@
 #X connect 4 0 1 0;
 #X connect 5 0 2 0;
 #X connect 17 0 2 0;
-#X connect 18 0 23 0;
-#X connect 20 0 21 0;
-#X connect 21 0 27 0;
-#X connect 21 0 24 0;
+#X connect 18 0 22 0;
+#X connect 20 0 26 0;
+#X connect 20 0 23 0;
+#X connect 21 0 19 0;
 #X connect 22 0 19 0;
-#X connect 23 0 19 0;
-#X connect 24 0 18 0;
-#X connect 26 0 25 0;
-#X connect 27 0 22 0;
+#X connect 23 0 18 0;
+#X connect 25 0 24 0;
+#X connect 26 0 21 0;
+#X connect 27 0 20 0;
