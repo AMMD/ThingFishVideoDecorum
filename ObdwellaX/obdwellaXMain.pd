@@ -2,7 +2,7 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 30 25 zac.lumiere /OX_Head;
-#N canvas 495 100 850 796 ObdwellaXHeadInit 1;
+#N canvas 491 100 850 796 ObdwellaXHeadInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -147,7 +147,7 @@
 #X connect 55 0 5 1;
 #X restore 336 24 pd ObdwellaXHeadInit;
 #X obj 30 195 zac.lumiere /OX_Body;
-#N canvas 495 100 850 796 ObdwellaXBodyInit 0;
+#N canvas 491 100 850 796 ObdwellaXBodyInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -291,3 +291,34 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 336 44 pd ObdwellaXBodyInit;
+#N canvas 0 100 1440 800 TFHandHangsOX 1;
+#X obj 111 471 s OSC_MESSAGES;
+#X obj 120 147 symbol;
+#X msg 123 207 /HandJardin/File \$1;
+#X msg 135 77 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/2013_07_09_TF_Main_tenant_Odwella_X.png
+;
+#X msg 372 180 1;
+#X obj 426 245 / 2;
+#X msg 385 332 /HandJardin/Yscale;
+#X msg 515 332 /HandJardin/Xscale;
+#X obj 921 246 hsl 128 15 -750 -300 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 1400 1;
+#X obj 880 335 - 0.9;
+#X msg 892 427 /HandJardin/Xpos \$1;
+#X obj 916 280 / 100;
+#X msg 928 307 /OX*/Xpos \$1;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 0 0;
+#X connect 7 0 0 0;
+#X connect 8 0 11 0;
+#X connect 9 0 10 0;
+#X connect 10 0 0 0;
+#X connect 11 0 12 0;
+#X connect 11 0 9 0;
+#X connect 12 0 0 0;
+#X restore 702 52 pd TFHandHangsOX;
