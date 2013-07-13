@@ -1,0 +1,58 @@
+#N canvas 0 100 1440 800 10;
+#X obj 71 220 s MonteeBulleEtron;
+#X obj 71 240 s MonteeBullesGlacePhallusTetine;
+#X obj 71 290 s MonteeBulleVolvo;
+#X obj 71 194 s MonteePremieresBullesVides;
+#X obj 56 178 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 41 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 35 242 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 30 299 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 52 395 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 52 447 s StopMonteePremieresBullesVides;
+#X obj 52 467 s StopMonteeTroisiemesBullesVides;
+#X obj 40 329 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 81 320 s MonteeBullesClochettes;
+#X obj 50 32 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 88 47 s NativiteInit;
+#X obj 73 124 s TFOpensCurtains;
+#X obj 57 109 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 92 74 s GirafeMoves;
+#X obj 55 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 248 194 s CGBMoves;
+#X obj 52 501 s GirafeStopsMoving;
+#X obj 52 534 s CGBStopsMoving;
+#X obj 52 562 s StopMonteeBullesClochettes;
+#X obj 466 427 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 330 410 s HandCineticScroll;
+#X obj 269 410 delay 200;
+#X obj 492 442 s NativiteGetsOutToCour;
+#X obj 466 482 s DriveInComesInFromJardin;
+#X connect 4 0 3 0;
+#X connect 4 0 19 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 7 0 2 0;
+#X connect 8 0 9 0;
+#X connect 8 0 10 0;
+#X connect 8 0 20 0;
+#X connect 8 0 21 0;
+#X connect 8 0 22 0;
+#X connect 8 0 25 0;
+#X connect 8 0 24 0;
+#X connect 11 0 12 0;
+#X connect 13 0 14 0;
+#X connect 16 0 15 0;
+#X connect 18 0 17 0;
+#X connect 23 0 26 0;
+#X connect 23 0 27 0;
+#X connect 25 0 23 0;
