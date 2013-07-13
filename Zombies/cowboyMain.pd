@@ -4,7 +4,7 @@
 #X obj 76 303 r cowboyActivate;
 #X obj 208 304 r cowboyDeActivate;
 #X obj 76 490 send OSC_MESSAGES;
-#N canvas 559 100 850 796 CowboyTeteInit 0;
+#N canvas 557 100 850 796 CowboyTeteInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -388,7 +388,7 @@
 #X connect 48 0 2 0;
 #X connect 49 0 5 1;
 #X restore 310 565 pd CowboyBrasInit;
-#N canvas 573 100 850 796 CowboyBrasFondInit 1;
+#N canvas 573 100 850 796 CowboyBrasFondInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -779,6 +779,16 @@
 #X msg 76 390 /DunjonDoor1*/Activate \$1;
 #X msg 76 410 /Assiette_Bush/Activate \$1;
 #X obj 144 586 cowboyMoves;
+#X obj 299 148 symbol;
+#X obj 299 215 s OSC_MESSAGES;
+#X obj 299 34 r ZombiesMammified;
+#X obj 299 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 505 163 0;
+#X msg 505 198 /DunjonDoor1/Xpos \$1;
+#X msg 299 186 /DunjonDoor1/File \$1;
+#X msg 299 96 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_CowBoy_Tete_Articulee/2013_07_01_Zombies_CowBoy_Patate.png
+;
 #X connect 0 0 13 0;
 #X connect 0 0 14 0;
 #X connect 0 0 15 0;
@@ -792,3 +802,11 @@
 #X connect 13 0 4 0;
 #X connect 14 0 4 0;
 #X connect 15 0 4 0;
+#X connect 17 0 23 0;
+#X connect 19 0 20 0;
+#X connect 20 0 21 0;
+#X connect 20 0 24 0;
+#X connect 21 0 22 0;
+#X connect 22 0 18 0;
+#X connect 23 0 18 0;
+#X connect 24 0 17 0;

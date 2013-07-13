@@ -9,7 +9,7 @@
 #X obj 66 293 r annieActivate;
 #X obj 198 294 r annieDeActivate;
 #X msg 66 360 /Zombies_Annie*/Activate \$1;
-#N canvas 563 100 850 796 AnnieTeteInit 1;
+#N canvas 559 100 850 796 AnnieTeteInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -783,6 +783,19 @@
 #X connect 49 0 5 1;
 #X restore 300 615 pd AnnieJambe2Init;
 #X msg 66 386 /DunjonDoor2*/Activate \$1;
+#X obj 289 138 symbol;
+#X obj 289 205 s OSC_MESSAGES;
+#X obj 289 24 r ZombiesMammified;
+#X obj 289 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 495 188 /DunjonDoor2/Xpos \$1;
+#X msg 289 176 /DunjonDoor2/File \$1;
+#X msg 289 86 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/2013_07_01_Zombies_Annie_Tete_Articulee/2013_07_01_Zombies_Annie_Patate.png
+;
+#X obj 114 668 s AnnieInit;
+#X obj 109 634 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 495 153 0;
 #X connect 0 0 5 0;
 #X connect 0 0 17 0;
 #X connect 1 0 5 0;
@@ -791,3 +804,12 @@
 #X connect 4 0 1 0;
 #X connect 5 0 2 0;
 #X connect 17 0 2 0;
+#X connect 18 0 23 0;
+#X connect 20 0 21 0;
+#X connect 21 0 27 0;
+#X connect 21 0 24 0;
+#X connect 22 0 19 0;
+#X connect 23 0 19 0;
+#X connect 24 0 18 0;
+#X connect 26 0 25 0;
+#X connect 27 0 22 0;
