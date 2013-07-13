@@ -380,6 +380,8 @@
 #X obj 354 309 delay 205;
 #X obj 1375 280 t b b;
 #X obj 624 275 delay 305;
+#X obj 354 802 delay 100;
+#X msg 354 839 -20 1000;
 #X connect 1 0 8 0;
 #X connect 2 0 1 0;
 #X connect 3 0 4 0;
@@ -479,6 +481,7 @@
 #X connect 66 0 73 0;
 #X connect 66 0 72 0;
 #X connect 66 0 74 0;
+#X connect 66 0 81 0;
 #X connect 67 0 51 0;
 #X connect 68 0 35 0;
 #X connect 69 0 37 0;
@@ -498,4 +501,6 @@
 #X connect 79 1 21 0;
 #X connect 80 0 39 0;
 #X connect 80 0 76 0;
+#X connect 81 0 82 0;
+#X connect 82 0 61 0;
 #X restore 702 52 pd TFHandHangsOX;
