@@ -1,4 +1,4 @@
-#N canvas 7 95 1425 796 10;
+#N canvas 7 100 1425 796 10;
 #X obj 40 21 s TFOut;
 #X obj 40 54 s TFSpeaks;
 #X obj 42 120 s TFOpensCurtains;

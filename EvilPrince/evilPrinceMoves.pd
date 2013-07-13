@@ -1,4 +1,4 @@
-#N canvas 0 97 1440 800 10;
+#N canvas 0 100 1440 800 10;
 #X obj 68 183 send OSC_MESSAGES;
 #X obj 128 12 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -8,24 +8,24 @@
 #X obj 636 1 r evilPrinceDeception;
 #X obj 636 30 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 636 148 /EvilPrince_Bouche/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Grimace.png
-;
 #X obj 636 248 send OSC_MESSAGES;
 #X obj 761 45 s EP_BrasCour;
 #X msg 86 155 /EvilPrince_Corps/Xpos \$1;
 #X obj -5 -20 r EvilPrinceInitPlace;
 #X msg 66 61 -4.29463;
 #X msg 128 61 5.63537 400;
+#X msg 636 148 /EvilPrince_Tete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_Grimace.png
+;
 #X connect 1 0 2 0;
-#X connect 2 0 13 0;
-#X connect 2 1 12 0;
-#X connect 3 0 10 0;
+#X connect 2 0 12 0;
+#X connect 2 1 11 0;
+#X connect 3 0 9 0;
 #X connect 4 0 1 0;
 #X connect 5 0 6 0;
-#X connect 6 0 7 0;
-#X connect 6 0 9 0;
-#X connect 7 0 8 0;
-#X connect 10 0 0 0;
-#X connect 11 0 12 0;
+#X connect 6 0 13 0;
+#X connect 6 0 8 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 3 0;
 #X connect 12 0 3 0;
-#X connect 13 0 3 0;
+#X connect 13 0 7 0;

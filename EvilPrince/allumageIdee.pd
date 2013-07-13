@@ -1,4 +1,4 @@
-#N canvas 232 219 450 517 10;
+#N canvas 230 217 450 517 10;
 #X obj 268 67 metro 50;
 #X obj 276 89 random 50;
 #X obj 285 122 + 50;
@@ -36,7 +36,6 @@
 #X connect 9 0 0 0;
 #X connect 10 0 11 0;
 #X connect 10 0 13 0;
-#X connect 11 0 6 0;
 #X connect 13 0 6 0;
 #X connect 14 0 6 0;
 #X connect 15 0 16 0;
