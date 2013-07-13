@@ -287,7 +287,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 68 pd MuddClubPlan3Init;
-#N canvas 553 100 850 796 MuddClubPlan2Init 0;
+#N canvas 551 100 850 796 MuddClubPlan2Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -578,7 +578,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 108 pd MuddClubLustreInit;
-#N canvas 549 100 850 796 MuddClubPosition1-2Init 0;
+#N canvas 547 100 850 796 MuddClubPosition1-2Init 1;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1778,7 +1778,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 567 128 pd MuddClubPosition3-4Init;
-#N canvas 543 100 850 796 MuddClubGloryHoleInit 0;
+#N canvas 589 100 850 796 MuddClubGloryHoleInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1829,7 +1829,6 @@
 #X msg 255 264 1;
 #X msg 255 429 0.7;
 #X msg 255 326 -23;
-#X msg 255 109 -3.035;
 #X msg 255 369 2.7;
 #X msg 255 389 6.9;
 #X msg 114 489 AddFile;
@@ -1840,6 +1839,7 @@
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MuddClub/data/2013_07_03_Mudd_Club_Glory_Holes.png
 ;
 #X msg 255 409 -0.8;
+#X msg 255 109 -3.0351;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -1860,23 +1860,23 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 49 0;
-#X connect 20 2 55 0;
+#X connect 20 1 58 0;
+#X connect 20 2 54 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 57 0;
+#X connect 21 2 56 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
 #X connect 22 2 48 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 50 0;
+#X connect 23 2 49 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 51 0;
+#X connect 24 2 50 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 58 0;
+#X connect 25 2 57 0;
 #X connect 26 0 44 0;
 #X connect 26 1 11 0;
 #X connect 26 2 47 0;
@@ -1912,7 +1912,7 @@
 #X connect 44 0 45 0;
 #X connect 44 1 40 0;
 #X connect 44 2 41 0;
-#X connect 45 0 53 0;
+#X connect 45 0 52 0;
 #X connect 45 1 42 0;
 #X connect 45 2 43 0;
 #X connect 46 0 5 1;
@@ -1920,13 +1920,13 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X connect 50 0 5 1;
-#X connect 51 0 5 1;
-#X connect 52 0 1 0;
-#X connect 53 1 52 0;
-#X connect 53 2 54 0;
-#X connect 54 0 5 1;
-#X connect 55 0 1 1;
-#X connect 56 0 2 0;
+#X connect 51 0 1 0;
+#X connect 52 1 51 0;
+#X connect 52 2 53 0;
+#X connect 53 0 5 1;
+#X connect 54 0 1 1;
+#X connect 55 0 2 0;
+#X connect 56 0 5 1;
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 407 148 pd MuddClubGloryHoleInit;
@@ -2241,7 +2241,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 407 188 pd MuddClubVideoChretien2Init;
-#N canvas 539 100 850 796 MuddClubVideoChretien3Init 0;
+#N canvas 537 100 850 796 MuddClubVideoChretien3Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1

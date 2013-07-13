@@ -132,7 +132,7 @@
 #X restore 87 541 pd QRNarrivee;
 #X obj 175 316 - 1;
 #X obj 112 299 random 4;
-#N canvas 0 100 1440 800 QRNdrague 0;
+#N canvas 0 100 1440 800 QRNdrague 1;
 #X obj 194 75 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 125 17 r QNRdrague;
@@ -184,12 +184,14 @@
 #X msg 733 151 0;
 #X msg 798 170 1;
 #X obj 872 606 spigot;
+#X msg 194 162 /DunjonDoor1Cadre/Flip 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
 #X connect 0 0 16 0;
 #X connect 0 0 27 0;
 #X connect 0 0 28 0;
 #X connect 0 0 48 0;
+#X connect 0 0 50 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 4 0 5 0;
@@ -267,8 +269,9 @@
 #X connect 47 0 49 1;
 #X connect 48 0 49 1;
 #X connect 49 0 32 0;
+#X connect 50 0 3 0;
 #X restore 87 581 pd QRNdrague;
-#N canvas 0 100 1440 800 QRNdecouvre 1;
+#N canvas 0 100 1440 800 QRNdecouvre 0;
 #X msg 125 153 0;
 #X msg 125 183 1;
 #X obj 125 49 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -335,11 +338,11 @@
 #X obj 729 222 line;
 #X msg 777 270 /CuveGalootContent2/Ypos \$1;
 #X msg 797 115 set \$1;
-#X msg 797 146 -9.66843;
+#X msg 797 146 -0.4;
 #X obj 729 129 delay 5;
 #X obj 849 209 line;
 #X msg 917 95 set \$1;
-#X msg 917 126 2.2;
+#X msg 917 126 1.25;
 #X obj 849 109 delay 5;
 #X obj 849 57 v /CuveGalootContent2/Ypos;
 #X msg 849 172 \$1 300;
@@ -458,7 +461,7 @@
 #X obj 322 230 spigot;
 #X obj 358 117 - 90;
 #X obj 358 142 / 100;
-#N canvas 316 430 859 361 ArriveeVideoChretiens 0;
+#N canvas 314 428 859 361 ArriveeVideoChretiens 0;
 #X obj 79 65 r ArriveeVideoChretiens;
 #X obj 79 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
