@@ -1,4 +1,4 @@
-#N canvas 416 100 670 555 10;
+#N canvas 412 100 670 555 10;
 #N canvas 0 100 1440 800 MonteePremieresBullesVides 0;
 #X obj 48 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -19,7 +19,7 @@
 #X obj 212 185 delay 5000;
 #X msg 212 220 stop;
 #X msg 305 259 set \$1;
-#X msg 305 288 0.25;
+#X msg 305 288 0.3;
 #X msg 347 288 300;
 #X obj 320 169 t b b;
 #X obj 305 193 random 51;
@@ -40,7 +40,7 @@
 #X obj 212 505 delay 5000;
 #X msg 212 540 stop;
 #X msg 305 579 set \$1;
-#X msg 305 608 0.45;
+#X msg 305 608 0.21;
 #X msg 347 608 300;
 #X obj 320 489 t b b;
 #X obj 305 513 random 51;
@@ -795,7 +795,7 @@
 #X connect 18 0 17 0;
 #X connect 19 0 18 0;
 #X restore 84 396 pd GirafeMoves;
-#N canvas 782 416 543 429 CGBMoves 0;
+#N canvas 387 100 827 624 CGBMoves 1;
 #X obj 30 34 r CGBMoves;
 #X obj 30 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -820,10 +820,21 @@
 #X obj 323 263 - 3.029;
 #X obj 325 157 > 75;
 #X obj 323 230 / 200;
+#X msg 257 365 /Assiette_Gail/Zpos \$1;
+#X msg 504 251 /Assiette_Gail/Alpha \$1;
+#X obj 504 222 line;
+#X floatatom 622 152 5 0 0 0 - - -;
+#X obj 423 118 random 100;
+#X obj 504 135 < 30;
+#X msg 504 190 \$1 400;
+#X obj 423 84 metro 2000;
+#X floatatom 560 223 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 12 0;
+#X connect 1 0 30 0;
 #X connect 2 0 3 0;
 #X connect 3 0 8 0;
+#X connect 3 0 30 0;
 #X connect 4 0 5 0;
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
@@ -834,6 +845,7 @@
 #X connect 10 0 21 0;
 #X connect 11 0 17 0;
 #X connect 11 0 18 0;
+#X connect 11 0 23 0;
 #X connect 12 0 8 0;
 #X connect 12 1 9 0;
 #X connect 13 0 22 0;
@@ -846,6 +858,15 @@
 #X connect 21 0 15 0;
 #X connect 22 0 19 0;
 #X connect 22 0 20 0;
+#X connect 23 0 7 0;
+#X connect 24 0 7 0;
+#X connect 25 0 24 0;
+#X connect 25 0 31 0;
+#X connect 27 0 26 0;
+#X connect 27 0 28 0;
+#X connect 28 0 29 0;
+#X connect 29 0 25 0;
+#X connect 30 0 27 0;
 #X restore 88 448 pd CGBMoves;
 #N canvas 0 100 1440 800 MonteeBullesClochettes 0;
 #X obj 48 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1029,7 +1050,7 @@
 #X obj 30 319 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 71 310 s MonteeBullesClochettes;
-#N canvas 0 100 1440 800 NativiteGetsOutToCour 1;
+#N canvas 0 100 1440 800 NativiteGetsOutToCour 0;
 #X obj 45 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 45 94 t b b b b;
