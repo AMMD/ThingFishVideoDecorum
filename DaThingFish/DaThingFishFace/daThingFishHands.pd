@@ -8,7 +8,7 @@
 #X obj 355 687 outlet TrigThingFishOut;
 #X obj 148 479 inlet HandsOut;
 #X obj 381 271 daThingFishHandCourCineticScroll;
-#N canvas 812 100 552 563 HandJardinUsualActivate 1;
+#N canvas 812 100 552 563 HandJardinUsualActivate 0;
 #X obj 224 562 send OSC_MESSAGES;
 #X obj 104 489 list prepend;
 #X obj 61 33 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -261,6 +261,9 @@
 #X obj 149 530 delay 10;
 #X obj 87 501 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X msg 494 475 /HandCour/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/DaThingFish/DaThingFishFace/data/handCour.png
+;
+#X obj 489 546 s OSC_MESSAGES;
 #X connect 3 0 0 0;
 #X connect 3 1 0 3;
 #X connect 3 2 0 4;
@@ -269,6 +272,7 @@
 #X connect 3 5 4 0;
 #X connect 5 0 16 0;
 #X connect 5 0 17 0;
+#X connect 5 0 19 0;
 #X connect 8 0 9 0;
 #X connect 9 0 12 0;
 #X connect 9 0 10 0;
@@ -280,3 +284,5 @@
 #X connect 17 0 3 0;
 #X connect 18 0 17 0;
 #X connect 18 0 16 0;
+#X connect 18 0 19 0;
+#X connect 19 0 20 0;
