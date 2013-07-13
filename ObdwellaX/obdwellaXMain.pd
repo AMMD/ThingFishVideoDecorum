@@ -291,7 +291,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 336 44 pd ObdwellaXBodyInit;
-#N canvas 0 100 1440 800 TFHandHangsOX 1;
+#N canvas 0 100 1440 800 TFHandHangsOX 0;
 #X obj 624 768 s OSC_MESSAGES;
 #X obj 1622 464 symbol;
 #X msg 1622 394 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/2013_07_09_TF_Main_tenant_Odwella_X.png
@@ -383,7 +383,7 @@
 #X msg 1109 399 3.5 500;
 #X obj 624 275 delay 505;
 #X obj 550 292 delay 300;
-#X msg 354 839 -20 10000;
+#X msg 354 839 -15 2500;
 #X connect 1 0 8 0;
 #X connect 2 0 1 0;
 #X connect 3 0 4 0;
@@ -512,4 +512,28 @@
 #X restore 702 52 pd TFHandHangsOX;
 #X obj 437 183 loadbang;
 #X obj 437 218 s ObdwellaXInit;
+#N canvas 717 432 450 300 ObdwellaXMoves 1;
+#X obj 69 41 r ObdwellaXMoves;
+#X msg 69 226 /OX_Head/Rotate \$1;
+#X obj 69 259 s OSC_MESSAGES;
+#X obj 69 64 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 200 41 r ObdwellaXStopsMoving;
+#X msg 200 68 stop;
+#X obj 69 85 metro 4000;
+#X obj 69 122 random 10;
+#X obj 69 201 line;
+#X msg 69 178 \$1 500;
+#X obj 69 151 - 8;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 3 0 6 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 10 0;
+#X connect 8 0 1 0;
+#X connect 9 0 8 0;
+#X connect 10 0 9 0;
+#X restore 699 90 pd ObdwellaXMoves;
 #X connect 5 0 6 0;

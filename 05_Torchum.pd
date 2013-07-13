@@ -17,13 +17,20 @@
 -1;
 #X obj 51 162 s dunjonDoorsMoveCour;
 #X obj 50 64 s DunjonInit;
-#X obj 53 266 s ZombiesStopWalking;
-#X obj 35 251 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 44 384 s ZombiesStopWalking;
+#X obj 26 369 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 35 291 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 26 409 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 53 306 s DeactivateAll;
-#X obj 183 266 s DunjonBangOff;
+#X obj 44 424 s DeactivateAll;
+#X obj 174 384 s DunjonBangOff;
+#X obj 29 236 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 49 251 s TFIn;
+#X obj 30 279 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 108 251 s TFMutes;
+#X obj 51 294 s HCourCloseCurtain;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -33,3 +40,6 @@
 #X connect 13 0 12 0;
 #X connect 13 0 16 0;
 #X connect 14 0 15 0;
+#X connect 17 0 18 0;
+#X connect 17 0 20 0;
+#X connect 19 0 21 0;

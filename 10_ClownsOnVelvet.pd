@@ -14,15 +14,19 @@
 -1;
 #X obj 116 75 s HandCineticScroll;
 #X obj 55 75 delay 200;
-#X obj 96 231 s CurtainsClosed;
-#X obj 38 216 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 76 493 s DeactivateAll;
+#X obj 15 478 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 93 337 s DeactivateAll;
-#X obj 32 322 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 76 439 s stopAlladinHotel;
+#X obj 17 422 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 93 283 s stopAlladinHotel;
-#X obj 34 266 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 30 281 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 50 296 s TFIn;
+#X obj 31 324 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 109 296 s TFMutes;
+#X obj 52 339 s HCourCloseCurtain;
 #X connect 2 0 1 0;
 #X connect 5 0 4 0;
 #X connect 6 0 3 0;
@@ -32,4 +36,6 @@
 #X connect 10 0 7 0;
 #X connect 12 0 11 0;
 #X connect 14 0 13 0;
-#X connect 16 0 15 0;
+#X connect 15 0 16 0;
+#X connect 15 0 18 0;
+#X connect 17 0 19 0;

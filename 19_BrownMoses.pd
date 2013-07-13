@@ -2,14 +2,14 @@
 #X obj 20 131 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 40 146 s TFIn;
-#X obj 21 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 42 189 s CurtainsClosed;
 #X obj 99 146 s TFMutes;
 #X obj 44 231 s DeactivateAll;
 #X obj 23 216 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 23 176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 44 191 s HCourCloseCurtain;
 #X connect 0 0 1 0;
-#X connect 0 0 4 0;
-#X connect 2 0 3 0;
-#X connect 6 0 5 0;
+#X connect 0 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 6 0;
