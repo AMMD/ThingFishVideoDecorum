@@ -293,7 +293,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 1032 99 pd ItalianBrasInit;
-#N canvas 503 100 850 796 ItalianHairInit 0;
+#N canvas 501 100 850 796 ItalianHairInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -347,11 +347,11 @@
 #X msg 255 369 1.5;
 #X msg 255 409 4.45;
 #X msg 255 389 1.36204;
-#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/italien_cheveux.png
-;
 #X msg 255 109 -2.78;
 #X msg 255 326 -14;
 #X msg 183 79 /Italien1;
+#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/italien_cheveux_devant.png
+;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -372,14 +372,14 @@
 #X connect 19 0 1 0;
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
-#X connect 20 1 53 0;
-#X connect 20 2 55 0;
+#X connect 20 1 52 0;
+#X connect 20 2 54 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 52 0;
+#X connect 21 2 55 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 54 0;
+#X connect 22 2 53 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
 #X connect 23 2 49 0;
@@ -434,8 +434,8 @@
 #X connect 51 0 5 1;
 #X connect 52 0 5 1;
 #X connect 53 0 5 1;
-#X connect 54 0 5 1;
-#X connect 55 0 1 1;
+#X connect 54 0 1 1;
+#X connect 55 0 5 1;
 #X restore 1032 119 pd ItalianHairInit;
 #X obj 1028 214 italienMoves;
 #X obj 1029 297 loadbang;
