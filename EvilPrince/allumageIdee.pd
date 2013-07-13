@@ -1,4 +1,4 @@
-#N canvas 516 238 450 300 10;
+#N canvas 232 219 450 517 10;
 #X obj 268 67 metro 50;
 #X obj 276 89 random 50;
 #X obj 285 122 + 50;
@@ -15,15 +15,22 @@
 #X obj 24 178 s EP_AllumageIdee;
 #X msg 69 116 /EvilPrince_Bulle/Activate \$1;
 #X msg 274 158 /EvilPrince_Bulle/Green \$1;
+#X obj 51 330 symbol;
+#X msg 51 357 /EvilPrince_Tete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_\$1.png
+;
+#X msg 60 292 Joker;
+#X msg 135 297 Tete;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 14 0;
 #X connect 4 0 9 0;
 #X connect 4 0 12 0;
+#X connect 4 0 17 0;
 #X connect 5 0 4 0;
 #X connect 7 0 8 0;
 #X connect 7 0 10 0;
+#X connect 7 0 18 0;
 #X connect 8 0 0 0;
 #X connect 9 0 11 0;
 #X connect 9 0 0 0;
@@ -32,3 +39,7 @@
 #X connect 11 0 6 0;
 #X connect 13 0 6 0;
 #X connect 14 0 6 0;
+#X connect 15 0 16 0;
+#X connect 16 0 6 0;
+#X connect 17 0 15 0;
+#X connect 18 0 15 0;
