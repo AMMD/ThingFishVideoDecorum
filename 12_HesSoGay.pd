@@ -1,4 +1,4 @@
-#N canvas 664 368 450 300 10;
+#N canvas 614 366 498 481 10;
 #X obj 43 122 s harryComesInFromJardinProche;
 #X obj 22 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -23,6 +23,12 @@
 #X obj 74 233 s MammyNunsVPInit;
 #X obj 19 229 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 292 194 s BrownMosesMoonWalks;
+#X obj 292 214 s BrownMosesGetsBack;
+#X obj 279 178 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 275 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 1 0 0 0;
 #X connect 2 0 11 0;
 #X connect 3 0 4 0;
@@ -31,3 +37,5 @@
 #X connect 9 0 10 0;
 #X connect 13 0 12 0;
 #X connect 15 0 14 0;
+#X connect 18 0 16 0;
+#X connect 19 0 17 0;
