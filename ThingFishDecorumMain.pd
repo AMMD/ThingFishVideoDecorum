@@ -215,6 +215,10 @@
 #X msg 958 234 /Zombies_Annie*/g*pos 0;
 #X msg 958 254 /Zombies_Cowboy*/g*pos 0;
 #X msg 958 274 /Zombies_Chien*/g*pos 0;
+#X msg 958 294 /Zombies_HelloDolly*/g*pos 0;
+#X msg 488 294 /Zombies_HelloDolly*/Child/*pos 0;
+#X msg 239 264 /Zombies_HelloDolly*/ParentName /Dummy;
+#X msg -71 272 /Zombies_HelloDolly*/Activate 0;
 #X connect 0 0 10 0;
 #X connect 1 0 10 0;
 #X connect 2 0 10 0;
@@ -248,6 +252,9 @@
 #X connect 9 0 33 0;
 #X connect 9 0 34 0;
 #X connect 9 0 38 0;
+#X connect 9 0 52 0;
+#X connect 9 0 53 0;
+#X connect 9 0 54 0;
 #X connect 11 0 10 0;
 #X connect 12 0 10 0;
 #X connect 13 0 10 0;
@@ -299,6 +306,7 @@
 #X connect 38 1 48 0;
 #X connect 38 1 49 0;
 #X connect 38 1 50 0;
+#X connect 38 1 51 0;
 #X connect 39 0 10 0;
 #X connect 40 0 10 0;
 #X connect 41 0 10 0;
@@ -311,6 +319,10 @@
 #X connect 48 0 10 0;
 #X connect 49 0 10 0;
 #X connect 50 0 10 0;
+#X connect 51 0 10 0;
+#X connect 52 0 10 0;
+#X connect 53 0 10 0;
+#X connect 54 0 10 0;
 #X restore 553 -47 pd DeactivateAll;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
