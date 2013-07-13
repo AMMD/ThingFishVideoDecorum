@@ -7,8 +7,22 @@
 #X obj 237 34 delay 200;
 #X obj 20 57 s DriveInGetsOutToCour;
 #X obj 464 66 s NativiteComesInFromJardinWithoutCGB;
+#X obj 20 91 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 40 106 s TFIn;
+#X obj 21 134 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 42 149 s CurtainsClosed;
+#X obj 99 106 s TFMutes;
+#X obj 44 191 s DeactivateAll;
+#X obj 23 176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
 #X connect 1 0 5 0;
 #X connect 3 0 1 0;
+#X connect 6 0 7 0;
+#X connect 6 0 10 0;
+#X connect 8 0 9 0;
+#X connect 12 0 11 0;
