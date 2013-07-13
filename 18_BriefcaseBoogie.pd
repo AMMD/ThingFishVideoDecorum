@@ -12,6 +12,9 @@
 #X obj 161 189 s GirafeStopsMoving;
 #X obj 170 166 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
+#X obj 26 114 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 81 129 s OXKidnapped;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -20,3 +23,4 @@
 #X connect 1 0 5 0;
 #X connect 3 0 1 0;
 #X connect 9 0 8 0;
+#X connect 10 0 11 0;
