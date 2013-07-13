@@ -2361,7 +2361,7 @@
 /B_roadway/Ypos 5.9;
 /B_roadway/Xpos -9;
 /Arche/Zpos -3.1;
-/Arche/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/Cabaret_Arc.png
+/Arche/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Curtains/data/arc-broadway.png
 ;
 /Arche/Blue 1;
 /Arche/Green 1;
@@ -2373,7 +2373,7 @@
 /Arche/RenderOrder -26;
 /Arche/Shape 3;
 /Arche/Yscale 1.45;
-/Arche/Xscale 6.9;
+/Arche/Xscale 9.5;
 /Arche/Ypos 4.59732;
 /Arche/Xpos 0;
 /Truss/Zpos -2.9;

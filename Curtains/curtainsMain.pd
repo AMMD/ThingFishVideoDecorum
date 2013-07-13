@@ -1,12 +1,4 @@
-#N canvas 1 98 1438 796 10;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
+#N canvas 1 100 1438 796 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -18,6 +10,5 @@
 #X obj 567 398 zac.lumiere /RideauFrise;
 #X obj 563 215 zac.lumiere /Truss;
 #X obj 564 23 zac.lumiere /Arche;
-#X obj 79 47 curtainsBroadway;
 #X obj 96 399 zac.lumiere /FondScene;
 #X obj 82 91 curtainsMoves;
