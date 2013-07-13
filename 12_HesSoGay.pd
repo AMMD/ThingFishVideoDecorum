@@ -1,4 +1,4 @@
-#N canvas 614 366 498 481 10;
+#N canvas 333 279 498 619 10;
 #X obj 43 122 s harryComesInFromJardinProche;
 #X obj 22 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29,6 +29,23 @@
 -1 -1;
 #X obj 275 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
+#X obj 274 263 s MNTempoPieds;
+#X obj 274 293 s MNTempoHands;
+#X obj 274 323 s MNTempoHats;
+#X obj 275 370 s MNTempoGroups;
+#X obj 278 347 hsl 128 15 10000 500 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 12000 1;
+#X obj 277 240 hsl 128 15 1000 300 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 12100 1;
+#X obj 57 322 s CurtainsClosed;
+#X obj 24 306 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 24 366 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 80 399 s HesSoGayOff;
+#X obj 32 444 s DeactivateAll;
+#X obj -4 434 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 1 0 0 0;
 #X connect 2 0 11 0;
 #X connect 3 0 4 0;
@@ -39,3 +56,10 @@
 #X connect 15 0 14 0;
 #X connect 18 0 16 0;
 #X connect 19 0 17 0;
+#X connect 24 0 23 0;
+#X connect 25 0 20 0;
+#X connect 25 0 21 0;
+#X connect 25 0 22 0;
+#X connect 27 0 26 0;
+#X connect 28 0 29 0;
+#X connect 31 0 30 0;
