@@ -1,5 +1,5 @@
-#N canvas 93 141 450 300 10;
-#N canvas 503 100 850 796 CeneInit 1;
+#N canvas 91 139 450 300 10;
+#N canvas 501 100 850 796 CeneInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -51,13 +51,13 @@
 #X msg 255 429 0;
 #X msg 255 205 1;
 #X msg 255 225 1;
-#X msg 183 79 /WashMachine;
 #X obj 71 22 r CeneInit;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Cene/data/scene10.png
 ;
 #X msg 255 369 2.9;
 #X msg 255 409 -0.3;
 #X msg 255 389 7.46781;
+#X msg 183 79 /CuveGaloot;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -79,22 +79,22 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 45 0;
-#X connect 20 2 50 0;
+#X connect 20 2 55 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 52 0;
+#X connect 21 2 51 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
 #X connect 22 2 44 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 53 0;
+#X connect 23 2 52 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 55 0;
+#X connect 24 2 54 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 54 0;
+#X connect 25 2 53 0;
 #X connect 26 0 42 0;
 #X connect 26 1 11 0;
 #X connect 26 2 47 0;
@@ -136,10 +136,10 @@
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
-#X connect 50 0 1 1;
-#X connect 51 0 2 0;
+#X connect 50 0 2 0;
+#X connect 51 0 5 1;
 #X connect 52 0 5 1;
 #X connect 53 0 5 1;
 #X connect 54 0 5 1;
-#X connect 55 0 5 1;
+#X connect 55 0 1 1;
 #X restore 71 41 pd CeneInit;
