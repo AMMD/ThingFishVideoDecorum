@@ -26,8 +26,8 @@
 #X obj 513 143 s tempoDance;
 #X msg 358 423 /CuveGaloot/Ypos \$1;
 #X msg 358 329 -0.9;
-#X msg 308 363 263.504;
-#X msg 358 301 -0.04;
+#X msg 308 363 750;
+#X msg 358 301 -0.9;
 #X obj 516 172 t b b;
 #X obj 281 247 t b b;
 #X msg 270 338 set \$1;
@@ -46,7 +46,7 @@
 #X msg 690 274 /Djbebe/Rotate \$1;
 #X obj 690 240 line;
 #X msg 906 148 set \$1;
-#X msg 823 223 263.504;
+#X msg 823 223 750;
 #X obj 796 151 t b b;
 #X obj 690 120 t b b;
 #X obj 90 133 s dancerMetro;
@@ -72,7 +72,7 @@
 #X obj 1182 447 line;
 #X msg 1006 463 /CuveGalootContent/Ypos \$1;
 #X msg 1228 332 set \$1;
-#X msg 1228 368 198.123;
+#X msg 1228 368 563.91;
 #X obj 1136 352 random 100;
 #X obj 1136 376 - 50;
 #X obj 1182 393 +;
@@ -142,7 +142,7 @@
 #X obj 437 202 v /CuveGaloot/Xpos;
 #X obj 360 375 line;
 #X msg 550 283 set \$1;
-#X msg 550 358 527.008;
+#X msg 550 358 1500;
 #X msg 360 435 /DjventiloPales/Xpos \$1;
 #X obj 488 71 r tempoDance;
 #X obj 437 288 - 4.2;
@@ -163,7 +163,7 @@
 #X obj 650 580 mod 2;
 #X obj 194 192 s QNRPaupiereInit;
 #X msg 194 228 /DunjonDoor1Cadre/Child/Ypos 1;
-#X msg 915 479 65.876;
+#X msg 915 479 187.5;
 #X msg 915 440 set \$1;
 #X obj 846 545 line;
 #X obj 796 462 t b b;
@@ -178,7 +178,7 @@
 #X msg 320 517 /DunjonDoor1*/Ypos \$1;
 #X msg 320 537 /DunjonDoor2/Ypos \$1;
 #X obj 320 376 - 0.4;
-#X msg 403 70 stop;
+#X msg 411 59 stop;
 #X obj 396 23 r QNRstopdrague;
 #X msg 263 384 -1.2;
 #X msg 733 151 0;
@@ -292,7 +292,7 @@
 #X restore 87 561 pd QRNdecouvre;
 #X obj 459 610 line;
 #X msg 582 504 -0.5;
-#X msg 516 494 -0.04;
+#X msg 516 494 -0.9;
 #X obj 582 439 delay 200;
 #X obj 582 473 t b b;
 #X msg 459 634 /CochonLights/Ypos \$1;
@@ -332,11 +332,11 @@
 #X obj 729 222 line;
 #X msg 777 270 /CuveGalootContent2/Ypos \$1;
 #X msg 797 115 set \$1;
-#X msg 797 146 -0.4;
+#X msg 797 146 -9.66843;
 #X obj 729 129 delay 5;
 #X obj 849 209 line;
 #X msg 917 95 set \$1;
-#X msg 917 126 1.25;
+#X msg 917 126 2.2;
 #X obj 849 109 delay 5;
 #X obj 849 57 v /CuveGalootContent2/Ypos;
 #X msg 849 172 \$1 300;
