@@ -275,7 +275,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 2 0;
 #X restore 667 59 pd TapisRoulantRoulementActivate;
-#N canvas 86 100 850 796 TapisRoulantAssietteDSKActivate 0;
+#N canvas 84 100 850 796 TapisRoulantAssietteDSKActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -326,7 +326,7 @@
 #X msg 255 429 0;
 #X obj 71 22 r TapisRoulantAssiettesActivate;
 #X msg 255 369 0.25;
-#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_puréepng
+#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée.png
 ;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
@@ -403,7 +403,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 667 89 pd TapisRoulantAssietteDSKActivate;
-#N canvas 86 100 850 796 TapisRoulantAssietteLagardeActivate 0;
+#N canvas 84 100 850 796 TapisRoulantAssietteLagardeActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -531,7 +531,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 667 109 pd TapisRoulantAssietteLagardeActivate;
-#N canvas 86 100 850 796 TapisRoulantAssietteLagardeActivate 1;
+#N canvas 84 100 850 796 TapisRoulantAssietteLagardeActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -659,7 +659,7 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X restore 667 149 pd TapisRoulantAssietteLagardeActivate;
-#N canvas 86 100 850 796 TapisRoulantAssietteBushActivate 0;
+#N canvas 84 100 850 796 TapisRoulantAssietteBushActivate 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -709,9 +709,9 @@
 #X obj 71 22 r TapisRoulantAssiettesActivate;
 #X msg 183 79 /Assiette_Bush;
 #X msg 255 429 2.84295;
-#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_puréepng
-;
 #X msg 255 369 0.25;
+#X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Prison/data/2013_06_28_Prison2_assiette_purée.png
+;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -736,13 +736,13 @@
 #X connect 20 2 46 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 48 0;
+#X connect 21 2 49 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
 #X connect 22 2 40 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 49 0;
+#X connect 23 2 48 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
 #X connect 24 2 42 0;
