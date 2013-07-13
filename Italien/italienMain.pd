@@ -439,7 +439,12 @@
 #X restore 1032 119 pd ItalianHairInit;
 #X obj 1028 214 italienMoves;
 #X obj 1029 297 loadbang;
-#X obj 1029 338 s ItalianInit;
-#X obj 1029 377 s italianMoves;
-#X connect 7 0 8 0;
-#X connect 7 0 9 0;
+#X obj 1029 358 s ItalianInit;
+#X obj 1029 397 s italianMoves;
+#X obj 1029 264 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1029 324 delay 30;
+#X connect 7 0 11 0;
+#X connect 10 0 7 0;
+#X connect 11 0 8 0;
+#X connect 11 0 9 0;

@@ -434,7 +434,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 61 71 pd NativiteLampionsInit;
-#N canvas 511 100 850 796 NativiteLuneInit 0;
+#N canvas 509 100 850 796 NativiteLuneInit 1;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -486,13 +486,13 @@
 #X obj 71 22 r NativiteInit;
 #X msg 255 109 -3.032;
 #X msg 255 369 1.5;
-#X msg 255 326 -22;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Nativite/data/2013_07_05_Scene8_Lune.png
 ;
 #X msg 183 79 /Djbebe;
 #X msg 255 429 2;
 #X msg 255 389 1.5;
 #X msg 255 409 1.95;
+#X msg 255 326 -23;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -514,25 +514,25 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 48 0;
-#X connect 20 2 52 0;
+#X connect 20 2 51 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 51 0;
+#X connect 21 2 50 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 50 0;
+#X connect 22 2 55 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
 #X connect 23 2 49 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 54 0;
+#X connect 24 2 53 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 55 0;
+#X connect 25 2 54 0;
 #X connect 26 0 42 0;
 #X connect 26 1 11 0;
-#X connect 26 2 53 0;
+#X connect 26 2 52 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -572,8 +572,8 @@
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
 #X connect 50 0 5 1;
-#X connect 51 0 5 1;
-#X connect 52 0 1 1;
+#X connect 51 0 1 1;
+#X connect 52 0 5 1;
 #X connect 53 0 5 1;
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
@@ -726,7 +726,7 @@
 #X connect 55 0 5 1;
 #X connect 56 0 0 0;
 #X restore 61 151 pd NativiteCGBInit;
-#N canvas 491 100 850 796 NativiteCGBKKKInit 1;
+#N canvas 491 100 850 796 NativiteCGBKKKInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
