@@ -1,5 +1,5 @@
 #N canvas 0 100 1440 800 10;
-#N canvas 570 179 450 300 ArriveeTaureau 0;
+#N canvas 568 177 450 300 ArriveeTaureau 0;
 #X obj 71 37 r ArriveeTaureau;
 #X obj 71 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -33,7 +33,7 @@
 -1;
 #X obj 71 37 r ArriveeDriveInPeople;
 #X obj 85 113 t b b;
-#X obj 211 168 s DriveInPeopleInit;
+#X obj 665 130 s DriveInPeopleInit;
 #X msg 466 336 /Tube/Xpos \$1;
 #X msg 199 395 /Assiette_Bush/Xpos \$1;
 #X msg 318 367 /Assiette_Gail/Xpos \$1;
@@ -109,7 +109,7 @@
 #X connect 33 0 22 0;
 #X connect 34 0 11 0;
 #X restore 44 23 pd ArriveeDriveInPeople;
-#N canvas 568 177 615 353 TaureauABascule 1;
+#N canvas 562 171 615 353 TaureauABascule 0;
 #X obj 71 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 77 98 t b b;
@@ -151,7 +151,7 @@
 #X obj 204 697 s OSC_MESSAGES;
 #X obj 447 139 metro 400;
 #X msg 560 293 set \$1;
-#X msg 560 368 1500;
+#X msg 560 368 400;
 #X obj 498 81 r tempoDance;
 #X obj 610 416 / 2;
 #X obj 697 433 delay 200;
@@ -194,7 +194,9 @@
 #X msg 341 423 \$1 300;
 #X msg 434 398 0 100;
 #X obj 406 33 r DriveInQNRstopdrague;
+#X obj 726 42 s DriveInQNRGoleInit;
 #X connect 0 0 1 0;
+#X connect 0 0 48 0;
 #X connect 1 0 3 0;
 #X connect 1 0 25 0;
 #X connect 1 0 33 0;
@@ -306,7 +308,7 @@
 #X connect 31 0 8 0;
 #X connect 32 0 12 0;
 #X restore 44 63 pd TaureauABascule;
-#N canvas 568 177 615 353 HAABBrasPending 0;
+#N canvas 566 175 615 353 HAABBrasPending 0;
 #X obj 71 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 70 272 s OSC_MESSAGES;
@@ -343,7 +345,7 @@
 #X connect 14 0 15 0;
 #X connect 15 0 5 0;
 #X restore 44 93 pd HAABBrasPending;
-#N canvas 238 322 450 300 TruckLightning 0;
+#N canvas 236 320 450 300 TruckLightning 0;
 #X obj 31 26 r DriveInInit;
 #X obj 38 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -367,7 +369,7 @@
 #X connect 9 0 10 0;
 #X connect 10 0 2 0;
 #X restore 48 123 pd TruckLightning;
-#N canvas 386 275 733 370 DriveInComesInFromJardin 0;
+#N canvas 384 273 733 370 DriveInComesInFromJardin 0;
 #X obj 45 29 r DriveInComesInFromJardin;
 #X obj 45 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
