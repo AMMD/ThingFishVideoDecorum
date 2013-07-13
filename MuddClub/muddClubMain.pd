@@ -143,7 +143,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 48 pd MuddClubPlan4Init;
-#N canvas 553 100 850 796 MuddClubPlan3Init 0;
+#N canvas 551 100 850 796 MuddClubPlan3Init 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -578,7 +578,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 207 108 pd MuddClubLustreInit;
-#N canvas 547 100 850 796 MuddClubPosition1-2Init 1;
+#N canvas 545 100 850 796 MuddClubPosition1-2Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1778,7 +1778,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 567 128 pd MuddClubPosition3-4Init;
-#N canvas 589 100 850 796 MuddClubGloryHoleInit 0;
+#N canvas 581 100 850 796 MuddClubGloryHoleInit 1;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1840,6 +1840,9 @@
 ;
 #X msg 255 409 -0.8;
 #X msg 255 109 -3.0351;
+#X obj 56 492 t b b b;
+#X msg 114 509 Flip;
+#X msg 255 509 0;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -1863,6 +1866,7 @@
 #X connect 20 1 58 0;
 #X connect 20 2 54 0;
 #X connect 21 0 34 0;
+#X connect 21 0 59 0;
 #X connect 21 1 4 0;
 #X connect 21 2 56 0;
 #X connect 22 0 23 0;
@@ -1929,6 +1933,10 @@
 #X connect 56 0 5 1;
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
+#X connect 59 1 60 0;
+#X connect 59 2 61 0;
+#X connect 60 0 1 0;
+#X connect 61 0 5 1;
 #X restore 407 148 pd MuddClubGloryHoleInit;
 #X obj 502 399 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
