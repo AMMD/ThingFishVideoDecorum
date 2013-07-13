@@ -325,7 +325,7 @@
 #X obj 486 -108 15_CrabGrassBaby;
 #X obj 486 -85 17_StickItOut;
 #X obj 486 -63 18_BriefcaseBoogie;
-#X obj 488 -35 20_Wistful;
+#X obj 486 -40 20_Wistful;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
