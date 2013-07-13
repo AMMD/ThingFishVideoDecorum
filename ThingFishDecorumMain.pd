@@ -151,7 +151,7 @@
 #X connect 15 0 12 0;
 #X connect 16 0 14 0;
 #X connect 17 0 14 0;
-#X restore 472 -47 pd Dummies;
+#X restore 469 288 pd Dummies;
 #X obj 182 21 MuddClub/muddClubMain;
 #X obj 316 21 EconomicWorship/economicWorshipMain;
 #X obj 485 -155 10_ClownsOnVelvet;
@@ -324,7 +324,7 @@
 #X connect 52 0 10 0;
 #X connect 53 0 10 0;
 #X connect 54 0 10 0;
-#X restore 553 -47 pd DeactivateAll;
+#X restore 550 288 pd DeactivateAll;
 #X obj 486 -108 15_CrabGrassBaby;
 #X obj 486 -85 17_StickItOut;
 #X connect 5 0 6 0;
