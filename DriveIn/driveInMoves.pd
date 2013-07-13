@@ -150,7 +150,7 @@
 #X obj 204 697 s OSC_MESSAGES;
 #X obj 447 139 metro 400;
 #X msg 560 293 set \$1;
-#X msg 560 368 400;
+#X msg 560 368 613.496;
 #X obj 498 81 r tempoDance;
 #X obj 610 416 / 2;
 #X obj 697 433 delay 200;
@@ -428,6 +428,7 @@
 #X msg 693 346 /Assiette_*/Xpos \$1;
 #X msg 508 336 /Assiette_*/Activate 0;
 #X obj 820 33 r DriveInGetsOutToCour;
+#X msg 507 372 /EvilPrince_BullePotium/Activate 0;
 #X connect 0 0 1 0;
 #X connect 1 0 5 0;
 #X connect 4 0 7 0;
@@ -467,6 +468,7 @@
 #X connect 23 0 42 0;
 #X connect 23 0 43 0;
 #X connect 23 0 44 0;
+#X connect 23 0 56 0;
 #X connect 24 0 7 0;
 #X connect 24 0 49 0;
 #X connect 24 0 50 0;
@@ -520,4 +522,5 @@
 #X connect 53 0 9 0;
 #X connect 54 0 9 0;
 #X connect 55 0 10 0;
+#X connect 56 0 9 0;
 #X restore 48 150 pd DriveInComesInFromJardin;
