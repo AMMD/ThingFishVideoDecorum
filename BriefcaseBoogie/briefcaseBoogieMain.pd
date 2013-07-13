@@ -205,6 +205,13 @@
 #X obj 1165 247 s OSC_MESSAGES;
 #X msg 303 52 stop;
 #X obj 303 29 r AgreementsStopFalling;
+#X obj 828 470 r NoMustachInit;
+#X obj 828 654 s OSC_MESSAGES;
+#X obj 828 501 t b b;
+#X msg 828 582 /ItalienBras/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/italien_cache_moustache.png
+;
+#X msg 855 538 0 100;
+#X msg 828 555 /ItalienBras/Rotate \$1;
 #X connect 0 0 1 0;
 #X connect 1 0 44 0;
 #X connect 1 0 47 0;
@@ -297,6 +304,12 @@
 #X connect 54 0 44 0;
 #X connect 54 0 51 0;
 #X connect 55 0 54 0;
+#X connect 56 0 58 0;
+#X connect 58 0 59 0;
+#X connect 58 1 60 0;
+#X connect 59 0 57 0;
+#X connect 60 0 61 0;
+#X connect 61 0 57 0;
 #X restore 675 67 pd AgreementsAreFalling;
 #N canvas 497 100 850 796 NoMustachInit 0;
 #X obj 234 572 send OSC_MESSAGES;
