@@ -11,10 +11,10 @@
 -1;
 #X obj 30 339 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 52 395 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 93 485 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 52 447 s StopMonteePremieresBullesVides;
-#X obj 52 467 s StopMonteeTroisiemesBullesVides;
+#X obj 93 537 s StopMonteePremieresBullesVides;
+#X obj 93 557 s StopMonteeTroisiemesBullesVides;
 #X obj 40 369 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 81 360 s MonteeBullesClochettes;
@@ -28,31 +28,35 @@
 #X obj 55 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 248 233 s CGBMoves;
-#X obj 52 501 s GirafeStopsMoving;
-#X obj 52 534 s CGBStopsMoving;
-#X obj 52 562 s StopMonteeBullesClochettes;
-#X obj 466 427 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 93 591 s GirafeStopsMoving;
+#X obj 93 624 s CGBStopsMoving;
+#X obj 93 652 s StopMonteeBullesClochettes;
+#X obj 507 517 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 330 410 s HandCineticScroll;
-#X obj 269 410 delay 200;
-#X obj 492 442 s NativiteGetsOutToCour;
-#X obj 466 482 s DriveInComesInFromJardin;
+#X obj 371 500 s HandCineticScroll;
+#X obj 310 500 delay 200;
+#X obj 533 532 s NativiteGetsOutToCour;
+#X obj 507 572 s DriveInComesInFromJardin;
 #X obj 96 113 s TFOut;
 #X obj 56 98 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 78 187 s TFPushesItalianInHisHome;
 #X obj 52 172 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 171 445 s TFPushesItalianBackUpstairs;
+#X obj 93 445 delay 2500;
+#X obj 45 430 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 4 0 3 0;
 #X connect 4 0 19 0;
 #X connect 5 0 0 0;
 #X connect 6 0 1 0;
 #X connect 7 0 2 0;
-#X connect 8 0 9 0;
 #X connect 8 0 10 0;
 #X connect 8 0 20 0;
 #X connect 8 0 21 0;
 #X connect 8 0 22 0;
+#X connect 8 0 9 0;
 #X connect 8 0 25 0;
 #X connect 8 0 24 0;
 #X connect 11 0 12 0;
@@ -64,3 +68,6 @@
 #X connect 25 0 23 0;
 #X connect 29 0 28 0;
 #X connect 31 0 30 0;
+#X connect 33 0 8 0;
+#X connect 34 0 33 0;
+#X connect 34 0 32 0;
