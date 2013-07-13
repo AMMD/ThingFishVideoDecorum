@@ -5,7 +5,7 @@
 #X obj 46 450 send OSC_MESSAGES;
 #X obj 178 274 r peterPanDeActivate;
 #X obj 124 566 peterPanMoves;
-#N canvas 565 100 850 796 PeterPanTeteInit 0;
+#N canvas 563 100 850 796 PeterPanTeteInit 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -781,10 +781,16 @@
 #X obj 599 442 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 595 464 s PeterPanInit;
-#X msg 811 470 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Tete.png
-;
 #X obj 811 525 symbol;
 #X msg 811 563 /Prison_Barreaux/File \$1;
+#X msg 811 470 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Zombies/data/Peter_Pan_avec_tete_bras_articules/2013_07_01_Zombie_Peter_Pan_Tete_Patate.png
+;
+#X obj 811 592 s OSC_MESSAGES;
+#X obj 811 411 r ZombiesMammified;
+#X msg 1017 540 0.2;
+#X msg 1017 575 /Prison_Barreaux/Xpos \$1;
+#X obj 811 442 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 1 0;
 #X connect 1 0 12 0;
 #X connect 1 0 13 0;
@@ -804,4 +810,10 @@
 #X connect 16 0 3 0;
 #X connect 17 0 18 0;
 #X connect 19 0 20 0;
-#X connect 20 0 21 0;
+#X connect 20 0 22 0;
+#X connect 21 0 19 0;
+#X connect 23 0 26 0;
+#X connect 24 0 25 0;
+#X connect 25 0 22 0;
+#X connect 26 0 21 0;
+#X connect 26 0 24 0;
