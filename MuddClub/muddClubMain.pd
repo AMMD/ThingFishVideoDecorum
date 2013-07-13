@@ -1620,11 +1620,6 @@
 #X msg 333 518 1500;
 #X obj 125 640 s ChuteCrete;
 #X obj 205 640 s ChuteTabouret;
-#X obj 946 399 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 946 440 s MuddClubFuck;
-#X obj 1038 440 s muddClubUsersStopDancing;
-#X obj 946 418 t b b;
 #N canvas 539 100 850 796 MuddClubPosition3-4Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
@@ -1778,7 +1773,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 567 128 pd MuddClubPosition3-4Init;
-#N canvas 581 100 850 796 MuddClubGloryHoleInit 1;
+#N canvas 581 100 850 796 MuddClubGloryHoleInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1941,10 +1936,6 @@
 #X obj 502 399 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 502 434 s MuddClubGH;
-#X obj 947 605 s OSC_MESSAGES;
-#X msg 947 542 3;
-#X msg 986 541 5;
-#X msg 947 565 /CuveGaloot/ShapeIndex \$1;
 #N canvas 543 100 850 796 MuddClubVideoChretien1Init 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
@@ -2402,11 +2393,6 @@
 #X connect 58 0 5 1;
 #X restore 407 208 pd MuddClubVideoChretien3Init;
 #X obj 502 456 s ArriveeVideoChretiens;
-#X obj 967 508 delay 100;
-#X obj 1135 568 s BaisePunkQNR;
-#X msg 1089 486 stop;
-#X obj 1144 468 r stopMainFuck;
-#X obj 947 471 metro 200;
 #N canvas 523 100 850 796 MuddClubQNRGoleInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
@@ -2565,18 +2551,5 @@
 #X connect 26 0 27 0;
 #X connect 28 0 21 0;
 #X connect 29 0 20 0;
-#X connect 32 0 35 0;
-#X connect 32 0 52 0;
-#X connect 35 0 33 0;
-#X connect 35 0 49 0;
-#X connect 35 1 34 0;
-#X connect 38 0 39 0;
-#X connect 38 0 47 0;
-#X connect 41 0 43 0;
-#X connect 42 0 43 0;
-#X connect 43 0 40 0;
-#X connect 48 0 42 0;
-#X connect 50 0 52 0;
-#X connect 51 0 50 0;
-#X connect 52 0 41 0;
-#X connect 52 0 48 0;
+#X connect 34 0 35 0;
+#X connect 34 0 39 0;

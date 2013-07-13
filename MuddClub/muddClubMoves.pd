@@ -132,7 +132,7 @@
 #X restore 87 541 pd QRNarrivee;
 #X obj 175 316 - 1;
 #X obj 112 299 random 4;
-#N canvas 0 100 1440 800 QRNdrague 1;
+#N canvas 0 100 1440 800 QRNdrague 0;
 #X obj 194 75 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 125 17 r QNRdrague;
@@ -500,7 +500,7 @@
 #X connect 14 0 8 0;
 #X connect 15 0 6 0;
 #X restore 87 637 pd ArriveeVideoChretiens;
-#N canvas 462 148 799 582 BaisePunkQNR 0;
+#N canvas 460 146 799 582 BaisePunkQNR 0;
 #X obj 72 26 r BaisePunkQNR;
 #X obj 131 49 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -604,27 +604,28 @@
 #X connect 39 0 37 0;
 #X restore 88 662 pd BaisePunkQNR;
 #X obj 1162 69 r punkIsDancing;
-#N canvas 0 100 1440 800 MuddClubGetsOutToCour 0;
+#N canvas 0 100 1440 800 MuddClubGetsOutToCour 1;
 #X obj 32 20 r muddClubGetsOutToCour;
 #X obj 32 46 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 32 153 /CuveGaloot/Alpha \$1;
-#X msg 32 177 /Djbebe/Alpha \$1;
-#X msg 32 200 /CuveGalootContent/Alpha \$1;
-#X msg 32 224 /CuveGalootContent2/Alpha \$1;
-#X msg 32 248 /CochonLights/Alpha \$1;
-#X msg 32 271 /Cochon/Alpha \$1;
-#X msg 32 296 /WashMachine/Alpha \$1;
-#X msg 32 324 /DjventiloPales/Alpha \$1;
-#X msg 32 350 /DunjonDoor[1-4]*/Alpha \$1;
-#X msg 32 377 /Tube \$1;
+#X msg 32 253 /CuveGaloot/Alpha \$1;
+#X msg 32 277 /Djbebe/Alpha \$1;
+#X msg 32 300 /CuveGalootContent/Alpha \$1;
+#X msg 32 324 /CuveGalootContent2/Alpha \$1;
+#X msg 32 348 /CochonLights/Alpha \$1;
+#X msg 32 371 /Cochon/Alpha \$1;
+#X msg 32 396 /WashMachine/Alpha \$1;
+#X msg 32 424 /DjventiloPales/Alpha \$1;
+#X msg 32 450 /DunjonDoor[1-4]*/Alpha \$1;
+#X msg 32 477 /Tube \$1;
 #X msg 84 98 1;
 #X obj 32 67 t b b;
-#X obj 32 127 line;
-#X obj 32 416 s OSC_MESSAGES;
-#X msg 32 98 0 1200;
+#X obj 32 227 line;
+#X obj 32 516 s OSC_MESSAGES;
+#X msg 32 198 0 1200;
 #X obj 250 80 s StopBaisePunkQNR;
 #X obj 370 80 s StopMainFuck;
+#X obj 134 164 delay 300;
 #X connect 0 0 1 0;
 #X connect 1 0 13 0;
 #X connect 1 0 17 0;
@@ -640,7 +641,7 @@
 #X connect 10 0 15 0;
 #X connect 11 0 15 0;
 #X connect 12 0 14 0;
-#X connect 13 0 16 0;
+#X connect 13 0 19 0;
 #X connect 13 1 12 0;
 #X connect 14 0 2 0;
 #X connect 14 0 3 0;
@@ -653,6 +654,7 @@
 #X connect 14 0 10 0;
 #X connect 14 0 11 0;
 #X connect 16 0 14 0;
+#X connect 19 0 16 0;
 #X restore 92 722 pd MuddClubGetsOutToCour;
 #X connect 0 0 6 0;
 #X connect 1 0 7 0;
