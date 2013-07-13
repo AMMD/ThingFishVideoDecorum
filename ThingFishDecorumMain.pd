@@ -66,7 +66,6 @@
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
-#X declare -path ./lib/sssad;
 #X obj -273 -77 zac.mouse;
 #X obj -433 -263 zac.videoprojecteur /mainVP;
 #X obj -319 -26 Curtains/curtainsMain;
