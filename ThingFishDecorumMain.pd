@@ -82,10 +82,10 @@
 #X obj 140 199 loadbang;
 #X msg 140 220 16;
 #X obj -318 62 Dunjon/dunjonMain;
-#X msg -570 255 bang CurtainsOpened;
-#X obj -570 291 s CurtainsOpened;
-#X obj -575 383 s CurtainsClosed;
-#X msg -575 337 bang CurtainsClosed;
+#X msg -530 255 bang CurtainsOpened;
+#X obj -530 291 s CurtainsOpened;
+#X obj -535 383 s CurtainsClosed;
+#X msg -535 337 bang CurtainsClosed;
 #X msg -383 191 bang DunjonBang;
 #X obj -383 222 s DunjonBang;
 #X msg -383 335 bang DunjonBangOff;
