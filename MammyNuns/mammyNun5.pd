@@ -921,8 +921,8 @@
 #X connect 57 0 5 1;
 #X connect 58 0 1 1;
 #X restore 81 151 pd MN5PiedInit;
-#N canvas 674 349 450 300 MN5Moves 1;
-#N canvas 0 100 1440 800 MN5Dances 1;
+#N canvas 674 349 450 300 MN5Moves 0;
+#N canvas 0 100 1440 800 MN5Dances 0;
 #X obj 23 14 r MNDance;
 #X obj 23 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -991,7 +991,7 @@
 #X connect 27 0 28 0;
 #X connect 29 0 4 0;
 #X restore 34 23 pd MN5Dances;
-#N canvas 0 100 1440 800 MN5Pees 1;
+#N canvas 0 100 1440 800 MN5Pees 0;
 #X obj 48 36 r MNPee;
 #X obj 48 269 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1437,9 +1437,11 @@
 #X connect 57 0 2 0;
 #X connect 58 0 5 1;
 #X restore 181 151 pd MN5PiedAltInit;
+#X obj 89 272 r MNInit;
 #X connect 3 0 5 0;
 #X connect 5 0 2 0;
 #X connect 5 1 6 0;
 #X connect 7 0 9 0;
 #X connect 9 0 8 0;
 #X connect 11 0 7 0;
+#X connect 17 0 3 0;

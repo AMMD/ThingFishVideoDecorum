@@ -1225,8 +1225,8 @@
 #X obj 116 338 s MN3EarlyInit;
 #X obj 89 368 s MN3Init;
 #X msg 363 328 /DunjonDoor5/Xpos \$1;
-#N canvas 668 343 450 300 MN3Moves 1;
-#N canvas 0 100 1440 800 MN3Dances 1;
+#N canvas 668 343 450 300 MN3Moves 0;
+#N canvas 0 100 1440 800 MN3Dances 0;
 #X obj 23 14 r MNDance;
 #X obj 23 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1289,7 +1289,7 @@
 #X obj 624 633 random 10;
 #X obj 617 677 / 100;
 #X obj 688 766 line;
-#X msg 761 713 0.98 125;
+#X msg 761 713 0.97 125;
 #X obj 654 695 +;
 #X obj 617 653 - 5;
 #X msg 671 720 set \$1 125;
@@ -1602,9 +1602,11 @@
 #X connect 84 0 36 0;
 #X restore 36 66 pd MN3Pees;
 #X restore 917 119 pd MN3Moves;
+#X obj 89 270 r MNInit;
 #X connect 0 0 1 0;
 #X connect 1 0 14 0;
 #X connect 1 1 13 0;
 #X connect 2 0 15 0;
 #X connect 4 0 2 0;
 #X connect 15 0 3 0;
+#X connect 17 0 0 0;
