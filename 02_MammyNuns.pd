@@ -1,0 +1,31 @@
+#N canvas 1 100 925 429 10;
+#X obj 161 62 s MNInPlace;
+#X obj 66 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 288 62 delay 150;
+#X obj 288 96 s MNDance;
+#X obj 83 96 s TFOut;
+#X obj 83 129 s TFSpeaks;
+#X obj 83 165 s TFOpensCurtains;
+#X obj 67 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 67 114 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 67 150 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 72 197 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 103 212 s MNPee;
+#X obj 79 257 s MNStopDancing;
+#X obj 179 257 s MNStopPeeing;
+#X obj 50 242 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 1 0 0 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 7 0 4 0;
+#X connect 8 0 5 0;
+#X connect 9 0 6 0;
+#X connect 10 0 11 0;
+#X connect 14 0 12 0;
+#X connect 14 0 13 0;
