@@ -48,9 +48,9 @@
 #X obj 30 622 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 47 637 s homoBlackDie;
-#X obj 28 703 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 28 773 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 48 718 s TFIn;
+#X obj 48 788 s TFIn;
 #X obj 699 539 s compteReboursComesInFromJardin;
 #X obj 901 539 s comtoiseBalance;
 #X obj 1084 556 s teleFlies;
@@ -64,17 +64,17 @@
 #X obj 28 554 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 48 569 s evilPrinceDeception;
-#X obj 29 746 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 29 816 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 30 658 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 248 689 s homoBlackGetOutToCour;
 #X obj 51 672 delay 200;
 #X obj 120 672 s HandCineticScroll;
-#X obj 30 805 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 30 875 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 62 822 s evilPrinceOff;
-#X obj 107 718 s TFMutes;
+#X obj 62 890 s evilPrinceOff;
+#X obj 107 788 s TFMutes;
 #X obj 43 377 s PrisonSceneComingIn;
 #X obj 24 362 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -85,7 +85,18 @@
 #X obj 24 16 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 40 31 s BringObdwellaXToCurtains;
-#X obj 50 761 s HCourCloseCurtain;
+#X obj 50 831 s HCourCloseCurtain;
+#X obj 402 689 s MorphoComesInFromJardin;
+#X obj 184 890 s DeactivateAll;
+#X obj 30 738 s MorphoUgly;
+#X obj 130 738 s MorphoMeanAndUgly;
+#X obj 270 738 s MorphoMammyNun;
+#X obj 30 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 130 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 270 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -124,8 +135,13 @@
 #X connect 50 0 52 0;
 #X connect 50 0 53 0;
 #X connect 52 0 51 0;
+#X connect 52 0 65 0;
 #X connect 54 0 55 0;
+#X connect 54 0 66 0;
 #X connect 58 0 57 0;
 #X connect 59 0 31 0;
 #X connect 60 0 40 0;
 #X connect 62 0 63 0;
+#X connect 70 0 67 0;
+#X connect 71 0 68 0;
+#X connect 72 0 69 0;
