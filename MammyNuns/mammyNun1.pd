@@ -1069,7 +1069,7 @@
 #X obj 89 316 t b b;
 #X obj 116 338 s MN1EarlyInit;
 #X obj 366 283 hsl 128 15 -8 8 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2600 1;
+-1 -1 2200 1;
 #X obj 363 369 s OSC_MESSAGES;
 #X msg 363 328 /CochonLights/Xpos \$1;
 #N canvas 469 100 850 796 MN1UrineInit 0;
@@ -1225,7 +1225,7 @@
 #X connect 58 0 5 1;
 #X restore 81 191 pd MN1UrineInit;
 #X msg 363 253 0;
-#N canvas 670 345 450 300 MN1Moves 0;
+#N canvas 668 343 450 300 MN1Moves 1;
 #N canvas 0 100 1440 800 MN1Dances 0;
 #X obj 23 14 r MNDance;
 #X obj 23 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1260,17 +1260,17 @@
 #X obj 483 335 line;
 #X obj 483 219 + 0.2;
 #X msg 483 261 set \$1 100;
-#X msg 483 291 0.8 100;
+#X msg 483 291 0.2 100;
 #X msg 601 216 set \$1 100;
-#X msg 601 318 0.6 100;
+#X msg 601 318 0 100;
 #X obj 601 164 delay 100;
 #X obj 554 459 s OSC_MESSAGES;
 #X obj 670 333 line;
 #X obj 670 222 + 0.2;
 #X msg 670 265 set \$1 100;
-#X msg 670 300 0.6 100;
+#X msg 670 300 0.2 100;
 #X msg 845 115 set \$1 100;
-#X msg 845 282 0.4 100;
+#X msg 845 282 0 100;
 #X obj 671 133 delay 100;
 #X obj 483 199 v /Tube/Ypos;
 #X msg 483 382 /Tube/Ypos \$1;
@@ -1291,7 +1291,7 @@
 #X obj 604 613 random 10;
 #X obj 597 657 / 100;
 #X obj 668 746 line;
-#X msg 741 693 1.96307 125;
+#X msg 741 693 1.95307 125;
 #X obj 634 675 +;
 #X obj 597 633 - 5;
 #X msg 651 700 set \$1 125;
@@ -1398,7 +1398,7 @@
 #X connect 71 0 67 0;
 #X connect 72 0 17 0;
 #X restore 34 23 pd MN1Dances;
-#N canvas 0 100 1440 800 MN1Pees 0;
+#N canvas 0 100 1440 800 MN1Pees 1;
 #X obj 48 36 r MNPee;
 #X obj 79 496 s OSC_MESSAGES;
 #X obj 79 422 line;
@@ -1413,7 +1413,7 @@
 #X msg 665 383 set \$1 200;
 #X msg 665 412 0.40384 200;
 #X msg 915 383 set \$1 200;
-#X msg 915 409 0.74769 200;
+#X msg 915 409 0.72769 200;
 #X obj 665 298 t b b b;
 #X obj 1155 446 line;
 #X msg 1155 383 set \$1 200;
@@ -1451,14 +1451,14 @@
 -1;
 #X obj 72 753 s OSC_MESSAGES;
 #X msg 125 623 set \$1 200;
-#X msg 136 653 -0.4 200;
+#X msg 136 653 -0.72 200;
 #X obj 251 572 t b b;
 #X obj 278 608 delay 200;
 #X msg 273 642 set \$1 200;
-#X msg 277 668 0.4 200;
+#X msg 277 668 0.08 200;
 #X obj 372 670 line;
 #X msg 415 623 set \$1 200;
-#X msg 426 653 0.05 200;
+#X msg 426 653 0.15 200;
 #X msg 372 701 /Djbebe/Yscale \$1;
 #X obj 372 589 v /Djbebe/Yscale;
 #X obj 400 613 - 0.1;
@@ -1467,7 +1467,7 @@
 -1;
 #X obj 492 670 line;
 #X msg 535 623 set \$1 200;
-#X msg 546 653 -0.6 200;
+#X msg 546 653 -0.84 200;
 #X msg 492 701 /Djbebe/Xpos \$1;
 #X obj 492 589 v /Djbebe/Xpos;
 #X obj 520 613 + 0.3;
@@ -1475,18 +1475,18 @@
 #X obj 110 613 - 0.6;
 #X obj 622 670 line;
 #X msg 665 623 set \$1 200;
-#X msg 676 653 -0.2 200;
+#X msg 676 653 -0.56 200;
 #X obj 791 572 t b b;
 #X obj 818 608 delay 200;
 #X msg 813 642 set \$1 200;
-#X msg 817 668 0.6 200;
+#X msg 817 668 0.24 200;
 #X obj 912 670 line;
 #X msg 955 623 set \$1 200;
-#X msg 966 653 0.05 200;
+#X msg 966 653 0.15 200;
 #X obj 940 613 - 0.1;
 #X obj 1032 670 line;
 #X msg 1075 623 set \$1 200;
-#X msg 1086 653 0.6 200;
+#X msg 1086 653 0.84 200;
 #X obj 773 632 + 0.2;
 #X obj 650 613 - 0.6;
 #X obj 622 589 v /Tube/Ypos;
@@ -1502,10 +1502,10 @@
 #X obj 877 182 metro 100;
 #X msg 1026 214 /CuveGalootContent2/Yscale \$1;
 #X msg 975 265 set \$1 50;
-#X msg 975 293 0.74769 50;
+#X msg 975 293 0.72769 50;
 #X obj 971 161 + 0.01;
 #X msg 1040 182 set \$1 50;
-#X msg 1114 170 0.75769 50;
+#X msg 1114 170 0.73769 50;
 #X obj 888 219 delay 50;
 #X obj 773 278 delay 210;
 #X obj 837 126 r MNStopPeeing;
@@ -1522,6 +1522,7 @@
 #X connect 6 0 14 0;
 #X connect 7 0 27 0;
 #X connect 8 0 28 0;
+#X connect 8 0 100 0;
 #X connect 9 0 7 0;
 #X connect 9 0 8 0;
 #X connect 10 0 11 0;
@@ -1555,7 +1556,6 @@
 #X connect 30 0 10 0;
 #X connect 31 0 12 0;
 #X connect 31 0 98 0;
-#X connect 31 0 100 0;
 #X connect 32 0 16 0;
 #X connect 32 0 43 0;
 #X connect 33 0 1 0;
