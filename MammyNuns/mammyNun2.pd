@@ -3,7 +3,7 @@
 -1;
 #X obj 89 316 t b b;
 #X obj 366 283 hsl 128 15 -8 8 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 10900 1;
+-1 -1 9200 1;
 #X obj 363 369 s OSC_MESSAGES;
 #X msg 363 253 0;
 #N canvas 467 100 850 796 MN2TeteInit 0;
