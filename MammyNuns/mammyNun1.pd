@@ -1069,10 +1069,10 @@
 #X obj 89 316 t b b;
 #X obj 116 338 s MN1EarlyInit;
 #X obj 366 283 hsl 128 15 -8 8 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3150 1;
+-1 -1 2500 1;
 #X obj 363 369 s OSC_MESSAGES;
 #X msg 363 328 /CochonLights/Xpos \$1;
-#N canvas 471 100 850 796 MN1UrineInit 0;
+#N canvas 469 100 850 796 MN1UrineInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1

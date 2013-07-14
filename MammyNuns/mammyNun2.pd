@@ -3,10 +3,10 @@
 -1;
 #X obj 89 316 t b b;
 #X obj 366 283 hsl 128 15 -8 8 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 10900 1;
 #X obj 363 369 s OSC_MESSAGES;
 #X msg 363 253 0;
-#N canvas 469 100 850 796 MN2TeteInit 0;
+#N canvas 467 100 850 796 MN2TeteInit 0;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -158,7 +158,7 @@
 #X connect 57 0 2 0;
 #X connect 58 0 5 1;
 #X restore 81 51 pd MN2TeteInit;
-#N canvas 467 100 850 796 MN2CorpsInit 0;
+#N canvas 463 100 850 796 MN2CorpsInit 0;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -310,7 +310,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 71 pd MN2CorpsInit;
-#N canvas 463 100 850 796 MN2RobeInit 1;
+#N canvas 461 100 850 796 MN2RobeInit 0;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -462,7 +462,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 2 0;
 #X restore 81 91 pd MN2RobeInit;
-#N canvas 465 100 850 796 MN2BrasJardinInit 0;
+#N canvas 461 100 850 796 MN2BrasJardinInit 0;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -614,7 +614,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 2 0;
 #X restore 81 111 pd MN2BrasJardinInit;
-#N canvas 457 100 850 796 MN2BrasCourInit 0;
+#N canvas 455 100 850 796 MN2BrasCourInit 0;
 #X obj 234 642 send OSC_MESSAGES;
 #X obj 114 569 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -918,7 +918,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 151 pd MN2PiedJardinInit;
-#N canvas 469 100 850 796 MN2PiedCourInit 0;
+#N canvas 467 100 850 796 MN2PiedCourInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1070,7 +1070,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 1 1;
 #X restore 81 171 pd MN2PiedCourInit;
-#N canvas 469 100 850 796 MN2UrineInit 0;
+#N canvas 467 100 850 796 MN2UrineInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
