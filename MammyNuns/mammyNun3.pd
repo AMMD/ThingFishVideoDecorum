@@ -3,7 +3,7 @@
 -1;
 #X obj 89 316 t b b;
 #X obj 366 283 hsl 128 15 -8 8 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 7000 1;
 #X obj 363 369 s OSC_MESSAGES;
 #X msg 363 253 0;
 #N canvas 465 100 850 796 MN3TeteInit 0;
@@ -158,7 +158,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 51 pd MN3TeteInit;
-#N canvas 463 100 850 796 MN3CorpsInit 0;
+#N canvas 461 100 850 796 MN3CorpsInit 0;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -310,7 +310,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 71 pd MN3CorpsInit;
-#N canvas 457 100 850 796 MN3RobeInit 0;
+#N canvas 455 100 850 796 MN3RobeInit 1;
 #X obj 234 622 send OSC_MESSAGES;
 #X obj 114 549 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -362,16 +362,16 @@
 ;
 #X msg 255 109 -3.03;
 #X msg 255 326 -19;
-#X msg 255 409 -0.5;
-#X msg 255 429 0.15;
 #X obj 56 452 t b b b;
 #X msg 114 469 Child/*pos;
 #X msg 255 469 1;
 #X msg 255 449 /DunjonDoor5;
 #X msg 255 264 1;
-#X msg 183 79 /DunjonDoorCadre5;
 #X msg 255 389 0.8;
 #X msg 255 369 0.69615;
+#X msg 183 79 /DunjonDoor5Cadre;
+#X msg 255 409 -0.4;
+#X msg 255 429 0.9;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
 #X connect 3 0 5 0;
@@ -402,16 +402,16 @@
 #X connect 22 2 48 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 58 0;
+#X connect 23 2 55 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 57 0;
+#X connect 24 2 54 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 49 0;
+#X connect 25 2 57 0;
 #X connect 26 0 41 0;
 #X connect 26 1 11 0;
-#X connect 26 2 50 0;
+#X connect 26 2 58 0;
 #X connect 27 1 16 0;
 #X connect 28 1 15 0;
 #X connect 29 0 22 0;
@@ -419,7 +419,7 @@
 #X connect 29 2 36 0;
 #X connect 30 0 29 0;
 #X connect 30 1 19 0;
-#X connect 30 2 55 0;
+#X connect 30 2 53 0;
 #X connect 31 0 30 0;
 #X connect 31 1 17 0;
 #X connect 31 2 35 0;
@@ -438,9 +438,9 @@
 #X connect 38 0 1 0;
 #X connect 39 0 1 0;
 #X connect 40 0 5 1;
-#X connect 41 0 51 0;
+#X connect 41 0 49 0;
 #X connect 41 1 38 0;
-#X connect 41 2 54 0;
+#X connect 41 2 52 0;
 #X connect 42 1 39 0;
 #X connect 42 2 40 0;
 #X connect 43 0 5 1;
@@ -449,12 +449,12 @@
 #X connect 46 0 5 1;
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
-#X connect 49 0 5 1;
-#X connect 50 0 5 1;
-#X connect 51 0 42 0;
-#X connect 51 1 52 0;
-#X connect 51 2 53 0;
-#X connect 52 0 1 0;
+#X connect 49 0 42 0;
+#X connect 49 1 50 0;
+#X connect 49 2 51 0;
+#X connect 50 0 1 0;
+#X connect 51 0 5 1;
+#X connect 52 0 5 1;
 #X connect 53 0 5 1;
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
@@ -918,7 +918,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 151 pd MN3PiedJardinInit;
-#N canvas 469 100 850 796 MN3PiedCourInit 1;
+#N canvas 469 100 850 796 MN3PiedCourInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1070,7 +1070,7 @@
 #X connect 57 0 5 1;
 #X connect 58 0 5 1;
 #X restore 81 171 pd MN3PiedCourInit;
-#N canvas 469 100 850 796 MN3UrineInit 0;
+#N canvas 467 100 850 796 MN3UrineInit 0;
 #X obj 234 612 send OSC_MESSAGES;
 #X obj 114 539 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1122,15 +1122,15 @@
 #X msg 255 469 1;
 #X msg 255 449 /DunjonDoor5;
 #X msg 255 109 -3.0305;
-#X msg 183 79 /CuveGalootContent2;
 #X msg 255 132 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/MammyNuns/data/MN3/mammy_nun_3_pisse.png
 ;
-#X msg 255 389 0.40384;
 #X msg 255 326 -21;
 #X msg 255 245 0;
-#X msg 255 369 0.72769;
-#X msg 255 429 -0.7;
-#X msg 255 409 -1.15;
+#X msg 183 79 /EvilPrince_BrasCour;
+#X msg 255 389 0.57307;
+#X msg 255 409 -0.8;
+#X msg 255 429 -1.1;
+#X msg 255 369 0.50076;
 #X msg 255 264 0;
 #X connect 1 0 3 0;
 #X connect 2 0 20 0;
@@ -1153,22 +1153,22 @@
 #X connect 20 0 6 0;
 #X connect 20 0 21 0;
 #X connect 20 1 49 0;
-#X connect 20 2 50 0;
+#X connect 20 2 53 0;
 #X connect 21 0 34 0;
 #X connect 21 1 4 0;
-#X connect 21 2 51 0;
+#X connect 21 2 50 0;
 #X connect 22 0 23 0;
 #X connect 22 1 7 0;
-#X connect 22 2 53 0;
+#X connect 22 2 51 0;
 #X connect 23 0 24 0;
 #X connect 23 1 8 0;
-#X connect 23 2 55 0;
+#X connect 23 2 57 0;
 #X connect 24 0 25 0;
 #X connect 24 1 9 0;
-#X connect 24 2 52 0;
+#X connect 24 2 54 0;
 #X connect 25 0 26 0;
 #X connect 25 1 10 0;
-#X connect 25 2 57 0;
+#X connect 25 2 55 0;
 #X connect 26 0 40 0;
 #X connect 26 1 11 0;
 #X connect 26 2 56 0;
@@ -1182,7 +1182,7 @@
 #X connect 30 2 58 0;
 #X connect 31 0 30 0;
 #X connect 31 1 17 0;
-#X connect 31 2 54 0;
+#X connect 31 2 52 0;
 #X connect 32 0 31 0;
 #X connect 32 1 12 0;
 #X connect 32 2 43 0;
@@ -1212,10 +1212,10 @@
 #X connect 47 0 5 1;
 #X connect 48 0 5 1;
 #X connect 49 0 5 1;
-#X connect 50 0 1 1;
+#X connect 50 0 5 1;
 #X connect 51 0 5 1;
 #X connect 52 0 5 1;
-#X connect 53 0 5 1;
+#X connect 53 0 1 1;
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X connect 56 0 5 1;
