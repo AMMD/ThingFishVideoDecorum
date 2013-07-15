@@ -1,103 +1,104 @@
 #N canvas 247 156 1425 796 10;
 #X obj 418 83 s TFOut;
-#X obj 40 104 s TFSpeaks;
-#X obj 42 170 s TFOpensCurtains;
+#X obj 40 84 s TFSpeaks;
+#X obj 42 200 s TFOpensCurtains;
 #X obj 402 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 24 89 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 24 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 25 122 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 105 152 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 26 185 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 26 155 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 225 385 s DunjonCineticPissOff;
+#X obj 26 353 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 225 355 s DunjonCineticPissOff;
-#X obj 26 323 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 364 385 s evilPrinceMovesCour;
+#X obj 497 385 s prisonComesInFromJardin;
+#X obj 200 167 s evilPrinceInit;
+#X obj 103 368 s HandCineticScroll;
+#X obj 42 368 delay 200;
+#X obj 41 233 s apparitionBulleHomoBlack;
+#X obj 42 266 s finalSolutium;
+#X obj 26 218 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 364 355 s evilPrinceMovesCour;
-#X obj 497 355 s prisonComesInFromJardin;
-#X obj 120 137 s evilPrinceInit;
-#X obj 103 338 s HandCineticScroll;
-#X obj 42 338 delay 200;
-#X obj 41 203 s apparitionBulleHomoBlack;
-#X obj 42 236 s finalSolutium;
-#X obj 26 188 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 26 251 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 26 221 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 27 283 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 27 253 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 44 330 s allumageIdee;
+#X obj 28 315 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 44 300 s allumageIdee;
-#X obj 28 285 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 43 298 s disparitionBulleHomoBlack;
+#X obj 24 430 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 43 268 s disparitionBulleHomoBlack;
-#X obj 24 400 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 25 464 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 25 434 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 43 479 s assiettesScrollingToJardin;
+#X obj 40 445 s tapisRoulantComesInFromCour;
+#X obj 26 537 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 43 449 s assiettesScrollingToJardin;
-#X obj 40 415 s tapisRoulantComesInFromCour;
-#X obj 26 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 47 552 delay 200;
+#X obj 116 552 s HandCineticScroll;
+#X obj 242 569 s prisonGetsOutToCour;
+#X obj 44 517 s tapisRoulantGetsOutToCour;
+#X obj 551 569 s musiciansArentPlaying;
+#X obj 248 649 s homoBlackComeInFromJardin;
+#X obj 30 652 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 47 522 delay 200;
-#X obj 116 522 s HandCineticScroll;
-#X obj 242 539 s prisonGetsOutToCour;
-#X obj 44 487 s tapisRoulantGetsOutToCour;
-#X obj 551 539 s musiciansArentPlaying;
-#X obj 248 619 s homoBlackComeInFromJardin;
-#X obj 30 622 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 47 667 s homoBlackDie;
+#X obj 28 803 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 47 637 s homoBlackDie;
-#X obj 28 773 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 48 818 s TFIn;
+#X obj 699 569 s compteReboursComesInFromJardin;
+#X obj 901 569 s comtoiseBalance;
+#X obj 1084 586 s teleFlies;
+#X obj 30 617 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 48 788 s TFIn;
-#X obj 699 539 s compteReboursComesInFromJardin;
-#X obj 901 539 s comtoiseBalance;
-#X obj 1084 556 s teleFlies;
-#X obj 30 587 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 51 632 delay 200;
+#X obj 120 632 s HandCineticScroll;
+#X obj 728 649 s teleStopsFlying;
+#X obj 595 649 s comtoiseStopBalance;
+#X obj 419 649 s compteReboursGetsOutToCour;
+#X obj 28 584 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 51 602 delay 200;
-#X obj 120 602 s HandCineticScroll;
-#X obj 728 619 s teleStopsFlying;
-#X obj 595 619 s comtoiseStopBalance;
-#X obj 419 619 s compteReboursGetsOutToCour;
-#X obj 28 554 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 29 846 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 29 816 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 30 688 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 30 658 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 248 719 s homoBlackGetOutToCour;
+#X obj 51 702 delay 200;
+#X obj 120 702 s HandCineticScroll;
+#X obj 30 905 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 248 689 s homoBlackGetOutToCour;
-#X obj 51 672 delay 200;
-#X obj 120 672 s HandCineticScroll;
-#X obj 30 875 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 62 920 s evilPrinceOff;
+#X obj 107 818 s TFMutes;
+#X obj 43 407 s PrisonSceneComingIn;
+#X obj 24 392 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 62 890 s evilPrinceOff;
-#X obj 107 788 s TFMutes;
-#X obj 43 377 s PrisonSceneComingIn;
-#X obj 24 362 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 25 502 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 25 472 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 1013 539 delay 405;
-#X obj 41 137 s DunjonInit;
+#X obj 1013 569 delay 405;
+#X obj 121 167 s DunjonInit;
 #X obj 24 36 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 40 51 s BringObdwellaXToCurtains;
-#X obj 50 831 s HCourCloseCurtain;
-#X obj 402 689 s MorphoComesInFromJardin;
-#X obj 184 890 s DeactivateAll;
-#X obj 30 738 s MorphoUgly;
-#X obj 130 738 s MorphoMeanAndUgly;
-#X obj 270 738 s MorphoMammyNun;
-#X obj 30 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 50 861 s HCourCloseCurtain;
+#X obj 402 719 s MorphoComesInFromJardin;
+#X obj 184 920 s DeactivateAll;
+#X obj 30 768 s MorphoUgly;
+#X obj 130 768 s MorphoMeanAndUgly;
+#X obj 270 768 s MorphoMammyNun;
+#X obj 30 748 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 130 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 130 748 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 270 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 270 748 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 116 569 s JetBallonFoot;
+#X obj 116 599 s JetBallonFoot;
 #X obj 24 11 r OXAndTF;
 #X obj 287 51 delay 5000;
+#X obj 26 135 r DjAndEPInit;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -148,3 +149,4 @@
 #X connect 70 0 67 0;
 #X connect 72 0 60 0;
 #X connect 73 0 3 0;
+#X connect 74 0 5 0;

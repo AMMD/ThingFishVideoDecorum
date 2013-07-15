@@ -291,7 +291,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 336 44 pd ObdwellaXBodyInit;
-#N canvas 0 100 1440 800 TFHandHangsOX 0;
+#N canvas 240 154 1440 800 TFHandHangsOX 1;
 #X obj 624 768 s OSC_MESSAGES;
 #X obj 1622 464 symbol;
 #X msg 1622 394 /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/2013_07_09_TF_Main_tenant_Odwella_X.png
@@ -384,6 +384,7 @@
 #X obj 624 275 delay 505;
 #X obj 550 292 delay 300;
 #X msg 354 839 -15 2500;
+#X obj 354 873 s ObdwellaXMoves;
 #X connect 1 0 8 0;
 #X connect 2 0 1 0;
 #X connect 3 0 4 0;
@@ -501,6 +502,7 @@
 #X connect 76 0 82 0;
 #X connect 76 1 20 0;
 #X connect 77 0 84 0;
+#X connect 77 0 85 0;
 #X connect 79 0 78 0;
 #X connect 80 0 78 0;
 #X connect 81 0 14 0;
@@ -512,7 +514,7 @@
 #X restore 702 52 pd TFHandHangsOX;
 #X obj 437 183 loadbang;
 #X obj 437 218 s ObdwellaXInit;
-#N canvas 489 308 794 581 ObdwellaXMoves 0;
+#N canvas 487 306 794 581 ObdwellaXMoves 0;
 #X obj 69 41 r ObdwellaXMoves;
 #X msg 69 226 /OX_Head/Rotate \$1;
 #X obj 69 259 s OSC_MESSAGES;
@@ -590,7 +592,7 @@
 #X connect 24 0 5 0;
 #X connect 25 0 2 0;
 #X restore 512 47 pd OXKidnapped;
-#N canvas 0 100 1440 800 OXBashedAndFucked 1;
+#N canvas 0 100 1440 800 OXBashedAndFucked 0;
 #X obj -262 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 109 399 s OSC_MESSAGES;
