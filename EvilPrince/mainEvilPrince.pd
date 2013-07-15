@@ -31,7 +31,7 @@
 #X msg 72 686 /EvilPrince_Bouche/Activate 0;
 #X obj 1210 113 allumageIdee;
 #X obj 1151 50 compteRebours;
-#X obj 226 486 r evilPrinceOff;
+#X obj 226 456 r evilPrinceOff;
 #N canvas 739 99 690 651 EP_BrasCourFiole 0;
 #X obj 224 512 send OSC_MESSAGES;
 #X obj 104 439 list prepend;
@@ -148,7 +148,7 @@
 #X connect 45 0 5 1;
 #X connect 46 0 5 1;
 #X restore 1205 619 pd EP_BrasCourFiole;
-#N canvas 983 98 450 796 EP_BrasCour 0;
+#N canvas 981 100 450 796 EP_BrasCour 0;
 #X obj 234 522 send OSC_MESSAGES;
 #X obj 114 449 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -264,7 +264,7 @@
 #X connect 45 0 5 1;
 #X connect 46 0 5 1;
 #X restore 1206 638 pd EP_BrasCour;
-#N canvas 989 99 450 765 EP_AllumageIdee 0;
+#N canvas 987 100 450 765 EP_AllumageIdee 0;
 #X obj 244 532 send OSC_MESSAGES;
 #X obj 124 459 list prepend;
 #X obj 81 53 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -393,6 +393,7 @@
 #X msg 226 787 /EvilPrince_*/g[X-Y]pos 0;
 #X msg 226 766 /EvilPrince_*/Child/[X-Y]pos 0;
 #X msg 226 746 /EvilPrince_*/Child/ParentName /Dummy;
+#X obj 244 486 t b b;
 #X connect 3 0 6 0;
 #X connect 4 0 3 0;
 #X connect 5 0 3 0;
@@ -403,9 +404,7 @@
 #X connect 18 0 6 0;
 #X connect 19 0 6 0;
 #X connect 22 0 4 0;
-#X connect 22 0 37 0;
-#X connect 22 0 36 0;
-#X connect 22 0 35 0;
+#X connect 22 0 38 0;
 #X connect 26 0 28 0;
 #X connect 27 0 28 0;
 #X connect 29 0 30 0;
@@ -413,6 +412,7 @@
 #X connect 30 0 32 0;
 #X connect 30 1 26 0;
 #X connect 30 1 27 0;
+#X connect 31 0 28 0;
 #X connect 32 0 28 0;
 #X connect 33 0 11 0;
 #X connect 33 0 13 0;
@@ -425,3 +425,6 @@
 #X connect 35 0 6 0;
 #X connect 36 0 6 0;
 #X connect 37 0 6 0;
+#X connect 38 0 36 0;
+#X connect 38 1 35 0;
+#X connect 38 1 37 0;

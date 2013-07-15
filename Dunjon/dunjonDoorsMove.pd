@@ -43,7 +43,7 @@
 #X obj 388 694 sel 12;
 #X obj 592 145 * 2;
 #X obj 421 110 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6400 1;
+-1 -1 0 1;
 #X obj 418 128 / 64;
 #X obj 592 383 send OSC_MESSAGES;
 #X msg 418 170 /DunjonDoor1/Xscale \$1;
@@ -448,6 +448,7 @@
 #X connect 83 0 130 0;
 #X connect 83 0 172 0;
 #X connect 83 0 286 0;
+#X connect 83 0 260 0;
 #X connect 84 0 71 0;
 #X connect 90 0 91 1;
 #X connect 91 0 92 0;

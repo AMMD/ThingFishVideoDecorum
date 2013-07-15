@@ -1,4 +1,4 @@
-#N canvas 228 215 923 525 10;
+#N canvas 226 213 923 525 10;
 #X obj 268 67 metro 50;
 #X obj 276 89 random 50;
 #X obj 285 122 + 50;
@@ -19,7 +19,6 @@
 #X msg 51 357 /EvilPrince_Tete/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/EvilPrince/data/2013_06_28_Evil_Prince_def2_\$1.png
 ;
 #X msg 60 292 Joker;
-#X obj 483 50;
 #X msg 135 297 Grimace;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
@@ -31,7 +30,7 @@
 #X connect 5 0 4 0;
 #X connect 7 0 8 0;
 #X connect 7 0 10 0;
-#X connect 7 0 19 0;
+#X connect 7 0 18 0;
 #X connect 8 0 0 0;
 #X connect 9 0 11 0;
 #X connect 9 0 0 0;
@@ -42,4 +41,4 @@
 #X connect 15 0 16 0;
 #X connect 16 0 6 0;
 #X connect 17 0 15 0;
-#X connect 19 0 15 0;
+#X connect 18 0 15 0;
