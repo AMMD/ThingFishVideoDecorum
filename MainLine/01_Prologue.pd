@@ -1,1 +1,8 @@
-#N canvas 1 100 450 300 10;
+#N canvas 0 100 1920 980 10;
+#X obj 35 33 bng 100 250 50 0 OXAndTF OXAndTF OX_&_TF 0 -6 0 20 -262144
+-258113 -1;
+#X obj 175 33 bng 100 250 50 0 TFSpeakss TFSpeakss TFSpeaks 0 -6 0
+20 -4034 -258113 -1;
+#X obj 289 211 tgl 15 0 TFSpeaks TFSpeaks empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X coords 0 980 1 979 0 0 0;

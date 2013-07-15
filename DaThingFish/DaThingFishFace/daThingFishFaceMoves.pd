@@ -1,4 +1,4 @@
-#N canvas 1 100 1438 796 10;
+#N canvas 241 156 1438 796 10;
 #X obj -5 284 send OSC_MESSAGES;
 #X obj 167 283 send OSC_MESSAGES;
 #X floatatom -5 104 5 0 0 0 - - -;
@@ -106,6 +106,10 @@
 #X obj 591 624 -;
 #X obj 819 354 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
+#X obj 874 358 sel 1;
+#X obj 991 371 s TFMutes;
+#X obj 946 368 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 2 0 49 0;
 #X connect 3 0 50 0;
 #X connect 4 0 17 0;
@@ -176,7 +180,7 @@
 #X connect 53 0 23 0;
 #X connect 54 0 24 0;
 #X connect 55 0 48 0;
-#X connect 56 0 99 0;
+#X connect 56 0 100 0;
 #X connect 57 0 59 0;
 #X connect 57 0 76 0;
 #X connect 57 0 71 0;
@@ -247,3 +251,6 @@
 #X connect 97 0 98 0;
 #X connect 98 0 79 0;
 #X connect 99 0 91 0;
+#X connect 100 0 99 0;
+#X connect 100 1 102 0;
+#X connect 102 0 101 0;

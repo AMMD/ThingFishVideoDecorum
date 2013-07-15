@@ -1,8 +1,8 @@
-#N canvas 7 100 1425 796 10;
-#X obj 40 71 s TFOut;
+#N canvas 247 156 1425 796 10;
+#X obj 418 83 s TFOut;
 #X obj 40 104 s TFSpeaks;
 #X obj 42 170 s TFOpensCurtains;
-#X obj 24 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 402 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 24 89 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -80,9 +80,9 @@
 -1;
 #X obj 1013 539 delay 405;
 #X obj 41 137 s DunjonInit;
-#X obj 24 16 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 24 36 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 40 31 s BringObdwellaXToCurtains;
+#X obj 40 51 s BringObdwellaXToCurtains;
 #X obj 50 831 s HCourCloseCurtain;
 #X obj 402 689 s MorphoComesInFromJardin;
 #X obj 184 890 s DeactivateAll;
@@ -96,6 +96,8 @@
 #X obj 270 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 116 569 s JetBallonFoot;
+#X obj 24 11 r OXAndTF;
+#X obj 287 51 delay 5000;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -140,6 +142,9 @@
 #X connect 57 0 30 0;
 #X connect 58 0 39 0;
 #X connect 60 0 61 0;
+#X connect 60 0 73 0;
 #X connect 68 0 65 0;
 #X connect 69 0 66 0;
 #X connect 70 0 67 0;
+#X connect 72 0 60 0;
+#X connect 73 0 3 0;

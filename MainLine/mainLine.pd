@@ -1,2 +1,2 @@
-#N canvas 2468 51 891 1027 10;
-#X obj 489 91 01_Prologue;
+#N canvas 0 100 1920 980 10;
+#X obj 1183 42 01_Prologue;
