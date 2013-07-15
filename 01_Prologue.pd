@@ -1,4 +1,4 @@
-#N canvas 0 100 1920 980 10;
+#N canvas 7 100 1905 976 10;
 #X obj 418 83 s TFOut;
 #X obj 590 110 s TFSpeaks;
 #X obj 42 200 s TFOpensCurtains;
@@ -141,21 +141,19 @@ TF_Prologue_Shotly_Den_After 17 7 0 10 -262144 -1 -1;
 -1 -1 0 1;
 #X msg 1141 578 0;
 #X obj 1141 606 s TFSpeaks;
-#X obj 1224 520 cnv 15 225 110 PrologueScrollToPrison PrologueScrollToPrison
-Prologue_Scroll_To_Prison 20 12 0 14 -261682 -66577 0;
-#X obj 1243 568 s DunjonCineticPissOff;
-#X obj 1227 526 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1243 588 s evilPrinceMovesCour;
-#X obj 1243 608 s prisonComesInFromJardin;
-#X obj 1304 541 s HandCineticScroll;
-#X obj 1243 541 delay 200;
-#X obj 883 557 bng 15 250 50 0 PrologueScrollToPrison empty Prologue_Scroll_To_Prison
-17 7 0 10 -262144 -1 -1;
+#X obj 1224 545 cnv 15 225 110 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj 1243 593 s DunjonCineticPissOff;
+#X obj 1227 551 bng 15 250 50 0 PrologueScrollToPrison PrologueScrollToPrison
+Prologue_Scroll_To_Prison 17 7 0 10 -262144 -1 -1;
+#X obj 1243 613 s evilPrinceMovesCour;
+#X obj 1243 633 s prisonComesInFromJardin;
+#X obj 1304 566 s HandCineticScroll;
+#X obj 1243 566 delay 200;
 #X obj 1065 551 delay 500;
 #X obj 883 586 delay 7000;
 #X obj 968 603 s PrisonSceneComingIn;
-#X obj 1141 551 delay 21000;
+#X obj 1141 551 delay 21500;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -228,15 +226,15 @@ Prologue_Scroll_To_Prison 20 12 0 14 -261682 -66577 0;
 #X connect 98 0 99 0;
 #X connect 101 0 112 0;
 #X connect 101 0 113 0;
-#X connect 101 0 114 0;
-#X connect 101 0 116 0;
+#X connect 101 0 115 0;
+#X connect 101 0 107 0;
 #X connect 103 0 104 0;
 #X connect 107 0 110 0;
 #X connect 107 0 111 0;
 #X connect 111 0 106 0;
 #X connect 111 0 108 0;
 #X connect 111 0 109 0;
-#X connect 113 0 102 0;
-#X connect 114 0 115 0;
-#X connect 116 0 103 0;
+#X connect 112 0 102 0;
+#X connect 113 0 114 0;
+#X connect 115 0 103 0;
 #X coords 0 0 24 1 0 0 0;
