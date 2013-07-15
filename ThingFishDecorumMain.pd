@@ -325,6 +325,8 @@
 #X obj 662 61 BriefcaseBoogie/briefcaseBoogieMain;
 #X obj 484 -233 02_MammyNuns;
 #X obj -168 87 Morpho/morphoMain;
+#X obj -28 -84 dumpOSC 12345;
+#X obj -28 -53 s OSC_MESSAGES;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;
@@ -343,3 +345,4 @@
 #X connect 33 0 30 0;
 #X connect 33 0 36 0;
 #X connect 33 0 37 0;
+#X connect 65 0 66 0;
