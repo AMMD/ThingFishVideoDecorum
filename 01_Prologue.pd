@@ -1,10 +1,10 @@
 #N canvas 247 156 1425 796 10;
 #X obj 418 83 s TFOut;
-#X obj 40 84 s TFSpeaks;
+#X obj 590 110 s TFSpeaks;
 #X obj 42 200 s TFOpensCurtains;
 #X obj 402 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 24 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 574 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 105 152 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -99,6 +99,13 @@
 #X obj 24 11 r OXAndTF;
 #X obj 287 51 delay 5000;
 #X obj 26 135 r DjAndEPInit;
+#X obj 747 90 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
+TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
+#X obj 830 130 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 859 109 delay 25000;
+#X msg 945 136 0;
+#X obj 947 164 s TFSpeaks;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -150,3 +157,7 @@
 #X connect 72 0 60 0;
 #X connect 73 0 3 0;
 #X connect 74 0 5 0;
+#X connect 75 0 76 0;
+#X connect 75 0 77 0;
+#X connect 77 0 78 0;
+#X connect 78 0 79 0;

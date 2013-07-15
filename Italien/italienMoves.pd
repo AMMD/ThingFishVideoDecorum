@@ -1,5 +1,4 @@
 #N canvas 1 100 1006 736 10;
-#X obj 82 71 r italianMoves;
 #X obj 247 70 r italianStopsMoving;
 #X obj 82 146 metro 40000;
 #X msg 247 129 stop;
@@ -8,8 +7,6 @@
 #X obj 142 499 s OSC_MESSAGES;
 #X obj 142 235 random 61;
 #X msg 142 274 \$1 400;
-#X obj 82 111 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
 #X obj 464 457 line;
 #X obj 527 206 random 100;
 #X obj 497 370 + 4.45;
@@ -21,27 +18,34 @@
 #X obj 612 381 + 4.45;
 #X obj 594 439 line;
 #X msg 584 502 /Italien2/Ypos \$1;
-#X connect 0 0 9 0;
-#X connect 1 0 3 0;
-#X connect 2 0 7 0;
-#X connect 3 0 2 1;
-#X connect 3 0 13 0;
-#X connect 4 0 6 0;
-#X connect 5 0 4 0;
-#X connect 7 0 8 0;
-#X connect 8 0 5 0;
-#X connect 9 0 2 0;
-#X connect 9 0 13 0;
-#X connect 10 0 15 0;
-#X connect 10 0 16 0;
-#X connect 11 0 14 0;
-#X connect 11 0 17 0;
+#X obj 85 113 tgl 15 0 italianMoves italianMoves italianMoves 17 7
+0 10 -262144 -1 -1 0 1;
+#X obj 230 200 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 407 216 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 2 0;
+#X connect 1 0 6 0;
+#X connect 1 0 20 0;
+#X connect 2 0 1 1;
+#X connect 2 0 11 0;
+#X connect 3 0 5 0;
+#X connect 4 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;
+#X connect 8 0 13 0;
+#X connect 8 0 14 0;
+#X connect 9 0 12 0;
+#X connect 9 0 15 0;
+#X connect 10 0 8 0;
+#X connect 11 0 9 0;
+#X connect 11 0 21 0;
 #X connect 12 0 10 0;
-#X connect 13 0 11 0;
-#X connect 14 0 12 0;
-#X connect 15 0 6 0;
-#X connect 16 0 6 0;
+#X connect 13 0 5 0;
+#X connect 14 0 5 0;
+#X connect 15 0 16 0;
+#X connect 16 0 17 0;
 #X connect 17 0 18 0;
-#X connect 18 0 19 0;
-#X connect 19 0 20 0;
-#X connect 20 0 6 0;
+#X connect 18 0 5 0;
+#X connect 19 0 1 0;
+#X connect 19 0 11 0;
