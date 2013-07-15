@@ -1,4 +1,4 @@
-#N canvas 247 156 1425 796 10;
+#N canvas 0 100 1920 980 10;
 #X obj 418 83 s TFOut;
 #X obj 590 110 s TFSpeaks;
 #X obj 42 200 s TFOpensCurtains;
@@ -40,9 +40,9 @@
 -1;
 #X obj 47 552 delay 200;
 #X obj 116 552 s HandCineticScroll;
-#X obj 242 569 s prisonGetsOutToCour;
+#X obj 72 569 s prisonGetsOutToCour;
 #X obj 44 517 s tapisRoulantGetsOutToCour;
-#X obj 551 569 s musiciansArentPlaying;
+#X obj 211 569 s musiciansArentPlaying;
 #X obj 248 649 s homoBlackComeInFromJardin;
 #X obj 30 652 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -50,9 +50,9 @@
 #X obj 28 803 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 48 818 s TFIn;
-#X obj 699 569 s compteReboursComesInFromJardin;
-#X obj 901 569 s comtoiseBalance;
-#X obj 1084 586 s teleFlies;
+#X obj 359 569 s compteReboursComesInFromJardin;
+#X obj 561 569 s comtoiseBalance;
+#X obj 744 586 s teleFlies;
 #X obj 30 617 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 51 632 delay 200;
@@ -78,7 +78,7 @@
 -1;
 #X obj 25 502 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 1013 569 delay 405;
+#X obj 673 569 delay 405;
 #X obj 121 167 s DunjonInit;
 #X obj 24 36 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -99,40 +99,63 @@
 #X obj 24 11 r OXAndTF;
 #X obj 287 51 delay 5000;
 #X obj 26 135 r DjAndEPInit;
-#X obj 866 32 cnv 15 350 150 empty empty empty 20 12 0 14 -233017 -66577
+#X obj 866 12 cnv 15 350 150 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#X obj 883 46 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
+#X obj 883 26 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
 TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
-#X obj 966 86 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+#X obj 966 66 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
-#X obj 995 61 delay 25000;
-#X msg 1079 78 0;
-#X obj 1079 106 s TFSpeaks;
-#X obj 995 150 s apparitionBulleHomoBlack;
-#X obj 866 202 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+#X obj 995 41 delay 25000;
+#X msg 1079 58 0;
+#X obj 1079 86 s TFSpeaks;
+#X obj 995 130 s apparitionBulleHomoBlack;
+#X obj 866 182 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 216 bng 15 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
+#X obj 883 196 bng 15 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
 TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
-#X obj 966 256 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+#X obj 966 236 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
-#X msg 1081 262 0;
-#X obj 1083 290 s TFSpeaks;
-#X obj 1027 320 s finalSolutium;
-#X obj 995 235 delay 10000;
-#X obj 1075 235 delay 14500;
-#X obj 866 372 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+#X msg 1081 242 0;
+#X obj 1083 270 s TFSpeaks;
+#X obj 1027 300 s finalSolutium;
+#X obj 995 215 delay 10000;
+#X obj 1075 215 delay 14500;
+#X obj 866 352 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 386 bng 15 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_Prologue_Well_He_Were_Sure
+#X obj 883 366 bng 15 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_Prologue_Well_He_Were_Sure
 17 7 0 10 -262144 -1 -1;
-#X obj 966 426 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+#X obj 966 406 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
-#X msg 1145 428 0;
-#X obj 1145 456 s TFSpeaks;
-#X obj 1145 401 delay 14500;
-#X obj 1035 496 s disparitionBulleHomoBlack;
-#X obj 1035 401 delay 2500;
-#X obj 925 401 delay 9000;
-#X obj 925 496 s allumageIdee;
+#X msg 1145 408 0;
+#X obj 1145 436 s TFSpeaks;
+#X obj 1145 381 delay 14500;
+#X obj 1035 476 s disparitionBulleHomoBlack;
+#X obj 1035 381 delay 2500;
+#X obj 925 381 delay 9000;
+#X obj 925 476 s allumageIdee;
+#X obj 866 522 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 883 536 bng 15 250 50 0 TFPrologueShotlyDen TFPrologueShotlyDen
+TF_Prologue_Shotly_Den_After 17 7 0 10 -262144 -1 -1;
+#X obj 1065 575 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 1141 578 0;
+#X obj 1141 606 s TFSpeaks;
+#X obj 1224 520 cnv 15 225 110 PrologueScrollToPrison PrologueScrollToPrison
+Prologue_Scroll_To_Prison 20 12 0 14 -261682 -66577 0;
+#X obj 1243 568 s DunjonCineticPissOff;
+#X obj 1227 526 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1243 588 s evilPrinceMovesCour;
+#X obj 1243 608 s prisonComesInFromJardin;
+#X obj 1304 541 s HandCineticScroll;
+#X obj 1243 541 delay 200;
+#X obj 883 557 bng 15 250 50 0 PrologueScrollToPrison empty Prologue_Scroll_To_Prison
+17 7 0 10 -262144 -1 -1;
+#X obj 1065 551 delay 500;
+#X obj 883 586 delay 7000;
+#X obj 968 603 s PrisonSceneComingIn;
+#X obj 1141 551 delay 21000;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -203,4 +226,17 @@ TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
 #X connect 95 0 93 0;
 #X connect 97 0 96 0;
 #X connect 98 0 99 0;
+#X connect 101 0 112 0;
+#X connect 101 0 113 0;
+#X connect 101 0 114 0;
+#X connect 101 0 116 0;
+#X connect 103 0 104 0;
+#X connect 107 0 110 0;
+#X connect 107 0 111 0;
+#X connect 111 0 106 0;
+#X connect 111 0 108 0;
+#X connect 111 0 109 0;
+#X connect 113 0 102 0;
+#X connect 114 0 115 0;
+#X connect 116 0 103 0;
 #X coords 0 0 24 1 0 0 0;
