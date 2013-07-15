@@ -99,13 +99,40 @@
 #X obj 24 11 r OXAndTF;
 #X obj 287 51 delay 5000;
 #X obj 26 135 r DjAndEPInit;
-#X obj 747 90 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
+#X obj 866 32 cnv 15 350 150 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 883 46 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
 TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
-#X obj 830 130 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+#X obj 966 86 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
-#X obj 859 109 delay 25000;
-#X msg 945 136 0;
-#X obj 947 164 s TFSpeaks;
+#X obj 995 61 delay 25000;
+#X msg 1079 78 0;
+#X obj 1079 106 s TFSpeaks;
+#X obj 995 150 s apparitionBulleHomoBlack;
+#X obj 866 202 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 883 216 bng 15 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
+TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
+#X obj 966 256 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 1081 262 0;
+#X obj 1083 290 s TFSpeaks;
+#X obj 1027 320 s finalSolutium;
+#X obj 995 235 delay 10000;
+#X obj 1075 235 delay 14500;
+#X obj 866 372 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 883 386 bng 15 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_Prologue_Well_He_Were_Sure
+17 7 0 10 -262144 -1 -1;
+#X obj 966 426 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 1145 428 0;
+#X obj 1145 456 s TFSpeaks;
+#X obj 1145 401 delay 14500;
+#X obj 1035 496 s disparitionBulleHomoBlack;
+#X obj 1035 401 delay 2500;
+#X obj 925 401 delay 9000;
+#X obj 925 496 s allumageIdee;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -157,7 +184,23 @@ TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
 #X connect 72 0 60 0;
 #X connect 73 0 3 0;
 #X connect 74 0 5 0;
-#X connect 75 0 76 0;
-#X connect 75 0 77 0;
-#X connect 77 0 78 0;
+#X connect 76 0 77 0;
+#X connect 76 0 78 0;
 #X connect 78 0 79 0;
+#X connect 78 0 81 0;
+#X connect 79 0 80 0;
+#X connect 83 0 84 0;
+#X connect 83 0 88 0;
+#X connect 83 0 89 0;
+#X connect 85 0 86 0;
+#X connect 88 0 87 0;
+#X connect 89 0 85 0;
+#X connect 91 0 92 0;
+#X connect 91 0 95 0;
+#X connect 91 0 98 0;
+#X connect 91 0 97 0;
+#X connect 93 0 94 0;
+#X connect 95 0 93 0;
+#X connect 97 0 96 0;
+#X connect 98 0 99 0;
+#X coords 0 0 24 1 0 0 0;

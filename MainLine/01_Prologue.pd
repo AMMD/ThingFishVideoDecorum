@@ -14,4 +14,8 @@
 30 -228856 -1 -1 1 1;
 #X obj 515 79 bng 100 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
 TF_OnceUp 0 -6 0 20 -262144 -258113 -1;
+#X obj 635 79 bng 100 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
+TF_DeCock 0 -6 0 20 -262144 -258113 -1;
+#X obj 755 79 bng 100 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_WellHe
+0 -6 0 20 -262144 -258113 -1;
 #X coords 0 976 1 975 0 0 0;
