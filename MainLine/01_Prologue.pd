@@ -26,4 +26,6 @@ TF_Shotly 0 -6 0 20 -262144 -258113 -1;
 0 -6 0 20 -262144 -258113 -1;
 #X obj 1195 79 bng 100 250 50 0 TFPrologueNextThing TFPrologueNextThing
 TF_NextThing 0 -6 0 20 -262144 -258113 -1;
+#X obj 1345 79 bng 100 250 50 0 TFPrologueButNot TFPrologueButNot TF_ButNot
+0 -6 0 20 -262144 -258113 -1;
 #X coords 0 976 1 975 0 0 0;

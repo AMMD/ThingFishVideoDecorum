@@ -212,31 +212,36 @@ Prologue_Scroll_To_Homo_Black 17 7 0 10 -262144 -1 -1;
 #X obj 968 1113 s homoBlackDie;
 #X obj 883 1096 delay 3500;
 #X obj 1141 1061 delay 10500;
-#X obj 866 1202 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
+#X obj 866 1202 cnv 15 350 250 empty empty empty 20 12 0 14 -233017
 -66577 0;
 #X obj 883 1216 bng 15 250 50 0 TFPrologueButNot TFPrologueButNot TF_Prologue_But_Not_De_Boys
 17 7 0 10 -262144 -1 -1;
-#X obj 1065 1255 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+#X obj 1038 1255 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
-#X msg 1141 1258 0;
-#X obj 1141 1286 s TFSpeaks;
+#X msg 1101 1258 0;
+#X obj 1101 1286 s TFSpeaks;
 #X obj 1224 1225 cnv 15 225 110 empty empty empty 20 12 0 14 -261682
 -66577 0;
 #X obj 1227 1231 bng 15 250 50 0 PrologueScrollToMorpho PrologueScrollToMorpho
 Prologue_Scroll_To_Morpho 17 7 0 10 -262144 -1 -1;
 #X obj 1304 1246 s HandCineticScroll;
 #X obj 1243 1246 delay 200;
-#X obj 1065 1231 delay 500;
+#X obj 1038 1231 delay 500;
 #X obj 1227 1274 s homoBlackGetOutToCour;
 #X obj 1227 1294 s MorphoComesInFromJardin;
-#X obj 1141 1231 delay 26500;
+#X obj 1101 1231 delay 26500;
 #X obj 883 1246 delay 11500;
-#X obj 968 1263 s MorphoUgly;
+#X obj 958 1263 s MorphoUgly;
 #X obj 883 1266 delay 16000;
-#X obj 968 1283 s MorphoMeanAndUgly;
-#X obj 968 1303 s MorphoMammyNun;
+#X obj 958 1283 s MorphoMeanAndUgly;
+#X obj 958 1303 s MorphoMammyNun;
 #X obj 883 1286 delay 26000;
-#X obj 1141 1313 s TFIn;
+#X obj 1101 1313 s TFIn;
+#X obj 1101 1342 delay 1000;
+#X obj 1101 1368 s HCourCloseCurtain;
+#X obj 890 1412 s evilPrinceOff;
+#X obj 1004 1412 s DeactivateAll;
+#X obj 1101 1395 delay 600;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -371,7 +376,12 @@ Prologue_Scroll_To_Morpho 17 7 0 10 -262144 -1 -1;
 #X connect 170 0 163 0;
 #X connect 173 0 164 0;
 #X connect 173 0 180 0;
+#X connect 173 0 181 0;
+#X connect 173 0 182 0;
+#X connect 173 0 185 0;
 #X connect 174 0 175 0;
 #X connect 176 0 177 0;
 #X connect 179 0 178 0;
+#X connect 185 0 183 0;
+#X connect 185 0 184 0;
 #X coords 0 0 24 1 0 0 0;
