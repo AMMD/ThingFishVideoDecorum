@@ -9,9 +9,9 @@
 #X obj 355 79 bng 100 250 50 0 TFOpensCurtains TFOpensCurtains TF_O_Curtains
 0 -6 0 20 -262144 -258113 -1;
 #X obj 1755 139 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
-0 30 -228856 -1 -1 1 1;
+0 30 -228856 -1 -1 0 1;
 #X obj 1755 259 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
-30 -228856 -1 -1 1 1;
+30 -228856 -1 -1 0 1;
 #X obj 515 79 bng 100 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
 TF_OnceUp 0 -6 0 20 -262144 -258113 -1;
 #X obj 635 79 bng 100 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
@@ -19,5 +19,7 @@ TF_DeCock 0 -6 0 20 -262144 -258113 -1;
 #X obj 755 79 bng 100 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_WellHe
 0 -6 0 20 -262144 -258113 -1;
 #X obj 875 79 bng 100 250 50 0 TFPrologueShotlyDen TFPrologueShotlyDen
-TF_Shotly_Den 0 -6 0 20 -262144 -258113 -1;
+TF_Shotly 0 -6 0 20 -262144 -258113 -1;
+#X obj 995 79 bng 100 250 50 0 TFPrologueSoHeah TFPrologueSoHeah TF_SoHeah
+0 -6 0 20 -262144 -258113 -1;
 #X coords 0 976 1 975 0 0 0;
