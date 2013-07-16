@@ -12,20 +12,20 @@
 0 30 -228856 -1 -1 0 1;
 #X obj 1755 259 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
 30 -228856 -1 -1 0 1;
-#X obj 475 79 bng 100 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
+#X obj 475 79 bng 100 250 50 0 PrologueTFOnceUponATime PrologueTFOnceUponATime
 TF_OnceUp 0 -6 0 20 -262144 -258113 -1;
-#X obj 595 79 bng 100 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
+#X obj 595 79 bng 100 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
 TF_DeCock 0 -6 0 20 -262144 -258113 -1;
-#X obj 715 79 bng 100 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_WellHe
+#X obj 715 79 bng 100 250 50 0 PrologueTFWellHe PrologueTFWellHe TF_WellHe
 0 -6 0 20 -262144 -258113 -1;
-#X obj 835 79 bng 100 250 50 0 TFPrologueShotlyDen TFPrologueShotlyDen
+#X obj 835 79 bng 100 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
 TF_Shotly 0 -6 0 20 -262144 -258113 -1;
-#X obj 955 79 bng 100 250 50 0 TFPrologueSoHeah TFPrologueSoHeah TF_SoHeah
+#X obj 955 79 bng 100 250 50 0 PrologueTFSoHeah PrologueTFSoHeah TF_SoHeah
 0 -6 0 20 -262144 -258113 -1;
-#X obj 1075 79 bng 100 250 50 0 TFPrologueDenDey TFPrologueDenDey TF_DenDey
+#X obj 1075 79 bng 100 250 50 0 PrologueTFDenDey PrologueTFDenDey TF_DenDey
 0 -6 0 20 -262144 -258113 -1;
-#X obj 1195 79 bng 100 250 50 0 TFPrologueNextThing TFPrologueNextThing
+#X obj 1195 79 bng 100 250 50 0 PrologueTFNextThing PrologueTFNextThing
 TF_NextThing 0 -6 0 20 -262144 -258113 -1;
-#X obj 1345 79 bng 100 250 50 0 TFPrologueButNot TFPrologueButNot TF_ButNot
+#X obj 1345 79 bng 100 250 50 0 PrologueTFButNot PrologueTFButNot TF_ButNot
 0 -6 0 20 -262144 -258113 -1;
 #X coords 0 976 1 975 0 0 0;

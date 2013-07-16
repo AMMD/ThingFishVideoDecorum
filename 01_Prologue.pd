@@ -101,8 +101,8 @@
 #X obj 26 135 r DjAndEPInit;
 #X obj 866 12 cnv 15 350 150 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#X obj 883 26 bng 15 250 50 0 TFPrologueOnceUponATime TFPrologueOnceUponATime
-TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
+#X obj 883 26 bng 15 250 50 0 PrologueTFOnceUponATime PrologueTFOnceUponATime
+Prologue_TF_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
 #X obj 966 66 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
 #X obj 995 41 delay 25000;
@@ -111,8 +111,8 @@ TF_Prologue_Once_Upon_A_Time 17 7 0 10 -262144 -1 -1;
 #X obj 995 130 s apparitionBulleHomoBlack;
 #X obj 866 182 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 196 bng 15 250 50 0 TFPrologueDeCocksucker TFPrologueDeCocksucker
-TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
+#X obj 883 196 bng 15 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
+Prologue_TF_De_CockSucker 17 7 0 10 -262144 -1 -1;
 #X obj 966 236 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
 #X msg 1081 242 0;
@@ -122,7 +122,7 @@ TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
 #X obj 1075 215 delay 14500;
 #X obj 866 352 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 366 bng 15 250 50 0 TFPrologueWellHe TFPrologueWellHe TF_Prologue_Well_He_Were_Sure
+#X obj 883 366 bng 15 250 50 0 PrologueTFWellHe PrologueTFWellHe Prologue_TF_Well_He_Were_Sure
 17 7 0 10 -262144 -1 -1;
 #X obj 966 406 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
@@ -135,8 +135,8 @@ TF_Prologue_De_CockSucker 17 7 0 10 -262144 -1 -1;
 #X obj 925 476 s allumageIdee;
 #X obj 866 522 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 536 bng 15 250 50 0 TFPrologueShotlyDen TFPrologueShotlyDen
-TF_Prologue_Shotly_Den_After 17 7 0 10 -262144 -1 -1;
+#X obj 883 536 bng 15 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
+Prologue_TF_Shotly_Den_After 17 7 0 10 -262144 -1 -1;
 #X obj 1065 575 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
 #X msg 1141 578 0;
@@ -156,7 +156,7 @@ Prologue_Scroll_To_Prison 17 7 0 10 -262144 -1 -1;
 #X obj 1141 551 delay 21500;
 #X obj 866 692 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 706 bng 15 250 50 0 TFPrologueSoHeah TFPrologueSoHeah TF_Prologue_So_Heah_Dey_Come
+#X obj 883 706 bng 15 250 50 0 PrologueTFSoHeah PrologueTFSoHeah Prologue_TF_So_Heah_Dey_Come
 17 7 0 10 -262144 -1 -1;
 #X obj 1065 745 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
@@ -168,7 +168,7 @@ Prologue_Scroll_To_Prison 17 7 0 10 -262144 -1 -1;
 #X obj 1143 721 delay 5000;
 #X obj 866 862 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 876 bng 15 250 50 0 TFPrologueDenDey TFPrologueDenDey TF_Prologue_Den_Dey_Wen_Up
+#X obj 883 876 bng 15 250 50 0 PrologueTFDenDey PrologueTFDenDey Prologue_TF_Den_Dey_Wen_Up
 17 7 0 10 -262144 -1 -1;
 #X obj 1065 915 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
@@ -193,8 +193,8 @@ Prologue_Scroll_To_Warden_Office 17 7 0 10 -262144 -1 -1;
 #X obj 970 963 s JetBallonFoot;
 #X obj 866 1032 cnv 15 350 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 1046 bng 15 250 50 0 TFPrologueNextThing TFPrologueNextThing
-TF_Prologue_Next_Thing_You_Know 17 7 0 10 -262144 -1 -1;
+#X obj 883 1046 bng 15 250 50 0 PrologueTFNextThing PrologueTFNextThing
+Prologue_TF_Next_Thing_You_Know 17 7 0 10 -262144 -1 -1;
 #X obj 1065 1085 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
 #X msg 1141 1088 0;
@@ -214,7 +214,7 @@ Prologue_Scroll_To_Homo_Black 17 7 0 10 -262144 -1 -1;
 #X obj 1141 1061 delay 10500;
 #X obj 866 1202 cnv 15 350 250 empty empty empty 20 12 0 14 -233017
 -66577 0;
-#X obj 883 1216 bng 15 250 50 0 TFPrologueButNot TFPrologueButNot TF_Prologue_But_Not_De_Boys
+#X obj 883 1216 bng 15 250 50 0 PrologueTFButNot PrologueTFButNot Prologue_TF_But_Not_De_Boys
 17 7 0 10 -262144 -1 -1;
 #X obj 1038 1255 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
 -1 -1 0 1;
