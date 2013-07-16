@@ -2,4 +2,5 @@
 #X obj 20 17 01_Prologue;
 #X obj 150 17 02_TheMammyNuns;
 #X obj 310 17 03_HarryAndRhonda;
-#X obj 490 17 04_GalootUpdate;
+#X obj 480 17 04_GalootUpdate;
+#X obj 640 17 05_Torchum;

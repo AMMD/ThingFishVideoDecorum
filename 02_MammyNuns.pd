@@ -29,7 +29,7 @@
 #X obj 528 87 s MNDance;
 #X obj 525 121 s CurtainsOpened;
 #X obj 416 104 delay 500;
-#X obj 404 253 cnv 15 225 120 empty empty empty 20 12 0 14 -233017
+#X obj 404 253 cnv 15 225 150 empty empty empty 20 12 0 14 -233017
 -66577 0;
 #X obj 416 267 bng 15 250 50 0 TheMammyNunsStop TheMammyNunsStop The_Mammy_Nuns_Stop
 17 7 0 10 -262144 -1 -1;
@@ -37,6 +37,7 @@
 #X obj 416 327 s MNStopDancing;
 #X obj 416 347 s MNStopPeeing;
 #X obj 416 300 delay 1000;
+#X obj 415 371 s DeactivateAll;
 #X connect 1 0 0 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -55,3 +56,4 @@
 #X connect 23 0 27 0;
 #X connect 27 0 25 0;
 #X connect 27 0 26 0;
+#X connect 27 0 28 0;

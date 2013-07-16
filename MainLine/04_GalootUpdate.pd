@@ -5,5 +5,5 @@
 0 30 -228856 -1 -1 0 1;
 #X obj 1755 132 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
 30 -228856 -1 -1 0 1;
-#X text 10 -119 4 Galoot Update CONDUITE;
+#X text 9 -119 4 GALOOT UPDATE CONDUITE;
 #X coords 0 849 1 848 0 0 0;

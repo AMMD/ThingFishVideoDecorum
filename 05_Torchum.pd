@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 1 1264 1438 800 10;
 #X obj 50 31 s TFOut;
 #X obj 51 130 s TFSpeaks;
 #X obj 51 97 s TFOpensCurtains;
@@ -31,6 +31,22 @@
 -1;
 #X obj 108 251 s TFMutes;
 #X obj 51 294 s HCourCloseCurtain;
+#X obj 366 16 cnv 15 240 100 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 374 68 s TFOut;
+#X obj 374 23 bng 15 250 50 0 TorchumTFOut TorchumTFOut Torchum_TF_Out
+17 7 0 10 -262144 -1 -1;
+#X obj 393 38 s DunjonInit;
+#X obj 367 133 cnv 15 240 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 375 167 s TFOpensCurtains;
+#X obj 528 209 s TFSpeaks;
+#X obj 375 142 bng 15 250 50 0 TorchumTFOpensCurtains TorchumTFOpensCurtains
+Torchum_TF_Opens_Curtains_and_Speaks 17 7 0 10 -262144 -1 -1;
+#X msg 528 182 0;
+#X obj 375 205 tgl 15 0 TFSpeaks TFSpeaks TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 528 157 delay 29500;
 #X connect 3 0 0 0;
 #X connect 4 0 1 0;
 #X connect 5 0 11 0;
@@ -43,3 +59,10 @@
 #X connect 17 0 18 0;
 #X connect 17 0 20 0;
 #X connect 19 0 21 0;
+#X connect 24 0 25 0;
+#X connect 24 0 23 0;
+#X connect 29 0 27 0;
+#X connect 29 0 31 0;
+#X connect 29 0 32 0;
+#X connect 30 0 28 0;
+#X connect 32 0 30 0;
