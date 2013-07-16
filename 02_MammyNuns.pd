@@ -1,4 +1,4 @@
-#N canvas 1 100 925 429 10;
+#N canvas 0 1251 1440 849 10;
 #X obj 161 62 s MNInPlace;
 #X obj 66 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -20,6 +20,15 @@
 #X obj 179 257 s MNStopPeeing;
 #X obj 50 242 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 404 23 cnv 15 225 120 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 441 52 s MNInPlace;
+#X obj 416 37 bng 15 250 50 0 TheMammyNunsInit TheMammyNunsInit The_Mammy_Nuns_Init
+17 7 0 10 -262144 -1 -1;
+#X obj 416 70 delay 150;
+#X obj 528 87 s MNDance;
+#X obj 525 121 s CurtainsOpened;
+#X obj 416 104 delay 500;
 #X connect 1 0 0 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -29,3 +38,8 @@
 #X connect 10 0 11 0;
 #X connect 14 0 12 0;
 #X connect 14 0 13 0;
+#X connect 17 0 16 0;
+#X connect 17 0 18 0;
+#X connect 18 0 19 0;
+#X connect 18 0 21 0;
+#X connect 21 0 20 0;
