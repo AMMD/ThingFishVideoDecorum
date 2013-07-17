@@ -1,4 +1,4 @@
-#N canvas 393 100 855 796 10;
+#N canvas 321 1284 855 796 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -11,9 +11,9 @@
 #X obj 64 167 zac.lumiere /ThiFiYeuxFront;
 #X obj 66 496 zac.lumiere /ThiFiBecBas;
 #X obj 67 677 zac.lumiere /ThiFiCol;
-#N canvas 562 369 685 347 DaThingFishPlunges 0;
-#X obj 31 18 r DaThingFishFacePlunges;
-#X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 488 1251 685 347 DaThingFishPlunges 1;
+#X obj 31 8 r DaThingFishFacePlunges;
+#X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 583 100 850 796 DaThingFishFacePlungesContourInit 0;
 #X obj 234 572 send OSC_MESSAGES;
@@ -448,16 +448,16 @@
 #X connect 55 0 5 1;
 #X restore 289 56 pd DaThingFishFacePlungesBecInit;
 #X obj 31 77 s DaThingFishFacePlungesInit;
-#N canvas 339 293 450 300 DaThingFishFacePlungesMoves 0;
-#N canvas 521 345 803 536 TFPlungingLooksAround 0;
-#X obj 27 58 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 548 1600 450 300 DaThingFishFacePlungesMoves 1;
+#N canvas 482 1466 803 536 TFPlungingLooksAround 1;
+#X obj 27 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 54 299 /ThiFiContourTete/Rotate \$1;
 #X msg 54 319 /ThiFiYeuxFront/Rotate \$1;
 #X msg 54 339 /ThiFiBecHaut/Rotate \$1;
 #X obj 54 274 line;
 #X msg 54 120 0;
-#X obj 27 84 t b b;
+#X obj 27 94 t b b;
 #X obj 27 144 metro 1000;
 #X obj 27 179 random 60;
 #X obj 54 391 s OSC_MESSAGES;
@@ -471,6 +471,7 @@
 #X obj 358 175 t b b;
 #X msg 296 257 \$1;
 #X msg 296 165 set \$1;
+#X obj 81 51 sel 1;
 #X connect 0 0 6 0;
 #X connect 1 0 9 0;
 #X connect 2 0 9 0;
@@ -487,7 +488,7 @@
 #X connect 11 0 10 0;
 #X connect 12 0 7 0;
 #X connect 13 0 12 0;
-#X connect 14 0 0 0;
+#X connect 14 0 20 0;
 #X connect 15 0 19 0;
 #X connect 15 0 17 0;
 #X connect 16 0 4 0;
@@ -495,6 +496,8 @@
 #X connect 17 1 16 0;
 #X connect 18 0 4 0;
 #X connect 19 0 18 0;
+#X connect 20 0 0 0;
+#X connect 20 1 7 0;
 #X restore 32 38 pd TFPlungingLooksAround;
 #X restore 485 321 pd DaThingFishFacePlungesMoves;
 #X obj 31 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1077,10 +1080,13 @@
 #X connect 54 0 5 1;
 #X connect 55 0 1 1;
 #X restore 289 166 pd DaThingFishFaceGetsBackBecBasInit;
-#X connect 0 0 1 0;
+#X obj 31 34 sel 1;
+#X connect 0 0 14 0;
 #X connect 1 0 5 0;
 #X connect 7 0 12 0;
 #X connect 8 0 7 0;
+#X connect 14 0 1 0;
+#X connect 14 1 7 0;
 #X restore 589 96 pd DaThingFishPlunges;
 #N canvas 558 365 685 347 DaThingFishEyesWideOpen 0;
 #X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1557,7 +1563,7 @@
 #X connect 2 0 1 0;
 #X connect 4 0 0 0;
 #X restore 589 156 pd DaThingFishNostrilsWideOpen;
-#N canvas 0 100 1440 800 DaThingFishProfile 1;
+#N canvas 0 100 1440 800 DaThingFishProfile 0;
 #X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 165 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
