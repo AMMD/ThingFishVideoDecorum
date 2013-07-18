@@ -103,7 +103,7 @@
 #X obj -200 208 s evilPrinceInit;
 #X obj 484 -255 01_Prologue;
 #X obj 66 38 HomoBlack/homoBlackMain;
-#X obj 484 -210 05_Torchum;
+#X obj 484 -190 05_Torchum;
 #X obj 60 61 Zombies/zombiesMain;
 #N canvas 491 100 937 770 Dummies 0;
 #X obj 47 210 zac.lumiere /DummyScrollFromjardin;
@@ -327,7 +327,8 @@
 #X obj -168 87 Morpho/morphoMain;
 #X obj -28 -84 dumpOSC 12345;
 #X obj -28 -53 s OSC_MESSAGES;
-#X obj 484 -187 06_ThatEvilPrince;
+#X obj 484 -167 06_ThatEvilPrince;
+#X obj 484 -213 04_GalootUpdate;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
 #X connect 10 0 9 0;

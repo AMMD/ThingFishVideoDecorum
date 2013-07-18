@@ -1,4 +1,4 @@
-#N canvas 136 207 913 390 10;
+#N canvas 132 203 913 390 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 30 25 zac.lumiere /OX_Head;
@@ -514,7 +514,7 @@
 #X restore 702 52 pd TFHandHangsOX;
 #X obj 437 183 loadbang;
 #X obj 437 218 s ObdwellaXInit;
-#N canvas 434 309 794 581 ObdwellaXMoves 1;
+#N canvas 430 305 794 581 ObdwellaXMoves 1;
 #X msg 69 226 /OX_Head/Rotate \$1;
 #X obj 69 259 s OSC_MESSAGES;
 #X obj 200 41 r ObdwellaXStopsMoving;
@@ -997,6 +997,7 @@
 #X obj 408 544 delay 300;
 #X obj 489 453 delay 400;
 #X msg 525 524 /OX_Body/ShapeIndex 3;
+#X obj 509 489 delay 100;
 #X connect 0 0 5 0;
 #X connect 0 0 6 0;
 #X connect 2 0 21 0;
@@ -1057,8 +1058,9 @@
 #X connect 41 0 36 0;
 #X connect 42 0 35 0;
 #X connect 43 0 38 0;
-#X connect 43 0 44 0;
+#X connect 43 0 45 0;
 #X connect 44 0 33 0;
+#X connect 45 0 44 0;
 #X restore 510 107 pd OXFalls;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
