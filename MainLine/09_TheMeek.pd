@@ -1,0 +1,31 @@
+#N canvas 0 1251 1440 849 10;
+#X obj 35 -48 bng 100 250 50 0 OXAndTF OXAndTF OX_&_TF 0 -6 0 20 -262144
+-258113 -1;
+#X obj 1755 -108 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
+-1 -1 0 1;
+#X obj 155 -48 bng 100 250 50 0 DjAndEPInit DjAndEPInit Dj_&_EP_Init
+0 -6 0 20 -262144 -258113 -1;
+#X text 11 -119 1 PROLOGUE CONDUITE;
+#X obj 315 -48 bng 100 250 50 0 TFOpensCurtains TFOpensCurtains TF_O_Curtains
+0 -6 0 20 -262144 -258113 -1;
+#X obj 1755 12 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
+0 30 -228856 -1 -1 0 1;
+#X obj 1755 132 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
+30 -228856 -1 -1 0 1;
+#X obj 475 -48 bng 100 250 50 0 PrologueTFOnceUponATime PrologueTFOnceUponATime
+TF_OnceUp 0 -6 0 20 -262144 -258113 -1;
+#X obj 595 -48 bng 100 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
+TF_DeCock 0 -6 0 20 -262144 -258113 -1;
+#X obj 715 -48 bng 100 250 50 0 PrologueTFWellHe PrologueTFWellHe TF_WellHe
+0 -6 0 20 -262144 -258113 -1;
+#X obj 835 -48 bng 100 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
+TF_Shotly 0 -6 0 20 -262144 -258113 -1;
+#X obj 955 -48 bng 100 250 50 0 PrologueTFSoHeah PrologueTFSoHeah TF_SoHeah
+0 -6 0 20 -262144 -258113 -1;
+#X obj 1075 -48 bng 100 250 50 0 PrologueTFDenDey PrologueTFDenDey
+TF_DenDey 0 -6 0 20 -262144 -258113 -1;
+#X obj 1195 -48 bng 100 250 50 0 PrologueTFNextThing PrologueTFNextThing
+TF_NextThing 0 -6 0 20 -262144 -258113 -1;
+#X obj 1345 -48 bng 100 250 50 0 PrologueTFButNot PrologueTFButNot
+TF_ButNot 0 -6 0 20 -262144 -258113 -1;
+#X coords 0 849 1 848 0 0 0;

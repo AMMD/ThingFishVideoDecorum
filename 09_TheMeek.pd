@@ -10,9 +10,29 @@
 -1;
 #X obj 90 27 s HandCineticScroll;
 #X obj 29 27 delay 200;
+#X obj 49 243 cnv 15 250 230 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 53 449 s economicWorshipComesInFromjardin;
+#X obj 79 409 s muddClubGetsOutToCour;
+#X obj 53 394 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 53 252 bng 15 250 50 0 empty MuddClubScrollToEconomicWorship
+MuddClub_Scroll_To_Economic_Worship 17 7 0 10 -262144 -1 -1;
+#X obj 114 357 s HandCineticScroll;
+#X obj 53 357 delay 200;
+#X obj 53 281 bng 15 250 50 0 TFOut empty TF_Out 17 7 0 10 -262144
+-1 -1;
+#X obj 53 313 delay 7000;
 #X connect 2 0 1 0;
 #X connect 2 0 0 0;
 #X connect 4 0 3 0;
 #X connect 5 0 6 0;
 #X connect 5 0 7 0;
 #X connect 7 0 2 0;
+#X connect 11 0 10 0;
+#X connect 11 0 9 0;
+#X connect 12 0 15 0;
+#X connect 12 0 16 0;
+#X connect 14 0 11 0;
+#X connect 16 0 14 0;
+#X connect 16 0 13 0;
