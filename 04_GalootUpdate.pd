@@ -1,0 +1,11 @@
+#N canvas 1 100 450 300 10;
+#X obj 45 33 bng 15 250 50 0 empty GalootUpdateSquidDecorMoves Galoot_Update_Squid_Decor_Moves
+17 7 0 10 -262144 -1 -1;
+#X obj 48 77 delay 1500;
+#X obj 188 82 bng 15 250 50 0 OXSquidDecor empty OX_Squid_Decor 17
+7 0 10 -262144 -1 -1;
+#X obj 67 127 bng 15 250 50 0 OXFalls empty OX_Falls 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
