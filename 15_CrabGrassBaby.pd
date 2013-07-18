@@ -47,6 +47,24 @@
 #X obj 93 445 delay 2500;
 #X obj 45 430 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 745 16 cnv 15 200 250 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 751 23 bng 15 250 50 0 empty CrabGrassBabyInit CrabGrassBabyInit
+17 7 0 10 -262144 -1 -1;
+#X obj 751 52 bng 15 250 50 0 OXAndTF empty OX_&_TF 17 7 0 10 -262144
+-1 -1;
+#X obj 751 163 s TFOpensCurtains;
+#X obj 751 75 s NativiteInit;
+#X obj 751 103 s GirafeMoves;
+#X obj 751 126 delay 8000;
+#X obj 752 230 s TFPushesItalianInHisHome;
+#X obj 752 192 delay 4000;
+#X obj 745 286 cnv 15 200 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 751 293 bng 15 250 50 0 empty CrabGrassBabySpeaks CrabGrassBaby_Speaks
+17 7 0 10 -262144 -1 -1;
+#X obj 751 313 s MonteePremieresBullesVides;
+#X obj 751 344 s CGBMoves;
 #X connect 4 0 3 0;
 #X connect 4 0 19 0;
 #X connect 5 0 0 0;
@@ -71,3 +89,12 @@
 #X connect 33 0 8 0;
 #X connect 34 0 33 0;
 #X connect 34 0 32 0;
+#X connect 36 0 37 0;
+#X connect 36 0 39 0;
+#X connect 36 0 40 0;
+#X connect 36 0 41 0;
+#X connect 41 0 38 0;
+#X connect 41 0 43 0;
+#X connect 43 0 42 0;
+#X connect 45 0 46 0;
+#X connect 45 0 47 0;
