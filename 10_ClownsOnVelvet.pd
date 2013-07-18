@@ -59,8 +59,9 @@
 #X obj 374 660 s TFIn;
 #X obj 374 681 delay 2000;
 #X obj 374 708 s HCourCloseCurtain;
-#X obj 374 753 s DeactivateAll;
+#X obj 374 793 s DeactivateAll;
 #X obj 374 729 delay 3500;
+#X obj 374 763 s stopAlladinHotel;
 #X connect 2 0 1 0;
 #X connect 4 0 3 0;
 #X connect 5 0 34 0;
@@ -109,3 +110,4 @@
 #X connect 44 0 45 0;
 #X connect 44 0 47 0;
 #X connect 47 0 46 0;
+#X connect 47 0 48 0;

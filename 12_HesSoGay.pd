@@ -1,4 +1,4 @@
-#N canvas 331 277 498 619 10;
+#N canvas 0 100 1440 800 10;
 #X obj 43 122 s harryComesInFromJardinProche;
 #X obj 22 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29,14 +29,14 @@
 -1 -1;
 #X obj 275 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 274 263 s MNTempoPieds;
-#X obj 274 293 s MNTempoHands;
-#X obj 274 323 s MNTempoHats;
-#X obj 275 370 s MNTempoGroups;
-#X obj 278 347 hsl 128 15 10000 500 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 0 1;
-#X obj 277 240 hsl 128 15 1000 300 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 0 1;
+#X obj 274 273 s MNTempoPieds;
+#X obj 274 303 s MNTempoHands;
+#X obj 274 333 s MNTempoHats;
+#X obj 275 390 s MNTempoGroups;
+#X obj 278 367 hsl 128 15 10000 500 0 0 empty MNTempoGroups MN_Tempo_Groups
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 277 250 hsl 128 15 1000 300 0 0 empty MNTempoMembres MN_Tempo_Membres
+-2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 47 512 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 103 545 s HesSoGayOff;
@@ -50,6 +50,25 @@
 -1;
 #X obj 99 381 s TFMutes;
 #X obj 42 424 s HCourCloseCurtain;
+#X obj 475 -5 cnv 15 250 200 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 484 1 bng 15 250 50 0 empty HesSoGayBegins HesSoGayOpening 17
+7 0 10 -262144 -1 -1;
+#X obj 484 142 s harryComesInFromJardinProche;
+#X obj 484 22 s HesSoGayInit;
+#X obj 484 62 s nuagesOnMove;
+#X obj 484 102 s allumageFond;
+#X obj 475 215 cnv 15 250 80 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 484 221 bng 15 250 50 0 empty HesSoGayOpening HesSoGay_Opening
+17 7 0 10 -262144 -1 -1;
+#X obj 484 250 s CurtainsOpened;
+#X obj 484 169 s MammyNunsVPInit;
+#X obj 476 313 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 485 324 tgl 15 0 empty MNOnStage MN_OnStage 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 485 348 s MNGroupsMove;
 #X connect 1 0 0 0;
 #X connect 2 0 11 0;
 #X connect 3 0 4 0;
@@ -69,3 +88,10 @@
 #X connect 30 0 31 0;
 #X connect 30 0 33 0;
 #X connect 32 0 34 0;
+#X connect 36 0 38 0;
+#X connect 36 0 39 0;
+#X connect 36 0 40 0;
+#X connect 36 0 37 0;
+#X connect 36 0 44 0;
+#X connect 42 0 43 0;
+#X connect 46 0 47 0;
