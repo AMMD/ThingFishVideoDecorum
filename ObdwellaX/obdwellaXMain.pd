@@ -1,4 +1,4 @@
-#N canvas 132 203 913 390 10;
+#N canvas 130 201 913 390 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 30 25 zac.lumiere /OX_Head;
@@ -514,7 +514,7 @@
 #X restore 702 52 pd TFHandHangsOX;
 #X obj 437 183 loadbang;
 #X obj 437 218 s ObdwellaXInit;
-#N canvas 430 305 794 581 ObdwellaXMoves 1;
+#N canvas 428 303 794 581 ObdwellaXMoves 1;
 #X msg 69 226 /OX_Head/Rotate \$1;
 #X obj 69 259 s OSC_MESSAGES;
 #X obj 200 41 r ObdwellaXStopsMoving;
@@ -524,7 +524,7 @@
 #X obj 69 201 line;
 #X msg 69 178 \$1 500;
 #X obj 69 151 - 8;
-#N canvas 240 255 1091 517 OXKidnapped 0;
+#N canvas 238 253 1091 517 OXKidnapped 1;
 #X obj -262 9 r OXKidnapped;
 #X obj -262 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -554,6 +554,10 @@
 #X msg 28 217 -6.5 50;
 #X msg 289 356 /OX_Head/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/odwellax_bobo.png
 ;
+#X msg 253 481 2.9 500;
+#X msg -230 446 0 500;
+#X obj -148 446 delay 500;
+#X msg 118 471 -1.437 500;
 #X connect 0 0 1 0;
 #X connect 1 0 13 0;
 #X connect 1 0 22 0;
@@ -567,6 +571,7 @@
 #X connect 10 0 7 0;
 #X connect 10 0 12 0;
 #X connect 10 0 23 0;
+#X connect 10 0 28 0;
 #X connect 11 0 8 0;
 #X connect 12 0 9 0;
 #X connect 12 0 25 0;
@@ -588,6 +593,12 @@
 #X connect 23 0 24 0;
 #X connect 24 0 5 0;
 #X connect 25 0 2 0;
+#X connect 26 0 4 0;
+#X connect 27 0 15 0;
+#X connect 28 0 27 0;
+#X connect 28 0 29 0;
+#X connect 28 0 26 0;
+#X connect 29 0 6 0;
 #X restore 512 47 pd OXKidnapped;
 #N canvas 0 100 1440 800 OXBashedAndFucked 0;
 #X obj -262 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -942,7 +953,7 @@
 #X msg 560 225 0;
 #X obj 69 64 tgl 15 0 empty ObdwellaXMoves ObdwellaXMoves 17 7 0 10
 -262144 -1 -1 1 1;
-#N canvas 0 100 1440 800 OXFalls 1;
+#N canvas 0 100 1440 800 OXFalls 0;
 #X obj 80 221 line;
 #X obj 80 323 s OSC_MESSAGES;
 #X obj 53 98 t b b;
