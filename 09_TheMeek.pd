@@ -22,7 +22,6 @@ MuddClub_Scroll_To_Economic_Worship 17 7 0 10 -262144 -1 -1;
 #X obj 53 357 delay 200;
 #X obj 53 281 bng 15 250 50 0 TFOut empty TF_Out 17 7 0 10 -262144
 -1 -1;
-#X obj 53 313 delay 7000;
 #X obj 49 493 cnv 15 260 120 empty empty empty 20 12 0 14 -233017 -66577
 0;
 #X obj 53 502 bng 15 250 50 0 empty TheMeekTFWelcome TheMeek_TF_Welcome
@@ -32,6 +31,24 @@ MuddClub_Scroll_To_Economic_Worship 17 7 0 10 -262144 -1 -1;
 #X obj 187 517 delay 6100;
 #X msg 187 545 0;
 #X obj 187 575 s economicWorshipOn;
+#X obj 187 596 bng 15 250 50 0 TFIn empty TFIn 17 7 0 10 -262144 -1
+-1;
+#X obj 49 633 cnv 15 270 230 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 53 784 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 53 642 bng 15 250 50 0 empty EconomicWorshipScrollToAlladinHotel
+Economic_Worship_Scroll_To_Alladin_Hotel 17 7 0 10 -262144 -1 -1;
+#X obj 114 747 s HandCineticScroll;
+#X obj 53 747 delay 200;
+#X obj 53 671 bng 15 250 50 0 TFOut empty TF_Out 17 7 0 10 -262144
+-1 -1;
+#X obj 81 799 s economicWorshipGetsOutToCour;
+#X obj 53 827 s alladinHotelComesInFromJardin;
+#X obj 169 690 s economicWorshipOff;
+#X obj 169 657 delay 700;
+#X obj 53 313 delay 2000;
+#X obj 53 703 delay 2000;
 #X connect 2 0 1 0;
 #X connect 2 0 0 0;
 #X connect 4 0 3 0;
@@ -41,12 +58,23 @@ MuddClub_Scroll_To_Economic_Worship 17 7 0 10 -262144 -1 -1;
 #X connect 11 0 10 0;
 #X connect 11 0 9 0;
 #X connect 12 0 15 0;
-#X connect 12 0 16 0;
+#X connect 12 0 33 0;
 #X connect 14 0 11 0;
-#X connect 16 0 14 0;
-#X connect 16 0 13 0;
-#X connect 18 0 19 0;
-#X connect 18 0 20 0;
-#X connect 20 0 21 0;
-#X connect 20 0 22 0;
-#X connect 21 0 19 0;
+#X connect 17 0 18 0;
+#X connect 17 0 19 0;
+#X connect 19 0 20 0;
+#X connect 19 0 21 0;
+#X connect 19 0 22 0;
+#X connect 20 0 18 0;
+#X connect 24 0 29 0;
+#X connect 24 0 30 0;
+#X connect 25 0 28 0;
+#X connect 25 0 31 0;
+#X connect 25 0 32 0;
+#X connect 25 0 34 0;
+#X connect 27 0 24 0;
+#X connect 32 0 31 0;
+#X connect 33 0 14 0;
+#X connect 33 0 13 0;
+#X connect 34 0 27 0;
+#X connect 34 0 26 0;
