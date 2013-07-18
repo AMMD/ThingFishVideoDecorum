@@ -1,4 +1,4 @@
-#N canvas 321 1284 855 796 10;
+#N canvas 292 100 855 796 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -11,7 +11,7 @@
 #X obj 64 167 zac.lumiere /ThiFiYeuxFront;
 #X obj 66 496 zac.lumiere /ThiFiBecBas;
 #X obj 67 677 zac.lumiere /ThiFiCol;
-#N canvas 488 1251 685 347 DaThingFishPlunges 1;
+#N canvas 486 379 685 347 DaThingFishPlunges 0;
 #X obj 31 8 r DaThingFishFacePlunges;
 #X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -448,8 +448,8 @@
 #X connect 55 0 5 1;
 #X restore 289 56 pd DaThingFishFacePlungesBecInit;
 #X obj 31 77 s DaThingFishFacePlungesInit;
-#N canvas 548 1600 450 300 DaThingFishFacePlungesMoves 1;
-#N canvas 482 1466 803 536 TFPlungingLooksAround 1;
+#N canvas 546 596 450 300 DaThingFishFacePlungesMoves 0;
+#N canvas 480 360 803 536 TFPlungingLooksAround 0;
 #X obj 27 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 54 299 /ThiFiContourTete/Rotate \$1;
@@ -469,7 +469,7 @@
 #X obj 358 148 r TFLooksInAParticularDirection;
 #X obj 385 257 v /ThiFiContourTete/Rotate;
 #X obj 358 175 t b b;
-#X msg 296 257 \$1;
+#X msg 296 257 30;
 #X msg 296 165 set \$1;
 #X obj 81 51 sel 1;
 #X connect 0 0 6 0;
@@ -1088,8 +1088,8 @@
 #X connect 14 0 1 0;
 #X connect 14 1 7 0;
 #X restore 589 96 pd DaThingFishPlunges;
-#N canvas 558 365 685 347 DaThingFishEyesWideOpen 0;
-#X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 556 363 685 347 DaThingFishEyesWideOpen 0;
+#X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1241,10 +1241,13 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 289 36 pd DaThingFishFaceEyesWideOpenInit;
+#X obj 31 35 sel 1;
 #X connect 0 0 5 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
-#X connect 4 0 0 0;
+#X connect 4 0 7 0;
+#X connect 7 0 0 0;
+#X connect 7 1 1 0;
 #X restore 589 116 pd DaThingFishEyesWideOpen;
 #N canvas 556 363 685 347 DaThingFishFronceOpen 0;
 #X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1404,8 +1407,8 @@
 #X connect 2 0 1 0;
 #X connect 5 0 0 0;
 #X restore 589 136 pd DaThingFishFronceOpen;
-#N canvas 556 363 685 347 DaThingFishNostrilsWideOpen 0;
-#X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 554 361 685 347 DaThingFishNostrilsWideOpen 0;
+#X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1558,12 +1561,15 @@
 #X connect 54 0 2 0;
 #X connect 55 0 5 1;
 #X restore 299 66 pd DaThingFishFaceNostrilsWideOpenBecInit;
+#X obj 31 36 sel 1;
 #X connect 0 0 5 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
-#X connect 4 0 0 0;
+#X connect 4 0 7 0;
+#X connect 7 0 0 0;
+#X connect 7 1 1 0;
 #X restore 589 156 pd DaThingFishNostrilsWideOpen;
-#N canvas 0 100 1440 800 DaThingFishProfile 0;
+#N canvas 7 100 1425 796 DaThingFishProfile 1;
 #X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 165 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -2152,7 +2158,7 @@
 #X obj 31 187 t b b;
 #X obj 226 204 s TFMutes;
 #X obj 31 18 r DaThingFishFaceProfile;
-#X obj 31 335 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 31 345 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 455 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2168,6 +2174,10 @@
 #X obj 317 524 s TFSpeaks;
 #X obj 31 308 r DaThingFishFaceProfileStillSpeaking;
 #X obj 31 428 r DaThingFishFaceGetsBackStraightStillSpeaking;
+#X obj 75 41 sel 1;
+#X obj 68 338 sel 1;
+#X msg 396 401 1;
+#X msg 394 502 1;
 #X connect 0 0 9 0;
 #X connect 1 0 11 0;
 #X connect 2 0 1 0;
@@ -2175,7 +2185,7 @@
 #X connect 9 1 10 0;
 #X connect 11 0 3 0;
 #X connect 11 1 12 0;
-#X connect 13 0 0 0;
+#X connect 13 0 28 0;
 #X connect 14 0 18 0;
 #X connect 15 0 20 0;
 #X connect 18 0 17 0;
@@ -2184,9 +2194,15 @@
 #X connect 20 0 16 0;
 #X connect 20 0 24 0;
 #X connect 20 1 21 0;
-#X connect 22 0 23 0;
-#X connect 24 0 25 0;
-#X connect 26 0 14 0;
+#X connect 22 0 30 0;
+#X connect 24 0 31 0;
+#X connect 26 0 29 0;
 #X connect 27 0 15 0;
+#X connect 28 0 0 0;
+#X connect 28 1 1 0;
+#X connect 29 0 14 0;
+#X connect 29 1 15 0;
+#X connect 30 0 23 0;
+#X connect 31 0 25 0;
 #X restore 589 176 pd DaThingFishProfile;
 #X connect 1 0 0 0;

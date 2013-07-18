@@ -15,20 +15,68 @@
 #X obj 26 114 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 81 129 s OXKidnapped;
-#X obj 465 149 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
-0;
+#X obj 465 149 cnv 15 380 250 empty empty empty 20 12 0 14 -233017
+-66577 0;
 #X obj 477 157 bng 15 250 50 0 empty BriefcaseBoogieInit Briefcase_Boogie_Init
 17 7 0 10 -262144 -1 -1;
-#X obj 618 250 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 598 250 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 477 217 s HandCineticScroll;
-#X obj 618 172 delay 200;
-#X obj 618 306 s DriveInGetsOutToCour;
-#X obj 618 278 s NativiteComesInFromJardinWithoutCGB;
-#X obj 618 204 s TruckLightningStops;
-#X obj 618 227 s DriveInHarryStops;
-#X obj 618 373 s TFPushesItalianInHisHome;
-#X obj 618 335 delay 700;
+#X obj 598 172 delay 200;
+#X obj 598 306 s DriveInGetsOutToCour;
+#X obj 598 278 s NativiteComesInFromJardinWithoutCGB;
+#X obj 598 204 s TruckLightningStops;
+#X obj 598 227 s DriveInHarryStops;
+#X obj 598 373 s TFPushesItalianInHisHome;
+#X obj 598 335 delay 700;
+#X obj 855 419 cnv 15 240 280 empty empty empty 20 12 0 14 -257985
+-66577 0;
+#X obj 865 427 tgl 15 0 empty BriefcaseBoogieTFPointsH BriefcaseBoogie_TF_Points_H
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 865 469 s HandJardinPointerActivate;
+#X obj 865 583 s HandJardinPointerAngle;
+#X msg 920 560 -0.56;
+#X obj 920 616 s HandJardinPointerXPosition;
+#X obj 865 523 s DaThingFishFacePlunges;
+#X obj 865 670 s TFLooksInAParticularDirection;
+#X obj 865 611 delay 10;
+#X obj 1156 509 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj 1168 655 hsl 128 15 0 127 0 0 empty BriefcaseBoogieTFLooksHAngle
+BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
+#X msg 865 564 50;
+#X msg 865 631 30;
+#X obj 1165 598 / -0.75;
+#X obj 1165 566 + 90;
+#X obj 865 543 sel 1;
+#X obj 938 648 s BriefcaseBoogieTFLooksHAngle;
+#X obj 465 419 cnv 15 200 70 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 477 427 bng 15 250 50 0 empty BriefcaseBoogieTFOoohLawd Briefcase_Boogie_OoohLawd
+17 7 0 10 -262144 -1 -1;
+#X obj 477 452 tgl 15 0 BriefcaseBoogieTFPointsH empty BriefcaseBoogie_TF_Points_H
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 465 509 cnv 15 200 70 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 477 517 bng 15 250 50 0 empty BriefcaseBoogieTFYallMake Briefcase_Boogie_YallMake
+17 7 0 10 -262144 -1 -1;
+#X obj 477 542 tgl 15 0 BriefcaseBoogieTFPointsH empty BriefcaseBoogie_TF_Points_H
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 466 598 cnv 15 230 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 476 635 s DaThingFishFaceNostrilsWideOpen;
+#X obj 476 607 tgl 15 0 empty BriefcaseBoogieRubberMammy BriefcaseBoogie_Rubber_Mammy
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 476 655 s DaThingFishFaceEyesWideOpen;
+#X obj 466 718 cnv 15 230 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 476 730 bng 15 250 50 0 empty BriefcaseBoogieSisterO BriefcaseBoogie_Sister_O
+17 7 0 10 -262144 -1 -1;
+#X obj 582 745 delay 15200;
+#X obj 476 866 s DaThingFishFaceGetsBackStraightInit;
+#X obj 476 809 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
+17 7 0 10 -262144 -1 -1 1 1;
+#X msg 582 792 0;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -47,3 +95,26 @@
 #X connect 16 0 17 0;
 #X connect 16 0 22 0;
 #X connect 22 0 21 0;
+#X connect 24 0 25 0;
+#X connect 24 0 29 0;
+#X connect 24 0 38 0;
+#X connect 27 0 28 0;
+#X connect 31 0 35 0;
+#X connect 33 0 36 0;
+#X connect 33 0 30 0;
+#X connect 34 0 26 0;
+#X connect 35 0 30 0;
+#X connect 35 0 39 0;
+#X connect 36 0 37 0;
+#X connect 37 0 26 0;
+#X connect 38 0 34 0;
+#X connect 38 0 31 0;
+#X connect 38 0 27 0;
+#X connect 41 0 42 0;
+#X connect 44 0 45 0;
+#X connect 48 0 47 0;
+#X connect 48 0 49 0;
+#X connect 51 0 52 0;
+#X connect 51 0 54 0;
+#X connect 52 0 55 0;
+#X connect 55 0 54 0;
