@@ -34,9 +34,9 @@
 #X obj 274 333 s MNTempoHats;
 #X obj 275 390 s MNTempoGroups;
 #X obj 278 367 hsl 128 15 10000 500 0 0 empty MNTempoGroups MN_Tempo_Groups
--2 -8 0 10 -262144 -1 -1 0 1;
+-2 -8 0 10 -262144 -1 -1 7653 1;
 #X obj 277 250 hsl 128 15 1000 300 0 0 empty MNTempoMembres MN_Tempo_Membres
--2 -8 0 10 -262144 -1 -1 0 1;
+-2 -8 0 10 -262144 -1 -1 8935 1;
 #X obj 47 512 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 103 545 s HesSoGayOff;
@@ -67,8 +67,16 @@
 #X obj 476 313 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
 0;
 #X obj 485 324 tgl 15 0 empty MNOnStage MN_OnStage 17 7 0 10 -262144
--1 -1 0 1;
+-1 -1 1 1;
 #X obj 485 348 s MNGroupsMove;
+#X obj 475 395 cnv 15 250 80 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 484 401 bng 15 250 50 0 empty HesSoGayClosing HesSoGay_Closing
+17 7 0 10 -262144 -1 -1;
+#X obj 484 430 s CurtainsClosed;
+#X obj 484 456 delay 3500;
+#X obj 484 486 s HesSoGayOff;
+#X obj 484 512 s DeactivateAll;
 #X connect 1 0 0 0;
 #X connect 2 0 11 0;
 #X connect 3 0 4 0;
@@ -95,3 +103,7 @@
 #X connect 36 0 44 0;
 #X connect 42 0 43 0;
 #X connect 46 0 47 0;
+#X connect 49 0 50 0;
+#X connect 49 0 51 0;
+#X connect 51 0 52 0;
+#X connect 51 0 53 0;
