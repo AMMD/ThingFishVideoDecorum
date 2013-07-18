@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 7 100 1425 796 10;
 #X obj 20 17 01_Prologue;
 #X obj 150 17 02_TheMammyNuns;
 #X obj 310 17 03_HarryAndRhonda;
@@ -14,3 +14,4 @@
 #X obj 490 87 13_TheMassiveImprovelence;
 #X obj 710 87 14_ArtificialRhonda;
 #X obj 900 87 15_CrabGrassBaby;
+#X obj 1070 87 16_WhiteBoyTroubles;
