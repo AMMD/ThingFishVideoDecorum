@@ -95,7 +95,7 @@
 #X msg 320 658 0.7 75;
 #X msg 320 741 /WashMachine/Blue \$1;
 #X msg 383 680 0.5 75;
-#N canvas 378 150 450 300 BrownMosesMoves 0;
+#N canvas 376 148 450 300 BrownMosesMoves 1;
 #N canvas 707 286 670 414 BrownMosesComesInFromTheCeiling 0;
 #X obj 49 21 r brownMosesComesInFromTheCeiling;
 #X obj 49 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -284,11 +284,11 @@
 #X obj 584 272 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 31.7;
-#X msg 69 193 47.6;
+#X msg 259 190 4.2;
+#X msg 69 193 27.6;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 9906 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -416,7 +416,7 @@
 #X connect 64 0 51 0;
 #X connect 64 0 48 0;
 #X restore 60 98 pd BrownMosesFlyingWings;
-#N canvas 0 100 1440 800 BrownMosesMoonWalks 0;
+#N canvas 0 100 1440 800 BrownMosesMoonWalks 1;
 #X obj 77 12 r BrownMosesMoonWalks;
 #X obj 77 75 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -437,10 +437,6 @@
 #X msg 230 145 /Djbebe/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/BrownMoses/data/2013_07_05_Brown_Moses_PROFIL_MoonWalk_allant_vers_cour.png
 ;
 #X obj 77 381 delay 500;
-#X obj 77 431 metro 1400;
-#X obj 162 478 delay 700;
-#X msg 77 505 8 700;
-#X msg 203 526 -8 700;
 #X msg 76 590 /Djbebe/Flip \$1;
 #X msg 141 566 1;
 #X msg 67 564 0;
@@ -456,9 +452,13 @@
 #X obj 875 161 delay 400;
 #X msg 818 161 0 400;
 #X obj 77 43 sel 1;
-#X connect 0 0 35 0;
+#X obj 77 431 metro 2000;
+#X msg 77 505 8 1000;
+#X msg 203 526 -8 1000;
+#X obj 162 478 delay 1000;
+#X connect 0 0 31 0;
 #X connect 1 0 9 0;
-#X connect 2 0 32 0;
+#X connect 2 0 28 0;
 #X connect 3 0 8 0;
 #X connect 4 0 3 0;
 #X connect 4 0 11 0;
@@ -471,40 +471,40 @@
 #X connect 9 3 6 0;
 #X connect 9 3 7 0;
 #X connect 9 4 10 0;
-#X connect 12 0 25 0;
+#X connect 12 0 21 0;
 #X connect 12 0 16 0;
 #X connect 12 0 17 0;
-#X connect 12 0 28 0;
+#X connect 12 0 24 0;
 #X connect 13 0 4 0;
 #X connect 14 0 5 0;
 #X connect 15 0 8 0;
 #X connect 16 0 8 0;
-#X connect 17 0 18 0;
-#X connect 18 0 20 0;
-#X connect 18 0 19 0;
-#X connect 18 0 23 0;
-#X connect 19 0 21 0;
-#X connect 19 0 24 0;
-#X connect 20 0 5 0;
-#X connect 21 0 5 0;
-#X connect 22 0 8 0;
-#X connect 23 0 22 0;
-#X connect 24 0 22 0;
-#X connect 25 0 4 0;
-#X connect 27 0 8 0;
+#X connect 17 0 32 0;
+#X connect 18 0 8 0;
+#X connect 19 0 18 0;
+#X connect 20 0 18 0;
+#X connect 21 0 4 0;
+#X connect 23 0 8 0;
+#X connect 24 0 23 0;
+#X connect 25 0 22 0;
+#X connect 25 0 26 0;
+#X connect 26 0 23 0;
+#X connect 27 0 32 0;
+#X connect 28 0 25 0;
 #X connect 28 0 27 0;
-#X connect 29 0 26 0;
+#X connect 28 0 13 0;
+#X connect 28 0 29 0;
 #X connect 29 0 30 0;
-#X connect 30 0 27 0;
-#X connect 31 0 18 0;
-#X connect 32 0 29 0;
-#X connect 32 0 31 0;
-#X connect 32 0 13 0;
+#X connect 30 0 5 0;
+#X connect 31 0 1 0;
+#X connect 31 1 28 0;
 #X connect 32 0 33 0;
-#X connect 33 0 34 0;
+#X connect 32 0 19 0;
+#X connect 32 0 35 0;
+#X connect 33 0 5 0;
 #X connect 34 0 5 0;
-#X connect 35 0 1 0;
-#X connect 35 1 32 0;
+#X connect 35 0 34 0;
+#X connect 35 0 20 0;
 #X restore 57 145 pd BrownMosesMoonWalks;
 #X restore 1152 629 pd BrownMosesMoves;
 #N canvas 470 280 450 300 HarryMoves 0;
@@ -614,11 +614,11 @@
 #X obj 777 448 list;
 #X obj 816 353 t b b;
 #X msg 741 363 set \$1;
-#X msg 749 397 1.22667;
+#X msg 749 397 0.386669;
 #X obj 67 448 list;
 #X obj 106 353 t b b;
 #X msg 31 363 set \$1;
-#X msg 39 397 1.82001;
+#X msg 39 397 -7.94999;
 #X msg 364 303 100;
 #X msg 102 408 100;
 #X msg 812 408 100;
@@ -772,11 +772,11 @@
 #X obj 444 266 +;
 #X obj 430 230 *;
 #X obj 510 240 *;
-#X msg 259 190 -219.6;
-#X msg 69 193 158;
+#X msg 259 190 -150.4;
+#X msg 69 193 80;
 #X obj 585 188 loadbang;
 #X obj 442 146 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 8128 1;
 #X msg 584 306 set \$1;
 #X msg 444 294 set \$1;
 #X obj 439 92 random 101;
@@ -809,7 +809,7 @@
 #X msg 69 266 /EvilPrince_BrasCour/Rotate \$1;
 #X msg 259 286 /EvilPrince_Aura/Rotate \$1;
 #X msg 445 194 -50;
-#X msg 513 178 112;
+#X msg 513 178 128;
 #X msg 709 266 /EvilPrince_Bulle/Rotate \$1;
 #X msg 899 286 /EvilPrince_BulleContent/Rotate \$1;
 #X msg 465 166 set \$1;
@@ -926,9 +926,9 @@
 #X connect 70 0 24 0;
 #X restore 70 108 pd HarryFlyingWings;
 #X restore 1152 655 pd HarryMoves;
-#N canvas 440 218 559 493 MNGroupMove 1;
+#N canvas 440 218 559 493 MNGroupMove 0;
 #X obj 208 40 r MNGroupsMove;
-#N canvas 604 340 649 511 MNGroup1Move 0;
+#N canvas 602 338 649 511 MNGroup1Move 0;
 #N canvas 460 263 815 589 PiedsMove 0;
 #X obj 41 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -946,7 +946,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -955,7 +955,7 @@
 #X obj 372 207 delay 250;
 #X obj 325 343 line;
 #X msg 434 309 set \$1;
-#X msg 399 326 41.6339;
+#X msg 399 326 63.44;
 #X obj 325 190 t b b;
 #X obj 372 241 t b b;
 #X msg 372 285 -2;
@@ -1015,7 +1015,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -1024,7 +1024,7 @@
 #X obj 372 207 delay 250;
 #X obj 325 343 line;
 #X msg 434 309 set \$1;
-#X msg 399 326 41.6339;
+#X msg 399 326 63.44;
 #X obj 325 190 t b b;
 #X obj 372 241 t b b;
 #X msg 372 285 -2;
@@ -1115,7 +1115,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -1166,7 +1166,7 @@
 #X connect 23 0 8 0;
 #X connect 24 0 0 0;
 #X restore 40 83 pd HatsMove;
-#N canvas 429 181 815 626 GroupMove 0;
+#N canvas 427 179 815 626 GroupMove 0;
 #X obj 41 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 208 81 stop;
@@ -1178,7 +1178,7 @@
 #X obj 41 19 r MNGroup1GroupMove;
 #X obj 208 58 r MNGroup1GroupStop;
 #X obj 41 132 metro 10000;
-#X msg 115 326 127.953;
+#X msg 115 326 534.397;
 #X obj 41 294 / 100;
 #X msg 41 371 /Cochon*/Xpos \$1;
 #X msg 41 391 /Prison_*/Xpos \$1;
@@ -1200,7 +1200,7 @@
 #X obj 290 10 r MNGroup1PiedsMove;
 #X msg 457 38 stop;
 #X obj 457 15 r MNGroup1PiedsStop;
-#X msg 439 262 166.535;
+#X msg 439 262 253.76;
 #X obj 492 119 / 4;
 #X msg 420 234 0;
 #X obj 367 216 t b b;
@@ -1225,9 +1225,11 @@
 #X msg 208 269 -18 300;
 #X obj 41 51 sel 1;
 #X obj 208 139 delay 50;
+#X obj 208 118 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 50 0;
 #X connect 1 0 9 0;
-#X connect 1 0 53 0;
+#X connect 1 0 54 0;
 #X connect 2 0 12 0;
 #X connect 2 0 13 0;
 #X connect 2 0 14 0;
@@ -1295,6 +1297,7 @@
 #X connect 52 0 0 0;
 #X connect 52 1 1 0;
 #X connect 53 0 51 0;
+#X connect 54 0 53 0;
 #X restore 40 103 pd GroupMove;
 #X obj 218 68 s MNGroup1PiedsStop;
 #X obj 218 88 s MNGroup1HandsStop;
@@ -1309,7 +1312,7 @@
 #X connect 8 0 7 0;
 #X connect 9 0 8 0;
 #X restore 34 81 pd MNGroup1Move;
-#N canvas 736 258 649 511 MNGroup2Move 1;
+#N canvas 734 256 649 511 MNGroup2Move 0;
 #N canvas 460 263 815 589 PiedsMove 0;
 #X obj 41 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1321,7 +1324,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -1368,7 +1371,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -1377,7 +1380,7 @@
 #X obj 372 207 delay 250;
 #X obj 325 343 line;
 #X msg 434 309 set \$1;
-#X msg 399 326 41.6339;
+#X msg 399 326 63.44;
 #X obj 325 190 t b b;
 #X obj 372 241 t b b;
 #X msg 372 285 -2;
@@ -1468,7 +1471,7 @@
 #X obj 257 134 / 4;
 #X msg 150 309 set \$1;
 #X obj 150 164 / 8;
-#X msg 115 326 41.6339;
+#X msg 115 326 63.44;
 #X obj 41 190 t b b;
 #X obj 88 241 t b b;
 #X obj 41 399 s OSC_MESSAGES;
@@ -1522,7 +1525,7 @@
 #X connect 24 0 1 0;
 #X connect 25 0 0 0;
 #X restore 40 83 pd HatsMove;
-#N canvas 433 185 815 626 GroupMove 1;
+#N canvas 431 183 815 626 GroupMove 0;
 #X obj 41 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 208 81 stop;
@@ -1532,7 +1535,7 @@
 #X obj 41 190 t b b;
 #X obj 98 91 r MNTempoGroups;
 #X obj 41 132 metro 10000;
-#X msg 115 326 127.953;
+#X msg 115 326 534.397;
 #X obj 41 294 / 100;
 #X obj 41 446 s OSC_MESSAGES;
 #X obj 341 102 r MNTempoPieds;
@@ -1546,7 +1549,7 @@
 #X obj 290 37 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 457 38 stop;
-#X msg 439 262 166.535;
+#X msg 439 262 253.76;
 #X obj 492 119 / 4;
 #X msg 420 234 0;
 #X obj 367 216 t b b;
@@ -1581,9 +1584,11 @@
 #X obj 208 151 delay 50;
 #X msg 208 232 18 300;
 #X obj 41 45 sel 1;
+#X obj 208 119 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 49 0;
 #X connect 1 0 7 0;
-#X connect 1 0 51 0;
+#X connect 1 0 54 0;
 #X connect 2 0 44 0;
 #X connect 2 0 45 0;
 #X connect 2 0 46 0;
@@ -1651,6 +1656,7 @@
 #X connect 52 0 2 0;
 #X connect 53 0 0 0;
 #X connect 53 1 1 0;
+#X connect 54 0 51 0;
 #X restore 40 103 pd GroupMove;
 #X obj 228 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
