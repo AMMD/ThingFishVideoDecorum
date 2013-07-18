@@ -8,22 +8,12 @@ Init_Opening 0 -6 0 20 -262144 -258113 -1;
 #X obj 1755 83 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
 -228856 -1 -1 0 1;
 #X obj 195 -97 bng 100 250 50 0 MuddClubQRNArrives MuddClubQRNArrives
-MuddClub_QRN_Arrives 0 -6 0 20 -262144 -258113 -1;
-#X obj 595 -97 bng 100 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
-TF_DeCock 0 -6 0 20 -262144 -258113 -1;
-#X obj 715 -97 bng 100 250 50 0 PrologueTFWellHe PrologueTFWellHe TF_WellHe
-0 -6 0 20 -262144 -258113 -1;
-#X obj 835 -97 bng 100 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
-TF_Shotly 0 -6 0 20 -262144 -258113 -1;
-#X obj 955 -97 bng 100 250 50 0 PrologueTFSoHeah PrologueTFSoHeah TF_SoHeah
-0 -6 0 20 -262144 -258113 -1;
-#X obj 1075 -97 bng 100 250 50 0 PrologueTFDenDey PrologueTFDenDey
-TF_DenDey 0 -6 0 20 -262144 -258113 -1;
-#X obj 1195 -97 bng 100 250 50 0 PrologueTFNextThing PrologueTFNextThing
-TF_NextThing 0 -6 0 20 -262144 -258113 -1;
-#X obj 1345 -97 bng 100 250 50 0 PrologueTFButNot PrologueTFButNot
-TF_ButNot 0 -6 0 20 -262144 -258113 -1;
+QRN_Arrives 0 -6 0 20 -262144 -258113 -1;
+#X obj 595 -97 bng 100 250 50 0 MuddClubOrgy MuddClubOrgy Orgy 0 -6
+0 20 -262144 -258113 -1;
 #X text 11 -168 8 MUDD CLUB CONDUITE;
-#X obj 469 52 hsl 200 50 0 200 0 0 MuddClubAutoDestructRatio MuddClubAutoDestructRatio
-MuddClubAutoDestructRatio -2 -8 0 10 -262144 -1 -1 19900 1;
+#X obj 209 52 hsl 200 50 0 200 0 0 MuddClubAutoDestructRatio MuddClubAutoDestructRatio
+MuddClubAutoDestructRatio -2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 345 -97 bng 100 250 50 0 MuddClubChutes MuddClubChutes Chutes_&_Chretiens
+0 -6 0 20 -262144 -258113 -1;
 #X coords 0 800 1 799 0 0 0;

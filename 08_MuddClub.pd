@@ -26,8 +26,8 @@
 #X msg -594 199 1500;
 #X obj -802 321 s ChuteCrete;
 #X obj -722 321 s ChuteTabouret;
-#X obj 19 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 19 80 bng 15 250 50 0 empty MuddClubOrgy MuddClub_Orgy 17 7
+0 10 -262144 -1 -1;
 #X obj 19 121 s MuddClubFuck;
 #X obj 111 121 s muddClubUsersStopDancing;
 #X obj 19 99 t b b;
@@ -81,6 +81,17 @@ Mudd_Club_AutoDestruct_Ratio -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj -761 824 bng 15 250 50 0 QNRdrague empty QRN_drague 17 7 0 10
 -262144 -1 -1;
 #X obj -761 747 delay 3500;
+#X obj -770 882 cnv 15 200 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj -761 893 bng 15 250 50 0 empty MuddClubChutes Mudd_Club_Chutes
+17 7 0 10 -262144 -1 -1;
+#X obj -761 921 s ChuteCrete;
+#X obj -761 950 s ChuteTabouret;
+#X obj -761 978 delay 700;
+#X obj -761 1005 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -761 1030 s MuddClubGH;
+#X obj -761 1052 s ArriveeVideoChretiens;
 #X connect 0 0 1 0;
 #X connect 0 0 3 0;
 #X connect 0 0 16 0;
@@ -130,3 +141,9 @@ Mudd_Club_AutoDestruct_Ratio -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 59 0 60 0;
 #X connect 61 0 58 0;
 #X connect 61 0 59 0;
+#X connect 63 0 64 0;
+#X connect 63 0 65 0;
+#X connect 63 0 66 0;
+#X connect 66 0 67 0;
+#X connect 67 0 68 0;
+#X connect 67 0 69 0;
