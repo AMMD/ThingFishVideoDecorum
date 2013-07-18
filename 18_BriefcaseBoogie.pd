@@ -73,10 +73,9 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 476 730 bng 15 250 50 0 empty BriefcaseBoogieSisterO BriefcaseBoogie_Sister_O
 17 7 0 10 -262144 -1 -1;
 #X obj 582 745 delay 15200;
-#X obj 476 866 s DaThingFishFaceGetsBackStraightInit;
 #X obj 476 809 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
 17 7 0 10 -262144 -1 -1 1 1;
-#X msg 582 792 0;
+#X obj 582 771 s DaThingFishFaceGetsBackStraight;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -115,6 +114,5 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 48 0 47 0;
 #X connect 48 0 49 0;
 #X connect 51 0 52 0;
-#X connect 51 0 54 0;
-#X connect 52 0 55 0;
-#X connect 55 0 54 0;
+#X connect 51 0 53 0;
+#X connect 52 0 54 0;
