@@ -1,23 +1,19 @@
 #N canvas 7 100 1425 796 10;
 #X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
 #X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
 -228856 -1 -1 0 1;
-#X obj 25 -101 bng 100 250 50 0 CrabGrassBabyInit CrabGrassBabyInit
-Init 0 -6 0 20 -262144 -258113 -1;
-#X obj 155 -101 bng 100 250 50 0 CrabGrassBabySpeaks CrabGrassBabySpeaks
-CrabGrassBaby_Speaks 0 -6 0 20 -262144 -258113 -1;
-#X text 11 -172 15 CRAB GRASS BABY CONDUITE;
-#X obj 415 -101 bng 100 250 50 0 CrabGrassBabyPoopedMyPants CrabGrassBabyPoopedMyPants
-Pooped_My_Pants 0 -6 0 20 -262144 -258113 -1;
-#X obj 625 -101 bng 100 250 50 0 CrabGrassBabyCockOnceInAWhile CrabGrassBabyCockOnceInAWhile
-Cock_Once_In_A_While 0 -6 0 20 -262144 -258113 -1;
-#X obj 895 -101 bng 100 250 50 0 CrabGrassBabyGagMeWithAVolvo CrabGrassBabyGagMeWithAVolvo
-Gag_Me_With_A_Volvo 0 -6 0 20 -262144 -258113 -1;
-#X obj 1155 -101 bng 100 250 50 0 CrabGrassBabyPecker CrabGrassBabyPecker
-Pecker 0 -6 0 20 -262144 -258113 -1;
-#X obj 1285 -101 bng 100 250 50 0 CrabGrassBabyThisBoy CrabGrassBabyThisBoy
-This_Boy 0 -6 0 20 -262144 -258113 -1;
+#X obj 25 -101 bng 100 250 50 0 StickItOutInit StickItOutInit Init
+0 -6 0 20 -262144 -258113 -1;
+#X obj 155 -101 bng 100 250 50 0 ArriveeDriveInPeople ArriveeDriveInPeople
+Den_Den 0 -6 0 20 -262144 -258113 -1;
+#X obj 415 -101 bng 100 250 50 0 StickItOutMagischesSchwein StickItOutMagischesSchwein
+Magisches_Schwein 0 -6 0 20 -262144 -258113 -1;
+#X text 11 -172 17 STICK IT OUT CONDUITE;
+#X obj 376 29 hsl 200 50 1500 300 0 0 tempoDance tempoDance Tempo_Dance
+-2 -8 0 10 -262144 -1 -1 15700 1;
+#X obj 685 -101 bng 100 250 50 0 BriefcaseBoogieInit BriefcaseBoogieInit
+ScrollToBriefcase 0 -6 0 20 -262144 -258113 -1;
 #X coords 0 796 1 795 0 0 0;

@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 7 100 1425 796 10;
 #X obj 20 19 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 434 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -15,6 +15,20 @@
 #X obj 26 114 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 81 129 s OXKidnapped;
+#X obj 465 149 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 477 157 bng 15 250 50 0 empty BriefcaseBoogieInit Briefcase_Boogie_Init
+17 7 0 10 -262144 -1 -1;
+#X obj 618 250 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 477 217 s HandCineticScroll;
+#X obj 618 172 delay 200;
+#X obj 618 306 s DriveInGetsOutToCour;
+#X obj 618 278 s NativiteComesInFromJardinWithoutCGB;
+#X obj 618 204 s TruckLightningStops;
+#X obj 618 227 s DriveInHarryStops;
+#X obj 618 373 s TFPushesItalianInHisHome;
+#X obj 618 335 delay 700;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -24,3 +38,12 @@
 #X connect 3 0 1 0;
 #X connect 9 0 8 0;
 #X connect 10 0 11 0;
+#X connect 13 0 16 0;
+#X connect 13 0 15 0;
+#X connect 14 0 18 0;
+#X connect 16 0 14 0;
+#X connect 16 0 20 0;
+#X connect 16 0 19 0;
+#X connect 16 0 17 0;
+#X connect 16 0 22 0;
+#X connect 22 0 21 0;
