@@ -1,4 +1,4 @@
-#N canvas 140 211 913 390 10;
+#N canvas 138 209 913 390 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X obj 30 25 zac.lumiere /OX_Head;
@@ -514,7 +514,7 @@
 #X restore 702 52 pd TFHandHangsOX;
 #X obj 437 183 loadbang;
 #X obj 437 218 s ObdwellaXInit;
-#N canvas 440 315 794 581 ObdwellaXMoves 0;
+#N canvas 436 311 794 581 ObdwellaXMoves 1;
 #X msg 69 226 /OX_Head/Rotate \$1;
 #X obj 69 259 s OSC_MESSAGES;
 #X obj 200 41 r ObdwellaXStopsMoving;
@@ -943,70 +943,90 @@
 #X obj 69 64 tgl 15 0 empty ObdwellaXMoves ObdwellaXMoves 17 7 0 10
 -262144 -1 -1 0 1;
 #N canvas 0 100 1440 800 OXFalls 1;
-#X obj 80 131 line;
-#X obj 80 233 s OSC_MESSAGES;
-#X obj 53 38 t b b;
-#X obj 53 19 bng 15 250 50 0 empty OXFalls OX_Falls 17 7 0 10 -262144
+#X obj 80 221 line;
+#X obj 80 323 s OSC_MESSAGES;
+#X obj 53 98 t b b;
+#X obj 53 79 bng 15 250 50 0 empty OXFalls OX_Falls 17 7 0 10 -262144
 -1 -1;
-#X obj 80 69 v /OX_Body/Xpos;
-#X msg 80 174 /OX_Body/Xpos \$1;
-#X msg 33 216 /OX_Head/Xpos \$1;
-#X obj 271 49 v /OX_Body/Ypos;
-#X obj 259 33 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 230 181 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 80 159 v /OX_Body/Xpos;
+#X msg 80 264 /OX_Body/Xpos \$1;
+#X msg 33 306 /OX_Head/Xpos \$1;
+#X obj 271 139 v /OX_Body/Ypos;
+#X obj 259 123 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 192 340 /OX_Body/Ypos \$1;
-#X msg 144 382 /OX_Head/Ypos \$1;
-#X obj 341 322 line;
-#X obj 331 369 + 1.6;
-#X obj 488 190 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 230 271 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 483 142 delay 200;
-#X msg 53 101 -3 3000;
-#X obj 253 159 delay 3000;
-#X msg 475 232 5.5 3000;
-#X obj 483 275 delay 3000;
-#X msg 491 311 10 400;
-#X obj 236 231 delay 200;
-#X msg 311 257 3.5 200;
-#X msg 299 200 8.5 200;
-#X msg 248 197 3 200;
+#X msg 192 430 /OX_Body/Ypos \$1;
+#X msg 144 472 /OX_Head/Ypos \$1;
+#X obj 341 412 line;
+#X obj 331 459 + 1.6;
+#X obj 488 280 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 483 232 delay 200;
+#X msg 491 401 10 400;
+#X obj 236 321 delay 200;
+#X msg 311 347 3.5 200;
+#X msg 299 290 8.5 200;
+#X msg 248 287 3 200;
+#X msg 53 191 -3 15000;
+#X obj 253 249 delay 15000;
+#X msg 475 322 5.5 15000;
+#X obj 483 365 delay 15000;
+#X obj 718 91 bng 15 250 50 0 empty OXSquidDecor OX_Squid_Decor 17
+7 0 10 -262144 -1 -1;
+#X obj 735 386 s OSC_MESSAGES;
+#X obj 718 123 t b b b b;
+#X msg 718 356 /OX_Body/ShapeIndex 4;
+#X msg 769 159 /OX_Body/AddFile /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/Obdwella_Pieuvre_arret.png
+;
+#X msg 752 219 /OX_Body/AddFile /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/Obdwella_Pieuvre_marche1.png
+;
+#X msg 735 279 /OX_Body/AddFile /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/ObdwellaX/data/Obdwella_Pieuvre_marche2.png
+;
 #X connect 0 0 5 0;
 #X connect 0 0 6 0;
-#X connect 2 0 16 0;
+#X connect 2 0 21 0;
 #X connect 2 1 4 0;
 #X connect 2 1 8 0;
-#X connect 2 1 17 0;
+#X connect 2 1 22 0;
 #X connect 3 0 2 0;
 #X connect 4 0 0 0;
 #X connect 5 0 1 0;
 #X connect 6 0 1 0;
 #X connect 7 0 12 0;
 #X connect 8 0 7 0;
-#X connect 9 0 24 0;
-#X connect 9 0 23 0;
+#X connect 9 0 20 0;
+#X connect 9 0 19 0;
 #X connect 9 0 15 0;
-#X connect 9 0 21 0;
+#X connect 9 0 17 0;
 #X connect 10 0 1 0;
 #X connect 11 0 1 0;
 #X connect 12 0 10 0;
 #X connect 12 0 13 0;
 #X connect 13 0 11 0;
-#X connect 14 0 18 0;
-#X connect 14 0 19 0;
+#X connect 14 0 23 0;
+#X connect 14 0 24 0;
 #X connect 15 0 14 0;
 #X connect 16 0 0 0;
-#X connect 17 0 9 0;
-#X connect 18 0 0 0;
-#X connect 19 0 23 0;
-#X connect 19 0 20 0;
-#X connect 19 0 21 0;
+#X connect 17 0 18 0;
+#X connect 18 0 12 0;
+#X connect 19 0 12 0;
 #X connect 20 0 0 0;
-#X connect 21 0 22 0;
-#X connect 22 0 12 0;
-#X connect 23 0 12 0;
-#X connect 24 0 0 0;
+#X connect 21 0 0 0;
+#X connect 22 0 9 0;
+#X connect 23 0 0 0;
+#X connect 24 0 19 0;
+#X connect 24 0 16 0;
+#X connect 24 0 17 0;
+#X connect 25 0 27 0;
+#X connect 27 0 28 0;
+#X connect 27 1 31 0;
+#X connect 27 2 30 0;
+#X connect 27 3 29 0;
+#X connect 28 0 26 0;
+#X connect 29 0 26 0;
+#X connect 30 0 26 0;
+#X connect 31 0 26 0;
 #X restore 510 107 pd OXFalls;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
