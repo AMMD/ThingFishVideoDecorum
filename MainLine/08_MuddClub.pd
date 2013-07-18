@@ -17,5 +17,5 @@ MuddClubAutoDestructRatio -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 345 -97 bng 100 250 50 0 MuddClubChutes MuddClubChutes Chutes_&_Chretiens
 0 -6 0 20 -262144 -258113 -1;
 #X obj 755 -97 bng 100 250 50 0 MuddClubScrollToEconomicWorship MuddClubOrgyScrollToEconomicWorship
-ScrollTo 0 -6 0 20 -262144 -258113 -1;
+ScrollToMeek 0 -6 0 20 -262144 -258113 -1;
 #X coords 0 800 1 799 0 0 0;
