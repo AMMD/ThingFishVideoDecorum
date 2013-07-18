@@ -45,12 +45,49 @@
 #X msg 144 171 stop;
 #X obj 207 208 s StopBaisePunkQNR;
 #X obj 199 153 r StopMainFuck;
+#X obj -770 412 cnv 15 200 250 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj -761 423 bng 15 250 50 0 empty MuddClubInitOpening Mudd_Club_Init_Opening
+17 7 0 10 -262144 -1 -1;
+#X obj -734 480 bng 15 250 50 0 MuddClubInit empty MuddClub_Init 17
+7 0 10 -262144 -1 -1;
+#X obj -761 505 bng 15 250 50 0 muddClubUsersDancing empty MuddClub_Users_Dancing
+17 7 0 10 -262144 -1 -1;
+#X obj -761 443 t b b;
+#X msg -734 524 1500;
+#X msg -734 573 0;
+#X obj -686 541 s tempoDance;
+#X obj -688 590 s jumpHighness;
+#X obj -761 619 delay 300;
+#X obj -679 636 s CurtainsOpened;
+#X floatatom -698 246 5 0 0 0 - - -;
+#X obj -537 412 cnv 15 260 130 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj -518 435 hsl 128 15 0 200 0 0 empty MuddClubAutoDestructRatio
+Mudd_Club_AutoDestruct_Ratio -2 -8 0 10 -262144 -1 -1 0 1;
+#X obj -521 481 + 1500;
+#X obj -521 461 * -6;
+#X obj -521 506 s tempoDance;
+#X obj -373 450 s jumpHighness;
+#X obj -770 682 cnv 15 200 180 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj -761 693 bng 15 250 50 0 empty MuddClubQRNArrives Mudd_Club_QNR_Arrives
+17 7 0 10 -262144 -1 -1;
+#X obj -761 720 bng 15 250 50 0 QNRarrivee empty QRN_Arrivée 17 7
+0 10 -262144 -1 -1;
+#X obj -761 771 bng 15 250 50 0 QNRdecouvre empty QRN_découvre 17
+7 0 10 -262144 -1 -1;
+#X obj -761 796 delay 1000;
+#X obj -761 824 bng 15 250 50 0 QNRdrague empty QRN_drague 17 7 0 10
+-262144 -1 -1;
+#X obj -761 747 delay 3500;
 #X connect 0 0 1 0;
 #X connect 0 0 3 0;
 #X connect 0 0 16 0;
 #X connect 0 0 17 0;
 #X connect 2 0 4 0;
 #X connect 8 0 7 0;
+#X connect 8 0 48 0;
 #X connect 9 0 10 0;
 #X connect 11 0 5 0;
 #X connect 12 0 6 0;
@@ -75,3 +112,21 @@
 #X connect 34 0 31 0;
 #X connect 34 0 35 0;
 #X connect 36 0 34 0;
+#X connect 38 0 41 0;
+#X connect 38 0 46 0;
+#X connect 41 0 40 0;
+#X connect 41 1 39 0;
+#X connect 41 1 42 0;
+#X connect 41 1 43 0;
+#X connect 42 0 44 0;
+#X connect 43 0 45 0;
+#X connect 46 0 47 0;
+#X connect 50 0 52 0;
+#X connect 50 0 54 0;
+#X connect 51 0 53 0;
+#X connect 52 0 51 0;
+#X connect 56 0 57 0;
+#X connect 56 0 61 0;
+#X connect 59 0 60 0;
+#X connect 61 0 58 0;
+#X connect 61 0 59 0;

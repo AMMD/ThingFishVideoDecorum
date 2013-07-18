@@ -5,3 +5,5 @@
 #X obj 480 17 04_GalootUpdate;
 #X obj 640 17 05_Torchum;
 #X obj 770 17 06_ThatEvilPrince;
+#X obj 940 17 07_YouAreWhatYouIs;
+#X obj 1120 17 08_MuddClub;
