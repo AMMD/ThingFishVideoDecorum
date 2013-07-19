@@ -43,7 +43,7 @@
 #X obj 1156 509 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
 -66577 0;
 #X obj 1168 655 hsl 128 15 0 127 0 0 empty BriefcaseBoogieTFLooksHAngle
-BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
+BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
 #X msg 865 564 50;
 #X msg 865 631 30;
 #X obj 1165 598 / -0.75;
@@ -73,9 +73,59 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 476 730 bng 15 250 50 0 empty BriefcaseBoogieTFSisterO BriefcaseBoogie_TF_Sister_O
 17 7 0 10 -262144 -1 -1;
 #X obj 582 745 delay 15200;
-#X obj 476 809 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
-17 7 0 10 -262144 -1 -1 1 1;
 #X obj 582 771 s DaThingFishFaceGetsBackStraight;
+#X msg 476 762 1;
+#X obj 476 801 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 466 838 cnv 15 230 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 476 850 bng 15 250 50 0 empty BriefcaseBoogieTFSisterO BriefcaseBoogie_TF_Sister_O
+17 7 0 10 -262144 -1 -1;
+#X obj 582 865 delay 15200;
+#X obj 582 891 s DaThingFishFaceGetsBackStraight;
+#X msg 476 882 1;
+#X obj 476 921 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 867 823 cnv 15 100 60 empty empty empty 20 12 0 14 -257985 -66577
+0;
+#X obj 886 829 tgl 15 0 empty BriefcaseBoogieTFRonde BriefcaseBoogie_TF_Ronde
+17 7 0 10 -262144 -1 -1 0 1;
+#X msg 915 978 0;
+#X msg 884 981 1;
+#X msg 985 958 0;
+#X msg 954 961 1;
+#X obj 954 994 tgl 15 0 BriefcaseBoogieRubberMammy empty BriefcaseBoogie_Rubber_Mammy
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 1026 974 tgl 15 0 TFHidingEyes empty TF_Hiding_Eyes 17 7 0 10
+-262144 -1 -1 0 1;
+#X msg 1055 948 0;
+#X msg 1024 951 1;
+#X msg 1126 909 stop;
+#X obj 1102 952 s TFIn;
+#X obj 1159 961 delay 2500;
+#X obj 1165 986 s TFOut;
+#X obj 955 934 sel 0;
+#X obj 1026 924 sel 1;
+#X obj 1092 879 sel 2;
+#X obj 835 918 delay 600;
+#X obj 816 1005 s DaThingFishFacePlunges;
+#X obj 816 1039 s TFPlungingLooksAround;
+#X obj 818 957 delay 500;
+#X obj 1036 1044 tgl 15 0 BriefcaseBoogieSisterO empty SisterO 17 7
+0 10 -262144 -1 -1 0 1;
+#X msg 1065 1018 0;
+#X msg 1034 1021 1;
+#X obj 1036 994 sel 3;
+#X obj 886 880 random 4;
+#X obj 886 850 metro 6000;
+#X obj 1156 936 delay 4000;
+#X obj 761 970 sel 0;
+#X obj 465 959 cnv 15 200 70 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 477 967 bng 15 250 50 0 empty BriefcaseBoogieTFObdwellaIsYou
+Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
+#X obj 477 992 tgl 15 0 BriefcaseBoogieTFPointsH empty BriefcaseBoogie_TF_Points_H
+17 7 0 10 -262144 -1 -1 0 1;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -114,5 +164,49 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 48 0 47 0;
 #X connect 48 0 49 0;
 #X connect 51 0 52 0;
-#X connect 51 0 53 0;
-#X connect 52 0 54 0;
+#X connect 51 0 54 0;
+#X connect 52 0 53 0;
+#X connect 54 0 55 0;
+#X connect 57 0 58 0;
+#X connect 57 0 60 0;
+#X connect 58 0 59 0;
+#X connect 60 0 61 0;
+#X connect 63 0 88 0;
+#X connect 63 0 90 0;
+#X connect 64 0 80 0;
+#X connect 64 0 81 0;
+#X connect 65 0 80 0;
+#X connect 65 0 81 0;
+#X connect 66 0 68 0;
+#X connect 67 0 68 0;
+#X connect 70 0 69 0;
+#X connect 71 0 69 0;
+#X connect 72 0 88 0;
+#X connect 74 0 75 0;
+#X connect 76 0 67 0;
+#X connect 76 0 79 0;
+#X connect 76 1 66 0;
+#X connect 77 0 71 0;
+#X connect 77 0 79 0;
+#X connect 77 1 70 0;
+#X connect 78 0 72 0;
+#X connect 78 0 73 0;
+#X connect 78 0 74 0;
+#X connect 78 0 89 0;
+#X connect 79 0 66 0;
+#X connect 79 0 70 0;
+#X connect 79 0 82 0;
+#X connect 82 0 65 0;
+#X connect 84 0 83 0;
+#X connect 85 0 83 0;
+#X connect 86 0 85 0;
+#X connect 86 1 84 0;
+#X connect 87 0 76 0;
+#X connect 87 0 77 0;
+#X connect 87 0 78 0;
+#X connect 87 0 86 0;
+#X connect 88 0 64 0;
+#X connect 88 0 87 0;
+#X connect 89 0 88 0;
+#X connect 90 0 64 0;
+#X connect 92 0 93 0;
