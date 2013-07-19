@@ -1,10 +1,10 @@
-#N canvas 794 100 645 822 10;
+#N canvas 0 100 1440 800 10;
 #X text 21 -158 6 THAT EVIL PRINCE CONDUITE;
 #X obj 29 42 hsl 200 50 0 127 0 0 ThatEPTFLooksHRAngle ThatEPTFLooksHRAngle
-TF_Looks_HR_Angle -2 -8 0 10 -262144 -1 -1 4701 1;
-#X obj 45 -87 bng 100 250 50 0 ThatEPTFDontYouWhiteFolks ThatEPTFDontYouWhiteFolks
-TF_DontYouWhiteFolks 0 -6 0 20 -262144 -258113 -1;
-#X obj 295 -87 bng 100 250 50 0 ThatEPTFDadDereId ThatEPTFDadDereId
-TF_DadDereId 0 -6 0 20 -262144 -258113 -1;
-#X obj 465 -87 bng 100 250 50 0 ThatEPTFStraightenUp ThatEPTFStraightenUp
-TF_StraightenUp 0 -6 0 20 -262144 -258113 -1;
+TF_Looks_HR_Angle -2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 26 -86 tgl 100 0 ThatEPTFDontYouWhiteFolks ThatEPTFDontYouWhiteFolks
+TF_DontYouWhiteFolks 0 -3 0 15 -262144 -1 -1 0 1;
+#X obj 216 -86 tgl 100 0 ThatEPTFDadDereId ThatEPTFDadDereId TF_DadDereId
+0 -3 0 15 -262144 -1 -1 0 1;
+#X obj 356 -86 tgl 100 0 ThatEPTFStraightenUp ThatEPTFStraightenUp
+TF_StraightenUp 0 -3 0 15 -262144 -1 -1 0 1;

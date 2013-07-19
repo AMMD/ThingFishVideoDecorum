@@ -1,23 +1,23 @@
-#N canvas 0 1251 1440 849 10;
-#X obj 35 -48 bng 100 250 50 0 TorchumTFOut TorchumTFOut TF_Out 0 -6
+#N canvas 0 100 1440 800 10;
+#X obj 35 -97 bng 100 250 50 0 TorchumTFOut TorchumTFOut TF_Out 0 -6
 0 20 -262144 -258113 -1;
-#X obj 1755 -108 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
+#X obj 1755 -157 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
-#X obj 155 -48 bng 100 250 50 0 TorchumTFOpensCurtains TorchumTFOpensCurtains
+#X obj 155 -97 bng 100 250 50 0 TorchumTFOpensCurtains TorchumTFOpensCurtains
 TF_O_Curtains 0 -6 0 20 -262144 -258113 -1;
-#X obj 315 -48 bng 100 250 50 0 TorchumTFOneMoGin TorchumTFOneMoGin
+#X obj 315 -97 bng 100 250 50 0 TorchumTFOneMoGin TorchumTFOneMoGin
 TF_OneMoGin 0 -6 0 20 -262144 -258113 -1;
-#X obj 1755 212 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
-0 30 -228856 -1 -1 0 1;
-#X obj 1755 332 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
+#X obj 1755 163 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
+0 30 -228856 -1 -1 1 1;
+#X obj 1755 283 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
 30 -228856 -1 -1 0 1;
-#X obj 455 -48 bng 100 250 50 0 TorchumTFSmellsTrubba TorchumTFSmellsTrubba
+#X obj 455 -97 bng 100 250 50 0 TorchumTFSmellsTrubba TorchumTFSmellsTrubba
 TF_SmellsTrubba 0 -6 0 20 -262144 -258113 -1;
-#X obj 645 -48 bng 100 250 50 0 TorchumDunjonDoorsMove TorchumDunjonDoorsMove
+#X obj 645 -97 bng 100 250 50 0 TorchumDunjonDoorsMove TorchumDunjonDoorsMove
 DjDMove 0 -6 0 20 -262144 -258113 -1;
-#X obj 765 -48 bng 100 250 50 0 TorchumTFDoYosef TorchumTFDoYosef TF_DoYosef
+#X obj 765 -97 bng 100 250 50 0 TorchumTFDoYosef TorchumTFDoYosef TF_DoYosef
 0 -6 0 20 -262144 -258113 -1;
-#X text 11 -119 5 THE TORCHUM CONDUITE;
-#X obj 908 -47 tgl 100 0 TorchumTFPlungesMoves TorchumTFPlungesMoves
+#X text 11 -168 5 THE TORCHUM CONDUITE;
+#X obj 908 -96 tgl 100 0 TorchumTFPlungesMoves TorchumTFPlungesMoves
 TFPluMov 0 -3 0 30 -228856 -1 -1 0 1;
-#X coords 0 849 1 848 0 0 0;
+#X coords 0 800 1 799 0 0 0;
