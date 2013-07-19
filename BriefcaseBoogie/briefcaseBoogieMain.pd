@@ -1,5 +1,5 @@
 #N canvas 1 100 852 678 10;
-#N canvas 499 100 850 796 AgreementsInit 0;
+#N canvas 497 100 850 796 AgreementsInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -143,9 +143,9 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 71 41 pd AgreementsInit;
-#N canvas 0 100 1440 800 AgreementsAreFalling 0;
+#N canvas 0 100 1440 800 AgreementsAreFalling 1;
 #X obj 36 28 r AgreementsAreFalling;
-#X obj 36 58 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 36 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 162 195 * 0.75;
 #X obj 166 141 random 41;
@@ -214,7 +214,14 @@
 #X msg 828 555 /ItalienBras/Rotate \$1;
 #X msg 828 402 /ItalienBras/File /home/woii/2013_Sebkha-ChottGalootFormula_ThingFish/ThingFishVideoDecorum/Italien/data/italien_jumelles.png
 ;
-#X connect 0 0 1 0;
+#X obj 36 52 sel 1;
+#X msg 303 493 /EvilPrince_Tete/Activate \$1;
+#X msg 303 523 /EvilPrince_BrasCour/Activate \$1;
+#X msg 303 563 /CuveGaloot/Activate \$1;
+#X msg 303 472 0;
+#X msg 303 443 1;
+#X msg 303 543 /EvilPrince_Corps/Activate \$1;
+#X connect 0 0 63 0;
 #X connect 1 0 44 0;
 #X connect 1 0 47 0;
 #X connect 2 0 12 0;
@@ -306,6 +313,7 @@
 #X connect 54 0 44 0;
 #X connect 54 0 51 0;
 #X connect 54 0 62 0;
+#X connect 54 0 67 0;
 #X connect 55 0 54 0;
 #X connect 56 0 58 0;
 #X connect 58 0 59 0;
@@ -314,6 +322,21 @@
 #X connect 60 0 61 0;
 #X connect 61 0 57 0;
 #X connect 62 0 57 0;
+#X connect 63 0 1 0;
+#X connect 63 0 68 0;
+#X connect 63 1 54 0;
+#X connect 64 0 15 0;
+#X connect 65 0 15 0;
+#X connect 66 0 15 0;
+#X connect 67 0 64 0;
+#X connect 67 0 65 0;
+#X connect 67 0 66 0;
+#X connect 67 0 69 0;
+#X connect 68 0 64 0;
+#X connect 68 0 65 0;
+#X connect 68 0 66 0;
+#X connect 68 0 69 0;
+#X connect 69 0 15 0;
 #X restore 675 67 pd AgreementsAreFalling;
 #N canvas 497 100 850 796 NoMustachInit 0;
 #X obj 234 572 send OSC_MESSAGES;
@@ -459,7 +482,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 71 61 pd NoMustachInit;
-#N canvas 489 100 850 796 StyloInit 0;
+#N canvas 487 100 850 796 StyloInit 0;
 #X obj 234 572 send OSC_MESSAGES;
 #X obj 114 499 list prepend;
 #X obj 71 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -603,7 +626,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 71 131 pd StyloInit;
-#N canvas 0 100 1440 800 StyloIsFalling 1;
+#N canvas 0 100 1440 800 StyloIsFalling 0;
 #X obj 24 21 r StyloIsFalling;
 #X obj 24 52 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -675,7 +698,7 @@
 #X connect 28 0 30 0;
 #X connect 30 0 29 0;
 #X restore 674 100 pd StyloIsFalling;
-#N canvas 0 100 1440 800 MachouilleStylo 1;
+#N canvas 0 100 1440 800 MachouilleStylo 0;
 #X obj 37 26 r MachouilleStylo;
 #X obj 37 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;

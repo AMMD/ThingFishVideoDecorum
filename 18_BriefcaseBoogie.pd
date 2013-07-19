@@ -43,7 +43,7 @@
 #X obj 1156 509 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
 -66577 0;
 #X obj 1168 655 hsl 128 15 0 127 0 0 empty BriefcaseBoogieTFLooksHAngle
-BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
+BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
 #X msg 865 564 50;
 #X msg 865 631 30;
 #X obj 1165 598 / -0.75;
@@ -66,7 +66,7 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 -66577 0;
 #X obj 476 635 s DaThingFishFaceNostrilsWideOpen;
 #X obj 476 607 tgl 15 0 empty BriefcaseBoogieRubberMammy BriefcaseBoogie_Rubber_Mammy
-17 7 0 10 -262144 -1 -1 0 1;
+17 7 0 10 -262144 -1 -1 1 1;
 #X obj 476 655 s DaThingFishFaceEyesWideOpen;
 #X obj 466 718 cnv 15 230 100 empty empty empty 20 12 0 14 -233017
 -66577 0;
@@ -89,13 +89,13 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 867 823 cnv 15 100 60 empty empty empty 20 12 0 14 -257985 -66577
 0;
 #X obj 886 829 tgl 15 0 empty BriefcaseBoogieTFRonde BriefcaseBoogie_TF_Ronde
-17 7 0 10 -262144 -1 -1 0 1;
+17 7 0 10 -262144 -1 -1 1 1;
 #X msg 915 978 0;
 #X msg 884 981 1;
 #X msg 985 958 0;
 #X msg 954 961 1;
 #X obj 954 994 tgl 15 0 BriefcaseBoogieRubberMammy empty BriefcaseBoogie_Rubber_Mammy
-17 7 0 10 -262144 -1 -1 0 1;
+17 7 0 10 -262144 -1 -1 1 1;
 #X obj 1026 974 tgl 15 0 TFHidingEyes empty TF_Hiding_Eyes 17 7 0 10
 -262144 -1 -1 0 1;
 #X msg 1055 948 0;
@@ -128,6 +128,43 @@ Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 750 189 /Djbebe/RenderOrder -17;
 #X obj 750 224 s OSC_MESSAGES;
+#X obj 476 688 s AgreementsInit;
+#X obj 476 672 sel 1;
+#X obj 465 1049 cnv 15 200 70 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 477 1057 bng 15 250 50 0 empty BriefcaseBoogieTFGirl Briefcase_Boogie_TFGirl
+17 7 0 10 -262144 -1 -1;
+#X obj 477 1172 tgl 15 0 BriefcaseBoogieTFPointsH empty BriefcaseBoogie_TF_Points_H
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 855 1089 cnv 15 240 280 empty empty empty 20 12 0 14 -257985
+-66577 0;
+#X obj 865 1097 tgl 15 0 empty BriefcaseBoogieTFPointsR BriefcaseBoogie_TF_Points_R
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 865 1139 s HandJardinPointerActivate;
+#X obj 865 1253 s HandJardinPointerAngle;
+#X obj 920 1286 s HandJardinPointerXPosition;
+#X obj 865 1193 s DaThingFishFacePlunges;
+#X obj 865 1340 s TFLooksInAParticularDirection;
+#X obj 865 1281 delay 10;
+#X obj 1156 1179 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj 1168 1325 hsl 128 15 -180 180 0 0 empty BriefcaseBoogieTFLooksRAngle
+BriefcaseBoogie_TF_Looks_R_Angle -2 -8 0 10 -262144 -1 -1 5592 1;
+#X obj 1165 1268 / -0.75;
+#X obj 1165 1236 + 90;
+#X obj 865 1213 sel 1;
+#X obj 938 1318 s BriefcaseBoogieTFLooksRAngle;
+#X msg 865 1301 -30;
+#X msg 865 1234 90;
+#X msg 920 1230 -3;
+#X msg 555 1130 0;
+#X obj 555 1203 delay 2000;
+#X obj 477 1086 delay 4000;
+#X msg 605 1072 0;
+#X obj 555 1237 bng 15 250 50 0 StyloIsFalling empty Stylo_Is_Falling
+17 7 0 10 -262144 -1 -1;
+#X obj 555 1103 delay 6000;
+#X obj 605 1093 s BriefcaseBoogieTFRonde;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -166,6 +203,7 @@ Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 #X connect 44 0 45 0;
 #X connect 48 0 47 0;
 #X connect 48 0 49 0;
+#X connect 48 0 97 0;
 #X connect 51 0 52 0;
 #X connect 51 0 54 0;
 #X connect 52 0 53 0;
@@ -214,3 +252,28 @@ Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 #X connect 90 0 64 0;
 #X connect 92 0 93 0;
 #X connect 94 0 95 0;
+#X connect 97 0 96 0;
+#X connect 99 0 120 0;
+#X connect 99 0 121 0;
+#X connect 102 0 103 0;
+#X connect 102 0 106 0;
+#X connect 102 0 113 0;
+#X connect 108 0 115 0;
+#X connect 110 0 111 0;
+#X connect 110 0 107 0;
+#X connect 111 0 112 0;
+#X connect 112 0 104 0;
+#X connect 113 0 116 0;
+#X connect 113 0 108 0;
+#X connect 113 0 117 0;
+#X connect 115 0 107 0;
+#X connect 115 0 114 0;
+#X connect 116 0 104 0;
+#X connect 117 0 105 0;
+#X connect 118 0 100 0;
+#X connect 119 0 122 0;
+#X connect 120 0 100 0;
+#X connect 120 0 123 0;
+#X connect 121 0 124 0;
+#X connect 123 0 118 0;
+#X connect 123 0 119 0;
