@@ -17,3 +17,5 @@
 #X obj 1070 87 16_WhiteBoyTroubles;
 #X obj 1260 87 17_StickItOut;
 #X obj 20 157 18_BriefcaseBoogie;
+#X obj 219 157 19_BrownMoses;
+#X obj 379 157 20_Wistful;

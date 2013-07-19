@@ -1,4 +1,4 @@
-#N canvas 130 121 1196 733 10;
+#N canvas 122 100 1196 733 10;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
 #X declare -path ./lib/sssad;
@@ -29,7 +29,7 @@
 #X obj 504 322 r TFPlaysFlute;
 #X obj 504 354 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 531 413 s DaThingFishFaceProfile;
+#X obj 603 421 s DaThingFishFaceProfile;
 #X obj 504 387 t b b;
 #X obj 504 623 s OSC_MESSAGES;
 #X msg 658 471 /ThiFiBecBas/Rotate -5;
@@ -51,6 +51,8 @@
 #X obj 585 382 s HandsPlayingFluteActivate;
 #X obj 790 349 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
+#X obj 639 338 sel 1;
+#X msg 553 404 1;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
 #X connect 2 0 10 0;
@@ -81,14 +83,14 @@
 #X connect 16 0 14 0;
 #X connect 16 0 18 0;
 #X connect 18 0 11 0;
-#X connect 19 0 20 0;
+#X connect 19 0 42 0;
 #X connect 20 0 22 0;
 #X connect 22 0 24 0;
 #X connect 22 0 25 0;
 #X connect 22 0 38 0;
-#X connect 22 1 21 0;
 #X connect 22 1 32 0;
 #X connect 22 1 40 0;
+#X connect 22 1 43 0;
 #X connect 24 0 23 0;
 #X connect 25 0 29 0;
 #X connect 26 0 28 0;
@@ -107,3 +109,6 @@
 #X connect 41 0 35 0;
 #X connect 41 0 36 0;
 #X connect 41 0 39 0;
+#X connect 42 0 20 0;
+#X connect 42 1 41 0;
+#X connect 43 0 21 0;

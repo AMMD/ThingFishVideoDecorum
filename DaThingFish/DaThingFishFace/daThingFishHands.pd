@@ -658,12 +658,12 @@
 #X obj 308 160 r HandJardinPointerAngle;
 #X msg 308 429 \$1 200;
 #X obj 313 140 hsl 128 15 0 180 0 0 HandJardinPointerAngle HandJardinPointerAngle
-empty -2 -8 0 10 -262144 -1 -1 0 1;
+empty -2 -8 0 10 -262144 -1 -1 9171 1;
 #X obj 604 446 line;
 #X msg 668 429 \$1 200;
 #X msg 604 413 -1.437;
 #X obj 673 140 hsl 128 15 -8 8 0 0 HandJardinPointerXPosition HandJardinPointerXPosition
-empty -2 -8 0 10 -262144 -1 -1 0 1;
+empty -2 -8 0 10 -262144 -1 -1 3969 1;
 #X msg 604 471 /HandJardin/Xpos \$1;
 #X obj 668 161 r HandJardinPointerXPosition;
 #X obj 924 446 line;
@@ -709,7 +709,7 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 27 1 29 0;
 #X connect 29 0 28 0;
 #X restore 184 356 pd HandJardinPointer;
-#N canvas 0 100 1440 800 HandJardinGratteCrane 0;
+#N canvas 0 100 1440 800 HandJardinGratteCrane 1;
 #X obj 198 -9 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 120 122 line;
@@ -979,6 +979,7 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 202 -35 r HandJardinGratteCrane;
 #X obj 328 217 delay 300;
 #X obj 759 95 t b b;
+#X obj 289 1 sel 1;
 #X connect 0 0 2 0;
 #X connect 1 0 7 0;
 #X connect 2 0 9 0;
@@ -1011,12 +1012,14 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 25 0 14 0;
 #X connect 26 0 31 0;
 #X connect 27 0 28 0;
-#X connect 29 0 0 0;
+#X connect 29 0 32 0;
 #X connect 30 0 16 0;
 #X connect 31 0 24 0;
 #X connect 31 0 23 0;
 #X connect 31 0 11 0;
 #X connect 31 1 25 0;
+#X connect 32 0 0 0;
+#X connect 32 1 27 0;
 #X restore 364 417 pd HandJardinGratteCrane;
 #N canvas 7 100 1425 796 HandsClap 0;
 #N canvas 536 348 731 468 HandJardinClappingInit 0;
@@ -1634,7 +1637,7 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 59 0 56 0;
 #X connect 60 0 57 0;
 #X restore 184 386 pd HandsClap;
-#N canvas 0 100 1440 800 HandsHidingEyes 1;
+#N canvas 0 100 1440 800 HandsHidingEyes 0;
 #X obj 17 93 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 1122 -3 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144

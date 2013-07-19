@@ -469,7 +469,7 @@
 #X obj 358 148 r TFLooksInAParticularDirection;
 #X obj 385 257 v /ThiFiContourTete/Rotate;
 #X obj 358 175 t b b;
-#X msg 296 257 30;
+#X msg 296 257 -29.9906;
 #X msg 296 165 set \$1;
 #X obj 81 51 sel 1;
 #X connect 0 0 6 0;
@@ -1249,8 +1249,8 @@
 #X connect 7 0 0 0;
 #X connect 7 1 1 0;
 #X restore 589 116 pd DaThingFishEyesWideOpen;
-#N canvas 556 363 685 347 DaThingFishFronceOpen 0;
-#X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 552 359 685 347 DaThingFishFronceOpen 1;
+#X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1402,10 +1402,13 @@
 #X restore 289 36 pd DaThingFishFaceEyesWideOpenInit;
 #X obj 31 18 r DaThingFishFaceEyesFronce;
 #X obj 31 77 s DaThingFishFaceEyesFronceInit;
+#X obj 70 46 sel 1;
 #X connect 0 0 6 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
-#X connect 5 0 0 0;
+#X connect 5 0 7 0;
+#X connect 7 0 0 0;
+#X connect 7 1 1 0;
 #X restore 589 136 pd DaThingFishFronceOpen;
 #N canvas 554 361 685 347 DaThingFishNostrilsWideOpen 0;
 #X obj 31 55 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1569,7 +1572,7 @@
 #X connect 7 0 0 0;
 #X connect 7 1 1 0;
 #X restore 589 156 pd DaThingFishNostrilsWideOpen;
-#N canvas 7 100 1425 796 DaThingFishProfile 1;
+#N canvas 7 100 1425 796 DaThingFishProfile 0;
 #X obj 31 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 31 165 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1

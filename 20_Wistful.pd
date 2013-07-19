@@ -1,4 +1,4 @@
-#N canvas 1 100 954 573 10;
+#N canvas 0 100 1440 800 10;
 #X obj 61 66 s TFOpensCurtains;
 #X obj 44 18 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -13,9 +13,280 @@
 #X obj 59 134 s dunjonDoorsMoveCour;
 #X obj 246 157 s ZombiesMammified;
 #X msg 246 134 1;
+#X obj 445 36 cnv 15 280 300 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 453 42 bng 15 250 50 0 empty WisftulInit Wistful_Init 17 7 0
+10 -262144 -1 -1;
+#X obj 453 63 s DunjonInit;
+#X obj 453 88 s TFOut;
+#X obj 453 116 delay 3000;
+#X obj 453 141 s TFOpensCurtains;
+#X obj 453 173 delay 3500;
+#X obj 453 302 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 469 317 s dunjonDoorsMoveJardin;
+#X obj 453 199 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 469 214 s dunjonDoorsMoveCour;
+#X obj 606 237 s ZombiesMammified;
+#X msg 606 214 1;
+#X obj 453 274 delay 8000;
+#X obj 445 356 cnv 15 280 270 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 362 bng 15 250 50 0 empty WistfulScumOnYourChest Wistful_Scum_On_Your_Chest
+17 7 0 10 -262144 -1 -1;
+#X obj 453 454 s DaThingFishFaceNostrilsWideOpen;
+#X obj 453 474 s DaThingFishFaceEyesWideOpen;
+#X obj 453 419 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 526 402 0;
+#X obj 526 377 delay 1000;
+#X obj 526 511 delay 1500;
+#X obj 526 550 s DaThingFishFaceProfileStillSpeaking;
+#X obj 526 571 delay 15000;
+#X obj 526 600 s DaThingFishFaceGetsBackStraight;
+#X msg 526 530 1;
+#X obj 445 646 cnv 15 280 270 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 652 bng 15 250 50 0 empty WistfulTFWhatASweet Wistful_TFWhatASweet
+17 7 0 10 -262144 -1 -1;
+#X obj 453 709 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144 -1
+-1 0 1;
+#X msg 526 692 0;
+#X obj 526 667 delay 23600;
+#X obj 525 730 delay 50;
+#X obj 745 646 cnv 15 240 280 empty empty empty 20 12 0 14 -257985
+-66577 0;
+#X obj 755 654 tgl 15 0 empty BriefcaseBoogieTFPointsR BriefcaseBoogie_TF_Points_R
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 755 696 s HandJardinPointerActivate;
+#X obj 755 810 s HandJardinPointerAngle;
+#X obj 810 843 s HandJardinPointerXPosition;
+#X obj 755 750 s DaThingFishFacePlunges;
+#X obj 755 897 s TFLooksInAParticularDirection;
+#X obj 755 838 delay 10;
+#X obj 1046 736 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj 1058 882 hsl 128 15 -180 180 0 0 empty BriefcaseBoogieTFLooksRAngle
+BriefcaseBoogie_TF_Looks_R_Angle -2 -8 0 10 -262144 -1 -1 5292 1;
+#X obj 1055 825 / -0.75;
+#X obj 1055 793 + 90;
+#X obj 755 770 sel 1;
+#X obj 828 875 s BriefcaseBoogieTFLooksRAngle;
+#X msg 755 858 -30;
+#X msg 755 791 90;
+#X msg 810 787 -3;
+#X obj 525 793 tgl 15 0 BriefcaseBoogieTFPointsR empty Briefcase_Boogie_TF_Points_R
+17 7 0 10 -262144 -1 -1 0 1;
+#X msg 525 762 1;
+#X obj 596 747 delay 12300;
+#X msg 596 776 0;
+#X obj 445 946 cnv 15 280 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 952 bng 15 250 50 0 empty WistfulTFSaintLoomis Wistful_TFSaintLoomis
+17 7 0 10 -262144 -1 -1;
+#X obj 453 1009 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 526 992 0;
+#X obj 453 1074 s DaThingFishFaceNostrilsWideOpen;
+#X obj 453 1094 s DaThingFishFaceEyesWideOpen;
+#X obj 453 1039 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X msg 606 1022 0;
+#X msg 453 981 1;
+#X obj 526 967 delay 1600;
+#X obj 606 967 delay 5600;
+#X obj 445 1166 cnv 15 280 100 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 1172 bng 15 250 50 0 empty WistfulTFDatNoLie Wistful_TFDatNoLie
+17 7 0 10 -262144 -1 -1;
+#X obj 453 1229 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 526 1212 0;
+#X msg 453 1201 1;
+#X obj 526 1187 delay 16000;
+#X obj 445 1286 cnv 15 280 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 1292 bng 15 250 50 0 empty WistfulTFNawReally Wistful_TFNawReally
+17 7 0 10 -262144 -1 -1;
+#X obj 453 1349 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 526 1332 0;
+#X obj 453 1414 s DaThingFishFaceNostrilsWideOpen;
+#X obj 453 1434 s DaThingFishFaceEyesWideOpen;
+#X obj 453 1379 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X msg 606 1362 0;
+#X msg 453 1321 1;
+#X obj 526 1307 delay 1600;
+#X obj 606 1307 delay 5600;
+#X obj 657 1379 tgl 15 0 HandJardinGratteCrane empty HandJardin_Gratte_Crane
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 445 1506 cnv 15 280 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 1512 bng 15 250 50 0 empty WistfulTFHowYou Wistful_TFHowYou
+17 7 0 10 -262144 -1 -1;
+#X obj 453 1569 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 526 1552 0;
+#X obj 453 1634 s DaThingFishFaceNostrilsWideOpen;
+#X obj 453 1599 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X msg 606 1582 0;
+#X msg 453 1541 1;
+#X obj 526 1527 delay 1600;
+#X obj 606 1527 delay 5600;
+#X obj 453 1654 s DaThingFishFaceEyesFronce;
+#X obj 445 1726 cnv 15 280 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 1732 bng 15 250 50 0 empty WistfulTFYouLyin Wistful_TFYouLyin
+17 7 0 10 -262144 -1 -1;
+#X obj 453 1789 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 526 1772 0;
+#X obj 453 1859 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X msg 606 1842 0;
+#X msg 453 1761 1;
+#X msg 526 1842 1;
+#X obj 526 1747 delay 5000;
+#X obj 606 1747 delay 10000;
+#X obj 453 1894 s TFPlaysFlute;
+#X obj 526 1811 delay 100;
+#X obj 445 1946 cnv 15 280 200 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X obj 453 1952 bng 15 250 50 0 empty WistfulTFWhatHu Wistful_TFWhatHu
+17 7 0 10 -262144 -1 -1;
+#X obj 453 2009 tgl 15 0 TFSpeaks empty TFSpeaks 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 606 1992 0;
+#X msg 453 1981 1;
+#X obj 526 1967 delay 5000;
+#X obj 606 1967 delay 10000;
+#X obj 526 2071 s OXBashedAndFucked;
+#X obj 606 2035 delay 100;
+#X obj 606 2093 bng 15 250 50 0 TFIn empty TFIn 17 7 0 10 -262144 -1
+-1;
+#X obj 606 2118 delay 4000;
+#X obj 606 2170 s HCourCloseCurtain;
+#X obj 509 2214 s DeactivateAll;
+#X obj 606 2197 delay 3000;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;
 #X connect 4 0 5 0;
 #X connect 6 0 7 0;
 #X connect 6 0 9 0;
 #X connect 9 0 8 0;
+#X connect 11 0 12 0;
+#X connect 11 0 13 0;
+#X connect 11 0 14 0;
+#X connect 14 0 15 0;
+#X connect 14 0 16 0;
+#X connect 16 0 19 0;
+#X connect 16 0 23 0;
+#X connect 17 0 18 0;
+#X connect 19 0 20 0;
+#X connect 19 0 22 0;
+#X connect 22 0 21 0;
+#X connect 23 0 17 0;
+#X connect 25 0 28 0;
+#X connect 25 0 30 0;
+#X connect 28 0 26 0;
+#X connect 28 0 27 0;
+#X connect 29 0 28 0;
+#X connect 30 0 29 0;
+#X connect 30 0 31 0;
+#X connect 31 0 33 0;
+#X connect 31 0 35 0;
+#X connect 33 0 34 0;
+#X connect 35 0 32 0;
+#X connect 37 0 38 0;
+#X connect 37 0 40 0;
+#X connect 39 0 38 0;
+#X connect 40 0 39 0;
+#X connect 40 0 41 0;
+#X connect 41 0 60 0;
+#X connect 41 0 61 0;
+#X connect 43 0 44 0;
+#X connect 43 0 47 0;
+#X connect 43 0 54 0;
+#X connect 49 0 56 0;
+#X connect 51 0 52 0;
+#X connect 51 0 48 0;
+#X connect 52 0 53 0;
+#X connect 53 0 45 0;
+#X connect 54 0 57 0;
+#X connect 54 0 49 0;
+#X connect 54 0 58 0;
+#X connect 56 0 48 0;
+#X connect 56 0 55 0;
+#X connect 57 0 45 0;
+#X connect 58 0 46 0;
+#X connect 60 0 59 0;
+#X connect 61 0 62 0;
+#X connect 62 0 59 0;
+#X connect 64 0 71 0;
+#X connect 64 0 72 0;
+#X connect 64 0 73 0;
+#X connect 66 0 65 0;
+#X connect 69 0 67 0;
+#X connect 69 0 68 0;
+#X connect 70 0 69 0;
+#X connect 71 0 65 0;
+#X connect 71 0 69 0;
+#X connect 72 0 66 0;
+#X connect 73 0 70 0;
+#X connect 75 0 78 0;
+#X connect 75 0 79 0;
+#X connect 77 0 76 0;
+#X connect 78 0 76 0;
+#X connect 79 0 77 0;
+#X connect 81 0 88 0;
+#X connect 81 0 89 0;
+#X connect 81 0 90 0;
+#X connect 83 0 82 0;
+#X connect 86 0 84 0;
+#X connect 86 0 85 0;
+#X connect 87 0 86 0;
+#X connect 87 0 91 0;
+#X connect 88 0 82 0;
+#X connect 88 0 86 0;
+#X connect 89 0 83 0;
+#X connect 89 0 91 0;
+#X connect 90 0 87 0;
+#X connect 93 0 99 0;
+#X connect 93 0 100 0;
+#X connect 93 0 101 0;
+#X connect 95 0 94 0;
+#X connect 97 0 96 0;
+#X connect 97 0 102 0;
+#X connect 98 0 97 0;
+#X connect 99 0 94 0;
+#X connect 99 0 97 0;
+#X connect 100 0 95 0;
+#X connect 101 0 98 0;
+#X connect 104 0 109 0;
+#X connect 104 0 111 0;
+#X connect 104 0 112 0;
+#X connect 106 0 105 0;
+#X connect 107 0 113 0;
+#X connect 108 0 107 0;
+#X connect 109 0 105 0;
+#X connect 110 0 107 0;
+#X connect 111 0 106 0;
+#X connect 111 0 114 0;
+#X connect 112 0 108 0;
+#X connect 114 0 110 0;
+#X connect 116 0 119 0;
+#X connect 116 0 120 0;
+#X connect 116 0 121 0;
+#X connect 118 0 117 0;
+#X connect 119 0 117 0;
+#X connect 120 0 122 0;
+#X connect 121 0 118 0;
+#X connect 121 0 123 0;
+#X connect 123 0 124 0;
+#X connect 123 0 125 0;
+#X connect 125 0 126 0;
+#X connect 125 0 128 0;
+#X connect 128 0 127 0;
