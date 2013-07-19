@@ -143,7 +143,7 @@
 #X connect 54 0 5 1;
 #X connect 55 0 5 1;
 #X restore 71 41 pd AgreementsInit;
-#N canvas 0 100 1440 800 AgreementsAreFalling 1;
+#N canvas 0 100 1440 800 AgreementsAreFalling 0;
 #X obj 36 28 r AgreementsAreFalling;
 #X obj 36 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -698,7 +698,7 @@
 #X connect 28 0 30 0;
 #X connect 30 0 29 0;
 #X restore 674 100 pd StyloIsFalling;
-#N canvas 0 100 1440 800 MachouilleStylo 0;
+#N canvas 0 100 1440 800 MachouilleStylo 1;
 #X obj 37 26 r MachouilleStylo;
 #X obj 37 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -734,8 +734,8 @@
 #X msg 835 175 -3.5 500;
 #X msg 898 79 stop;
 #X obj 898 41 r TFStopsSniffingStylo;
-#X obj 755 429 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
+#X obj 755 429 bng 15 250 50 0 empty TFOutWithPen TF_Out_With_Pen 17
+7 0 10 -262144 -1 -1;
 #X obj 903 455 s TFIn;
 #X obj 755 468 t b b;
 #X obj 984 478 s TFStopsSniffingStylo;
