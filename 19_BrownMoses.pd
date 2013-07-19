@@ -1,4 +1,4 @@
-#N canvas 1 100 450 300 10;
+#N canvas 0 100 1440 800 10;
 #X obj 20 131 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 40 146 s TFIn;
@@ -9,7 +9,19 @@
 #X obj 23 176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 44 191 s HCourCloseCurtain;
+#X obj 340 114 s TFIn;
+#X obj 427 157 s HCourCloseCurtain;
+#X obj 330 201 s DeactivateAll;
+#X obj 427 131 delay 2000;
+#X obj 427 184 delay 3000;
+#X obj 340 71 bng 15 250 50 0 empty BrownMosesTerminated BrownMoses_Terminated
+17 7 0 10 -262144 -1 -1;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 4 0 3 0;
 #X connect 5 0 6 0;
+#X connect 10 0 8 0;
+#X connect 10 0 11 0;
+#X connect 11 0 9 0;
+#X connect 12 0 7 0;
+#X connect 12 0 10 0;
