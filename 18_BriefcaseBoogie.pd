@@ -43,7 +43,7 @@
 #X obj 1156 509 cnv 15 170 180 empty empty empty 20 12 0 14 -261682
 -66577 0;
 #X obj 1168 655 hsl 128 15 0 127 0 0 empty BriefcaseBoogieTFLooksHAngle
-BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
+BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X msg 865 564 50;
 #X msg 865 631 30;
 #X obj 1165 598 / -0.75;
@@ -76,7 +76,7 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
 #X obj 582 771 s DaThingFishFaceGetsBackStraight;
 #X msg 476 762 1;
 #X obj 476 801 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
-17 7 0 10 -262144 -1 -1 1 1;
+17 7 0 10 -262144 -1 -1 0 1;
 #X obj 466 838 cnv 15 230 100 empty empty empty 20 12 0 14 -233017
 -66577 0;
 #X obj 476 850 bng 15 250 50 0 empty BriefcaseBoogieTFSisterO BriefcaseBoogie_TF_Sister_O
@@ -85,7 +85,7 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
 #X obj 582 891 s DaThingFishFaceGetsBackStraight;
 #X msg 476 882 1;
 #X obj 476 921 tgl 15 0 DaThingFishFaceProfileStillSpeaking empty DaThingFishFaceProfileStillSpeaking
-17 7 0 10 -262144 -1 -1 1 1;
+17 7 0 10 -262144 -1 -1 0 1;
 #X obj 867 823 cnv 15 100 60 empty empty empty 20 12 0 14 -257985 -66577
 0;
 #X obj 886 829 tgl 15 0 empty BriefcaseBoogieTFRonde BriefcaseBoogie_TF_Ronde
@@ -126,6 +126,8 @@ BriefcaseBoogie_TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 3000 1;
 Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 #X obj 477 992 tgl 15 0 BriefcaseBoogieTFPointsH empty BriefcaseBoogie_TF_Points_H
 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 750 189 /Djbebe/RenderOrder -17;
+#X obj 750 224 s OSC_MESSAGES;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;
@@ -143,6 +145,7 @@ Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 #X connect 16 0 19 0;
 #X connect 16 0 17 0;
 #X connect 16 0 22 0;
+#X connect 16 0 94 0;
 #X connect 22 0 21 0;
 #X connect 24 0 25 0;
 #X connect 24 0 29 0;
@@ -210,3 +213,4 @@ Briefcase_Boogie_Obdwella_Is_You 17 7 0 10 -262144 -1 -1;
 #X connect 89 0 88 0;
 #X connect 90 0 64 0;
 #X connect 92 0 93 0;
+#X connect 94 0 95 0;
