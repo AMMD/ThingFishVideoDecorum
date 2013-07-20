@@ -16,9 +16,9 @@ QRN_Arrives 0 -6 0 20 -262144 -258113 -1;
 MuddClubAutoDestructRatio -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 345 -97 bng 100 250 50 0 MuddClubChutes MuddClubChutes Chutes_&_Chretiens
 0 -6 0 20 -262144 -258113 -1;
-#X obj 755 -97 bng 100 250 50 0 MuddClubScrollToEconomicWorship MuddClubOrgyScrollToEconomicWorship
+#X obj 755 -97 bng 100 250 50 0 MuddClubScrollToEconomicWorship MuddClubScrollToEconomicWorship
 ScrollToMeek 0 -6 0 20 -262144 -258113 -1;
-#N canvas 1 276 1425 800 OSCConduite 1;
+#N canvas 1 274 1425 800 OSCConduite 1;
 #X obj 262 244 packOSC;
 #X obj 83 261 s OSCConduite;
 #X obj 262 96 r MuddClubInitOpening;
@@ -29,11 +29,11 @@ ScrollToMeek 0 -6 0 20 -262144 -258113 -1;
 #X msg 852 127 send /Conduite \$1 MuddClubChutes;
 #X obj 1072 96 r MuddClubOrgy;
 #X msg 1072 127 send /Conduite \$1 MuddClubOrgy;
-#X obj 1082 196 r MuddClubOrgyScrollToEconomicWorship;
-#X msg 1082 227 send /Conduite \$1 MuddClubOrgyScrollToEconomicWorship
-;
 #X msg 342 227 send /Conduite \$1 MuddClubAutoDestructRatio;
 #X obj 342 196 r MuddClubAutoDestructRatio;
+#X msg 1082 227 send /Conduite \$1 MuddClubScrollToEconomicWorship
+;
+#X obj 1082 196 r MuddClubScrollToEconomicWorship;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
 #X connect 3 0 0 0;
@@ -43,8 +43,8 @@ ScrollToMeek 0 -6 0 20 -262144 -258113 -1;
 #X connect 7 0 0 0;
 #X connect 8 0 9 0;
 #X connect 9 0 0 0;
-#X connect 10 0 11 0;
-#X connect 11 0 0 0;
+#X connect 10 0 0 0;
+#X connect 11 0 10 0;
 #X connect 12 0 0 0;
 #X connect 13 0 12 0;
 #X restore 62 396 pd OSCConduite;
