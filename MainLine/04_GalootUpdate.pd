@@ -1,11 +1,26 @@
-#N canvas 0 100 1440 800 10;
-#X obj 1755 -157 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
+#N canvas 1 100 1425 796 10;
+#X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
-#X obj 1755 -37 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
+#X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
-#X obj 1755 83 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
+#X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
 -228856 -1 -1 0 1;
-#X text 9 -168 4 GALOOT UPDATE CONDUITE;
-#X obj 18 -123 bng 100 250 50 0 GalootUpdateSquidDecorMoves GalootUpdateSquidDecorMoves
+#X text 9 -172 4 GALOOT UPDATE CONDUITE;
+#X obj 18 -127 bng 100 250 50 0 GalootUpdateSquidDecorMoves GalootUpdateSquidDecorMoves
 Galoot_Update_Squid_Decor_Moves 0 -6 0 20 -262144 -258113 -1;
-#X coords 0 800 1 799 0 0 0;
+#N canvas 0 100 1440 800 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 1502 196 r PrologueTFNextThing;
+#X msg 1502 227 send /Conduite \$1 PrologueTFNextThing;
+#X obj 1742 196 r PrologueTFButNot;
+#X msg 1742 227 send /Conduite \$1 PrologueTFButNot;
+#X obj 262 96 r GalootUpdateSquidDecorMoves;
+#X msg 262 127 send /Conduite \$1 GalootUpdateSquidDecorMoves;
+#X obj 83 261 s OSCConduite;
+#X connect 0 0 7 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X restore 52 386 pd OSCConduite;
+#X coords 0 796 1 795 0 0 0;

@@ -1,15 +1,35 @@
-#N canvas 0 1251 1440 849 10;
-#X obj 35 -48 bng 100 250 50 0 TheMammyNunsInit TheMammyNunsInit MN_Init
+#N canvas 1 100 1425 796 10;
+#X obj 35 -101 bng 100 250 50 0 TheMammyNunsInit TheMammyNunsInit MN_Init
 0 -6 0 20 -262144 -258113 -1;
-#X obj 1755 -108 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
+#X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
-#X obj 175 -48 bng 100 250 50 0 MNPee MNPee MN_Pee 0 -6 0 20 -262144
+#X obj 175 -101 bng 100 250 50 0 MNPee MNPee MN_Pee 0 -6 0 20 -262144
 -258113 -1;
-#X obj 315 -48 bng 100 250 50 0 TheMammyNunsStop TheMammyNunStop MN_Stop
+#X obj 315 -101 bng 100 250 50 0 TheMammyNunsStop TheMammyNunStop MN_Stop
 0 -6 0 20 -262144 -258113 -1;
-#X obj 1755 12 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
+#X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
-#X obj 1755 132 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
-30 -228856 -1 -1 0 1;
-#X text 10 -119 2 THE MAMMY NUNS CONDUITE;
-#X coords 0 849 1 848 0 0 0;
+#X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
+-228856 -1 -1 0 1;
+#X text 10 -172 2 THE MAMMY NUNS CONDUITE;
+#N canvas 74 536 1277 300 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 1742 196 r PrologueTFButNot;
+#X msg 1742 227 send /Conduite \$1 PrologueTFButNot;
+#X obj 262 96 r TheMammyNunsInit;
+#X msg 262 127 send /Conduite \$1 TheMammyNunsInit;
+#X obj 492 96 r MNPee;
+#X msg 492 127 send /Conduite \$1 MNPee;
+#X obj 692 96 r TheMammyNunsStop;
+#X msg 692 127 send /Conduite \$1 TheMammyNunsStop;
+#X obj 83 261 s OSCConduite;
+#X connect 0 0 9 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 7 0 8 0;
+#X connect 8 0 0 0;
+#X restore 42 376 pd OSCConduite;
+#X coords 0 796 1 795 0 0 0;

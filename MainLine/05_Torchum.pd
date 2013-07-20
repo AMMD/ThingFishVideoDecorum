@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 29 150 1425 800 10;
 #X obj 35 -97 bng 100 250 50 0 TorchumTFOut TorchumTFOut TF_Out 0 -6
 0 20 -262144 -258113 -1;
 #X obj 1755 -157 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
@@ -8,7 +8,7 @@ TF_O_Curtains 0 -6 0 20 -262144 -258113 -1;
 #X obj 315 -97 bng 100 250 50 0 TorchumTFOneMoGin TorchumTFOneMoGin
 TF_OneMoGin 0 -6 0 20 -262144 -258113 -1;
 #X obj 1755 163 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
-0 30 -228856 -1 -1 1 1;
+0 30 -228856 -1 -1 0 1;
 #X obj 1755 283 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
 30 -228856 -1 -1 0 1;
 #X obj 455 -97 bng 100 250 50 0 TorchumTFSmellsTrubba TorchumTFSmellsTrubba
@@ -20,4 +20,37 @@ DjDMove 0 -6 0 20 -262144 -258113 -1;
 #X text 11 -168 5 THE TORCHUM CONDUITE;
 #X obj 908 -96 tgl 100 0 TorchumTFPlungesMoves TorchumTFPlungesMoves
 TFPluMov 0 -3 0 30 -228856 -1 -1 0 1;
+#N canvas 0 100 1440 800 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 83 261 s OSCConduite;
+#X obj 262 96 r TFOut;
+#X msg 262 127 send /Conduite \$1 TFOut;
+#X obj 432 96 r TorchumTFOneMoGin;
+#X msg 432 127 send /Conduite \$1 TorchumTFOneMoGin;
+#X obj 852 96 r TorchumTFSmellsTrubba;
+#X msg 852 127 send /Conduite \$1 TorchumTFSmellsTrubba;
+#X obj 342 196 r TorchumDunjonDoorsMove;
+#X msg 342 227 send /Conduite \$1 TorchumDunjonDoorsMove;
+#X obj 602 196 r TorchumTFDoYosef;
+#X msg 602 227 send /Conduite \$1 TorchumTFDoYosef;
+#X obj 822 196 r TorchumTFPlungesMoves;
+#X msg 822 227 send /Conduite \$1 TorchumTFPlungesMoves;
+#X obj 1062 196 r PrologueTFSpeaks;
+#X msg 1062 227 send /Conduite \$1 TFSpeaks;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 0 0;
+#X connect 12 0 13 0;
+#X connect 13 0 0 0;
+#X connect 14 0 15 0;
+#X connect 15 0 0 0;
+#X restore 42 380 pd OSCConduite;
 #X coords 0 800 1 799 0 0 0;

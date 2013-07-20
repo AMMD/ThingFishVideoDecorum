@@ -1,31 +1,80 @@
-#N canvas 0 1251 1440 849 10;
-#X obj 35 -48 bng 100 250 50 0 OXAndTF OXAndTF OX_&_TF 0 -6 0 20 -262144
+#N canvas 1 100 1425 796 10;
+#X obj 35 -101 bng 100 250 50 0 OXAndTF OXAndTF OX_&_TF 0 -6 0 20 -262144
 -258113 -1;
-#X obj 1755 -108 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
+#X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
-#X obj 155 -48 bng 100 250 50 0 DjAndEPInit DjAndEPInit Dj_&_EP_Init
+#X obj 155 -101 bng 100 250 50 0 DjAndEPInit DjAndEPInit Dj_&_EP_Init
 0 -6 0 20 -262144 -258113 -1;
-#X text 11 -119 1 PROLOGUE CONDUITE;
-#X obj 315 -48 bng 100 250 50 0 TFOpensCurtains TFOpensCurtains TF_O_Curtains
+#X text 11 -172 1 PROLOGUE CONDUITE;
+#X obj 315 -101 bng 100 250 50 0 TFOpensCurtains TFOpensCurtains TF_O_Curtains
 0 -6 0 20 -262144 -258113 -1;
-#X obj 1755 12 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
+#X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
-#X obj 1755 132 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0
-30 -228856 -1 -1 0 1;
-#X obj 475 -48 bng 100 250 50 0 PrologueTFOnceUponATime PrologueTFOnceUponATime
+#X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
+-228856 -1 -1 0 1;
+#X obj 475 -101 bng 100 250 50 0 PrologueTFOnceUponATime PrologueTFOnceUponATime
 TF_OnceUp 0 -6 0 20 -262144 -258113 -1;
-#X obj 595 -48 bng 100 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
+#X obj 595 -101 bng 100 250 50 0 PrologueTFDeCocksucker PrologueTFDeCocksucker
 TF_DeCock 0 -6 0 20 -262144 -258113 -1;
-#X obj 715 -48 bng 100 250 50 0 PrologueTFWellHe PrologueTFWellHe TF_WellHe
-0 -6 0 20 -262144 -258113 -1;
-#X obj 835 -48 bng 100 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
+#X obj 715 -101 bng 100 250 50 0 PrologueTFWellHe PrologueTFWellHe
+TF_WellHe 0 -6 0 20 -262144 -258113 -1;
+#X obj 835 -101 bng 100 250 50 0 PrologueTFShotlyDen PrologueTFShotlyDen
 TF_Shotly 0 -6 0 20 -262144 -258113 -1;
-#X obj 955 -48 bng 100 250 50 0 PrologueTFSoHeah PrologueTFSoHeah TF_SoHeah
-0 -6 0 20 -262144 -258113 -1;
-#X obj 1075 -48 bng 100 250 50 0 PrologueTFDenDey PrologueTFDenDey
+#X obj 955 -101 bng 100 250 50 0 PrologueTFSoHeah PrologueTFSoHeah
+TF_SoHeah 0 -6 0 20 -262144 -258113 -1;
+#X obj 1075 -101 bng 100 250 50 0 PrologueTFDenDey PrologueTFDenDey
 TF_DenDey 0 -6 0 20 -262144 -258113 -1;
-#X obj 1195 -48 bng 100 250 50 0 PrologueTFNextThing PrologueTFNextThing
+#X obj 1195 -101 bng 100 250 50 0 PrologueTFNextThing PrologueTFNextThing
 TF_NextThing 0 -6 0 20 -262144 -258113 -1;
-#X obj 1345 -48 bng 100 250 50 0 PrologueTFButNot PrologueTFButNot
+#X obj 1345 -101 bng 100 250 50 0 PrologueTFButNot PrologueTFButNot
 TF_ButNot 0 -6 0 20 -262144 -258113 -1;
-#X coords 0 849 1 848 0 0 0;
+#N canvas 0 100 1440 800 OSCConduite 1;
+#X obj 262 96 r OXAndTF;
+#X obj 262 244 packOSC;
+#X msg 262 127 send /Conduite \$1 OXAndTF;
+#X obj 432 96 r DjAndEPInit;
+#X msg 432 127 send /Conduite \$1 DjAndEPInit;
+#X obj 632 96 r TFOpensCurtains;
+#X msg 632 127 send /Conduite \$1 TFOpensCurtains;
+#X obj 852 96 r PrologueTFOnceUponATime;
+#X msg 852 127 send /Conduite \$1 PrologueTFOnceUponATime;
+#X obj 342 196 r PrologueTFDeCocksucker;
+#X msg 342 227 send /Conduite \$1 PrologueTFDeCocksucker;
+#X obj 602 196 r PrologueTFWellHe;
+#X msg 602 227 send /Conduite \$1 PrologueTFWellHe;
+#X obj 822 196 r PrologueTFShotlyDen;
+#X msg 822 227 send /Conduite \$1 PrologueTFShotlyDen;
+#X obj 1062 196 r PrologueTFSoHeah;
+#X msg 1062 227 send /Conduite \$1 PrologueTFSoHeah;
+#X obj 262 328 r PrologueTFDenDey;
+#X msg 262 359 send /Conduite \$1 PrologueTFDenDey;
+#X obj 482 328 r PrologueTFNextThing;
+#X msg 482 359 send /Conduite \$1 PrologueTFNextThing;
+#X obj 722 328 r PrologueTFButNot;
+#X msg 722 359 send /Conduite \$1 PrologueTFButNot;
+#X obj 83 261 s OSCConduite;
+#X connect 0 0 2 0;
+#X connect 1 0 23 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 1 0;
+#X connect 5 0 6 0;
+#X connect 6 0 1 0;
+#X connect 7 0 8 0;
+#X connect 8 0 1 0;
+#X connect 9 0 10 0;
+#X connect 10 0 1 0;
+#X connect 11 0 12 0;
+#X connect 12 0 1 0;
+#X connect 13 0 14 0;
+#X connect 14 0 1 0;
+#X connect 15 0 16 0;
+#X connect 16 0 1 0;
+#X connect 17 0 18 0;
+#X connect 18 0 1 0;
+#X connect 19 0 20 0;
+#X connect 20 0 1 0;
+#X connect 21 0 22 0;
+#X connect 22 0 1 0;
+#X restore 32 366 pd OSCConduite;
+#X coords 0 796 1 795 0 0 0;

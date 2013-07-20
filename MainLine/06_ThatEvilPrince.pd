@@ -1,4 +1,4 @@
-#N canvas 0 100 1440 800 10;
+#N canvas 1 100 1425 796 10;
 #X text 21 -158 6 THAT EVIL PRINCE CONDUITE;
 #X obj 29 42 hsl 200 50 0 127 0 0 ThatEPTFLooksHRAngle ThatEPTFLooksHRAngle
 TF_Looks_HR_Angle -2 -8 0 10 -262144 -1 -1 0 1;
@@ -8,3 +8,24 @@ TF_DontYouWhiteFolks 0 -3 0 15 -262144 -1 -1 0 1;
 0 -3 0 15 -262144 -1 -1 0 1;
 #X obj 356 -86 tgl 100 0 ThatEPTFStraightenUp ThatEPTFStraightenUp
 TF_StraightenUp 0 -3 0 15 -262144 -1 -1 0 1;
+#N canvas 1 448 1425 800 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 83 261 s OSCConduite;
+#X obj 262 96 r ThatEPTFDontYouWhiteFolks;
+#X msg 262 127 send /Conduite \$1 ThatEPTFDontYouWhiteFolks;
+#X obj 542 96 r ThatEPTFDadDereId;
+#X msg 542 127 send /Conduite \$1 ThatEPTFDadDereId;
+#X obj 852 96 r ThatEPTFStraightenUp;
+#X msg 852 127 send /Conduite \$1 ThatEPTFStraightenUp;
+#X obj 342 196 r ThatEPTFLooksHRAngle;
+#X msg 342 227 send /Conduite \$1 ThatEPTFLooksHRAngle;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X restore 52 386 pd OSCConduite;
