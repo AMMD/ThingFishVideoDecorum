@@ -1,10 +1,10 @@
-#N canvas 7 100 1425 796 10;
+#N canvas 5 100 1425 796 10;
 #X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
 #X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
 #X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
--228856 -1 -1 1 1;
+-228856 -1 -1 0 1;
 #X obj 15 -101 bng 100 250 50 0 BriefcaseBoogieInit BriefcaseBoogieInit
 Init 0 -6 0 20 -262144 -258113 -1;
 #X text 11 -172 18 BRIEFCASE BOOGIE CONDUITE;
@@ -13,7 +13,7 @@ TF_Plunges 0 -3 0 30 -228856 -1 -1 0 1;
 #X obj 112 28 hsl 200 50 -90 90 0 0 TFLooksInAParticularDirection ThatEPTFLooksHRAngleTFLooksInAParticularDirection
 TF_Looks_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 409 28 hsl 200 50 0 127 0 0 BriefcaseBoogieTFLooksHAngle BriefcaseBoogieTFLooksHAngle
-TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 4701 1;
+TF_Looks_H_Angle -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 767 -101 tgl 100 0 BriefcaseBoogieRubberMammy BriefcaseBoogieRubberMammy
 Rubber_Mammy 0 -3 0 30 -228856 -1 -1 0 1;
 #X obj 985 -101 bng 100 250 50 0 BriefcaseBoogieTFSisterO BriefcaseBoogieTFSisterO
@@ -38,4 +38,58 @@ TF_OoohLawd 0 -6 0 20 -262144 -258113 -1;
 TF_YallMake 0 -6 0 20 -262144 -258113 -1;
 #X obj 1445 -101 bng 100 250 50 0 BriefcaseBoogieTFObdwellaIsYou BriefcaseBoogieTFObdwellaIsYou
 TF_OX_Is_You 0 -6 0 20 -262144 -258113 -1;
+#N canvas 1 475 1425 346 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 83 261 s OSCConduite;
+#X obj 262 97 r DaThingFishFacePlunges;
+#X msg 262 127 send /Conduite \$1 DaThingFishFacePlunges;
+#X obj 520 97 r BriefcaseBoogieTFOoohLawd;
+#X msg 520 127 send /Conduite \$1 BriefcaseBoogieTFOoohLawd;
+#X obj 804 97 r BriefcaseBoogieTFYallMake;
+#X msg 804 127 send /Conduite \$1 BriefcaseBoogieTFYallMake;
+#X obj 632 281 r TFLooksInAParticularDirection;
+#X msg 632 311 send /Conduite \$1 TFLooksInAParticularDirection;
+#X obj 912 221 r BriefcaseBoogieTFLooksHAngle;
+#X msg 912 251 send /Conduite \$1 BriefcaseBoogieTFLooksHAngle;
+#X obj 1422 86 r BriefcaseBoogieRubberMammy;
+#X msg 1422 117 send /Conduite \$1 BriefcaseBoogieRubberMammy;
+#X obj 1703 87 r BriefcaseBoogieTFSisterO;
+#X msg 1703 117 send /Conduite \$1 BriefcaseBoogieTFSisterO;
+#X obj 1971 87 r OXKidnapped;
+#X msg 1971 117 send /Conduite \$1 OXKidnapped;
+#X obj 2185 87 r BriefcaseBoogieTFRonde;
+#X msg 2185 117 send /Conduite \$1 BriefcaseBoogieTFRonde;
+#X obj 322 377 r AgreementsAreFalling;
+#X msg 322 407 send /Conduite \$1 AgreementsAreFalling;
+#X obj 600 377 r BriefcaseBoogieTFGirl;
+#X msg 600 407 send /Conduite \$1 BriefcaseBoogieTFGirl;
+#X obj 964 377 r BriefcaseBoogieScrollToBrownMoses;
+#X msg 964 407 send /Conduite \$1 BriefcaseBoogieScrollToBrownMoses
+;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 0 0;
+#X connect 12 0 13 0;
+#X connect 13 0 0 0;
+#X connect 14 0 15 0;
+#X connect 15 0 0 0;
+#X connect 16 0 17 0;
+#X connect 17 0 0 0;
+#X connect 18 0 19 0;
+#X connect 19 0 0 0;
+#X connect 20 0 21 0;
+#X connect 21 0 0 0;
+#X connect 22 0 23 0;
+#X connect 23 0 0 0;
+#X connect 24 0 25 0;
+#X connect 25 0 0 0;
+#X restore 132 462 pd OSCConduite;
 #X coords 0 796 1 795 0 0 0;

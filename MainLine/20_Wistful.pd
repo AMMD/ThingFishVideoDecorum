@@ -1,10 +1,10 @@
-#N canvas 7 100 1425 796 10;
+#N canvas 3 100 1425 796 10;
 #X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
 #X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
 0 30 -228856 -1 -1 0 1;
 #X obj 1755 79 tgl 100 0 italianMoves italianMoves FZMoves 0 -3 0 30
--228856 -1 -1 1 1;
+-228856 -1 -1 0 1;
 #X obj 15 -101 bng 100 250 50 0 WisftulInit WisftulInit Init 0 -6 0
 20 -262144 -258113 -1;
 #X obj 165 -101 bng 100 250 50 0 WistfulScumOnYourChest WistfulScumOnYourChest
@@ -25,4 +25,45 @@ Naw_Really 0 -6 0 20 -262144 -258113 -1;
 You_Lyin 0 -6 0 20 -262144 -258113 -1;
 #X obj 1285 -101 bng 100 250 50 0 WistfulTFWhatHu WistfulTFWhatHu What_Hu
 0 -6 0 20 -262144 -258113 -1;
+#N canvas 1 473 1425 346 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 83 261 s OSCConduite;
+#X obj 262 97 r WisftulInit;
+#X msg 262 127 send /Conduite \$1 WisftulInit;
+#X obj 460 97 r WistfulScumOnYourChest;
+#X msg 460 127 send /Conduite \$1 WistfulScumOnYourChest;
+#X obj 724 97 r WistfulTFWhatASweet;
+#X msg 724 127 send /Conduite \$1 WistfulTFWhatASweet;
+#X obj 982 96 r WistfulTFSaintLoomis;
+#X msg 982 127 send /Conduite \$1 WistfulTFSaintLoomis;
+#X obj 1233 97 r WistfulTFDatNoLie;
+#X msg 1233 127 send /Conduite \$1 WistfulTFDatNoLie;
+#X obj 1471 97 r WistfulTFNawReally;
+#X msg 1471 127 send /Conduite \$1 WistfulTFNawReally;
+#X obj 1705 97 r WistfulTFHowYou;
+#X msg 1705 127 send /Conduite \$1 WistfulTFHowYou;
+#X obj 1941 97 r WistfulTFYouLyin;
+#X msg 1941 127 send /Conduite \$1 WistfulTFYouLyin;
+#X obj 2175 97 r WistfulTFWhatHu;
+#X msg 2175 127 send /Conduite \$1 WistfulTFWhatHu;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 0 0;
+#X connect 12 0 13 0;
+#X connect 13 0 0 0;
+#X connect 14 0 15 0;
+#X connect 15 0 0 0;
+#X connect 16 0 17 0;
+#X connect 17 0 0 0;
+#X connect 18 0 19 0;
+#X connect 19 0 0 0;
+#X restore 142 472 pd OSCConduite;
 #X coords 0 796 1 795 0 0 0;

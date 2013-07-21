@@ -1,4 +1,4 @@
-#N canvas 7 100 1425 796 10;
+#N canvas 5 100 1425 796 10;
 #X obj 1755 -161 tgl 100 0 TFSpeaks TFSpeaks TFSpeaks 0 -3 0 30 -228856
 -1 -1 0 1;
 #X obj 1755 -41 tgl 100 0 ObdwellaXMoves ObdwellaXMoves OXMoves 0 -3
@@ -13,7 +13,32 @@ Den_Den 0 -6 0 20 -262144 -258113 -1;
 Magisches_Schwein 0 -6 0 20 -262144 -258113 -1;
 #X text 11 -172 17 STICK IT OUT CONDUITE;
 #X obj 376 29 hsl 200 50 1500 300 0 0 tempoDance tempoDance Tempo_Dance
--2 -8 0 10 -262144 -1 -1 15700 1;
+-2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 685 -101 bng 100 250 50 0 BriefcaseBoogieInit BriefcaseBoogieInit
 ScrollToBriefcase 0 -6 0 20 -262144 -258113 -1;
+#N canvas 14 393 1425 346 OSCConduite 1;
+#X obj 262 244 packOSC;
+#X obj 83 261 s OSCConduite;
+#X obj 262 96 r StickItOutInit;
+#X msg 262 127 send /Conduite \$1 StickItOutInit;
+#X obj 483 97 r ArriveeDriveInPeople;
+#X msg 483 127 send /Conduite \$1 ArriveeDriveInPeople;
+#X obj 723 97 r StickItOutMagischesSchwein;
+#X msg 723 127 send /Conduite \$1 StickItOutMagischesSchwein;
+#X obj 1005 97 r BriefcaseBoogieInit;
+#X msg 1005 127 send /Conduite \$1 BriefcaseBoogieInit;
+#X obj 724 217 r tempoDance;
+#X msg 724 247 send /Conduite \$1 tempoDance;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 0 0;
+#X restore 122 452 pd OSCConduite;
 #X coords 0 796 1 795 0 0 0;
